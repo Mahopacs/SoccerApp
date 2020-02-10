@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>el-GR</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Η ΕΦΑΡΜΟΓΉ ΜΟΥ</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Προσθήκη</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Το στοιχείο μενού</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>Προσθήκη ομάδας</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>Πούλμαν</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Τηλέφωνο επικοινωνίας</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>Εμφάνιση διαγραμμένων στοιχείων</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Ημερομηνία λήξης</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Παιχνίδια</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>Στατιστικά παιχνιδιών</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Δημιουργία αναφοράς</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>Τζέρσεϊ</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Κοινωνία</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>προγράμματα αναπαραγωγής</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>Στατιστικά παικτών</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>Λίστα αναπαραγωγής</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Τύπος αναφοράς</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Απαιτείται</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>Κατάλογος ονομάτων</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Σύντομο όνομα</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Ημερομηνία έναρξης</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>Stats αναφορές</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>Λεπτομέρειες ομάδας</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>Όνομα ομάδας</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>Το όνομα ομάδας δεν καταχωρούνται. Η ομάδα δεν αποθηκεύονται.</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>Ομάδες</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>Στατιστικά ομάδας</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>Προσθήκη κοινωνία</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>Λεπτομέρειες κοινωνία</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>Όνομα κοινωνία</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Και ερασιτεχνική κατηγορία</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Όνομα επαφής</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>Δεν πληκτρολογήσατε το όνομα κοινωνία. Κοινωνία δεν αποθηκεύονται.</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Ενεργή</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>Προσθήκη προγράμματος αναπαραγωγής σε κατάλογο της ομάδας σας</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>Εισαγάγετε αριθμό Τζέρσεϊ παίκτες</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>Ανενεργό</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>Αριθμός Τζέρσεϊ πρέπει να είναι ένας αριθμός. Ο αριθμός Τζέρσεϊ δεν αποθηκεύονται.</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>Αριθμός Τζέρσεϊ δεν μπορεί να είναι μεγαλύτερη από 3 χαρακτήρες.  Ο αριθμός Τζέρσεϊ δεν αποθηκεύονται.</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>Αριθμός Τζέρσεϊ</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>Πίνακες</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Kατάσταση</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>Προσθέστε το παιχνίδι</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Παιχνιδιού</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>Πληροφορίες παιχνιδιών</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Διευθυντής</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>Ομάδα Αποθ.</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Ρολόι</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Κάτω</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>Ημερομηνία παιχνιδιών</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>Λεπτομέρειες παιχνιδιού</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>Χρόνου παιχνιδιού</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>Τοπική ομάδα</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>Προεπιλεγμένη κοινωνία</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>Υπερωρίες</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>Μήκος υπερωριών</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>Διάρκεια περιόδου</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>Περίοδοι</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Επάνω</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>Τοποθέτηση ομάδας δεν είναι επιλεγμένο. Το παιχνίδι δεν αποθηκεύονται.</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>Ρολόι προς τα επάνω ή προς τα κάτω δεν έχει οριστεί. Το παιχνίδι δεν αποθηκεύονται.</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>Το παιχνίδι έχει ήδη ξεκινήσει.  Δεν είναι δυνατή η αλλαγή παιχνιδιών λεπτομέρειες, εφόσον έχει ξεκινήσει το παιχνίδι. Οι αλλαγές δεν θα αποθηκευτούν.</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>Τοπική ομάδα δεν είναι επιλεγμένο. Το παιχνίδι δεν αποθηκεύονται.</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>Διάρκεια περιόδου δεν οριστεί. Το παιχνίδι δεν αποθηκεύονται.</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>Περίοδοι δεν οριστεί. Το παιχνίδι δεν αποθηκεύονται.</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>Δεν οριστεί παίκτες ανά ομάδα. Το παιχνίδι δεν αποθηκεύονται.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Προσθήκη</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>Προσθήκη άμεσης</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>Η προσθήκη παίκτη</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>Λίστα αναπαραγωγής</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>Όνομα προγράμματος αναπαραγωγής</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>Αναπαραγωγή κειμένου</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>Δεν μπορεί να αλλάξετε τις πληροφορίες σε ένα διαγραμμένο αναπαραγωγής. Το πρόγραμμα αναπαραγωγής δεν αποθηκεύονται.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>Όνομα δεν πληκτρολογήσατε. Το πρόγραμμα αναπαραγωγής δεν αποθηκεύονται.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Ύψος</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>Αριθμός Τζέρσεϊ δεν μπορεί να είναι μεγαλύτερη από 3 χαρακτήρες. Το πρόγραμμα αναπαραγωγής δεν αποθηκεύονται.</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Ιδίως τα λακτίσματα</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Επώνυμο</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>Λεπτομέρειες του προγράμματος αναπαραγωγής</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Δεξιά</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Βάρος</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>Βοήθεια</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Αποκλεισμένο</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>Έναρξη γωνία</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>Διασταύρωση</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>Άμεση έναρξη ελεύθερης</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Dribble</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>Έναρξη απόθεσης</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>Κακοκαιρία δεσμευτεί</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>Κακοκαιρία σχεδίασης</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>Επιτρέπεται από το στόχο</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>Έναρξη του goalie</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>Έμμεση ελεύθερη Έναρξη</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>Λεπτά που έχουν παιχτεί</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Μετακίνηση</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Σημειώσεις</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>Εκτός ορίων</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>Ο κάτοχος του στόχου</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>Διαβίβαση</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>Έναρξη ποινή</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>Συν - πλην</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>Κόκκινο φύλλο</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Αποθήκευση</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>Έναρξη shootout</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>Λήψη</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>Βολή σε στόχο</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>Υποκατάσταση</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>Tackle</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>Πετάξτε</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>Κύκλος εργασιών</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>Κίτρινη κάρτα</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>Εξαιρετική</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Καλή</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>Κακό</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>Βολή λεπτομέρειες</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>Εσφαλμένος κωδικός</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>Φορτίζεται</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>Καθυστέρηση επανεκκίνηση της αναπαραγωγής</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>Για το στόχο</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>Άμεσης φάουλ</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>Στόχος</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>Επικεφαλής</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>Αιτήσεων Post</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>Κρατώντας</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>Μη έγκυρη χέρια</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>Μη έγκυρη Tackle</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>Μη έγκυρη Πετάξτε το με δύναμη στο</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>Ξεκούραση</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>Χάθηκαν Dribble</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>Δις</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>Δεν για το στόχο</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>Σμίκρυνση</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>Ώθηση</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>Δεύτερη κίτρινη κάρτα</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>Ενεργοποίηση</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>Διεξαγωγή unsportsmanlike</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>Διεξαγωγή βίαιων</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>Επιλογή stats</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value> λαμβάνει ένα στιγμιότυπο και οι αποτυχίες</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>Αποκλείονται από</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Άκυρο</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>ΟΚ</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>Βολή δεν σε στόχο</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Περίοδος</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>Αναπαραγωγή λεπτομέρειες</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Παίκτης</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>Αναπαραγωγή σε</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής του</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>Κατηγορία STAT</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>STAT περιγραφή</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Ομάδα</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>Το ρολόι δεν καταχωρούνται. Η αναπαραγωγή δεν αποθηκεύονται.</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>Δεν υποστηρίζονται άμεσης τύπος για επεξεργασία pbp. Δεν είναι δυνατή η επεξεργασία άμεσης λειτουργίας.</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>Αντιπάλου</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>Άλλες Goalie ομάδας</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>Ομάδα μας</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>Περίοδος/ρολόι τιμή δεν μπορεί να είναι μια φορά στο μέλλον. Χρησιμοποιήστε τη διαχείριση παιχνιδιών για την παρακολούθηση αναπαραγωγής στο μέλλον. Η αναπαραγωγή δεν αποθηκεύονται.</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>Παίκτης 1</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>Player 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>Player 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 15</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 16</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 17</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 19</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>Παίκτης 2</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 23</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 26</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 29</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>Παίκτης 3</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 30</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>Παίκτης 4</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής 5</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>Player 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>Player 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>Player 8</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>Player 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>Δεν βρίσκομαι στον υπολογιστή</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>Διαγραφή παιχνιδιού</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>Διαγραφή κοινωνία</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>Διαγραφή άμεσης</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>Διαγραφή προγράμματος αναπαραγωγής</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>Διαγραφή ομάδας</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Οικία</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Καμμία</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Αναπαραγωγή</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Άγνωστο</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>"Σε εξέλιξη", η οθόνη απενεργοποιηθεί</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>Μη έγκυρο μήκος OT. Το παιχνίδι δεν αποθηκεύονται.</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>Παρέχει τη συνδρομή</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Τετράγωνα</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>Γωνίες</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>Εξαιρετική γωνίες</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>Γωνίες για το στόχο</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>Καλή γωνίες</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>Ανεπαρκής γωνίες</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>Διασταύρωση</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>Διασταύρωση με τον εξαιρετική</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>Διασταύρωση με τον καλό</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>Διασταύρωση με τον κακό</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>Άμεση ελεύθερες ιδίως τα λακτίσματα</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>Άμεση ελεύθερες ιδίως τα λακτίσματα για το στόχο</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>Άμεση ελεύθερες ιδίως τα λακτίσματα δεν για το στόχο</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>Απόθεση ιδίως τα λακτίσματα</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>Απόθεση ιδίως τα λακτίσματα εξαιρετική</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>Γεμίζει η καλή απόθεσης</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>Απόθεση γεμίζει η ανεπαρκής</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Fouls διαπράξει εκμετάλλευση</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>Fouls διαπράξει</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Fouls δεσμευτεί χρέωσης</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Fouls διαπράξει Tackle δεν είναι έγκυρη</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>Fouls δεσμευτεί ξεκούραση</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Fouls δεσμευτεί ώθησης</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Ενεργοποίηση fouls διαπράξει</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>Fouls σχεδίαση</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>Στόχο ιδίως τα λακτίσματα</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>Στόχοι</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>Οι στόχοι που επιτρέπεται</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>Έμμεση ελεύθερες ιδίως τα λακτίσματα</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>Φάσεις</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>Εξαιρετική φάσεις</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>Μεταβιβάζει καλή</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>Ανεπαρκής φάσεις</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>Ποινή ιδίως τα λακτίσματα</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>Ποινή ιδίως τα λακτίσματα αποκλείστηκε</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>Ποινή ιδίως τα λακτίσματα στόχου</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>Ποινή ιδίως τα λακτίσματα αιτήσεων Post</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>Ποινή ιδίως τα λακτίσματα που λείπουν</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>Κόκκινο κάρτες</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>Κόκκινο κάρτες κακοκαιρία άμεσης</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>Χέρια δεν είναι κόκκινες κάρτες</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>Δεύτερη κίτρινη κάρτα κάρτες κόκκινο</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>Κόκκινο κάρτες βίαιων συμπεριφοράς</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>Αποθηκεύει</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Ιδίως τα λακτίσματα shootout</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>Shootout ιδίως τα λακτίσματα αποκλείστηκε</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>Στόχο ιδίως τα λακτίσματα shootout</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Ιδίως τα λακτίσματα shootout αιτήσεων Post</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>Shootout ιδίως τα λακτίσματα που λείπουν</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>Στιγμιότυπα</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>Λήψεις αποκλείονται</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>Στιγμιότυπα στόχου</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>Λήψεις αιτήσεων Post</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>Στιγμιότυπα που λείπουν</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>Στιγμιότυπα σε στόχο</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Tackles</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>Πετάξτε το Ins</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Κύκλο εργασιών</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Μη έγκυρη πετώ κύκλο εργασιών σε</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>Κύκλο εργασιών που χάθηκαν Dribble</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>Κίτρινο κάρτες</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>Κίτρινο κάρτες καθυστερήσει κάντε επανεκκίνηση του παιχνιδιού</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>Κίτρινο κάρτες Unsportsmanline συμπεριφοράς</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Ημερομηνία γέννησης</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value> asssited από </value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value> από </value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value> ολοκληρώνει μια χρέωση foul</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value> ολοκληρώνει μια εκμετάλλευση φάουλ</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value> ολοκληρώνει μια ξεκούραση και foul</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value> ολοκληρώνει μια μη έγκυρη tackle φάουλ</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value> ολοκληρώνει μια ώθησης foul</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value> ολοκληρώνει μια ενεργοποίηση foul</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value> έχει μια μη έγκυρη πετώ στο</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value> είναι offisides</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value> Γεμίζει τη μπάλα εκτός ορίων</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>αριστερό πόδι</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value> απώλεια της dribble</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value> κάνει μια καλή φάση</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value> κάνει μια εξαιρετική φάση</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value> κάνει μια κακή φάση</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>δεξιό πόδι</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value> λαμβάνει ένα στιγμιότυπο και χτυπήσει η καταχώρηση</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value> παίρνει ένα στιγμιότυπο και έχει αποκλειστεί</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value> λαμβάνει ένα στιγμιότυπο και βαθμολογίες</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>Εκμάθηση</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value> Ρολόι ρυθμίζεται στην περίοδο</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value> Σχεδιάζει ένα φάουλ</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value> dribbles</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value> λαμβάνει ένα κόκκινο φύλλο για αναπαραγωγή φάουλ</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value> λαμβάνει ένα κόκκινο φύλλο για παράνομη χέρια</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value> λαμβάνει ένα κόκκινο φύλλο για δεύτερη κίτρινη κάρτα</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value> λαμβάνει ένα κόκκινο φύλλο για Διεξαγωγή βίαιων</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value> λαμβάνει μια κίτρινη κάρτα για την αναβολή επανεκκίνηση της αναπαραγωγής</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value> λαμβάνει μια κίτρινη κάρτα για διεξαγωγή unsportsmanlike</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value> έχει ένα tackle</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value> έχει μια πρόταση throw στο</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value> κάνει καλή Διασταύρωση</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value> κάνει μια καλή Έναρξη απόθεσης</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value> κάνει μια εξαιρετική μεταξύ</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value> κάνει μια εξαιρετική Έναρξη απόθεσης</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value> κάνει κακή Διασταύρωση</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value> κάνει μια κακή Έναρξη απόθεσης</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value> εναλλασσόμενο θέσεις με </value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value> λαμβάνει μια γωνία Έναρξη και βαθμολογίες</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value> λαμβάνει μια άμεση Έναρξη ελεύθερης</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value> λαμβάνει μια άμεση Έναρξη ελεύθερη και βαθμολογίες</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value> λαμβάνει μια Έναρξη στόχου</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value> λαμβάνει μια Έναρξη ορθής γωνίας</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value> λαμβάνει μια εξαιρετική γωνία Έναρξη</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value> λαμβάνει μια έμμεση Έναρξη ελεύθερης</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value> λαμβάνει μια Έναρξη ποινή και χτυπήσει η καταχώρηση</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value> παίρνει μια ποινή εκτινάσσουν και έχει αποκλειστεί</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value> λαμβάνει μια Έναρξη ποινή και αποτυχημένες αιτήσεις στο</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value> λαμβάνει μια Έναρξη ποινή και βαθμολογίες</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value> λαμβάνει μια Έναρξη κακή γωνία</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value> λαμβάνει μια Έναρξη shootout και χτυπήσει η καταχώρηση</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value> παίρνει μια shootout εκτινάσσουν και έχει αποκλειστεί</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value> λαμβάνει μια Έναρξη shootout και αποτυχημένες αιτήσεις στο</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value> λαμβάνει μια Έναρξη shootout και βαθμολογίες</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>Μπλε μεταξύ</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>Μπλε κόκκινο</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>Μπλε ρίγες</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>BlueWhite</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>Σκούρο μπλε</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>Σκούρο κόκκινο</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>Γερμανικά χρώματα</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>Κόκκινο πράσινο</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>Ανοιχτό μπλε</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Πορτοκαλί</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>Πορτοκαλί πράσινο</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Κόκκινο</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>Κόκκινο μαύρο</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>Κόκκινο πράσινο</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>Κόκκινο ρίγες</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>Λευκό μπλε</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>Λευκό πράσινο</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>Λευκό κόκκινο</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>Κίτρινο μπλε</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>Κίτρινο πράσινο</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Επίδειξη</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>Προσθήκη νέο παίκτη</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>Λωρίδα χρ.</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>Επιλέξτε ομάδα</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value> Γεμίζει την μπίλια στη δική του στόχου</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>Επιλέξτε Τζέρσεϊ</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>Επιλέξτε την κοινωνία</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής λεπτά</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Στατιστικά στοιχεία</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>Πρόγραμμα αναπαραγωγής λεπτά ενημέρωση στο τέλος της περιόδου και το τέλος του παιχνιδιού</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>Yπόμνημα</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Χρήστη</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>ηλεκτρονικό ταχυδρομείο</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Κωδικό πρόσβασης</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Επαναφορά κωδικού πρόσβασης</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Πληροφορίες</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Ρυθμός App</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Fouls</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>App αγοράς</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>Ξεκλειδώστε όλα τα στατιστικά;</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>Επίδειξη παιχνίδι</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>Δοκιμάστε τη βαθμολογία του παιχνιδιού επίδειξης;</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>Δοκιμάστε το</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>Όχι, ευχαριστώ</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Ρυθμός</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>Τα σχόλιά σας είναι πολύ σημαντική για μας.  Βαθμολογήστε αυτήν την εφαρμογή.</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>Τα σχόλιά σας είναι πολύ σημαντική για μας.  Θα θέλατε να αξιολογήσετε αυτήν την εφαρμογή;</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>Ναι</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>Όχι</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>Αγορά</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>Όχι τώρα</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>Η προσθήκη παίκτη πάγκο</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>Προκαταβολή</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>Προχωρήσετε σε επόμενη περίοδο;</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>Τοποθέτηση Boxscore</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>Κάντε κλικ για να ρυθμίσετε το ρολόι</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>Κάντε κλικ για να προσαρμόσετε την περίοδο</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>Κάντε κλικ για να ξεκινήσετε ή να διακόψετε χρόνου παιχνιδιού</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>Ρολόι προς τα κάτω</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>Ρολόι προς τα επάνω</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Επεξεργασία</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>Επεξεργαστείτε το παιχνίδι</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>Επεξεργασία άμεσης από αναπαραγωγή</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>Διαχείριση παιχνίδι</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>Στατιστικά στοιχεία του παιχνιδιού</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>header</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>Κεντρικός Boxscore</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>Υπάρχουν δεν αναπαράγεται για να αναιρέσετε</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>Ποινή στόχου</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>Αναπαραγωγή από την άμεση λειτουργία</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Κοινόχρηστο στοιχείο</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>Βλαστοί αριστερό πόδι</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>Δεξιό αφθώδους βλαστοί</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>Βολή στόχου</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>Στιγμιότυπο με το αριστερό πόδι</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>Βολή με δεξιό πόδι</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value> Αναίρεση</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Μενού</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Αγορά</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>Αγορά όλες οι στατιστικές;</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>Περιλαμβάνει πλήρη στατιστικά στοιχεία πακέτου: λεπτά Player, συν μείον,</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>Φάση, ο κύκλος εργασιών, Offsides,</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>Φάουλ διαπράξει, εκτός των ορίων, σταυρός "," Πετάξτε το με δύναμη στην Έναρξη γωνία,</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>Tackle, Έναρξη Goalie, δικό του στόχου, ακατάλληλη σχεδιασμένες και απευθείας ελεύθερη Έναρξη,</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>Έμμεση ελεύθερη Έναρξη, Έναρξη ποινή, κίτρινη κάρτα, κόκκινο φύλλο, Έναρξη απόθεσης,</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Dribble, κλωτσιά Shootout, αντικατάσταση</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Φόρτωση...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>Διαγραφή προγράμματος αναπαραγωγής από το πρόγραμμα</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value> από τη λίστα αναπαραγωγής</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value> από το πρόγραμμα</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>Τοπική ομάδα και η ομάδα αποθήκης δεν μπορεί να είναι το ίδιο. Το παιχνίδι δεν αποθηκεύονται.</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>Ξεκινά το παιχνίδι</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-Κάντε κλικ στην εικόνα για να αγοράσετε την πλήρη έκδοση-</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>αθλητικό</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Σχόλια</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>βαθμολογία</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>Στατιστικά στοιχεία</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>ποδοσφαίρου</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>κανένα συμβάν</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>KICKOFF</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>ΤΟ ΜΙΣΌ ΧΡΌΝΟ</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>ΠΛΉΡΟΥΣ ΑΠΑΣΧΌΛΗΣΗΣ</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>ΠΟΛΎ ΏΡΑ ΤΟ ΜΙΣΌ ΧΡΌΝΟ</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>ΠΟΛΎ ΧΡΌΝΟ ΠΛΉΡΟΥΣ ΑΠΑΣΧΌΛΗΣΗΣ</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>Περίοδος λήξης </value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>Η πιο διαισθητική και πλήρης βαθμολογίας ποδοσφαίρου εφαρμογή στην αγορά.  Πάνω από 50 στατιστικά στοιχεία είναι διαθέσιμα.  Δοκιμάστε το δωρεάν σήμερα!
+
+Παρακολούθηση: ομάδες και ερασιτεχνική κατηγορία παιχνίδια παίκτες στατιστικά δεδομένα παικτών μέσα περιλαμβάνουν: λεπτά αναπαραγωγή συν-πλην κύκλο εργασιών κάρτα κόκκινο Pases Offsides στόχους και πολλά άλλα!
+
+Επιλογές παιχνιδιών περιλαμβάνουν: ρολόι ή ρολόι κάτω ευέλικτη στο πεδίο σχηματισμούς Άγνωστο πρόγραμμα αναπαραγωγής επιλογή Επεξεργασία/αναίρεσης αναπαράγει απεριόριστο αντικαταστάσεις προσαρμόσιμη περιόδων και την διάρκεια περιόδου.
+
+
+Προβολή Play-By-Play ενέργεια για το παιχνίδι, μοιράζονται τα στατιστικά στοιχεία στο Twitter, Facebook, Instagram, ηλεκτρονικό ταχυδρομείο, κείμενο και πολλά άλλα!
+
+Μπορείτε να ορίσετε επάνω και εύκολο στη χρήση!  Ξεκινήσετε την παρακολούθηση επόμενη παρτίδα σας μέσα σε λίγα λεπτά!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>Η περίοδος δεν έχει ξεκινήσει ακόμα. Θέλετε να συνεχίσετε;</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>Δεν έχει αρχίσει</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>Διαγραφή προγράμματος αναπαραγωγής από τη λίστα αναπαραγωγής</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>Προσθήκη νέας λίστας αναπαραγωγής για την αναπαραγωγή</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>Ακολουθήστε μας στο Twitter</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>Περιλαμβάνει πλήρη στατιστικά στοιχεία πακέτου: λεπτά Player, συν μείον, φάση, ο κύκλος εργασιών, Offsides, ακατάλληλη διαπράξει, εκτός ορίων, σταυρός "," Πετάξτε στο, Έναρξη γωνία, Tackle, Έναρξη Goalie, δικό του στόχου, ακατάλληλη σχεδιάζονται, άμεση Έναρξη ελεύθερης, έμμεση Έναρξη ελεύθερης, Έναρξη ποινή, κίτρινη κάρτα, κάρτα κόκκινο, Έναρξη απόθεσης, Dribble, Έναρξη Shootout, υποκατάστασης</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>Πλήρη στατιστικά στοιχεία</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>Η πιο διαισθητική και πλήρης βαθμολογίας ποδοσφαίρου εφαρμογή στην αγορά!
+
+Παρακολούθηση: ομάδες παιχνίδια ομίλους παίκτες η δωρεάν έκδοση περιλαμβάνει την παρακολούθηση των στόχων και των στιγμιότυπων!
+
+Επιλογές παιχνιδιών περιλαμβάνουν: ρολόι ή ρολόι κάτω ευέλικτη στο πεδίο σχηματισμούς Άγνωστο πρόγραμμα αναπαραγωγής επιλογή Επεξεργασία/αναίρεσης αναπαράγει απεριόριστο αντικαταστάσεις προσαρμόσιμη περιόδων και την διάρκεια περιόδου.
+
+
+Προβολή Play-By-Play ενέργεια για το παιχνίδι, μοιράζονται τα στατιστικά στοιχεία στο Twitter, Facebook, Instagram, ηλεκτρονικό ταχυδρομείο, κείμενο και πολλά άλλα!
+
+Μπορείτε να ορίσετε επάνω και εύκολο στη χρήση!  Ξεκινήσετε την παρακολούθηση επόμενη παρτίδα σας μέσα σε λίγα λεπτά!</value>
+  </data>
+</root>

@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D4A11BC8-C70F-46B1-A2B7-599657FB8F25}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ScoreSoccer8</RootNamespace>
+    <AssemblyName>uTrackSoccer</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>ar;bg-BG;ca-ES;cs-CZ;da-DK;de;el-GR;en;es;et-EE;fa-IR;fi-FI;fr;he-IL;hu-HU;id-ID;it;ja-JP;ko-KR;lt-LT;lv-LV;ms;nb-NO;nl;pl-PL;qps-ploc;ro;ru-RU;sk-SK;sl-SI;sv;th-TH;tr-TR;uk-UA;vi-VN;zh-Hans;zh-Hant</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>uTrackSoccer-Lite.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>ScoreSoccer8.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SILVERLIGHT;WINDOWS_PHONE;USE_WP8_NATIVE_SQLITE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE;USE_WP8_NATIVE_SQLITE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SILVERLIGHT;WINDOWS_PHONE;USE_WP8_NATIVE_SQLITE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE;USE_WP8_NATIVE_SQLITE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>TRACE;DEBUG;SILVERLIGHT;WINDOWS_PHONE;USE_WP8_NATIVE_SQLITE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE;USE_WP8_NATIVE_SQLITE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>3.0</MultilingualAppToolkitVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\AppIcon.cs" />
+    <Compile Include="Classes\Clock.cs" />
+    <Compile Include="Classes\Icons.cs" />
+    <Compile Include="Classes\WordPicColors.cs" />
+    <Compile Include="Cloud\AllUsersConnection.cs" />
+    <Compile Include="Cloud\DbObjects\AllUsers.cs" />
+    <Compile Include="Cloud\DbObjects\ErrorLog.cs" />
+    <Compile Include="Cloud\ErrorLogConnection.cs" />
+    <Compile Include="Converters\ImageSourceConverter.cs" />
+    <Compile Include="Converters\NumberToColorConverter.cs" />
+    <Compile Include="Converters\PeriodConverter.cs" />
+    <Compile Include="Converters\ShootoutVisibilityConverter.cs" />
+    <Compile Include="Converters\SubColorConverter.cs" />
+    <Compile Include="Converters\PlayerNameConverter.cs" />
+    <Compile Include="DataAccess\BaseTableDataAccess.cs" />
+    <Compile Include="DataAccess\DAL.cs" />
+    <Compile Include="DataObjects\DbClasses\EventRoster.cs" />
+    <Compile Include="DataObjects\DbClasses\FlatTotals.cs" />
+    <Compile Include="DataObjects\DbClasses\Formation.cs" />
+    <Compile Include="DataObjects\DbClasses\Game.cs" />
+    <Compile Include="DataObjects\DbClasses\Jersey.cs" />
+    <Compile Include="DataObjects\DbClasses\League.cs" />
+    <Compile Include="DataObjects\DbClasses\PeriodByPeriodScore.cs" />
+    <Compile Include="DataObjects\DbClasses\Play.cs" />
+    <Compile Include="DataObjects\DbClasses\Player.cs" />
+    <Compile Include="DataObjects\DbClasses\StatCategory.cs" />
+    <Compile Include="DataObjects\DbClasses\StatDescription.cs" />
+    <Compile Include="DataObjects\DbClasses\Team.cs" />
+    <Compile Include="DataObjects\DbClasses\TeamRoster.cs" />
+    <Compile Include="DataObjects\UiClasses\BoxscoreItem.cs" />
+    <Compile Include="DataObjects\UiClasses\FlatTotalsModel.cs" />
+    <Compile Include="DataObjects\UiClasses\GameModel.cs" />
+    <Compile Include="DataObjects\UiClasses\LeagueModel.cs" />
+    <Compile Include="DataObjects\UiClasses\Legend.cs" />
+    <Compile Include="DataObjects\UiClasses\PlayerModel.cs" />
+    <Compile Include="DataObjects\UiClasses\PlayModel.cs" />
+    <Compile Include="DataObjects\UiClasses\StatCategoryModel.cs" />
+    <Compile Include="DataObjects\UiClasses\StatDescriptionModel.cs" />
+    <Compile Include="DataObjects\UiClasses\TeamModel.cs" />
+    <Compile Include="DataObjects\UiClasses\TeamRosterModel.cs" />
+    <Compile Include="DataObjects\UiClasses\Timeline.cs" />
+    <Compile Include="Resources\AppResources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\CloudSyncing.cs" />
+    <Compile Include="Utilities\Common.cs" />
+    <Compile Include="Utilities\DelegateCommand.cs" />
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="SQLite.cs" />
+    <Compile Include="SQLiteAsync.cs" />
+    <Compile Include="Utilities\Enums.cs" />
+    <Compile Include="Utilities\ExcelWriter.cs" />
+    <Compile Include="Utilities\ExportBoxScoreItem.cs" />
+    <Compile Include="Utilities\IS.cs" />
+    <Compile Include="Utilities\Messaging.cs" />
+    <Compile Include="Utilities\Notification.cs" />
+    <Compile Include="Utilities\PBPModule.cs" />
+    <Compile Include="Utilities\Rate.cs" />
+    <Compile Include="Utilities\StatCalculationsModule.cs" />
+    <Compile Include="Utilities\StopwatchWithOffset.cs" />
+    <Compile Include="Utilities\StoreManager.cs" />
+    <Compile Include="ViewModels\BoxScoreViewModel.cs" />
+    <Compile Include="ViewModels\GameStatsViewModel.cs" />
+    <Compile Include="ViewModels\IconsViewModel.cs" />
+    <Compile Include="ViewModels\LeagueDetailsViewModel.cs" />
+    <Compile Include="ViewModels\LeaguesViewModel.cs" />
+    <Compile Include="ViewModels\NotesViewModel.cs" />
+    <Compile Include="ViewModels\PickStatisticsViewModel.cs" />
+    <Compile Include="ViewModels\PlayByPlayViewModel.cs" />
+    <Compile Include="ViewModels\PlayDetailsViewModel.cs" />
+    <Compile Include="ViewModels\PlayListViewModel.cs" />
+    <Compile Include="ViewModels\PopupClockViewModel.cs" />
+    <Compile Include="ViewModels\PurchaseAppViewModel.cs" />
+    <Compile Include="ViewModels\ShotDetailsViewModel.cs" />
+    <Compile Include="ViewModels\StatPickerHelpViewModel.cs" />
+    <Compile Include="ViewModels\StatsReportsViewModel.cs" />
+    <Compile Include="ViewModels\GameDetailsViewModel.cs" />
+    <Compile Include="ViewModels\GameManagerViewModel.cs" />
+    <Compile Include="ViewModels\GamesViewModel.cs" />
+    <Compile Include="ViewModels\MainPageViewModel.cs" />
+    <Compile Include="ViewModels\PlayerDetailsViewModel.cs" />
+    <Compile Include="ViewModels\PlayerListViewModel.cs" />
+    <Compile Include="ViewModels\RostersViewModel.cs" />
+    <Compile Include="ViewModels\StatsPickerViewModel.cs" />
+    <Compile Include="ViewModels\TeamBoxscoreViewModel.cs" />
+    <Compile Include="ViewModels\Testing\FlatTotalsViewModel.cs" />
+    <Compile Include="ViewModels\TeamDetailsViewModel.cs" />
+    <Compile Include="ViewModels\TeamsViewModel.cs" />
+    <Compile Include="ViewModels\TimelineViewModel.cs" />
+    <Compile Include="ViewModels\TutorialViewModel.cs" />
+    <Compile Include="Views\About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BoxScore.xaml.cs">
+      <DependentUpon>BoxScore.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Help_Buttons.xaml.cs">
+      <DependentUpon>Help_Buttons.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LeagueDetails.xaml.cs">
+      <DependentUpon>LeagueDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Leagues.xaml.cs">
+      <DependentUpon>Leagues.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoadingPopup.xaml.cs">
+      <DependentUpon>LoadingPopup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Notes.xaml.cs">
+      <DependentUpon>Notes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PickStatisticsScreen.xaml.cs">
+      <DependentUpon>PickStatisticsScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlayDetails.xaml.cs">
+      <DependentUpon>PlayDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlayList.xaml.cs">
+      <DependentUpon>PlayList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PopupClock.xaml.cs">
+      <DependentUpon>PopupClock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PurchaseApp.xaml.cs">
+      <DependentUpon>PurchaseApp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ShotDetails.xaml.cs">
+      <DependentUpon>ShotDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Statistics_GameStats.xaml.cs">
+      <DependentUpon>Statistics_GameStats.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Statistics_PlayByPlay.xaml.cs">
+      <DependentUpon>Statistics_PlayByPlay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Statistics_TeamBoxscore.xaml.cs">
+      <DependentUpon>Statistics_TeamBoxscore.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Statistics_Timeline.xaml.cs">
+      <DependentUpon>Statistics_Timeline.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StatPickerHelp.xaml.cs">
+      <DependentUpon>StatPickerHelp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StatsReports.xaml.cs">
+      <DependentUpon>StatsReports.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GameDetails.xaml.cs">
+      <DependentUpon>GameDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GameManagerView.xaml.cs">
+      <DependentUpon>GameManagerView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Games.xaml.cs">
+      <DependentUpon>Games.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\PlayerDetails.xaml.cs">
+      <DependentUpon>PlayerDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlayerList.xaml.cs">
+      <DependentUpon>PlayerList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Rosters.xaml.cs">
+      <DependentUpon>Rosters.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StatsPicker.xaml.cs">
+      <DependentUpon>StatsPicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TeamDetails.xaml.cs">
+      <DependentUpon>TeamDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Teams.xaml.cs">
+      <DependentUpon>Teams.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Testing\FlatTotals.xaml.cs">
+      <DependentUpon>FlatTotals.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Testing\TestingScreen.xaml.cs">
+      <DependentUpon>TestingScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Tutorial.xaml.cs">
+      <DependentUpon>Tutorial.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserScreen.xaml.cs">
+      <DependentUpon>UserScreen.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="Views\About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\BoxScore.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Help_Buttons.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LeagueDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Leagues.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoadingPopup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Notes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PickStatisticsScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlayDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlayList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PopupClock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PurchaseApp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ShotDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Statistics_GameStats.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Statistics_PlayByPlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Statistics_TeamBoxscore.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Statistics_Timeline.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\StatPickerHelp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\StatsReports.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GameDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GameManagerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Games.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlayerDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlayerList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Rosters.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\StatsPicker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TeamDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Teams.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Testing\FlatTotals.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Testing\TestingScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Tutorial.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UserScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AwayGameStats.png" />
+    <Content Include="Assets\bench.PNG" />
+    <Content Include="Assets\blocked.png" />
+    <Content Include="Assets\cancel.png" />
+    <Content Include="Assets\clockDown.png" />
+    <Content Include="Assets\clockUp.png" />
+    <Content Include="Assets\delete.png" />
+    <Content Include="Assets\Edit3.png" />
+    <Content Include="Assets\expandDown.png" />
+    <Content Include="Assets\Fields\GreenSoccerField400.jpg" />
+    <Content Include="Assets\Fields\SoccerField9.png" />
+    <Content Include="Assets\flipNumbers\black\0.png" />
+    <Content Include="Assets\flipNumbers\black\1.png" />
+    <Content Include="Assets\flipNumbers\black\2.png" />
+    <Content Include="Assets\flipNumbers\black\3.png" />
+    <Content Include="Assets\flipNumbers\black\4.png" />
+    <Content Include="Assets\flipNumbers\black\5.png" />
+    <Content Include="Assets\flipNumbers\black\6.png" />
+    <Content Include="Assets\flipNumbers\black\7.png" />
+    <Content Include="Assets\flipNumbers\black\8.png" />
+    <Content Include="Assets\flipNumbers\black\9.png" />
+    <Content Include="Assets\footLeft.png" />
+    <Content Include="Assets\footRight.png" />
+    <Content Include="Assets\GameManager.png" />
+    <Content Include="Assets\games.PNG" />
+    <Content Include="Assets\gameStats.png" />
+    <Content Include="Assets\gmClock.PNG" />
+    <Content Include="Assets\gmPeriod.PNG" />
+    <Content Include="Assets\gmPlay.PNG" />
+    <Content Include="Assets\goal.png" />
+    <Content Include="Assets\goalP.png" />
+    <Content Include="Assets\header.png" />
+    <Content Include="Assets\HomeGameStats.png" />
+    <Content Include="Assets\i.png" />
+    <Content Include="Assets\Jerseys\1.png" />
+    <Content Include="Assets\Jerseys\10.png" />
+    <Content Include="Assets\Jerseys\11.png" />
+    <Content Include="Assets\Jerseys\12.png" />
+    <Content Include="Assets\Jerseys\13.png" />
+    <Content Include="Assets\Jerseys\14.png" />
+    <Content Include="Assets\Jerseys\15.png" />
+    <Content Include="Assets\Jerseys\16.png" />
+    <Content Include="Assets\Jerseys\17.png" />
+    <Content Include="Assets\Jerseys\18.png" />
+    <Content Include="Assets\Jerseys\19.png" />
+    <Content Include="Assets\Jerseys\2.png" />
+    <Content Include="Assets\Jerseys\20.png" />
+    <Content Include="Assets\Jerseys\3.png" />
+    <Content Include="Assets\Jerseys\4.png" />
+    <Content Include="Assets\Jerseys\5.png" />
+    <Content Include="Assets\Jerseys\6.png" />
+    <Content Include="Assets\Jerseys\7.png" />
+    <Content Include="Assets\Jerseys\8.png" />
+    <Content Include="Assets\Jerseys\9.png" />
+    <Content Include="Assets\Jerseys\BlankPlayer.png" />
+    <Content Include="Assets\largeTile.png" />
+    <Content Include="Assets\leagues.PNG" />
+    <Content Include="Assets\legend.png" />
+    <Content Include="Assets\mediumTile.png" />
+    <Content Include="Assets\miss.png" />
+    <Content Include="Assets\na.png" />
+    <Content Include="Assets\net.PNG" />
+    <Content Include="Assets\ok.png" />
+    <Content Include="Assets\Pause.png" />
+    <Content Include="Assets\pbp.png" />
+    <Content Include="Assets\play.png" />
+    <Content Include="Assets\players.PNG" />
+    <Content Include="Assets\plus.png" />
+    <Content Include="Assets\post.png" />
+    <Content Include="Assets\q.png" />
+    <Content Include="Assets\QR.png" />
+    <Content Include="Assets\question.png" />
+    <Content Include="Assets\rate.png" />
+    <Content Include="Assets\redCard.png" />
+    <Content Include="Assets\required.png" />
+    <Content Include="Assets\rosters.png" />
+    <Content Include="Assets\search.png" />
+    <Content Include="Assets\share.png" />
+    <Content Include="Assets\ShotNotOnGoal.png" />
+    <Content Include="Assets\ShotOnGoal.png" />
+    <Content Include="Assets\ShotWithLeftFoot.png" />
+    <Content Include="Assets\ShotWithRightFoot.png" />
+    <Content Include="Assets\soccerBall.png" />
+    <Content Include="Assets\soccerBall2.png" />
+    <Content Include="Assets\statistics.png" />
+    <Content Include="Assets\StatsPickerPic.png" />
+    <Content Include="Assets\sub.png" />
+    <Content Include="Assets\substitutionIn.png" />
+    <Content Include="Assets\substitutionOut.png" />
+    <Content Include="Assets\SwitchSides.png" />
+    <Content Include="Assets\teams.PNG" />
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\timeline.png" />
+    <Content Include="Assets\Tutorial\GameDetailsScreen.png" />
+    <Content Include="Assets\Tutorial\PlayerDetailsScreen.png" />
+    <Content Include="Assets\Tutorial\PlayerListAddPlayer.png" />
+    <Content Include="Assets\store.png" />
+    <Content Include="Assets\Tutorial\TeamDetailsScreen.png" />
+    <Content Include="Assets\Undo.png" />
+    <Content Include="Assets\uTrackSoccer.png" />
+    <Content Include="Assets\uTrackSoccerLite.png" />
+    <Content Include="Assets\yellowCard.png" />
+    <Content Include="Assets\YellowSquare.png" />
+    <Content Include="Assets\YellowSquare2.png" />
+    <Content Include="Libraries\C1.Phone.Excel.8.dll" />
+    <Content Include="ReadMe.Coding4Fun.Toolkit.txt" />
+    <Content Include="README_FIRST.txt" />
+    <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
+    <Content Include="Assets\sync.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.ar.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ar.xlf</DependentUpon>
+      <culture>ar</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.bg-BG.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.bg-BG.xlf</DependentUpon>
+      <culture>bg-BG</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ca-ES.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ca-ES.xlf</DependentUpon>
+      <culture>ca-ES</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.cs-CZ.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.cs-CZ.xlf</DependentUpon>
+      <culture>cs-CZ</culture>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.da-DK.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.da-DK.xlf</DependentUpon>
+      <culture>da-DK</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.de.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.de.xlf</DependentUpon>
+      <culture>de</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.el-GR.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.el-GR.xlf</DependentUpon>
+      <culture>el-GR</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.en.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.en.xlf</DependentUpon>
+      <culture>en</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.es.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.es.xlf</DependentUpon>
+      <culture>es</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.et-EE.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.et-EE.xlf</DependentUpon>
+      <culture>et-EE</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.fa-IR.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.fa-IR.xlf</DependentUpon>
+      <culture>fa-IR</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.fi-FI.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.fi-FI.xlf</DependentUpon>
+      <culture>fi-FI</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.fr.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.fr.xlf</DependentUpon>
+      <culture>fr</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.he-IL.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.he-IL.xlf</DependentUpon>
+      <culture>he-IL</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.hu-HU.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.hu-HU.xlf</DependentUpon>
+      <culture>hu-HU</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.id-ID.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.id-ID.xlf</DependentUpon>
+      <culture>id-ID</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.it.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.it.xlf</DependentUpon>
+      <culture>it</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ja-JP.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ja-JP.xlf</DependentUpon>
+      <culture>ja-JP</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ko-KR.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ko-KR.xlf</DependentUpon>
+      <culture>ko-KR</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.lt-LT.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.lt-LT.xlf</DependentUpon>
+      <culture>lt-LT</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.lv-LV.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.lv-LV.xlf</DependentUpon>
+      <culture>lv-LV</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ms.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ms.xlf</DependentUpon>
+      <culture>ms</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.nb-NO.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.nb-NO.xlf</DependentUpon>
+      <culture>nb-NO</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.nl.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.nl.xlf</DependentUpon>
+      <culture>nl</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.pl-PL.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.pl-PL.xlf</DependentUpon>
+      <culture>pl-PL</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.qps-ploc.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.qps-ploc.xlf</DependentUpon>
+      <culture>qps-ploc</culture>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ro.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ro.xlf</DependentUpon>
+      <culture>ro</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ru-RU.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ru-RU.xlf</DependentUpon>
+      <culture>ru-RU</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.sk-SK.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.sk-SK.xlf</DependentUpon>
+      <culture>sk-SK</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.sl-SI.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.sl-SI.xlf</DependentUpon>
+      <culture>sl-SI</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.sv.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.sv.xlf</DependentUpon>
+      <culture>sv</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.th-TH.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.th-TH.xlf</DependentUpon>
+      <culture>th-TH</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.tr-TR.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.tr-TR.xlf</DependentUpon>
+      <culture>tr-TR</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.uk-UA.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.uk-UA.xlf</DependentUpon>
+      <culture>uk-UA</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.vi-VN.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.vi-VN.xlf</DependentUpon>
+      <culture>vi-VN</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.zh-Hans.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.zh-Hans.xlf</DependentUpon>
+      <culture>zh-Hans</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.zh-Hant.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.zh-Hant.xlf</DependentUpon>
+      <culture>zh-Hant</culture>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="C1.Phone.Excel.8, Version=8.0.20142.409, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Coding4Fun.Toolkit.Audio">
+      <HintPath>..\packages\Coding4Fun.Toolkit.Audio.2.0.7\lib\windowsphone8\Coding4Fun.Toolkit.Audio.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Coding4Fun.Toolkit.Controls">
+      <HintPath>..\packages\Coding4Fun.Toolkit.Controls.2.0.7\lib\windowsphone8\Coding4Fun.Toolkit.Controls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Coding4Fun.Toolkit.Net">
+      <HintPath>..\packages\Coding4Fun.Toolkit.Net.2.0.7\lib\windowsphone8\Coding4Fun.Toolkit.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Coding4Fun.Toolkit.Storage">
+      <HintPath>..\packages\Coding4Fun.Toolkit.Storage.2.0.7\lib\windowsphone8\Coding4Fun.Toolkit.Storage.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Controls, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>..\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile">
+      <HintPath>..\packages\WindowsAzure.MobileServices.1.2.3\lib\wp8\Microsoft.WindowsAzure.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile.Ext">
+      <HintPath>..\packages\WindowsAzure.MobileServices.1.2.3\lib\wp8\Microsoft.WindowsAzure.Mobile.Ext.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile.UI">
+      <HintPath>..\packages\WindowsAzure.MobileServices.1.2.3\lib\wp8\Microsoft.WindowsAzure.Mobile.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.2\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.19\lib\sl4-windowsphone71\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.19\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.19\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="SQLite.WP80, Version=3.8.5">
+      <Name>SQLite for Windows Phone %28SQLite.WP80, Version=3.8.5%29</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\examples\InAppPurchase\C#\MockIAPLib\MockIAPLib.csproj">
+      <Project>{015e3dfe-eb56-429f-95ef-bab5d41b23be}</Project>
+      <Name>MockIAPLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sqlite-net-wp8-master\Sqlite.vcxproj">
+      <Project>{59B35F6C-E062-4F0E-88D8-13F3F82A24F3}</Project>
+      <Name>Sqlite</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="Resources\AppResources.ar.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ar.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.bg-BG.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.bg-BG.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ca-ES.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ca-ES.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.cs-CZ.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.cs-CZ.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.da-DK.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.da-DK.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.de.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.de.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.el-GR.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.el-GR.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.en.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.en.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.es.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.es.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.et-EE.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.et-EE.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.fa-IR.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.fa-IR.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.fi-FI.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.fi-FI.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.fr.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.fr.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.he-IL.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.he-IL.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.hu-HU.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.hu-HU.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.id-ID.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.id-ID.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.it.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.it.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ja-JP.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ja-JP.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ko-KR.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ko-KR.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.lt-LT.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.lt-LT.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.lv-LV.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.lv-LV.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ms.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ms.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.nb-NO.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.nb-NO.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.nl.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.nl.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.pl-PL.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.pl-PL.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.qps-ploc.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.qps-ploc.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ro.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ro.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ru-RU.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ru-RU.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.sk-SK.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.sk-SK.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.sl-SI.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.sl-SI.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.sv.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.sv.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.th-TH.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.th-TH.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.tr-TR.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.tr-TR.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.uk-UA.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.uk-UA.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.vi-VN.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.vi-VN.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.zh-Hans.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.zh-Hans.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.zh-Hant.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.zh-Hant.resx</LastGenOutput>
+    </XliffResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+</Project>

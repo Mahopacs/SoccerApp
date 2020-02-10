@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>he-IL</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>היישום שלי</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>הוספה</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>פריט תפריט</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>הוסף צוות</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>המסייע/מסייעת ללידה</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>מספר ליצירת קשר</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>מחק</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>הצג פריטים שנמחקו</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>תאריך סיום</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>משחקים</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>סטטיסטיקה משחק</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>הפק דוח</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>ג'רסי</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>ברמה הגבוהה ביותר</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>שחקנים</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>סטטיסטיקה של הנגן</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>רשימת השמעה</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Report Type</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>נדרש</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>לוח פעילויות</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>שם קצר</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>תאריך התחלה</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>דוחות סטטיסטיקה</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>פרטי צוות</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>שם צוות</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>לא הוזן שם צוות. הצוות לא נשמר.</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>צוותים</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>סטטיסטיקת צוות</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>הוסף ברמה הגבוהה ביותר</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>פרטי ברמה הגבוהה ביותר</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>שם ברמה הגבוהה ביותר</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Leagues</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>שם איש קשר</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>לא הוזן שם ברמה הגבוהה ביותר. ברמה הגבוהה ביותר אינם נשמרים.</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>פעילה</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>להוסיף הנגן תורנויות</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>הזן מספר צמר שחקנים</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>לא פעיל</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>אפודת צמר עם מספר חייב להיות מספר. מספר צמר אינם נשמרים.</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>מספר צמר אינו יכול להיות יותר מ- 3 תווים.  מספר צמר אינם נשמרים.</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>אפודת צמר עם מספר</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>Rosters</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>הוסף משחק</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>מוסיקת משחקים</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>פרטי המשחק</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>מנהל</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>הצוות לא נמצא</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>שעון</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>הנמך</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>תאריך המשחק</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>פרטי המשחק</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>זמן משחק</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>הקבוצה הביתית</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>ברמה הגבוהה ביותר של ברירת המחדל</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>שעות נוספות</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>אורך שעות נוספות</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>אורך תקופה</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>תקופות</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>למעלה</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>לא נבחר צוות לא נמצא. המשחק לא נשמר.</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>השעון למעלה או למטה אינו מוגדר. המשחק לא נשמר.</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>המשחק כבר הופעל.  אין אפשרות לשנות את פרטי המשחק לאחר המשחק התחיל. השינויים לא נשמרו.</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>הקבוצה הביתית לא נבחרה. המשחק לא נשמר.</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>אורך תקופה אינו מוגדר. המשחק לא נשמר.</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>תקופות אינו מוגדר. המשחק לא נשמר.</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>שחקנים לכל הצוות אינו מוגדר. המשחק לא נשמר.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>הוסף</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>הוסף הפעל</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>להוסיף שחקן</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>רשימת נגנים</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>שם שחקן</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>הפעל טקסט</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>חפש</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>לא ניתן לשנות מידע אודות שחקן שנמחק. הנגן לא נשמר.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>שם פרטי</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>לא הוזן שם פרטי. הנגן לא נשמר.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>מספר צמר אינו יכול להיות יותר מ- 3 תווים. הנגן לא נשמר.</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Kicks</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>שם משפחה</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>לשמאל</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>הנגן פרטים</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>לימין</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>משקולת</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>סיוע</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>‏‏חסום</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>לפתוח פינה</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>צלב</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>לפתוח חינם ישיר</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Dribble</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>לפתוח שחרור</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>סוער מחויבות</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>סוער מצוירים</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>המטרה מותר</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>לפתוח goalie</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>לפתוח פנויים עקיף</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>דקות משחקים</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>העבר</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>פתקים</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>מחוץ לתחום</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>המטרה שלך</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>עבר</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>לפתוח עונש</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>חיבור חיסור</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>כרטיס אדום</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>שמור</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>לפתוח shootout</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>צילום</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>צילום על המטרה</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>החלפה</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>Tackle</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>התרע</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>Turnover</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>כרטיס צהוב</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>מצוין</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>טוב</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>חלש</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>צילום פרטי</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>סיסמה שגויה</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>בטעינה</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>עיכוב הפעלה מחדש של המשחק</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>עבור מטרה</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>הפעל עונשין</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>המטרה</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>ראש</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>כניסות הצבה</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>החזקת</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>בידיים לא חוקי</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>Tackle לא חוקי</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>לזרוק לא חוקי ב-</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>גומחה</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>כשיצאנו</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>Dribble אבודים</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>גברת</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>לא עבור מטרה</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>מוקטנת</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>ופורץ</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>כרטיס צהוב שני</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>Tripping</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>התנהגות של unsportsmanlike</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>התנהגות של אלימות</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>בורר סטטיסטיקה</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value> נמשכת צילום של החטאות</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>חסום על-ידי</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>ביטול</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>אישור</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>לקח לא על המטרה</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>תקופה</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>הפעל פרטים</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>הנגן</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>הנגן ב</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>הנגן החוצה</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>קטגוריה stat</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>תיאור stat</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>צוות</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>שעון אינה מוזנת. הפעל אינם נשמרים.</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>לא סוג הפעל נתמכים עבור עריכה pbp. לא ניתן לערוך הפעל.</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>יריב</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>Goalie צוות אחרים</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>הצוות שלנו</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>תקופת/שעון ערך אינו יכול להיות פעם בעתיד. נא השתמש במנהל משחק כדי לעקוב אחר של הפעל בעתיד. הפעל אינם נשמרים.</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>שחקן 1</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>Player 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>Player 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>הנגן 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>הנגן 13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>הנגן 14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>הנגן 15</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>הנגן 16</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>הנגן 17</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>הנגן 18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>הנגן 19</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>שחקן 2</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>הנגן 20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>הנגן 21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>הנגן 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>הנגן 23</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>הנגן 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>הנגן 25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>הנגן 26</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>הנגן 27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>הנגן 28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>הנגן 29</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>שחקן 3</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>30 הנגן</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>שחקן 4</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>הנגן 5</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>הנגן 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>Player 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>Player 8</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>Player 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>לא נמצא/ת</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>מחק את המשחק</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>מחק ברמה הגבוהה ביותר</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>מחק הפעל</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>מחק את הנגן</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>מחיקת צוות</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>בית</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>ללא</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>הפעל</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>לא ידוע</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Inprogress, המסך ללא זמין</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>אורך לא חוקי של פשרות. המשחק לא נשמר.</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>מסייע</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>בלוקים</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>פינות</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>פינות מעולה</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>פינות עבור מטרה</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>טוב פינות</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>גרוע פינות</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>חוצה</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>חוצה מעולה</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>טוב חוצה</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>חוצה גרוע</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>Kicks פנויים ישיר</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>ישיר Kicks פנויים עבור מטרה</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>ישיר Kicks פנויים לא עבור מטרה</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>שחרור Kicks</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>שחרור Kicks מעולה</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>שחרור נכנסת לתמונה טובה</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>שחרור נכנסת לתמונה גרוע</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Fouls מחויב המתנת</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>Fouls מחויב</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Fouls מחויבת טעינה</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Fouls מחויב Tackle לא חוקי</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>Fouls מחויבת כשיצאנו</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Fouls מחויבת ופורץ</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Fouls מחויבת Tripping</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>Fouls מצויר</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>Kicks המטרה</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>מטרות</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>מטרות מותר</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>Kicks פנויים עקיף</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>מעברים</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>מעברי מעולה</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>מעביר טוב</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>מעברי גרוע</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>עונש Kicks</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>עונש Kicks נחסם</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>מטרה Kicks עונש</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>עונש Kicks כניסות הצבה</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>עונש Kicks שלא בוצעו</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>קלף אדום</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>הפעל עונשין קלף אדום</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>קלף אדום Ilegal ידיים</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>כרטיס צהוב שני כרטיסי אדום</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>אדום כרטיסי התנהגות אלימות</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>שומר</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Shootout Kicks</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>Kicks shootout נחסם</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>מטרה Kicks shootout</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Shootout Kicks כניסות הצבה</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>Kicks shootout שלא בוצעו</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>צילומי</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>צילומי נחסם</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>צילומי המטרה</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>צילומי כניסות הצבה</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>צילומי שהוחמצו</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>צילומי על המטרה</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Tackles</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>התרע Ins</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Turnovers</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Turnovers לזרוק לא חוקי ב-</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>Turnovers אבד Dribble</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>כרטיסי צהוב</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>כרטיסי צהוב לעכב מחדש של המשחק</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>התנהגות Unsportsmanline של כרטיסי צהוב</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>תאריך לידה</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value> asssited על-ידי </value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value> על-ידי </value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value> ביצוע פעולת commit עבור טעינה של foul</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value> ביצוע פעולת commit עבור עונשין המתנת</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value> ביצוע פעולת commit עבור כשיצאנו של foul</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value> ביצוע פעולת commit עבור עונשין tackle לא חוקי</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value> ביצוע פעולת commit עבור ופורץ של foul</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value> ביצוע פעולת commit עבור tripping של foul</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value> יש לזרוק לא חוקי ב-</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value> הוא offisides</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value> נכנסת לתמונה הכדור מחוץ לתחום</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>רגל שמאל</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value> אבד את dribble</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value> מבצע מעבר טוב</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value> מבצע מעבר מעולה</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value> מבצע מעבר גרוע</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>רגל השמאלית</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value> לוקח על מכת ו כניסות ההצבה</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value> לוקח על מכת והוא חסום</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value> נמשכת צילום של ציוני</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>ערכת לימוד</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value> שעון מותאם לתקופה</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value> ציור של עונשין</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value> dribbles</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value> מקבל קלף אדום להשמעה עונשין</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value> מקבל קלף אדום עבור ידיים לא חוקי</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value> מקבל קלף אדום עבור הכרטיס הצהוב השני</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value> מקבל קלף אדום עבור התנהגות אלימות</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value> מקבל כרטיס צהוב עבור לעכב הפעלה מחדש של המשחק</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value> מקבל כרטיס צהוב עבור התנהגות של unsportsmanlike</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value> יש tackle</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value> יש הפניה ב-</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value> הופך לצלב טובה</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value> מאפשר לפתוח השחרור של טובה</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value> הופך את מרובת מעולה</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value> הופך לפתוח שחרור מעולה</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value> הופך לצלב גרוע</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value> מאפשר לפתוח השחרור של גרוע</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value> התפקידים ממותג עם </value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value> נמשכת לפתוח פינה של ציוני</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value> לוקח על לפתוח חינם ישיר</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value> נמשכת לפתוח פנויים ישירה של ציוני</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value> לוקח לפתוח המטרה</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value> לוקח על לפתוח פינה טובה</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value> לוקח לפתוח פינה מעולה</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value> מקבלת לפתוח פנויים עקיף</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value> לוקח על לפתוח עונש ו כניסות ההצבה</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value> לוקח עונש kick ושהוא חסום</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value> לוקח על לפתוח עונש ו החטאות</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value> נמשכת לפתוח עונש של ציוני</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value> לוקח לפתוח פינה ירודה</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value> לוקח על לפתוח shootout ואת כניסות ההצבה</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value> לוקח shootout kick ושהוא חסום</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value> לוקח על לפתוח shootout ואת החטאות</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value> נמשכת לפתוח shootout של ציוני</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>בין כחול</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>אדום כחול</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>פסים כחולים</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>BlueWhite</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>כחול כהה</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>אדום כהה</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>צבעים גרמנית</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>אדום ירוק</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>כחול בהיר</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>כתום</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>ירוק כתום</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>אדום</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>שחור אדום</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>אדום-ירוק</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>פסים אדום</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>כחול-לבן</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>ירוק-לבן</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>אדום לבן</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>כחול צהוב</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>ירוק צהוב</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>הדגמה</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>להוסיף שחקן חדש</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>קו זמן</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>בחר צוות</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value> נכנסת לתמונה את הכדור לתוך המטרה שלך</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>בחר צמר</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>בחר ברמה הגבוהה ביותר</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>הנגן דקות</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>סטטיסטיקה</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>דקות הנגן לעדכן סוף תקופת ובסוף המשחק</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>מקרא</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>משתמש</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>דוא</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>סיסמה</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>שינוי סיסמה</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>אודות</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>קצב App</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Fouls</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>App רכישה</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>help</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>נעילת כל סטטיסטיקה?</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>המשחק הדגמה</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>נסה דירוג המשחק הדגמה?</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>נסה</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>לא תודה</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>קצב</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>המשוב שלך חשוב מאוד אלינו.  נא דרג יישום זה.</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>המשוב שלך חשוב מאוד אלינו.  האם ברצונך לדרג יישום זה?</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>רכישה</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>לא כעת</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>להוסיף הנגן שולחן</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>התקדם</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>להתקדם אל תקופת הבאה?</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>Boxscore לא נמצא</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>לחץ כדי להתאים את השעון</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>לחץ כדי להתאים את התקופה</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>לחץ כדי להתחיל או להפסיק את זמן המשחק</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>שעון למטה</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>שעון</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>ערוך</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>ערוך את המשחק</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>הפעל על-ידי הפעלה של עריכה</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>מנהל המשחק</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>הנתונים הסטטיסטיים של המשחק</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>header</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>Boxscore הבית</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>אין מהלכים לא כדי לבטל</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>המטרה עונש</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>לשחק באמצעות הפעל</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>שיתוף</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>שלוקח רגל שמאל</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>שלוקח רגל השמאלית</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>מטרת צילום</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>צילום עם רגל שמאל</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>צילום עם רגל השמאלית</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>בטל שינוי</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value> שבוטלה</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>תפריט</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>רכישה</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>לרכוש כל סטטיסטיקה?</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>חבילת סטטיסטיקה מלאה כוללת: דקות הנגן, בתוספת פחות,</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>מעבר, מחזור, Offsides,</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>עונשין מחויב, מחוץ לתחום, בין, לזרוק ב, לפתוח פינה,</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>Tackle, Goalie לפתוח, המטרה שלך, Foul מצוירת, ישיר פנויים לפתוח,</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>לפתוח פנויים עקיף, לפתוח עונש, כרטיס צהוב, כרטיס אדום, לפתוח השחרור,</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Dribble, Shootout לפתוח, החלפת</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>טוען...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>מחק את הנגן מתוך לוח תורנויות</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value> מתוך הרשימה של הנגן</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value> מתוך לוח תורנויות</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>הקבוצה הביתית והצוות לא נמצא אינו יכול להיות זהה. המשחק לא נשמר.</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>המשחק התחיל</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-לחץ על התמונה כדי לרכוש את הגירסה המלאה-</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>ספורט</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>משוב</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>ניקוד</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>סטטיסטיקה</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>כדורגל</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>אין אירועים</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>נקודת התחלה</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>בחצי משרה</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>במשרה מלאה</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>זמן מאוד בחצי משרה</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>זמן מאוד במשרה מלאה</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>תקופת סיום </value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>ביותר אינטואיטיבי ושלמה ניקוד כדורגל היישום בשוק.  מעל 50 סטטיסטיקה זמין.  נסה זאת חינם עוד היום!
+
+לעקוב אחר: צוותים משחקים Leagues שחקנים הנגן סטטיסטיקה כוללים: דקות משחקים פלוס-מינוס מטרות Pases Offsides אדום כרטיס Turnovers ומספר גדול עוד יותר!
+
+אפשרויות משחק כוללות: שעון או עריכה/ביטול של תקופות מושמע מוגבל החלפות להתאמה אישית ואת אורך תקופה האפשרות השעון למטה גמיש על formations שדה הנגן לא ידוע.
+
+
+הצגת פעולת Play-By-Play עבור המשחק, לשתף סטטיסטיקה ב- Twitter, Facebook, Instagram, דואר אלקטרוני, טקסט ומספר גדול עוד יותר!
+
+קל להגדיר למעלה, קל לשימוש!  התחל מעקב המשחק הבא שלך בתוך דקות!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>התקופה לא החלה עדיין. האם ברצונך להמשיך?</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>לא התחיל</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>מחק את הנגן מרשימת הנגן</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>הוספת רשימה חדשה של הנגן אל הנגן</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>בצע לנו על Twitter</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>החבילה המלאה של סטטיסטיקה כוללת: דקות הנגן, בתוספת פחות, מעבר, מחזור, Offsides, Foul מחויב, מחוץ לגבולות, בין התרע ב, לפתוח פינה, Tackle, Goalie לפתוח, המטרה שלך, שצויר Foul, לפתוח פנויים ישיר, עקיף לפתוח פנויים, לפתוח עונש, כרטיס צהוב, כרטיס אדום, לפתוח השחרור, Dribble, לפתוח Shootout, החלפת</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>סטטיסטיקה מלאה</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>ביותר אינטואיטיבי ושלמה ניקוד כדורגל היישום בשוק!
+
+לעקוב אחר: מעקב של צילומי ויעדי כולל שחקנים Leagues משחקים צוותים הגירסה בחינם!
+
+אפשרויות משחק כוללות: שעון או עריכה/ביטול של תקופות מושמע מוגבל החלפות להתאמה אישית ואת אורך תקופה האפשרות השעון למטה גמיש על formations שדה הנגן לא ידוע.
+
+
+הצגת פעולת Play-By-Play עבור המשחק, לשתף סטטיסטיקה ב- Twitter, Facebook, Instagram, דואר אלקטרוני, טקסט ומספר גדול עוד יותר!
+
+קל להגדיר למעלה, קל לשימוש!  התחל מעקב המשחק הבא שלך בתוך דקות!</value>
+  </data>
+</root>

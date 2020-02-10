@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>bg-BG</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>МОЯТА КАНДИДАТУРА</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Добавяне</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Елемент от менюто</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>Добави екип</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>Треньор</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Номер на контакт</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Изтрий</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>Показване на изтритите елементи</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Крайна дата</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Игри</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>Статистика игра</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Генериране на отчет</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>Джърси</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Лига</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>плейъри</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>Статистики за играчите</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>Списък за изпълнение</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Тип отчет</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Задължително</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>Списък</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Кратко наименование</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Начална дата</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>Статистика доклади</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>Данни за отбора</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>Име екип</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>Екип име не са влезли. Екипът не се записват.</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>Екипи</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>Отборна статистика</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>Добави лига</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>Лига детайли</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>Име на лигата</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Лиги</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Име на контакт</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>Не Въведеното име на лигата. Лига не се записват.</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Състояние</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>Добавяне на играча към екипа списък</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>Въведете играчи Джърси номер</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>Неактивни</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>Джърси номер трябва да бъде число. Джърси номер не се записват.</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>Джърси номер не може да бъде повече от 3 символа.  Джърси номер не се записват.</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>Джърси номер</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>Списъците</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>Добави играта</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Играта</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>Информация за играта</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Диспечер</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>Отбора на гостите</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Часовник</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Надолу</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>Дата на играта</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>Детайли за играта</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>Игра време</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>Домакините</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Не</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>По подразбиране лига</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>Извънреден труд</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>Дължина на извънреден труд</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>Продължителност на периода</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>Периоди</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Нагоре</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>Отбора на гостите не е избрана. Играта не се записват.</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>Часовник нагоре или надолу не зададе. Играта не се записват.</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>Играта вече е започнала.  Детайли за играта не може да се промени, след като играта започна. Промените не се записват.</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>Домакините не са избрани. Играта не се записват.</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>Продължителност на периода не зададе. Играта не се записват.</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>Периоди не зададе. Играта не се записват.</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>Играчите на отбора не зададе. Играта не се записват.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Добавяне</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>Добави играта</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>Добавяне на играча</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>Списък с играчи</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>Име на плейъра</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>Драматургичен текст</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Търсене</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>Не може да промените информацията на изтрити играч. Играч не се записват.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>собствено име</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>Собствено име не са влезли. Играч не се записват.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>Джърси номер не може да бъде повече от 3 символа. Играч не се записват.</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Ритници</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Отляво</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>Информация за играча</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Отдясно</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Тежест</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>Подпомага</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Блокирани</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>Ъглов удар</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>Със засичане</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>Пряк свободен удар</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Дрибъл</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>Капка ритник</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>Фал ангажименти</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>Фал коларски</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>Цел позволено</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>Вратарят ритник</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>Непряко свободен удар</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>Изиграни минути</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Преместване</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Бележки</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>Извън границите</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>Автогол</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>Проход</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>Дузпа</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>Плюс минус</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>Червен картон</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Запиши</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>Удар на дузпи</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>Снимка</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>Заснет по гол</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>Заместване</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>Принадлежности</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>Хвърли в</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>Оборот</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>Жълт картон</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>Отлична</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Добро</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>Слаб</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>Изстрел детайли</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>Лошо проход</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>Зареждане</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>Забавя подновяването на играта</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>За целта</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>Нечестна игра</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>Цел</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>Начело</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>Удари пост</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>Холдинг</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>Незаконни ръце</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>Нелегалната борба</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>Незаконно изхвърляне в</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>В</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>Рита</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>Загубени дрибъл</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>Г-ца</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>Не за цел</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>Навън</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>Бутане</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>Втори жълт картон</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>Загуба на равновесие</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>Неспортсменско поведение</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>Violent поведение</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>Статистика за избор</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value> взема изстрел и пропуска</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>Блокиран от</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отказ</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>Изстрел не на гол</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Период</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>Игра подробности</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>Играч в</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>Играч</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>Stat категория</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>Stat описание</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>екип</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>Часовника не са влезли. Играта не се записват.</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>Не поддържа игра тип за pbp редактиране. Играта не може да бъде редактиран.</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>Противника</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>Други екип вратар</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>Нашият екип</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>Период/часовник стойност не може да е време в бъдеще. Моля, използвайте игра мениджър за проследяване игра в бъдеще. Играта не се записват.</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>Играч 1</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>Играч 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>Играч 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>Играч 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>Играч 13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>Играч 14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>Играч 15</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>Играч 16</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>Играч 17</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>Играч 18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>Играч 19</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>Играч 2</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>Играч 20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>Играч 21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>Играч 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>Играч 23</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>Играч 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>Играч 25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>Играч 26</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>Играч 27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>Играч 28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>Играч 29</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>Играч 3</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>Играч 30</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>Играч 4</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>Играч 5</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>Player 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>Player 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>Player 8</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>Player 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>Отсъствам</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>Изтриване на игра</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>Изтриване на лига</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>Изтриване на игра</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>Изтриване на играч</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>Изтрий отбор</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Начална страница</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Няма</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Изпълни</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Няма информация</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Приключен, забранени на екрана</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>Невалидна дължина на Продължения. Играта не се записват.</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>Подпомага</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Блокове</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>Ъгли</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>Ъгли отлично</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>Ъгли за гол</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>Добри ъгли</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>Ъгли бедните</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>Кръстове</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>Кръстове отлично</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>Добре е кръстове</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>Пресича бедните</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>Пряк свободен удар</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>Пряк свободен удар за гол</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>Пряк свободен удар не за гол</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>Капка ритници</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>Капка ритници отличен</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>Капка ритници добро</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>Капка ритници бедните</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Нарушения извършени стопанство</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>Нарушения, извършени</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Нарушения, извършени за зареждане</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Нарушения извършени незаконни принадлежности</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>Нарушения, извършени рита</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Нарушения, извършени бутане</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Нарушения, извършени спъване</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>Фаулове съставен</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>Аут</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>Цели</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>Цели позволено</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>Непряк свободен удар</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>Минава</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>Минава отлично</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>Минава добре</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>Минава бедните</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>Дузпи</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>Дузпи блокирани</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>Ритници дузпа</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>Дузпи удари пост</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>Пропуснати дузпи</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>Червени картони</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>Червени картони нечестна игра</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>Червени картони Ilegal ръце</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>Червени картони втори жълт картон</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>Червените карти насилие поведение</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>Спестява</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Дузпи ритници</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>Дузпи ритници блокирани</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>Дузпи ритници гол</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Дузпи ритници удари пост</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>Дузпи ритници пропуснати</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>Снимки</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>Снимки блокиран</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>Снимки гол</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>Снимки удари пост</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>Снимки пропускам</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>Снимки за цел</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Такъми</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>Хвърлят добавки</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Обороти</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Обороти незаконно изхвърляне в</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>Обороти губи дрибъл</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>Жълти картони</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>Жълти картони, забавя подновяването на играта</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>Жълти картони Unsportsmanline поведение</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Дата на раждане</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value> asssited от </value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value> от </value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value> задължава таксуване фал</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value> задължава стопанство фаул</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value> задължава рита фал</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value> извърши фаул незаконно принадлежности</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value> задължава бутане фал</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value> задължава спъване фал</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value> има незаконно изхвърляне в</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value> е offisides</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value> започва топката извън границите</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>ляв крак</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value> Забравена дрибъл</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value> прави добър пас</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value> прави отличен пас</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value> прави лошо пропуск</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>десния крак</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value> взема един изстрел и удари пост</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value> отнема един изстрел и той е блокиран</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value> взема изстрел и резултати</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>Инстркцията</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value> Часовник, коригирани за период</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value> Изчертава фаул</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value> dribbles</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value> получава червен картон за нечестна игра</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value> получава червен картон за незаконно ръце</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value> получава червен картон за втори жълт картон</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value> получава червен картон за насилие поведение</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value> получава жълт картон за забавяне на подновяването на играта</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value> получава жълт картон за неспортсменско поведение</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value> има една борба</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value> има хвърли в</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value> прави добро кръст</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value> прави добър капка ритник</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value> прави отличен кръст</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value> прави отличен капка ритник</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value> прави лошо кръст</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value> прави лошо капка ритник</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value> фиксирани позиции с </value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value> отнема корнер и резултати</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value> взема на пряк свободен удар</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value> взема на пряк свободен удар и резултати</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value> отнема цел ритник</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value> вземам добър корнер</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value> вземам отличен Ъглов удар</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value> отнема непряк свободен удар</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value> отнема от дузпа и удари пост</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value> отнема наказание kick и е блокиран</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value> отнема от дузпа и пропуска</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value> отнема от дузпа и резултати</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value> отнема лошо корнер</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value> отнема дузпи удар и удря поста</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value> отнема дузпи ритник и е блокиран</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value> отнема дузпи удар и пропуска</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value> отнема дузпи удар и резултати</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>Син кръст</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>Синьо червено</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>Синя лента</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>Студено</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>Тъмносиньо</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>Тъмночервено</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>Немски цветове</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>Зелен червено</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>Светлосиньо</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Оранжево</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>Оранжев зелен</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Червено</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>Червен черен</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>Червен зелен</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>Червени ивици</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>Бял син</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>Бели зелени</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>Бял червен</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>Жълто синьо</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>Жълто зелени</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Демо</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>Добавяне на нов играч</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>Времева скала</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>Изберете отбор</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value> започва топката в собствената врата</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>Изберете Джърси</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>Изберете лига</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>Играч минути</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Статистика</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>Играч минути актуализирани в края на периода и в края на играта</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>Легенда</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Потребител</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>Имейл</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Парола</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Реинициализация на парола</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>За програмата</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Курс ап</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Фалове</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>Покупка ап</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Помощ</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>Отключи всички статистика?</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>Демо игра</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>Опитайте точкуване на демо игра?</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>Опитайте го</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>Не, благодаря</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>Вашето мнение е много важно за нас.  Моля оценете този апартамент.</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>Вашето мнение е много важно за нас.  Искате да оцените този app?</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>Не</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>Закупуване</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>Не сега</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>Добавяне на играча към пейка</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>Аванс</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>Преминете към следващия период?</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>Гост Boxscore</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>Щракнете, за да настройка на часовника</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>Щракнете, за да настроите период</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>Щракнете, за да стартирате или спрете играта време</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>Часовник надолу</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>Часовника</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>EDIT</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>Редактиране на играта</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>Редактиране игра от игра</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>Игра мениджър</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>Статистики на играта</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Горен</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>Начало Boxscore</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>Има няма пиеси, за да отмените</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>Дузпа</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>Играе чрез игра</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Съвместно използване</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>Стреля ляв крак</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>Леторастите десния крак</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>Изстрел цел</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>Изстрел с левия крак</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>Изстрел с десния крак</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Отменяне</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value> е отменено</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>MENU</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Закупуване</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>Закупуване на всички статистика?</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>Пълна статистика пакет включва: играч минути, плюс минус,</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>Проход, оборот, Offsides,</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>Фал ангажименти, извън границите, кръст, хвърли в, корнер,</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>Принадлежности, вратаря удар, автогол, фал Реми, пряк свободен удар,</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>Непряко свободен удар, дузпа, жълт картон, червен картон, капка ритник,</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Дрибъл, дузпи ритник, заместване</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Зареждане...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>Изтриване на играч от списък</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value> от списъка на играч</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value> от списък</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>Домакините и гостите не може да бъде същото. Играта не се записват.</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>Играта започва</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-Щракнете върху изображението, за да си купите пълната версия-</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>спорт</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Обратна връзка</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>Резултат</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>статистика</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>футбол</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>няма събития</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>МАЧА</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>ПОЛОВИНАТА ВРЕМЕ</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>ПЪЛНО РАБОТНО ВРЕМЕ</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>ИЗВЪНРЕДНИ ПОЛУВРЕМЕТО</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>ИЗВЪНРЕДНИ ПЪЛНО РАБОТНО ВРЕМЕ</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>Край период </value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>Най-интуитивен и пълни футбол вкара приложение на пазара.  Над 50 статистика наличен.  Опитайте безплатно днес!
+
+Следите на: отбора игри лиги играчи играч статистика включва: игрови минути плюс-минус цели Pases Offsides червена карта обороти и много повече!
+
+Игра опции включват: часовника или часовник надолу сгъване на поле образувания неизвестен играч опцията редактиране/отменяне на играе неограничен замествания адаптивни периодите и продължителността на периода.
+
+
+Покажи игра действие за играта, сподели статистика на Twitter, Facebook, Instagram, електронна поща, текст и много други!
+
+Лесен към поставям горе и лесен за употреба!  Започнете проследяване на следващата си игра в рамките на минути!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>Периодът не е започнало. Желаете ли да продължите?</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>Не е започната</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>Изтрива играч от списъка на играч</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>Добавяне на нов играч на играч списък</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>Следвайте ни на нервна възбуда</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>Пълна статистика пакет включва: играч минути, плюс минус, проход, оборот, Offsides, фал ангажименти, Out of Bounds, кръст, хвърлят в, Ъглов удар, принадлежности, вратаря удар, автогол, фал изтеглени, пряк свободен удар, непряко свободен удар, дузпа, жълт картон, червен картон, капка ритник, дриблирам, дузпи удар, заместване</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>Пълна статистика</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>Най-интуитивен и пълни футбол вкара приложение на пазара!
+
+Следите на: отборите игри лиги играчи безплатната версия включва проследяване на снимки и цели!
+
+Игра опции включват: часовника или часовник надолу сгъване на поле образувания неизвестен играч опцията редактиране/отменяне на играе неограничен замествания адаптивни периодите и продължителността на периода.
+
+
+Покажи игра действие за играта, сподели статистика на Twitter, Facebook, Instagram, електронна поща, текст и много други!
+
+Лесен към поставям горе и лесен за употреба!  Започнете проследяване на следващата си игра в рамките на минути!</value>
+  </data>
+</root>

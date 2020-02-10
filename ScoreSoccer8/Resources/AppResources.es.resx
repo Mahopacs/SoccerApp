@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>es</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MI APLICACIÓN</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Elemento de menú</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>Agregar equipo</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>Entrenador</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Número de contacto</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Eliminar</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>Mostrar los elementos eliminados</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Fecha de finalización</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Juegos</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>Estadísticas de juegos</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Generar informe</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>Jersey</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>Jugadores</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>Estadísticas de jugadores</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>Lista de reproducción</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Tipo de informe</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Requerido</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>Lista</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Nombre corto</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Fecha de inicio</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>Informes de estadísticas</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>Detalles del equipo</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>Nombre del equipo</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>No se ha especificado un nombre de equipo. Equipo que no se guarda.</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>Equipos</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>Estadísticas del equipo</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>Agregar la liga</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>Detalles de la liga</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>Nombre de la liga</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Ligas</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Nombre de contacto</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>Nombre de la liga no especificado. Liga no guardada.</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>Agregar un jugador a la lista del equipo</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>Escriba su número jugadores</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>Inactivo</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>Número debe ser un número. Número no guardado.</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>Número no puede ser más de 3 caracteres.  Número no guardado.</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>Número de Jersey</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>Listas</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>Agregar juego</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Juego</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>Información del juego</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Administrador de</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>Equipo</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Reloj</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Hacia abajo</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>Fecha del partido</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>Detalles del juego</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>Tiempo de juego</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>Equipo de casa</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>Liga predeterminado</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>Horas extra</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>Longitud de horas extra</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>Duración del período</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>Períodos</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Arriba</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>Equipo no seleccionado. Juego que no se guardan.</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>No establezca el reloj arriba o abajo. Juego que no se guardan.</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>Juego ya ha empezado.  No puede cambiar los detalles del juego una vez iniciado el juego. No se guardaron los cambios.</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>No se ha seleccionado el equipo local. Juego que no se guardan.</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>No establezca la duración del período. Juego que no se guardan.</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>No establezca períodos. Juego que no se guardan.</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>No establezca jugadores por equipo. Juego que no se guardan.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Agregar</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>Agregar juego</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>Agregar Reproductor</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>Lista de jugadores</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>Nombre del jugador</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>Reproduce el texto</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Búsqueda</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>No se puede cambiar la información sobre un jugador eliminado. Reproductor no guardado.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>No escrito un nombre. Reproductor no guardado.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>Número no puede ser más de 3 caracteres. Reproductor no guardado.</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Patadas</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Apellido</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Izquierda</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>Detalles del Reproductor</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Derecha</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>Ayudar a</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Bloqueado</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>Tiro de esquina</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>Cruz</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>Tiro libre directo</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Botar</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>DROP Kick</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>Falta comprometido</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>Falta dibujado</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>Objetivo permitido</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>Retroceso de portero</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>Tiro libre indirecto</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>Minutos de reproducción</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Mover</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>Fuera de los límites</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>Propietario de objetivo</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>Pase</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>Penal</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>Más menos</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>Tarjeta de red</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>Kick shootout</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>Captura</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>El objetivo</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>Sustitución</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>Aparejos</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>Iniciar en</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>Volumen de negocios</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>Tarjeta amarilla</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>Excelente</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Buena</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>Deficiente</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>Detalles de tomas</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>Mala pasada</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>Carga</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>Retrasar el reinicio del juego</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>Para el objetivo</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>Juego sucio</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>Objetivo</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>Punta</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>Puesto de</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>Mantiene</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>Manos no válidas</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>Pesca ilegal</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>Throw no válido en</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>En</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>Chutar</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>Pelota perdida</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>Echo de menos</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>Para el objetivo</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>Hacia fuera</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>Empujar</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>Segunda tarjeta amarilla</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>Disparo</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>Antideportivo</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>Conducta violenta</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>Selector de estadísticas</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value> toma una captura y fallos</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>Bloqueado por</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Aceptar</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>No, el objetivo</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>Detalles del juego</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Reproductor</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>En el Reproductor</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>Reproductor de salida</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>Categoría de STAT</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>Descripción de STAT</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Equipo</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>Reloj no especificado. Juego que no se guardan.</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>No es un tipo play compatibles para editar pbp. No se puede modificar el juego.</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>Oponente</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>Otro equipo de portero</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>Nuestro equipo</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>Período/reloj valor no puede ser una hora en el futuro. Utilice el Administrador de juego para realizar el seguimiento de un objetivo en el futuro. Juego que no se guardan.</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>Jugador 1</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>Reproductor de 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>Reproductor 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>Reproductor de 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>Reproductor de 13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>Reproductor de 14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>Reproductor de 15</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>Reproductor de 16</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>Reproductor de 17</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>Reproductor de 18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>Reproductor de 19</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>Jugador 2</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>Reproductor de 20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>Reproductor de 21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>Reproductor de 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>Reproductor 23</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>Reproductor de 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>Reproductor de 25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>Reproductor de 26</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>Reproductor de 27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>Reproductor de 28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>Reproductor de 29</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>Jugador 3</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>Reproductor de 30</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>Jugador 4</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>Player 5</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>Player 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>Reproductor de Windows 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>Player 8</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>Reproductor de 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>Ausente</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>Eliminar juego</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>Eliminar de la liga</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>Eliminar juego</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>Eliminar el Reproductor</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>Eliminar equipo</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Página de inicio</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Ninguno</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Reproducir</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Desconocido</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Pantalla de juego iniciado, deshabilitada</value>
+    <comment></comment>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>Longitud de OT no válida. Juego que no se guardan.</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>Ayuda a</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Bloques</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>Esquinas</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>Esquinas excelente</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>Esquinas de objetivo</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>Bien de esquinas</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>Pobres de esquinas</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>Cruces</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>Cruces excelente</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>Buena cruza</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>Cruza deficiente</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>Dirigir los tiros libres</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>Dirigir los tiros libres para objetivo</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>Dirigir los tiros libres para el objetivo</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>Colocar patadas</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>Colocar patadas excelente</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>Buena colocación patadas</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>Mala colocación patadas</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Faltas cometidas explotación</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>Faltas cometidas</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Faltas cometidas de carga</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Faltas cometidas aparejos ilegales</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>Faltas cometidas patadas</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Faltas cometidas Empujar</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Faltas cometidas y vuelta</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>Faltas dibujados</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>Objetivo patadas</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>Objetivos</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>Objetivos permitidos</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>Tiros libres indirectos</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>Pasadas</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>Pasadas excelente</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>Pasa buena</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>Pobres pasadas</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>Penales</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>Penales bloqueados</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>Objetivo de penalización patadas</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>Mensaje de posicionamiento de penales</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>Penales perdidas</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>Tarjetas de red</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>Juego de cartas rojas sucio</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>Manos Ilegal de cartas rojas</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>Segunda tarjeta amarilla de cartas rojas</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>Tarjetas de red conducta violenta</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>Guarda</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Patadas shootout</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>Patadas shootout bloqueados</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>Shootout patadas objetivo</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Patadas shootout visitas Post</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>Patadas shootout perdidas</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>Vacunas</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>Fotos bloqueadas</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>Objetivo de las vacunas</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>Capturas de visitas Post</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>Vacunas perdidas</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>Vacunas a objetivo</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Aborda</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>Throw Ins</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Facturación</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Facturación Throw no válido en</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>Facturación perdido la pelota</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>Cartas amarillas</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>Retrasar el reinicio de juego de cartas amarillas</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>Conducta de Unsportsmanline cartas amarillas</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Fecha de nacimiento</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value> asssited por </value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value> por </value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value> comete una falta de carga</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value> comete una falta de explotación</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value> comete una falta de patadas</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value> comete una falta de pesca ilegal</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value> comete una falta de empujar</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value> comete una falta de disparo</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value> tiene un tiro ilegal</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value> es offisides</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value> el balón fuera de límites</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>pie izquierdo</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value> perdió la pelota</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value> hace un buen paso</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value> hace un excelente paso</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value> hace una mala pasada</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>pie derecho</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value> toma un tiro y llega a la entrada de blog</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value> toma una toma y se bloquea</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value> toma un tiro y puntuaciones</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>Tutorial</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value> Ajustada al período de reloj</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value> Dibuja una falta</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value> conduce</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value> Obtiene una tarjeta roja por juego sucio</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value> Obtiene una tarjeta roja por manos no válidas</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value> Obtiene una tarjeta roja para la segunda tarjeta amarilla</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value> Obtiene una tarjeta roja por conducta violenta</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value> Obtiene una tarjeta amarilla para retrasar el reinicio del juego</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value> Obtiene una tarjeta amarilla para antideportivo</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value> tiene una entrada</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value> tiene un tiro</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value> hace una buen cruz</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value> hace un buen kick colocar</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value> hace una excelente cruz</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value> hace un excelente tiro de colocación</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value> hace una cruz deficiente</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value> hace un retroceso colocar deficiente</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value> posiciones de conmutada </value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value> toma un tiro de esquina y puntuaciones</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value> toma un tiro libre directo</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value> toma un tiro libre directo y puntuaciones</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value> toma un retroceso de objetivo</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value> toma un tiro de esquina buena</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value> toma un tiro de esquina excelente</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value> toma un tiro libre indirecto</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value> toma un tiro penal y llega a la entrada de blog</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value> acepta una penalización de arranque y se bloquea</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value> toma un tiro penal y echa de menos</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value> toma un tiro penal y puntuaciones</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value> toma un tiro de esquina pobre</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value> toma un retroceso shootout y llega a la entrada de blog</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value> toma un shootout de arranque y se bloquea</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value> toma un retroceso shootout y echa de menos</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value> toma un retroceso shootout y puntuaciones</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>Cruz azul</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>Azul, rojo</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>Banda azul</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>Tamaño</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>Azul oscuro</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>Rojo oscuro</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>Colores de alemán</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>Rojo verde</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>Azul claro</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Naranja</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>Verde naranja</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Rojo</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>Negro rojo</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>Rojo verde</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>Rayas rojas</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>Blanco azul</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>Blanco verde</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>Rojo blanco</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>Azul amarillo</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>Verde amarillento</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Demostración</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>Agregar nuevo jugador</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>Escala de tiempo</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>Seleccionar equipo</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value> la bola se inicia en el propio objetivo</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>Seleccione Jersey</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>Seleccione la liga</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>Minutos de Reproductor</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Estadísticas</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>Minutos de Reproductor actualizado al final del período y al final del juego</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>Leyenda</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>correo electrónico</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Restablecimiento de contraseñas</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Aplicación de tasa</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Faltas</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>Aplicación de compra</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>¿Desbloquear todas las estadísticas?</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>Juego de demostración</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>¿Pruebe la puntuación del juego de demostración?</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>Pruébelo</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>No, gracias</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Tasa</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>Sus comentarios son muy importantes para nosotros.  Evalúe esta aplicación.</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>Sus comentarios son muy importantes para nosotros.  ¿Desea clasificar esta aplicación?</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>Ahora no</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>Agregar Reproductor al banco</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>Anticipo</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>¿Avanzar al siguiente período?</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>Numeritos ubicación</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>Haga clic aquí para ajustar el reloj</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>Haga clic aquí para ajustar el período</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>Haga clic aquí para iniciar o detener el tiempo de juego</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>Reloj hacia abajo</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>Reloj de</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>Editar el juego</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>Edición por reproducir</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>Administrador de juego</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>Estadísticas del juego</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Encabezado</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>Casa Numeritos</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>No hay ningún juego para deshacer</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>Objetivo de reducción</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>Jugar al juego</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Recurso compartido</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>Pie izquierdo de brotes</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>Pie derecho de brotes</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>Objetivo de tiro</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>Captura con pie izquierdo</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>Captura con pie derecho</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Deshacer</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value> se deshizo</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menú</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>¿Todas las estadísticas de compra?</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>Incluye el paquete completo de estadísticas: Reproductor de minutos, además de menos,</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>Pasar, el volumen de negocios, Offsides,</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>Falta confirmadas, fuera de los límites, cruz, Throw en el tiro de esquina,</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>Pesca, portero retroceso, objetivo propio, tiro de libre dibujada, Direct grosero,</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>Tiro libre indirecto, penal, tarjeta amarilla, roja, Drop Kick,</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Botar, Kick Shootout, sustitución</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>Deportes</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>puntuación</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>estadísticas</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>fútbol</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>No hay eventos</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>PUESTA EN MARCHA</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>MITAD DEL TIEMPO</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>A TIEMPO COMPLETO</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>PRÓRROGA DE MEDIO TIEMPO</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>TIEMPO EXTRA A TIEMPO COMPLETO</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>Fin del período </value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-Haga clic en la imagen para comprar la versión completa:</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>Iniciada el juego</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>Equipo local y el equipo no pueden ser el mismo. Juego que no se guardan.</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value> de la lista</value>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value> desde la lista de jugadores</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>Eliminar Reproductor de la lista del equipo</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Cargando...</value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>Más aplicación intuitiva y completa la puntuación de fútbol en el mercado.  Más de 50 estadísticas disponibles.  Pruébelo GRATIS hoy mismo.
+
+Realizar un seguimiento de: incluyen estadísticas de jugadores de equipos juegos ligas jugadores: minutos jugados más-menos objetivos Pases Offsides rojo tarjetas perdidas y muchos más.
+
+Opciones de juego incluyen: reloj o reloj abajo Flexible en formaciones de campo desconocido Reproductor opción edición/deshacer de períodos reproduce ilimitado sustituciones personalizables y duración del período.
+
+
+Ver relato acción del juego, compartir las estadísticas en Twitter, Facebook, Instagram, correo electrónico, texto y muchos más.
+
+Fácil configurado y fácil de usar!  Iniciar el seguimiento de su próximo juego en minutos!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>El período no ha empezado todavía. ¿Desea continuar?</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>No se ha iniciado</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>Eliminar Reproductor de la lista de jugadores</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>Agregar nueva lista para el Reproductor</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>Síganos en Twitter</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>Incluye el paquete completo de estadísticas: Reproductor minutos Plus menos, Pass, facturación, Offsides, cometido grosero, fuera de límites, producir en, saque de esquina, aparejos, portero Kick, propio objetivo, dibujado grosero, tiro libre directo, tiro libre indirecto, penal, tarjeta amarilla, tarjeta roja, Drop Kick, saliva, Shootout Kick, sustitución</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>Estadísticas completos</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>Más aplicación intuitiva y completa la puntuación de fútbol en el mercado!
+
+Realizar un seguimiento de: los equipos jugadores de ligas juegos la versión gratuita incluye el seguimiento de las vacunas y los objetivos.
+
+Opciones de juego incluyen: reloj o reloj abajo Flexible en formaciones de campo desconocido Reproductor opción edición/deshacer de períodos reproduce ilimitado sustituciones personalizables y duración del período.
+
+
+Ver relato acción del juego, compartir las estadísticas en Twitter, Facebook, Instagram, correo electrónico, texto y muchos más.
+
+Fácil configurado y fácil de usar!  Iniciar el seguimiento de su próximo juego en minutos!</value>
+  </data>
+</root>

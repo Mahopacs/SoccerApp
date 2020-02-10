@@ -1,0 +1,1555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>zh-Hant</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>我的應用程式</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>功能表項目</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>新增小組</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>指導</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>連絡電話</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>刪除</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>顯示已刪除的項目</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>結束日期</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>遊戲</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>遊戲統計資料</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>產生報告</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>運動衫</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>聯盟</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>玩家</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>玩家統計資料</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>播放清單</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>報表類型</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>所需</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>名單</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>簡短名稱</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>開始日期</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>統計報表</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>小組詳細資料</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>小組名稱</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>小組不輸入的名稱。未儲存的小組。</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>小組</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>隊伍統計</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>新增聯盟</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>聯盟詳細資料</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>聯盟名稱</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Leagues</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>連絡人的名稱</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>聯盟未輸入的名稱。未儲存的聯盟。</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>使用中</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>玩家加入團隊名冊清單</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>請輸入玩家針織物數字</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>非作用中</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>紐澤西數字必須是數字。未儲存的運動衫數目。</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>紐澤西數目不能超過 3 個字元。未儲存的運動衫數目。</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>紐澤西數字</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>證</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>將遊戲新增</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>遊戲</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>遊戲資訊</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>管理員</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>離開的小組</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>時鐘</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>向下</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>遊戲的日期</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>遊戲的詳細資訊</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>遊戲時間</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>家用小組</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>預設聯盟</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>加班</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>加班長度</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>期間的長度</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>向上</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>[是]</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>未選取離開的小組。未儲存的遊戲。</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>未設定時鐘向上或向。未儲存的遊戲。</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>遊戲已經開始。一旦開始遊戲時，就不能變更遊戲的詳細資訊。不儲存變更。</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>未選取的主小組。未儲存的遊戲。</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>未設定期間的長度。未儲存的遊戲。</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>期間未設定。未儲存的遊戲。</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>每個小組的玩家設定。未儲存的遊戲。</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>新增</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>新增播放</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>新增播放程式</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>玩家清單</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>玩家名稱</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>播放文字</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>搜尋</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>不能變更已刪除的播放程式的詳細資訊。播放程式不會儲存。</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>未輸入名字。播放程式不會儲存。</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>紐澤西數目不能超過 3 個字元。播放程式不會儲存。</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Kicks</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>姓氏</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>向左</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>播放程式的詳細資料</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>權限</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>協助</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>已封鎖</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>角踢除</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>交叉</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>直接空閒踢除</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Dribble</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>拖放踢除</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>無論認可</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>無論繪製</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>允許的目標</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>Goalie 踢除</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>間接空閒踢除</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>播放的分鐘</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>移動</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>備忘稿</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>超出範圍</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>自己的目標</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>傳遞</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>懲罰踢除</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>再加上減號</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>紅色的牌</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>Shootout 踢除</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>擷取畫面</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>在目標上擷取畫面</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>替換</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>Tackle</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>在擲回</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>重組</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>黃色卡</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>極佳</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>良好</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>不佳</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>捷徑的詳細資料</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>錯誤密碼</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>充電</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>延遲重新啟動播放</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>針對目標</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>違規播放</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>叫用張貼</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>按住</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>不合法的指針</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>不合法的 Tackle</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>不合法的擲回在</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>踢人</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>遺失的 Dribble</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>遺漏</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>未針對目標</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>逾時</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>推入</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>第二個黃色卡</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>行程</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>Unsportsmanlike 管理辦法</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>暴力的管理辦法</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>統計資料選擇器</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value>擷取畫面和遺漏</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>被封鎖</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>[取消]</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>[確定]</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>不在目標上擷取畫面</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>播放詳細資料</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>播放程式</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>在播放程式</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>玩家出</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>狀態視窗類別</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>狀態描述</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>小組</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>未輸入的時鐘。未儲存的遊戲。</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>不支援的播放類型 pbp 編輯。無法編輯播放。</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>對手</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>其他小組 Goalie</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>我們的團隊</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>期間/時鐘值不可以在未來的時間。請若要在未來追蹤播放，使用遊戲的管理員。未儲存的遊戲。</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>玩家 1</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>播放程式 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>播放程式 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>播放程式 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>播放程式 13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>播放程式 14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>播放程式 15</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>播放程式 16</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>播放程式 17</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>播放程式 18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>播放程式 19</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>玩家 2</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>播放程式 20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>播放程式 21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>播放程式 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>播放程式 23</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>播放程式 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>播放程式 25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>播放程式 26</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>播放程式 27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>播放程式 28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>播放程式 29</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>玩家 3</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>播放程式 30</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>玩家 4</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>播放程式 5</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>玩家 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>播放程式 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>播放程式 8</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>玩家 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>離開</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>刪除遊戲</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>刪除聯盟</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>刪除播放</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>刪除玩家</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>刪除小組</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>首頁</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>無</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>未知</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Inprogress，停用的畫面</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>無效的 OT 長度。未儲存的遊戲。</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>協助</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>區塊</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>邊角</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>絕佳的邊角</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>目標的邊角</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>邊角良好</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>邊角不良</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>交叉</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>絕佳的交叉</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>交叉良好</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>交叉不良</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>直接空閒 Kicks</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>針對目標的直接空閒 Kicks</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>不是為目標的的直接空閒 Kicks</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>拖放 Kicks</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>絕佳的拖放 Kicks</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>拖放會介入良好</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>拖放會介入不良</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Fouls 認可控股</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>認可的 fouls</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Fouls 認可充電</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Fouls 認可不合法的 Tackle</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>無法認可 fouls</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Fouls 認可推入</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Fouls 認可行程</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>繪製的 fouls</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>目標 Kicks</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>允許的目標</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>間接空閒 Kicks</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>傳遞</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>絕佳的傳遞</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>傳遞良好</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>傳遞不佳</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>懲罰 Kicks</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>封鎖的負面影響 Kicks</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>懲罰 Kicks 目標</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>懲罰 Kicks 叫用張貼</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>遺漏的負面影響 Kicks</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>紅色的牌</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>紅色的牌違規播放</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>紅色的牌 Ilegal 手</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>紅色的牌第二個黃色卡</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>紅色卡暴力管理辦法</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>儲存</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Shootout Kicks</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>封鎖的 shootout Kicks</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>Shootout Kicks 目標</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Shootout Kicks 叫用張貼</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>遺漏的 shootout Kicks</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>擷取畫面</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>封鎖的擷取畫面</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>射擊目標</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>射擊叫用張貼</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>遺漏的擷取畫面</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>在目標上的擷取畫面</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Tackles</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>擲回單元</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Turnovers</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Turnovers 中不合法擲回</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>遺失 Dribble 的 turnovers</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>黃色卡</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>黃色卡延遲重新啟動播放</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>黃色卡 Unsportsmanline 管理辦法</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>出生日期</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value>藉由 asssited</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>藉由</value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value>認可充電 foul</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value>認可控股違規</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value>認可踢人 foul</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value>認可不合法的 tackle 違規</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value>認可推入 foul</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value>認可行程 foul</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value>在中有不合法的擲回</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value>是 offisides</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value>會介入球超出範圍</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>左英呎</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value>遺失 dribble</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value>讓良好的密碼</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value>讓絕佳的傳遞</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value>讓不佳的傳遞</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>右英呎</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value>擷取畫面，並叫用此篇文章</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value>擷取畫面，它會被封鎖的時間</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value>擷取畫面和分數</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>教學課程</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value>調整到期間的時鐘</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value>繪製違規</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value>dribbles</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value>取得四播放紅色的牌</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value>取得不合法的指針的紅色的牌</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value>取得第二個黃色卡紅色的牌</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value>取得紅色的牌來暴力的指導</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value>取得延遲重新啟動播放的黃色卡</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value>取得 unsportsmanlike 管理辦法的黃色卡</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value>有 tackle</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value>已擲回</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value>使一個很好的十字形</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value>讓良好的拖放踢除</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value>讓絕佳的跨</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value>讓絕佳的拖放踢除</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value>讓不佳的跨</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value>讓不佳的拖放踢除</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value>切換的位置</value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value>角踢除和分數</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value>採取直接的免費踢除</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value>採用直接空閒踢除和分數</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value>採用目標踢除</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value>採用優良的角踢除</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value>採用絕佳的角踢除</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value>採取間接的免費踢除</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value>接受懲罰踢除並叫用此篇文章</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value>開始進行的時間的負面影響，而且封鎖</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value>會產生負面影響踢除和遺漏</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value>採用計罰踢除和分數</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value>採用不良的角踢除</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value>shootout 踢除並叫用此篇文章</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value>踢出 shootout 的時間和已封鎖</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value>採用 shootout 踢除和遺漏</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value>採用 shootout 踢除和分數</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>藍色交叉</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>藍色的紅色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>藍色的等量磁碟區</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>BlueWhite</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>深藍色</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>深紅色</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>德文的色彩</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>綠色的紅色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>淺藍色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>橙色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>橘色綠色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>紅色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>紅黑</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>紅色綠色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>紅條紋</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>白色的藍色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>白色的綠色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>白色的紅色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>黃色的藍色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>淺黃綠</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>示範</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>新增新的播放程式</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>時間軸</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>選取小組</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value>法界聖骸介入到自己的目標</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>選取 [針織物</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>選取聯盟</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>播放程式分鐘</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>統計資料</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>更新週期的期末和結尾的遊戲的玩家分鐘</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>圖例</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>使用者</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>電子郵件</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>重設密碼</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>速率應用程式</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Fouls</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>購買應用程式</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>說明</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>解除鎖定所有的統計資料吗？</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>示範遊戲</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>請試著計分示範遊戲嗎？</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>試試看吧</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>否，謝謝</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>速率</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>您的意見反應是對我們非常重要。請評價這個應用程式。</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>您的意見反應是對我們非常重要。您要評等此應用程式嗎?</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>[是]</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>購買</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>不是現在</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>將播放程式加入至工作台</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>換頁</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>前進到下一個週期嗎？</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>離開 Boxscore</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>按一下以調整時鐘</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>按一下以調整期間</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>按一下以啟動或停止遊戲時間</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>向下時鐘</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>時鐘往上</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>編輯</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>編輯遊戲</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>編輯播放播放</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>遊戲管理員</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>遊戲統計資料</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>標頭</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>家庭 Boxscore</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>沒有要復原播放</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>產生負面影響目標</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>播放播放</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>共用</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>高分左英呎</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>高分右英呎</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>捷徑的目標</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>左英呎與擷取畫面</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>右英呎與擷取畫面</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>復原</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value>復原</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>功能表</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>購買</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>購買所有統計資料吗？</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>完整的統計套件包括： 玩家分鐘、 加上減號，</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>傳遞的更換率，Offsides，</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>違規認可，超出界限，跨，擲回在角踢除</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>Tackle，Goalie 踢除、 自己的目標、 骯髒的繪製、 直接空閒踢除，</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>間接空閒踢除懲罰踢除、 黃色卡、 紅色的牌、 拖放踢除</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Dribble，Shootout 踢除替換</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>正在載入...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>從名單中刪除播放程式</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value>從播放清單</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value>從名單</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>家用小組和離開的小組不能相同。未儲存的遊戲。</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>啟動遊戲</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-按一下影像以購買完整版本-</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>運動</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>意見反應</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>分數</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>統計資料</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>足球</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>沒有事件</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>有一半的時間</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>全職</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>額外時間的一半的時間</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>額外時間全職</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>結束期間</value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>最容易瞭解和完整足球計分應用程式在市場上。50 個以上的統計資料可用。請試試看可用今天!追蹤： 團隊遊戲 Leagues 玩家玩家統計資料包括： 分鐘播放加減目標 Pases Offsides 紅色卡 Turnovers 以及更多其他!遊戲的選項包括： 時鐘往上或時鐘往下彈性欄位陣式未知的播放程式上的選項編輯/復原的播放無限替代可自訂的句點及期間的長度。檢視遊戲的 Play-By-Play 動作、 共享上 Twitter、 Facebook、 Instagram、 電子郵件、 文字以及更多其他統計資料!容易設定最新的且容易使用 ！開始追蹤分鐘內的下一個遊戲 ！</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>尚未啟動期間。您想要繼續嗎?</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>未啟動</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>從播放清單中刪除播放程式</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>新增新的播放程式播放程式清單</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>我們按照 Twitter</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>完整的統計套件包括： 玩家分鐘加上負號、 傳遞、 重組、 Offsides、 骯髒認可、 超出範圍，跨擲回在角踢、 Tackle、 Goalie 踢、 自己的目標、 骯髒繪製、 直接空閒踢、 間接空閒踢、 懲罰踢除、 黃色卡、 紅色卡、 拖放踢除、 Dribble、 Shootout 踢、 替換</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>完整的統計資料</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>最容易瞭解和完整足球計分應用程式在市場上!追蹤： 團隊遊戲的玩家 Leagues 的免費版本包括追蹤的擷取畫面和目標!遊戲的選項包括： 時鐘往上或時鐘往下彈性欄位陣式未知的播放程式上的選項編輯/復原的播放無限替代可自訂的句點及期間的長度。檢視遊戲的 Play-By-Play 動作、 共享上 Twitter、 Facebook、 Instagram、 電子郵件、 文字以及更多其他統計資料!容易設定最新的且容易使用 ！開始追蹤分鐘內的下一個遊戲 ！</value>
+  </data>
+</root>

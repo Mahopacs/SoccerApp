@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>fi-FI</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>SOVELLUKSESSA.</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Lisää</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Valikkovaihtoehto</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>Lisää ryhmä</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>Linja-auto</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Yhteystiedon numero</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Poista</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>Näytä poistetut viestit</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Lopetuspäivämäärä</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Pelit</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>Pelin tilastot</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Luo raportti</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>Jersey</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Liiga</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>soittimet</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>Pelaajien tilastotiedot</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>Soittoluettelo</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Raporttityyppi</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Pakollinen</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>Henkilöluettelo</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Lyhyt nimi</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Aloituspäivämäärä</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>Stats-raportit</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>Ryhmän tiedot</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>Ryhmän nimi</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>Ryhmän nimi ei ole määritetty. Ryhmän ei tallenneta.</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>Tiimit</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>Ryhmän Stats</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>Lisää liiga</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>Tiedot liiga</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>Nimi liiga</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Liigoja</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Kontaktin nimi</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>Liiga-nimeä ei ole määritetty. Liiga ei ole tallennettu.</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Käytössä</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>Player lisää joukkueen</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>Pelaajat Jersey numero</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>Passiivinen</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>Jersey numero on oltava luku. Jersey numero ei ole tallennettu.</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>Jersey numero ei voi olla enintään kolme merkkiä.  Jersey numero ei ole tallennettu.</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>Jersey numero</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>Pelivuorolistoja</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Tilanne</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>Lisää peli</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>pelimusiikki</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>Pelin tiedot</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Päällikkö</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>Poissa Team</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Kellon</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Alas</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>Pelin päivämäärä</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>Pelin tiedot</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>Pelin aika</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>Kotijoukkueen</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>Oletus-liiga</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>Ylityö</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>Palkallinen vapaa pituus</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>Kauden pituus</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>Jaksot</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Ylös</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Kyllä</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>Poissa team ei ole valittu. Peli ei ole tallennettu.</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>Kirjaudu tai alas ei ole määritetty. Peli ei ole tallennettu.</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>Peli on jo aloitettu.  Pelin tietoja ei voi muuttaa, kun peli on alkanut. Muutoksia ei voi tallentaa.</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>Kotijoukkueen ei ole valittu. Peli ei ole tallennettu.</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>Kauden pituutta ei ole määritetty. Peli ei ole tallennettu.</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>Pisteitä ei ole määritetty. Peli ei ole tallennettu.</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>Pelaajia per ryhmä ei ole määritetty. Peli ei ole tallennettu.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Lisää</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>Lisää Play</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>Player lisää</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>Playerin luetteloon</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>Pelaajan nimi</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>Tekstin toistaminen</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Etsi</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>Poistetaan pelaajan tietoja ei voi muuttaa. Player ei tallenneta.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Etunimi</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>Etunimi ei ole määritetty. Player ei tallenneta.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Korkeus</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>Jersey numero ei voi olla enintään kolme merkkiä. Player ei tallenneta.</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Potkut ovat kiellettyjä</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Sukunimi</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Vasen</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>Soitin tiedot</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Oikea</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Paino</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>Avustaa</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Estetty</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>Yläkulmassa poisto</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>Risti</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>Suora vapaa poisto</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Dribble</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>Pudota poisto</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>Sitoutunut alamäessä, elämän mutkissa</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>Piirretty alamäessä, elämän mutkissa</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>Tavoite voi</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>Goalie poisto</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>Vapaa epäsuora poisto</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>Minuuttia pelattu</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Siirrä</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Huomautukset</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>Rajojen ulkopuolella</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>Tavoitteen</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>Anna</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>Rangaistus poisto</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>Plusmiinus</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>Punainen kortti</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Tallenna</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>Shootout poisto</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>Otos</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>Teki tavoite-</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>Korvaus</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>Tackle</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>Heitä</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>Vaihtuvuus</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>Keltainen kortti</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>Erinomainen</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Hyvä</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>Heikko</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>Taitolyönti tiedot</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>Virheellinen salasana</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>Lataa</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>Viivyttämällä uudelleen Play</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>Tavoitteen</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>Foul Play</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>Tavoite</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>Jonka otsikko</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>Osuma Kirjaa</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>Tilalla</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>Virheellinen käsien</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>Virheellinen Tackle</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>Virheellinen Throw-</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>Kicking</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>Kadonneet Dribble</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>Ohi</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>Ei-tavoite</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>Ulos</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>Valitseminen</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>Toinen keltainen kortti</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>Kompastuminen</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>Unsportsmanlike toiminta</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>Väkivaltarikosten teot</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>Stats haku</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value> laukaisu ja epäonnistumisia</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>Estänyt</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Peruuta</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>Teki ei-tavoite</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Kauden</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>Play-tiedot</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>Player ulos</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>STAT-luokka</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>Kuvaus STAT</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Tiimi</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>Kelloa ei ole määritetty. Peli ei ole tallennettu.</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>Ei tuettu play laji pbp muokkausta varten. Toista ei voi muokata.</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>Vastustaja</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>Muut ryhmän Goalie</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>Meidän tiimi</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>Kausi/kellon arvo ei voi olla tulevaisuudessa aikaa. Toisto tulevaisuudessa seurata pelin hallinnan avulla. Peli ei ole tallennettu.</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>Pelaaja 1</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>Player 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>Media Player 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>Player 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>Player-13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>Player-14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>Player-15</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>Player 16</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>Player-17</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>Player-18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>Player-19</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>Pelaaja 2</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>Player-20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>Player-21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>Player-22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>Player-23</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>Soitin 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>Player-25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>Player-26</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>Player-27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>Player-28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>Player-29</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>Pelaaja 3</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>Player-30</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>Pelaaja 4</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>Player-5</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>Player 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>Player 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>Player 8</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>Player 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>Poissa</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>Poista peli</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>Poista liiga</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>Poista Play</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>Poista soitin</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>Ryhmän poistaminen</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Koti</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>none</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Toista</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Tuntematon</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Aktiivisuustila, näytön käytöstä</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>Objektityyppi-pituus ei kelpaa. Peli ei ole tallennettu.</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>Auttaa</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Lohkot</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>Kulmat</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>Erinomainen kulmien</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>Kulmat tavoitteen</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>Hyvä kulmat</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>Kulmat heikko</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>Leikkaa</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>Leikkaa erinomainen</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>Leikkaa hyvä</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>Leikkaa heikko</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>Suora vapaa potkut ovat kiellettyjä</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>Suora vapaa potkut ovat kiellettyjä, tavoitteen</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>Suora vapaa potkut ovat kiellettyjä, ei-tavoite</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>Pudota potkut ovat kiellettyjä</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>Pudota potkut ovat kiellettyjä erinomainen</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>Hyvä pudota potkut ovat kiellettyjä</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>Pudota potkut ovat kiellettyjä heikko</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Fouls vahvistettu tilalla</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>Vahvistettu fouls</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Fouls sitoutunut lataudu</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Fouls sitoutunut laittoman Tackle</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>Kicking vahvistettu fouls</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Vahvistettu fouls valitseminen</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Fouls sitoutunut kompastuminen</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>Nostaa fouls</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>Tavoitteen potkut ovat kiellettyjä</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>Tavoitteet</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>Sallittu tavoitteet</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>Epäsuora vapaa potkut ovat kiellettyjä</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>Osumia</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>Paras osumia</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>Välittää hyvää</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>Osumia heikko</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>Seuraamuksen potkut ovat kiellettyjä</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>Seuraamuksen potkut ovat kiellettyjä estetty</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>Seuraamuksen potkut ovat kiellettyjä tavoite</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>Seuraamuksen potkut ovat kiellettyjä osuma Kirjaa</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>Vastaamatta jääneiden seuraamuksen potkut ovat kiellettyjä</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>Punaiset</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>Punaiset alamäessä, elämän mutkissa Play</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>Punaiset virheellinen käsien</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>Punaiset toinen keltainen kortti.</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>Punainen kortit väkivaltarikosten teot</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>Tallentaa</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Shootout potkut ovat kiellettyjä</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>Estetty shootout potkut ovat kiellettyjä</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>Potkut ovat kiellettyjä tavoitteen shootout</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Shootout potkut ovat kiellettyjä osuma Kirjaa</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>Vastaamatta jääneiden shootout potkut ovat kiellettyjä</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>Kuulat</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>Kuulat on estetty</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>Kuulat tavoite</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>Kuulat osuma Kirjaa</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>Vastaamatta jääneiden veteenlaskujen</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>Kuulat-tavoite</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Tackles</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>Heitä-Ins</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Turnovers</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Turnovers laiton Throw-</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>Turnovers menettää Dribble</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>Keltaiset kortit</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>Keltaisia kortteja viivyttämällä uudelleen Play</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>Keltaisia kortteja Unsportsmanline teot</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Syntymäpäivä</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value> asssited mukaan </value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value> mukaan </value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value> vahvistaa, lataudu foul</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value> vahvistaa, tilan alamäessä, elämän mutkissa</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value> vahvistaa kicking foul</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value> vahvistaa, laiton tackle alamäessä, elämän mutkissa</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value> vahvistaa, valitseminen foul</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value> vahvistaa kompastuminen foul</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value> on laitonta throw</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value> offisides on</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value> kicks pallo ei ole rajoitusten mukainen</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>Vasemman jalan</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value> kadonnut dribble</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value> ansiosta hyvä salasana</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value> ansiosta hyvä salasana</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value> tekee huono salasana</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>oikean jalan</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value> laukaisu tekee ja Kirjaa käynnit</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value> otetaan kuva ja se on estetty</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value> laukaisu ja pisteet</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>Opas</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value> Muutetaan jakso kello</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value> piirtää alamäessä, elämän mutkissa</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value> dribbles</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value> saa punaisen kortin, foul play</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value> saa laitonta käsien punainen kortti</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value> saa toisen keltaisen kortin punaisen kortin</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value> saa punaisen kortin väkivaltarikosten teoista</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value> Keltainen kortti uudelleen play viivyttämällä saa</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value> keltaisen kortin unsportsmanlike teoista saa</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value> tackle on</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value> throw on</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value> tekee hyvää rajat</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value> tekee hyvää pudota poisto</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value> tekee erinomainen rajat</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value> tekee erinomainen drop-poisto</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value> tekee huono rajat</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value> tekee huono pudota poisto</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value> vaihdettiin kannat </value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value> yläkulmassa poisto ja pisteet</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value> Vie suoraan vapaa-poisto</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value> Suora vapaa poisto ja pisteet</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value> ottaa tavoite poisto</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value> kestää hyvin alakulmassa poisto</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value> ottaa erinomainen kulma-poisto</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value> kestää epäsuora vapaa-poisto</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value> otetaan rangaistus poisto ja Kirjaa käynnit</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value> Poista a rangaistus kestää ja se on estetty</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value> otetaan rangaistus poisto ja epäonnistumisia</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value> rangaistus poisto ja pisteet</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value> ottaa huono kulmassa poisto</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value> kestää shootout poisto ja Kirjaa käynnit</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value> a shootout menee kolmannen, ja se on estetty</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value> kestää shootout poisto ja epäonnistumisia</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value> shootout-poisto ja pisteet</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>Sininen risti</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>Punainen, sininen</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>Sininen raita</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>BlueWhite</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>Tummansininen</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>Tummanpunainen</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>Saksan värit</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>Punainen, vihreä</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>Vaaleansininen</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Oranssi</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>Oranssi-vihreä</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Punainen</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>Punainen musta</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>Punainen-vihreä</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>Punaiset raidat</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>Valkoinen-sininen</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>Vihreä, valkoinen</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>Punainen, valkoinen</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>Keltainen sininen</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>Kellanvihreä</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Esittely</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>Lisää uusi soitin</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>Aikajana</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>Valitse ryhmä</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value> kicks yhdeksi oman tavoite pallo</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>Valitse Jersey</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>Valitse liiga</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>Player minuuttia</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Tilastotiedot</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>Player minuutin jakson ja lopussa peli on päivitetty</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>Selitys</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Käyttäjän</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>Sähköposti</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Nollaa salasana</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Palauta salasana</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Tietoja</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Korvaus App</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Fouls</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>App osto</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ohje</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>Lukituksen kaikki tilastot?</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>Demo peli</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>Kokeile demo peli pisteytys?</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>Kokeile itse</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>Kiitos ei</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>KORKO</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>Palautteesi on meille tärkeä asia.  Luokittele tämä app.</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>Palautteesi on meille tärkeä asia.  Haluatko arvioida tämän app?</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>Kyllä</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>Osta</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>Ei nyt</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>Player lisää penkki</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>Aikaista</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>Siirry seuraavan kauden?</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>Boxscore poissa</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>Napsauttamalla tätä voit säätää kellon</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>Napsauttamalla tätä voit säätää</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>Valitsemalla tämän voit aloittaa tai lopettaa pelin</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>Kello alas</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>Kellon</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Muokkaa</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>Muokkaa peli</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>Muokkaa Play Play</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>Pelin hallinta</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>Pelin tilastot</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Yläotsikko</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>Kotisivu Boxscore</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>Ei ole toistaa kumota</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>Rangaistus tavoite</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>Pelata Play</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>OSITA</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>Versot vasemman jalan</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>Anna oikea</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>Taitolyönti tavoite</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>Vasemman jalan kanssa teki</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>Teki oikean jalan kanssa.</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Kumoa</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value> kumottu</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Ruokalista</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Osta</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>Ostaa kaikki tilastot?</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>Koko tilasto-paketti sisältää: Player minuuttia, Plus miinus,</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>Välittää, liikevaihto, Offsides,</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>Alamäessä, elämän mutkissa sitoutuneet lähdekokoelman, Cross, Throw-kulma poisto</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>Tackle, Goalie poisto, oman tavoitteen, ruma piirrettyjä, suora vapaa poisto,</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>Epäsuora vapaa poisto, rangaistus poisto, keltainen kortti, punainen kortti, pudota poisto</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Dribble, Shootout-poisto, korvaavan</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Ladataan...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>Poista Playerin aiotun</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value> player-luettelosta.</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value> -luettelossa</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>Koti team ja team poissa ei voi olla sama. Peli ei ole tallennettu.</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>Pelin käynnistäminen</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-Napsauta kuvaa, jos haluat ostaa täysi versio-</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>urheilu</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Palaute</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>pistemäärä</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>tilastot</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>jalkapallo</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>ei tapahtumia</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>ENSIMMÄINEN</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>OSA-AIKAINEN</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>KOKOAIKAINEN</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>TUOMIOISTUINTEN ULKOPUOLELLA AIKAA PUOLIPÄIVÄISESTI</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>TUOMIOISTUINTEN ULKOPUOLELLA AIKAA KOKOPÄIVÄINEN</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>Kauden loppu </value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>Eniten intuitiivinen ja valmis jalkapallo pisteytys sovellus markkinoilla.  Yli 50 käytettävissä stats.  Kokeile ilmainen!
+
+Seurata: Sisällytä ryhmien pelit liigoja pelaajat Player Stats: minuuttia pelattu Plus-miinus tavoitteet Pases Offsides punainen kortti Turnovers ja paljon muuta!
+
+Pelin asetukset ovat: Kirjaudu tai kellon alaspäin joustava kentän muodostumiin Tuntematon Player-vaihtoehdon muokkaaminen tai kumoaminen toistetaan rajoittamaton korvaukset mukautettavissa pisteitä ja jakson pituus.
+
+
+Play-By-Play toiminnon pelin Katsele, Jaa stats-Twitter, Facebook, Instagram, teksti, sähköposti ja paljon enemmän!
+
+Helppo asettaa ajan ja helppo käyttää!  Aloita seuranta seuraavassa pelissä minuutin kuluessa!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>Kauden ei ole vielä aloitettu. Haluatko jatkaa?</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>Ei aloitettu</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>Poista Playerin Playerin luetteloon</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>Lisää uusi Media Player-soittimen luettelo</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>Seuraa meille Twitter</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>Koko tilasto-paketti sisältää: Player minuuttia Plus miinus Pass, liikevaihto, Offsides, ruma vahvistettu, ulos rajojen, Cross heitä, yläkulmassa poisto, Tackle, Goalie poisto, oman tavoitteen, ruma piirretty, suora vapaa poisto, epäsuora vapaa poisto, rangaistus poisto, keltainen kortti, punainen kortti, pudota poisto, Dribble, Shootout-poisto, korvaus</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>Täydellinen tilastot</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>Eniten intuitiivinen ja valmis jalkapallo pisteytys sovelluksen markkinoille!
+
+Seurata: ryhmien pelit liigoja pelaajien vapaa versio sisältää seuranta kuulat ja tavoitteet!
+
+Pelin asetukset ovat: Kirjaudu tai kellon alaspäin joustava kentän muodostumiin Tuntematon Player-vaihtoehdon muokkaaminen tai kumoaminen toistetaan rajoittamaton korvaukset mukautettavissa pisteitä ja jakson pituus.
+
+
+Play-By-Play toiminnon pelin Katsele, Jaa stats-Twitter, Facebook, Instagram, teksti, sähköposti ja paljon enemmän!
+
+Helppo asettaa ajan ja helppo käyttää!  Aloita seuranta seuraavassa pelissä minuutin kuluessa!</value>
+  </data>
+</root>

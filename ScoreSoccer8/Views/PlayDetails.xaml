@@ -1,0 +1,708 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="ScoreSoccer8.Views.PlayDetails"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:toolkitcode4fun="clr-namespace:Coding4Fun.Toolkit.Controls;assembly=Coding4Fun.Toolkit.Controls"  
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Landscape"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False"
+    Style="{StaticResource TransitionPageStyle}"
+    toolkit:TiltEffect.IsTiltEnabled="True"
+    BackKeyPress="BackButtonClicked"
+    >
+
+
+    <phone:PhoneApplicationPage.Resources>
+
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilyNormal}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMediumLarge}"/>
+            <Setter Property="Background" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="Foreground" Value="{StaticResource PhoneTextBoxForegroundBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="SelectionBackground" Value="{StaticResource PhoneAccentBrush}"/>
+            <Setter Property="SelectionForeground" Value="{StaticResource PhoneTextBoxSelectionForegroundBrush}"/>
+            <Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid Background="Transparent">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="ReadOnly">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Collapsed</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Visible</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxReadOnlyBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxEditBackgroundBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxEditBorderBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="MainBorder" CornerRadius="10"  BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Margin="5,10,8,10"/>
+                            <Border x:Name="ReadonlyBorder" BorderBrush="{StaticResource PhoneDisabledBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="Transparent" Margin="{StaticResource PhoneTouchTargetOverhang}" Visibility="Collapsed"/>
+                            <Border BorderBrush="Transparent" BorderThickness="{TemplateBinding BorderThickness}" Background="Transparent" Margin="{StaticResource PhoneTouchTargetOverhang}">
+                                <ContentControl x:Name="ContentElement" BorderThickness="0" HorizontalContentAlignment="Stretch" Margin="{StaticResource PhoneTextBoxInnerMargin}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="Stretch"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <DataTemplate x:Name="TeamsPickerItemTemplate" >
+            <TextBlock Text="{Binding TeamName}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="TeamsPickerFullModeItemTemplate">
+            <TextBlock FontSize="40" Text="{Binding TeamName}"/>
+        </DataTemplate>
+
+        <DataTemplate x:Name="PlayersPickerItemTemplate" >
+            <TextBlock Text="{Binding RosterDisplayText}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="PlayersPickerFullModeItemTemplate">
+            <TextBlock FontSize="35" Text="{Binding RosterDisplayText}"/>
+        </DataTemplate>
+
+        <DataTemplate x:Name="PeriodsPickerItemTemplate" >
+            <TextBlock Text="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="PeriodsPickerFullModeItemTemplate">
+            <TextBlock FontSize="40" Text="{Binding}"/>
+        </DataTemplate>
+
+        <DataTemplate x:Name="StatCategoryPickerItemTemplate" >
+            <TextBlock Text="{Binding StatCategory.StatCategoryName}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="StatCategoryPickerFullModeItemTemplate">
+            <TextBlock FontSize="35" Text="{Binding StatCategory.StatCategoryName}"/>
+        </DataTemplate>
+                              
+        <DataTemplate x:Name="StatCategoryDescriptionsPickerItemTemplate" >
+            <TextBlock Text="{Binding StatDescriptionName}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="StatCategoryDescriptionsPickerFullModeItemTemplate">
+            <TextBlock FontSize="40" Text="{Binding StatDescriptionName}"/>
+        </DataTemplate>
+
+    </phone:PhoneApplicationPage.Resources>
+
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="85"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="100*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Fields/SoccerField9.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+
+        <Grid Grid.Row="1" Grid.Column="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"></RowDefinition>
+                <RowDefinition Height="50*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="85*"></ColumnDefinition>
+                <ColumnDefinition Width="15*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White"  Background="Black" CornerRadius="70,0,0,0" Opacity=".35"/>
+            <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White" BorderThickness="3,0,0,3" CornerRadius="70,0,0,0" Background="Transparent" />
+
+            <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White" BorderThickness="3,3,3,3" CornerRadius="70,0,70,0" Background="Silver"/>
+
+            <Border Grid.Column="0" Grid.Row="1" Opacity=".3"  CornerRadius="70,0,60,0" Margin="3,0,15,3" Background="gray"/>
+            <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White" BorderThickness="3,3,3,3" CornerRadius="70,0,70,0" />
+
+            <Border Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" CornerRadius="0,70,0,0" Background="Black" Opacity=".35"/>
+            <Border Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White" BorderThickness="0,3,3,3" CornerRadius="0,70,0,0"/>
+
+            <Grid HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" Margin="-10,5,0,0">
+                <Button  Padding="0" Style="{StaticResource PhoneButtonBase}" Command="{Binding HelpClickCommand}" Margin="-10" >
+                    <Image Margin="0" Grid.Column="0" Source="/Assets/question.png" HorizontalAlignment="Center" />
+                </Button>
+            </Grid>
+
+            <TextBlock 
+                Grid.RowSpan="2"
+                Grid.Row="0"
+                Grid.Column="0"
+                FontSize="35"
+                Text="{Binding Path=LocalizedResources.PlayDetails, Source={StaticResource LocalizedStrings}}"      
+                Style="{StaticResource PhoneTextTitle1Style}"
+                Margin="20,0,0,0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                TextWrapping="Wrap"
+                Foreground="Black"   />
+
+        </Grid>
+
+        <Border Grid.Row="2" Grid.Column="1" Background="Black" Opacity=".6" />
+        <Border Grid.Row="2" Grid.Column="1" BorderBrush="White" BorderThickness="3,0,3,0"/>
+
+        <ScrollViewer Grid.Row="2" Grid.Column="1" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                        
+                        <RowDefinition Height="100*"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40*"></ColumnDefinition>
+                        <ColumnDefinition Width="60*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock 
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Text="{Binding Path=LocalizedResources.Team, Source={StaticResource LocalizedStrings}}"      
+                        FontSize="25"
+                        Margin="10,0,0,2"
+                        VerticalAlignment="Center"
+                        TextWrapping="Wrap"
+                        Foreground="White"/>
+
+                    <toolkit:ListPicker
+                        Grid.Row="0"
+                        Grid.Column="1"                           
+                        Padding="0"
+                        ExpansionMode="FullScreenOnly"
+                        Name="listPickerTeam"
+                        ItemsSource="{Binding TeamsList, Mode=TwoWay}"              
+                        VerticalAlignment="Center"             
+                        Margin="10,5,10,10"  
+                        Foreground="White"           
+                        FullModeHeader="{Binding Path=LocalizedResources.Teams, Source={StaticResource LocalizedStrings}}"                            
+                        ItemTemplate="{StaticResource TeamsPickerItemTemplate}" 
+                        FullModeItemTemplate="{StaticResource TeamsPickerFullModeItemTemplate}"
+                        SelectedItem="{Binding SelectedTeam, Mode=TwoWay}" >
+                    </toolkit:ListPicker>
+
+                    <Border Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="10" Background="White" Opacity="0.2"></Border>
+               
+                    <TextBlock 
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Text="{Binding Path=LocalizedResources.Player, Source={StaticResource LocalizedStrings}}"   
+                        FontSize="25"
+                        Margin="10,0,0,0"
+                        VerticalAlignment="Center"
+                        TextWrapping="Wrap"
+                        Foreground="White"/>
+
+                    <toolkit:ListPicker
+                Grid.Row="1"
+                    Grid.Column="1"                           
+                ExpansionMode="FullScreenOnly"
+                Name="listPickerPlayer"
+                ItemsSource="{Binding PlayerList, Mode=TwoWay}"              
+                 Margin="10,5,10,10"  
+                Foreground="White"             
+                FullModeHeader="{Binding Path=LocalizedResources.Players, Source={StaticResource LocalizedStrings}}"         
+                IsEnabled="{Binding PlayerEnabled}"
+                ItemTemplate="{StaticResource PlayersPickerItemTemplate}" 
+                FullModeItemTemplate="{StaticResource PlayersPickerFullModeItemTemplate}"
+                SelectedItem="{Binding Path=SelectedPlayer, Mode=TwoWay}" >
+                    </toolkit:ListPicker>
+
+                           <TextBlock 
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        Text="{Binding Path=LocalizedResources.Period, Source={StaticResource LocalizedStrings}}"   
+                        FontSize="25"
+                        Margin="10,0,0,0"
+                        VerticalAlignment="Center"
+                               TextWrapping="Wrap"
+                        Foreground="White"/>
+
+                <!--IsEnabled="{Binding FieldsEnabled}"-->
+                <toolkit:ListPicker
+                Grid.Row="2"
+                    Grid.Column="1"                           
+                ExpansionMode="FullScreenOnly"
+                Name="listPickerPeriod"
+                ItemsSource="{Binding PeriodsList, Mode=TwoWay}"              
+                 Margin="10,5,10,10"  
+                Foreground="White"             
+                FullModeHeader="{Binding Path=LocalizedResources.Period, Source={StaticResource LocalizedStrings}}"                             
+                ItemTemplate="{StaticResource PeriodsPickerItemTemplate}" 
+                FullModeItemTemplate="{StaticResource PeriodsPickerFullModeItemTemplate}"
+                SelectedItem="{Binding Path=SelectedPeriod, Mode=TwoWay}" >
+                    </toolkit:ListPicker>
+             
+                    <Border Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="10" Background="White" Opacity="0.2"></Border>
+       
+                    <TextBlock 
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        Text="{Binding Path=LocalizedResources.Clock, Source={StaticResource LocalizedStrings}}"     
+                        FontSize="25"
+                        Margin="10,0,0,0"
+                        VerticalAlignment="Center"
+                        TextWrapping="Wrap"
+                        Foreground="White"/>
+
+                    <!--<TextBox
+                        Grid.Row="3"
+                        Grid.Column="1"
+                        MaxLength="5"                       
+                        Text="{Binding Clock, Mode=TwoWay}" />-->
+
+                    <toolkitcode4fun:TimeSpanPicker x:Name="ctlDefaultCountdownTime"                                      
+                   Grid.Row="3" Grid.Column="1"               
+                   FontSize="20"
+                   Value="{Binding ClockTimeSpan, Mode=TwoWay}"                                                                           
+                   />
+
+
+                    <TextBlock 
+                        Grid.Row="4"
+                        Grid.Column="0"
+                        Text="{Binding Path=LocalizedResources.StatCategory, Source={StaticResource LocalizedStrings}}"                                      
+                        FontSize="25"
+                        Margin="10,0,0,0"
+                        VerticalAlignment="Center"
+                        TextWrapping="Wrap"
+                        Foreground="White"/>
+
+                <!--IsEnabled="{Binding FieldsEnabled}"-->
+                <toolkit:ListPicker
+                        Grid.Row="4"
+                            Grid.Column="1"                           
+                        ExpansionMode="FullScreenOnly"
+                        
+                        Name="listPickerStatCategory"
+                        ItemsSource="{Binding StatCategories, Mode=TwoWay}"              
+                         Margin="10,5,10,10"  
+                        Foreground="White"             
+                         FullModeHeader="{Binding Path=LocalizedResources.StatCategory, Source={StaticResource LocalizedStrings}}"                                                  
+                        ItemTemplate="{StaticResource StatCategoryPickerItemTemplate}" 
+                        FullModeItemTemplate="{StaticResource StatCategoryPickerFullModeItemTemplate}"
+                        SelectedItem="{Binding Path=SelectedStatCategory, Mode=TwoWay}" >
+                    </toolkit:ListPicker>
+
+
+
+                <!--IsEnabled="{Binding FieldsEnabled}"-->
+                <Border Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="10" Background="White" Opacity="0.2"></Border>
+                <TextBlock 
+                        Grid.Row="5"
+                        Grid.Column="0"
+                        Text="{Binding Path=LocalizedResources.StatDescription, Source={StaticResource LocalizedStrings}}"
+                        FontSize="25"
+                        Margin="10,0,0,0"
+                        VerticalAlignment="Center"
+                    TextWrapping="Wrap"
+                        Foreground="White"/>
+                <toolkit:ListPicker
+                        Grid.Row="5"
+                        Grid.Column="1"                           
+                        ExpansionMode="FullScreenOnly"
+                        
+                        Name="listPickerStatCategoryDescription"
+                        ItemsSource="{Binding StatCategoryDescriptions, Mode=TwoWay}"              
+                         Margin="10,5,10,10"  
+                        Foreground="White" 
+                        FullModeHeader="{Binding Path=LocalizedResources.StatDescription, Source={StaticResource LocalizedStrings}}"       
+                        ItemTemplate="{StaticResource StatCategoryDescriptionsPickerItemTemplate}" 
+                        FullModeItemTemplate="{StaticResource StatCategoryDescriptionsPickerFullModeItemTemplate}"
+                        SelectedItem="{Binding Path=SelectedStatCategoryDescription, Mode=TwoWay}" />
+
+                <StackPanel  Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2">
+                    
+                    <Grid Visibility="{Binding IsLeftRightHeadedVisible}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="75"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40*"></ColumnDefinition>
+                            <ColumnDefinition Width="60*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+
+                        <Border Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" BorderThickness="0,0,0,1" BorderBrush="Gray"></Border>
+                        <StackPanel 
+                            Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2"
+                            HorizontalAlignment="Center" Margin="0,0,5,0" 
+                            Orientation="Horizontal">
+
+                            <!--Content="{Binding Path=LocalizedResources.Left, Source={StaticResource LocalizedStrings}}"-->
+                            <RadioButton                      
+                                 HorizontalContentAlignment="Center" 
+                                 IsChecked="{Binding LeftFootShotChecked, Mode=TwoWay}" Height="73" Width="100"   
+                                 Style="{StaticResource ShotWithLeftStyle}" />
+
+                            <!--Content="{Binding Path=LocalizedResources.Right, Source={StaticResource LocalizedStrings}}"-->
+                            <RadioButton 
+                                 HorizontalContentAlignment="Center" 
+                                 IsChecked="{Binding RightFootShotChecked, Mode=TwoWay}" Height="73" Width="100"        
+                                 Style="{StaticResource ShotWithRightStyle}"/>
+
+                            <!--Content="{Binding Path=LocalizedResources.Headed, Source={StaticResource LocalizedStrings}}"-->
+                            <RadioButton 
+                                 HorizontalContentAlignment="Center" 
+                                 IsChecked="{Binding HeadedShotChecked, Mode=TwoWay}" Height="73" Width="100" 
+                                 Style="{StaticResource HeaderStyle}"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid  Visibility="{Binding IsShotOnGoalVisible}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="75"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40*"></ColumnDefinition>
+                            <ColumnDefinition Width="60*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Border Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" BorderThickness="0,0,0,1" BorderBrush="Gray"></Border>
+                        <StackPanel 
+                            Grid.ColumnSpan="2"
+                            HorizontalAlignment="Center" Margin="0,0,5,0" 
+                            Orientation="Horizontal">
+
+                            <!--Content="{Binding Path=LocalizedResources.ShotOnGoal, Source={StaticResource LocalizedStrings}}"-->
+                            <RadioButton                      
+                                 HorizontalContentAlignment="Center" 
+                                 IsChecked="{Binding ShotOnGoalChecked, Mode=TwoWay}" Height="75" Width="100"   
+                                 Style="{StaticResource ShotOnGoalStyle}" />
+
+
+                            <!--Content="{Binding Path=LocalizedResources.ShotOnGoal, Source={StaticResource LocalizedStrings}}"-->
+                            <RadioButton 
+                                 HorizontalContentAlignment="Center" 
+                                 IsChecked="{Binding ShotNotOnGoalChecked, Mode=TwoWay}" Height="75" Width="100"          
+                                 Style="{StaticResource ShotNotOnGoalStyle}"/>
+                        </StackPanel>
+
+                    </Grid>
+                    
+                    
+                    <Grid  Visibility="{Binding IsAssistOrBlockLabelVisible}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="75"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40*"></ColumnDefinition>
+                            <ColumnDefinition Width="60*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Border Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" BorderThickness="0,0,0,1" BorderBrush="Gray"></Border>
+                        <TextBlock 
+                        TextWrapping="Wrap"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="2"
+                        HorizontalAlignment="Center"
+                        Text="{Binding AssistOrBlockLabelCaption}"
+                        Visibility="{Binding IsAssistOrBlockLabelVisible}"
+                        FontSize="25"
+                        Margin="0,0,0,0"
+                        Foreground="White"/>
+
+                        <toolkit:ListPicker
+                        Grid.Row="1"
+                        Grid.Column="0" 
+                        Grid.ColumnSpan="2"
+                        Padding="0"
+                        ExpansionMode="FullScreenOnly"
+                        Name="listPickerAssistedByOrBlockedBy"
+                        Visibility="{Binding IsAssistOrBlockPlayerDropDownVisible}"
+                        ItemsSource="{Binding AssistOrBlockPlayerList, Mode=TwoWay}"              
+                        VerticalAlignment="Center"             
+                        Margin="10,5,10,10"  
+                        Foreground="White"           
+                        FullModeHeader="Player"
+                        ItemTemplate="{StaticResource PlayersPickerItemTemplate}" 
+                        FullModeItemTemplate="{StaticResource PlayersPickerFullModeItemTemplate}"
+                        SelectedItem="{Binding SelectedAssistOrBlockPlayer, Mode=TwoWay}" >
+                        </toolkit:ListPicker>
+
+                    </Grid>
+
+                    <Grid  Visibility="{Binding IsOtherTeamGoalieVisible}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="75"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40*"></ColumnDefinition>
+                            <ColumnDefinition Width="60*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Border Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" BorderThickness="0,0,0,1" BorderBrush="Gray"></Border>
+                        <TextBlock 
+                            TextWrapping="Wrap"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            HorizontalAlignment="Center"
+                            Text="{Binding Path=LocalizedResources.OtherTeamGoalie, Source={StaticResource LocalizedStrings}}"              
+                            Visibility="{Binding IsOtherTeamGoalieVisible}"
+                            FontSize="25"
+                            Margin="0,0,0,0"
+                            Foreground="White"/>
+
+                        <toolkit:ListPicker
+                            Grid.Row="1"
+                            Grid.Column="0" 
+                            Grid.ColumnSpan="2"
+                            Padding="0"
+                            ExpansionMode="FullScreenOnly"
+                            Name="listPickerOtherTeamGoalie"
+                            Visibility="{Binding IsOtherTeamGoalieDropDownVisible}"
+                            ItemsSource="{Binding OtherTeamGoaliePlayerList, Mode=TwoWay}"              
+                            VerticalAlignment="Center"             
+                            Margin="10,5,10,10"  
+                            Foreground="White"           
+                            FullModeHeader="{Binding Path=LocalizedResources.Player, Source={StaticResource LocalizedStrings}}"             
+                            ItemTemplate="{StaticResource PlayersPickerItemTemplate}" 
+                            FullModeItemTemplate="{StaticResource PlayersPickerFullModeItemTemplate}"
+                            SelectedItem="{Binding SelectedOtherTeamGoaliePlayer, Mode=TwoWay}" >
+                        </toolkit:ListPicker>
+
+                    </Grid>
+
+                    <Grid  Visibility="{Binding SubInputVisibility}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="75"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40*"></ColumnDefinition>
+                            <ColumnDefinition Width="60*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Border Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" BorderThickness="0,0,0,1" BorderBrush="Gray"></Border>
+                        <TextBlock 
+                            Grid.Row="12"
+                            Grid.Column="0"
+                            Text="{Binding Path=LocalizedResources.PlayerIn, Source={StaticResource LocalizedStrings}}"              
+                            Visibility="{Binding SubInputVisibility}"
+                            FontSize="25"
+                            Margin="10,0,0,0"
+                            VerticalAlignment="Center"
+                            Foreground="White"/>
+
+                        <toolkit:ListPicker
+                            Grid.Row="12"
+                            Grid.Column="1"                           
+                            ExpansionMode="FullScreenOnly"
+                            Name="listPickerPlayerIn"
+                            ItemsSource="{Binding SubPlayerInList, Mode=TwoWay}"              
+                             Margin="10,5,10,10"  
+                            Foreground="White"             
+                            FullModeHeader="{Binding Path=LocalizedResources.Player, Source={StaticResource LocalizedStrings}}"              
+                            Visibility="{Binding SubInputVisibility}"
+                            ItemTemplate="{StaticResource PlayersPickerItemTemplate}" 
+                            FullModeItemTemplate="{StaticResource PlayersPickerFullModeItemTemplate}"
+                            SelectedItem="{Binding Path=SelectedPlayerIn, Mode=TwoWay}" >
+                        </toolkit:ListPicker>
+
+                    </Grid>
+
+                    <Grid  Visibility="{Binding SubInputVisibility}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="75"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40*"></ColumnDefinition>
+                            <ColumnDefinition Width="60*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Border Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" BorderThickness="0,0,0,1" BorderBrush="Gray"></Border>
+                        <TextBlock 
+                            Grid.Row="13"
+                            Grid.Column="0"
+                            Text="{Binding Path=LocalizedResources.PlayerOut, Source={StaticResource LocalizedStrings}}"             
+                            Visibility="{Binding SubInputVisibility}"
+                            FontSize="25"
+                            Margin="10,0,0,0"
+                            VerticalAlignment="Center"
+                            Foreground="White"/>
+
+                        <toolkit:ListPicker
+                            Grid.Row="13"
+                            Grid.Column="1"                           
+                            ExpansionMode="FullScreenOnly"
+                            Name="listPickerPlayerOut"
+                            ItemsSource="{Binding SubPlayerOutList, Mode=TwoWay}"              
+                            Margin="10,5,10,10"  
+                            Foreground="White"             
+                            FullModeHeader="{Binding Path=LocalizedResources.Player, Source={StaticResource LocalizedStrings}}"             
+                            Visibility="{Binding SubInputVisibility}"
+                            ItemTemplate="{StaticResource PlayersPickerItemTemplate}" 
+                            FullModeItemTemplate="{StaticResource PlayersPickerFullModeItemTemplate}"
+                            SelectedItem="{Binding Path=SelectedPlayerOut, Mode=TwoWay}" >
+                        </toolkit:ListPicker>
+
+                    </Grid>
+                    
+                </StackPanel>
+
+
+         
+                </Grid>
+
+            
+            
+            
+        </ScrollViewer>
+
+
+        <Border Grid.Column="1" Grid.Row="3" BorderBrush="White" BorderThickness="3,3,3,3" CornerRadius="0,0,70,70"/>
+        <Border Grid.Column="1" Grid.Row="3" BorderBrush="White" BorderThickness="3,3,3,3" CornerRadius="0,0,70,70" Background="Black" Opacity=".5"/>
+
+        <StackPanel  Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal" Grid.ColumnSpan="2">
+
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0" HorizontalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Button 
+                        x:Name="okButton"
+                                Padding="0,0,0,0"
+                                    BorderThickness="0"
+                                HorizontalAlignment="Center"
+                                 Click="OkButton_Click"
+                                    Style="{StaticResource PhoneButtonBase}"
+                                Margin="0,0,10,0"
+                                Foreground="White">
+                        <Image>
+                            <Image.Source>
+                                <BitmapImage UriSource="\Assets\ok.png" CreateOptions="BackgroundCreation"/>
+                            </Image.Source>
+                        </Image>
+                    </Button>
+                </Grid>
+            </Grid>
+
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0" HorizontalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Button 
+                                    BorderThickness="0"
+                                Padding="0,0,0,0"
+                                HorizontalAlignment="Center"
+                                    Style="{StaticResource PhoneButtonBase}"
+                                Command="{Binding CancelClickCommand}"
+                                Margin="10,0,0,0"
+                                Foreground="White">
+                        <Image>
+                            <Image.Source>
+                                <BitmapImage UriSource="\Assets\cancel.png" CreateOptions="BackgroundCreation"/>
+                            </Image.Source>
+                        </Image>
+                    </Button>
+                </Grid>
+            </Grid>
+
+        </StackPanel>
+
+
+
+
+        <Grid x:Name="loadingGrid" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" Grid.RowSpan="6" />
+
+    </Grid>
+
+
+</phone:PhoneApplicationPage>

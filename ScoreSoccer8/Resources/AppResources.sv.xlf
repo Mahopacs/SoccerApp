@@ -1,0 +1,1956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="sv" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="UTrackSoccer" product-version="1.0.3" build-num="3">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+          </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">sv</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+          </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MITT PROGRAM</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lägg till</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Menyalternativ</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddTeam" translate="yes" xml:space="preserve">
+          <source>Add Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lägg till Team</target>
+        </trans-unit>
+        <trans-unit id="Resx/Coach" translate="yes" xml:space="preserve">
+          <source>Coach</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Buss</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">field on team details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/ContactNumber" translate="yes" xml:space="preserve">
+          <source>Contact Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kontaktnummer</target>
+        </trans-unit>
+        <trans-unit id="Resx/Delete" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ta bort</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">used in prompt</note>
+          </trans-unit>
+        <trans-unit id="Resx/DisplayDeletedItems" translate="yes" xml:space="preserve">
+          <source>Display Deleted Items</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visa borttagna objekt</target>
+        </trans-unit>
+        <trans-unit id="Resx/EndDate" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Slutdatum</target>
+        </trans-unit>
+        <trans-unit id="Resx/Games" translate="yes" xml:space="preserve">
+          <source>Games</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spel</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameStats" translate="yes" xml:space="preserve">
+          <source>Game Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelstatistik</target>
+        </trans-unit>
+        <trans-unit id="Resx/GenerateReport" translate="yes" xml:space="preserve">
+          <source>Generate Report</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Generera en rapport över</target>
+        </trans-unit>
+        <trans-unit id="Resx/Jersey" translate="yes" xml:space="preserve">
+          <source>Jersey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jersey</target>
+        </trans-unit>
+        <trans-unit id="Resx/League" translate="yes" xml:space="preserve">
+          <source>League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Liga</target>
+        </trans-unit>
+        <trans-unit id="Resx/Players" translate="yes" xml:space="preserve">
+          <source>Players</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelare</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerStats" translate="yes" xml:space="preserve">
+          <source>Player Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelarstatistik</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayList" translate="yes" xml:space="preserve">
+          <source>Play List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spellistan</target>
+        </trans-unit>
+        <trans-unit id="Resx/ReportType" translate="yes" xml:space="preserve">
+          <source>Report Type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Typ av rapport</target>
+        </trans-unit>
+        <trans-unit id="Resx/Required" translate="yes" xml:space="preserve">
+          <source>Required</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Krävs</target>
+        </trans-unit>
+        <trans-unit id="Resx/Roster" translate="yes" xml:space="preserve">
+          <source>Roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Roster</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShortName" translate="yes" xml:space="preserve">
+          <source>Short Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kortnamn</target>
+        </trans-unit>
+        <trans-unit id="Resx/StartDate" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Startdatum</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsReports" translate="yes" xml:space="preserve">
+          <source>Stats Reports</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Statistik-rapporter</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamDetails" translate="yes" xml:space="preserve">
+          <source>Team Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gruppinformation</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamName" translate="yes" xml:space="preserve">
+          <source>Team Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lagets namn</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamNotEnteredValidationMessage" translate="yes" xml:space="preserve">
+          <source>Team name not entered. Team not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lagets namn har inte angetts. Team som inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Teams" translate="yes" xml:space="preserve">
+          <source>Teams</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Team</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamStats" translate="yes" xml:space="preserve">
+          <source>Team Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Statistik för team</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddLeague" translate="yes" xml:space="preserve">
+          <source>Add League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lägg till liga</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/LeagueDetails" translate="yes" xml:space="preserve">
+          <source>League Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Liga information</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeagueName" translate="yes" xml:space="preserve">
+          <source>League Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Liga namn</target>
+        </trans-unit>
+        <trans-unit id="Resx/Leagues" translate="yes" xml:space="preserve">
+          <source>Leagues</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ligor</target>
+        </trans-unit>
+        <trans-unit id="Resx/ContactName" translate="yes" xml:space="preserve">
+          <source>Contact Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Namn på kontaktperson</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeagueNotEnteredValidationMessage" translate="yes" xml:space="preserve">
+          <source>League name not entered. League not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Liga namn har inte angetts. Liga sparas inte.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Active" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aktiva</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayerToTeamRoster" translate="yes" xml:space="preserve">
+          <source>Add Player To Team Roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lägga till spelaren Laglista</target>
+        </trans-unit>
+        <trans-unit id="Resx/EnterPlayersJerseyNumber" translate="yes" xml:space="preserve">
+          <source>Enter Players Jersey Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ange spelare Jersey nummer</target>
+        </trans-unit>
+        <trans-unit id="Resx/InActive" translate="yes" xml:space="preserve">
+          <source>InActive</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Inaktiva</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyMustBeANumber" translate="yes" xml:space="preserve">
+          <source>Jersey Number must be a number. Jersey Number not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jersey nummer måste vara ett tal. Jersey nummer sparas inte.</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyMustBeLessThan3Characters" translate="yes" xml:space="preserve">
+          <source>Jersey Number can not be more than 3 characters.  Jersey Number not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jersey nummer får inte vara mer än 3 tecken.  Jersey nummer sparas inte.</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyNumber" translate="yes" xml:space="preserve">
+          <source>Jersey Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jersey nummer</target>
+        </trans-unit>
+        <trans-unit id="Resx/Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Namn</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rosters" translate="yes" xml:space="preserve">
+          <source>Rosters</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laguppställningar</target>
+        </trans-unit>
+        <trans-unit id="Resx/Status" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Status</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddGame" translate="yes" xml:space="preserve">
+          <source>Add Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lägga till spel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/Game" translate="yes" xml:space="preserve">
+          <source>Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelet</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">used in prompt</note>
+          </trans-unit>
+        <trans-unit id="Resx/GameInfo" translate="yes" xml:space="preserve">
+          <source>Game Info</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelet Info</target>
+        </trans-unit>
+        <trans-unit id="Resx/Manager" translate="yes" xml:space="preserve">
+          <source>Manager</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Manager</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayTeam" translate="yes" xml:space="preserve">
+          <source>Away Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Passivt Team</target>
+        </trans-unit>
+        <trans-unit id="Resx/Clock" translate="yes" xml:space="preserve">
+          <source>Clock</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klocka</target>
+        </trans-unit>
+        <trans-unit id="Resx/Down" translate="yes" xml:space="preserve">
+          <source>Down</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ned</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameDate" translate="yes" xml:space="preserve">
+          <source>Game Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Matchdatum</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameDetails" translate="yes" xml:space="preserve">
+          <source>Game Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Information om spelet</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameTime" translate="yes" xml:space="preserve">
+          <source>Game Time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Speltid</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeTeam" translate="yes" xml:space="preserve">
+          <source>Home Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hem grupp</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nr</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoLeague" translate="yes" xml:space="preserve">
+          <source>Default League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Standard liga</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">league name option in leagues drop down on team details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/OverTime" translate="yes" xml:space="preserve">
+          <source>OverTime</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Övertid</target>
+        </trans-unit>
+        <trans-unit id="Resx/OverTimeLength" translate="yes" xml:space="preserve">
+          <source>OverTime Length</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Övertid längd</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodLength" translate="yes" xml:space="preserve">
+          <source>Period Length</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Periodens längd</target>
+        </trans-unit>
+        <trans-unit id="Resx/Periods" translate="yes" xml:space="preserve">
+          <source>Periods</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Perioder</target>
+        </trans-unit>
+        <trans-unit id="Resx/Up" translate="yes" xml:space="preserve">
+          <source>Up</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Upp</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ja</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayTeamNotSeleted" translate="yes" xml:space="preserve">
+          <source>Away team not selected. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Passivt team som inte valts. Spelet har inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockUpDownNotSet" translate="yes" xml:space="preserve">
+          <source>Clock Up or Down not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stämpla eller nedåt inte. Spelet har inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameHasAlreadyStarted" translate="yes" xml:space="preserve">
+          <source>Game has already started.  Cannot change game details once the game has started. Changes not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelet har redan startat.  Kan inte ändra information om spelet när spelet har startats. Ändringarna sparades inte.</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeTeamNotSelected" translate="yes" xml:space="preserve">
+          <source>Home team not selected. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hem-teamet inte är markerad. Spelet har inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodLengthNotSet" translate="yes" xml:space="preserve">
+          <source>Period length not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Periodlängden har inte angetts. Spelet har inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodNotSet" translate="yes" xml:space="preserve">
+          <source>Periods not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Perioder har inte angetts. Spelet har inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayersPerTeamNotSet" translate="yes" xml:space="preserve">
+          <source>Players per team not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelare per team har inte angetts. Spelet har inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Add" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lägg till</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/AddPlay" translate="yes" xml:space="preserve">
+          <source>Add Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lägg till Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayer" translate="yes" xml:space="preserve">
+          <source>Add Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lägga till spelaren</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/PlayerList" translate="yes" xml:space="preserve">
+          <source>Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uppspelningslista</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerName" translate="yes" xml:space="preserve">
+          <source>Player Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player namn</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayText" translate="yes" xml:space="preserve">
+          <source>Play Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spela Text</target>
+        </trans-unit>
+        <trans-unit id="Resx/Search" translate="yes" xml:space="preserve">
+          <source>Search</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sök</target>
+        </trans-unit>
+        <trans-unit id="Resx/CannotChangeDeletedPlayerInfo" translate="yes" xml:space="preserve">
+          <source>Can not change information on a deleted player. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kan inte ändra information om en borttagen spelare. Spelaren har inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/FirstName" translate="yes" xml:space="preserve">
+          <source>First Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Förnamn</target>
+        </trans-unit>
+        <trans-unit id="Resx/FirstNameNotEntered" translate="yes" xml:space="preserve">
+          <source>First name not entered. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Förnamn har inte angetts. Spelaren har inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Height" translate="yes" xml:space="preserve">
+          <source>Height</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Höjd</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyNumberInvalidPlayerNotSaved" translate="yes" xml:space="preserve">
+          <source>Jersey Number can not be more than 3 characters. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jersey nummer får inte vara mer än 3 tecken. Spelaren har inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kicks" translate="yes" xml:space="preserve">
+          <source>Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sparkar</target>
+        </trans-unit>
+        <trans-unit id="Resx/LastName" translate="yes" xml:space="preserve">
+          <source>Last Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Efternamn</target>
+        </trans-unit>
+        <trans-unit id="Resx/Left" translate="yes" xml:space="preserve">
+          <source>Left</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vänster</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerDetails" translate="yes" xml:space="preserve">
+          <source>Player Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player information</target>
+        </trans-unit>
+        <trans-unit id="Resx/Right" translate="yes" xml:space="preserve">
+          <source>Right</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Höger</target>
+        </trans-unit>
+        <trans-unit id="Resx/Weight" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vikt</target>
+        </trans-unit>
+        <trans-unit id="Resx/Assist" translate="yes" xml:space="preserve">
+          <source>Assist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hjälpa</target>
+        </trans-unit>
+        <trans-unit id="Resx/Blocked" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blockerad</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornerKick" translate="yes" xml:space="preserve">
+          <source>3P Field Goal Made</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hörnet Kick</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Cross" translate="yes" xml:space="preserve">
+          <source>Block</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kors</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKick" translate="yes" xml:space="preserve">
+          <source>Direct Free Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Direkt Free Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dribble" translate="yes" xml:space="preserve">
+          <source>Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dribble</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKick" translate="yes" xml:space="preserve">
+          <source>Drop Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Släpp Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulCommitted" translate="yes" xml:space="preserve">
+          <source>BBTurnover</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Medgång bekräftade</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/FoulDrawn" translate="yes" xml:space="preserve">
+          <source>Foul Drawn</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Medgång ritade</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalAllowed" translate="yes" xml:space="preserve">
+          <source>Goal Allowed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Målet är tillåtet</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalieKick" translate="yes" xml:space="preserve">
+          <source>FT Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Goalie Kick</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/IndirectFreeKick" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Indirekt fria Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/MinutesPlayed" translate="yes" xml:space="preserve">
+          <source>Minutes Played</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Minuter som spelas upp</target>
+        </trans-unit>
+        <trans-unit id="Resx/Move" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Flytta</target>
+        </trans-unit>
+        <trans-unit id="Resx/Notes" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Anteckningar</target>
+        </trans-unit>
+        <trans-unit id="Resx/Offsides" translate="yes" xml:space="preserve">
+          <source>Steal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Offsides</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/OutOfBounds" translate="yes" xml:space="preserve">
+          <source>Assist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utanför intervallet</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/OwnGoal" translate="yes" xml:space="preserve">
+          <source>3P Field Goal Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Egna mål</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Pass" translate="yes" xml:space="preserve">
+          <source>Free Throw Made</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pass</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKick" translate="yes" xml:space="preserve">
+          <source>Penalty Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Påföljd Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlusMinus" translate="yes" xml:space="preserve">
+          <source>Plus Minus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Plus Minus</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCard" translate="yes" xml:space="preserve">
+          <source>Red Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rött kort</target>
+        </trans-unit>
+        <trans-unit id="Resx/Save" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spara</target>
+        </trans-unit>
+        <trans-unit id="Resx/SecondsPlayed" translate="yes" xml:space="preserve">
+          <source>SecondsPlayed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">SecondsPlayed</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKick" translate="yes" xml:space="preserve">
+          <source>Shootout Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shootout Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shot" translate="yes" xml:space="preserve">
+          <source>2P Field Goal Made</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bild</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ShotOnGoal" translate="yes" xml:space="preserve">
+          <source>Shot On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skjutits för mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/Substitution" translate="yes" xml:space="preserve">
+          <source>Substitution</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Substitution</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tackle" translate="yes" xml:space="preserve">
+          <source>2P Field Goal Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ta</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ThrowIn" translate="yes" xml:space="preserve">
+          <source>Foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kasta</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Turnover" translate="yes" xml:space="preserve">
+          <source>Rebound</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Omsättning</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCard" translate="yes" xml:space="preserve">
+          <source>Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gula kort</target>
+        </trans-unit>
+        <trans-unit id="Resx/Excellent" translate="yes" xml:space="preserve">
+          <source>Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utmärkt</target>
+        </trans-unit>
+        <trans-unit id="Resx/Good" translate="yes" xml:space="preserve">
+          <source>Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bra</target>
+        </trans-unit>
+        <trans-unit id="Resx/Poor" translate="yes" xml:space="preserve">
+          <source>Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dålig</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotDetails" translate="yes" xml:space="preserve">
+          <source>Shot Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skjutna detaljer</target>
+        </trans-unit>
+        <trans-unit id="Resx/BadPass" translate="yes" xml:space="preserve">
+          <source>Bad Pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Felaktigt lösenord</target>
+        </trans-unit>
+        <trans-unit id="Resx/Charging" translate="yes" xml:space="preserve">
+          <source>Charging</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Debitering</target>
+        </trans-unit>
+        <trans-unit id="Resx/DelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source>Delaying Restart of Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fördröja omstarten av Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/ForGoal" translate="yes" xml:space="preserve">
+          <source>For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">För målet</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulPlay" translate="yes" xml:space="preserve">
+          <source>Foul Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Foul Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goal" translate="yes" xml:space="preserve">
+          <source>Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/Headed" translate="yes" xml:space="preserve">
+          <source>Headed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rubriken</target>
+        </trans-unit>
+        <trans-unit id="Resx/HitPost" translate="yes" xml:space="preserve">
+          <source>Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tryck på inlägg</target>
+        </trans-unit>
+        <trans-unit id="Resx/Holding" translate="yes" xml:space="preserve">
+          <source>Holding</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hålla</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalHands" translate="yes" xml:space="preserve">
+          <source>Illegal Hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ogiltig händer</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalTackle" translate="yes" xml:space="preserve">
+          <source>Illegal Tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ogiltig ta</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalThrowIn" translate="yes" xml:space="preserve">
+          <source>Illegal Throw In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ogiltig kasta i</target>
+        </trans-unit>
+        <trans-unit id="Resx/In" translate="yes" xml:space="preserve">
+          <source>In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">I</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kicking" translate="yes" xml:space="preserve">
+          <source>Kicking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tävlingen</target>
+        </trans-unit>
+        <trans-unit id="Resx/LostDribble" translate="yes" xml:space="preserve">
+          <source>Lost Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Förlorade Dribble</target>
+        </trans-unit>
+        <trans-unit id="Resx/Miss" translate="yes" xml:space="preserve">
+          <source>Miss</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Miss</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotForGoal" translate="yes" xml:space="preserve">
+          <source>Not For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Inte för målet</target>
+        </trans-unit>
+        <trans-unit id="Resx/Out" translate="yes" xml:space="preserve">
+          <source>Out</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ut</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pushing" translate="yes" xml:space="preserve">
+          <source>Pushing</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trycka på</target>
+        </trans-unit>
+        <trans-unit id="Resx/SecondYellowCard" translate="yes" xml:space="preserve">
+          <source>Second Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Andra gula kort</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tripping" translate="yes" xml:space="preserve">
+          <source>Tripping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utlösning</target>
+        </trans-unit>
+        <trans-unit id="Resx/UnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source>Unsportsmanlike Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Unsportsmanlike beteende</target>
+        </trans-unit>
+        <trans-unit id="Resx/ViolentConduct" translate="yes" xml:space="preserve">
+          <source>Violent Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Våldsamt uppförande</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsPicker" translate="yes" xml:space="preserve">
+          <source>Stats Picker</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Väljare för statistik</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a shot and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en bild och missar</target>
+        </trans-unit>
+        <trans-unit id="Resx/BlockedBy" translate="yes" xml:space="preserve">
+          <source>Blocked By</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blockeras av</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Avbryt</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/Ok" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">OK</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShotNotOnGoal" translate="yes" xml:space="preserve">
+          <source>Shot Not On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tog inte på målet</target>
+        </trans-unit>
+        <trans-unit id="Resx/Period" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Period</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayDetails" translate="yes" xml:space="preserve">
+          <source>Play Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spela upp information</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player" translate="yes" xml:space="preserve">
+          <source>Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerIn" translate="yes" xml:space="preserve">
+          <source>Player In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelaren i</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerOut" translate="yes" xml:space="preserve">
+          <source>Player Out</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelare ut</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatCategory" translate="yes" xml:space="preserve">
+          <source>Stat Category</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stat kategori</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatDescription" translate="yes" xml:space="preserve">
+          <source>Stat Description</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stat beskrivning</target>
+        </trans-unit>
+        <trans-unit id="Resx/Team" translate="yes" xml:space="preserve">
+          <source>Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Team</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockNotEntered" translate="yes" xml:space="preserve">
+          <source>Clock not entered. Play not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klockan har inte angetts. Spela inte sparas.</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotASupportedPlayTypeForPBPEdit" translate="yes" xml:space="preserve">
+          <source>Not a supported play type for pbp edit. Play can not be edited.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Inte en stöds play typ för pbp redigering. Play kan inte redigeras.</target>
+        </trans-unit>
+        <trans-unit id="Resx/OpponentTeam" translate="yes" xml:space="preserve">
+          <source>Opponent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Motspelare</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name for demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/OtherTeamGoalie" translate="yes" xml:space="preserve">
+          <source>Other Team Goalie</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Andra Team-Goalie</target>
+        </trans-unit>
+        <trans-unit id="Resx/OurTeam" translate="yes" xml:space="preserve">
+          <source>Our Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vårt Team</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name for demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/PeriodClockValueInFuture" translate="yes" xml:space="preserve">
+          <source>Period/Clock value can not be a time in the future. Please use game manager to track a play in the future. Play not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tid/klocka värdet kan inte vara en tid framöver. Använd hanteraren för spelet för att spåra en play i framtiden. Spela inte sparas.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player1" translate="yes" xml:space="preserve">
+          <source>Player 1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelare 1</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player10" translate="yes" xml:space="preserve">
+          <source>Player 10</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 10</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player11" translate="yes" xml:space="preserve">
+          <source>Player 11</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 11</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player12" translate="yes" xml:space="preserve">
+          <source>Player 12</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 12</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player13" translate="yes" xml:space="preserve">
+          <source>Player 13</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 13</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player14" translate="yes" xml:space="preserve">
+          <source>Player 14</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 14</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player15" translate="yes" xml:space="preserve">
+          <source>Player 15</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 15</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player16" translate="yes" xml:space="preserve">
+          <source>Player 16</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">16 spelare</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player17" translate="yes" xml:space="preserve">
+          <source>Player 17</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 17</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player18" translate="yes" xml:space="preserve">
+          <source>Player 18</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 18</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player19" translate="yes" xml:space="preserve">
+          <source>Player 19</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 19</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player2" translate="yes" xml:space="preserve">
+          <source>Player 2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelare 2</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player20" translate="yes" xml:space="preserve">
+          <source>Player 20</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 20</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player21" translate="yes" xml:space="preserve">
+          <source>Player 21</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 21</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player22" translate="yes" xml:space="preserve">
+          <source>Player 22</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 22</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player23" translate="yes" xml:space="preserve">
+          <source>Player 23</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 23</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player24" translate="yes" xml:space="preserve">
+          <source>Player 24</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 24</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player25" translate="yes" xml:space="preserve">
+          <source>Player 25</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 25</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player26" translate="yes" xml:space="preserve">
+          <source>Player 26</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 26</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player27" translate="yes" xml:space="preserve">
+          <source>Player 27</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 27</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player28" translate="yes" xml:space="preserve">
+          <source>Player 28</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 28</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player29" translate="yes" xml:space="preserve">
+          <source>Player 29</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 29</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player3" translate="yes" xml:space="preserve">
+          <source>Player 3</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelare 3</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player30" translate="yes" xml:space="preserve">
+          <source>Player 30</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 30</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player4" translate="yes" xml:space="preserve">
+          <source>Player 4</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelare 4</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player5" translate="yes" xml:space="preserve">
+          <source>Player 5</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 5</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player6" translate="yes" xml:space="preserve">
+          <source>Player 6</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 6</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player7" translate="yes" xml:space="preserve">
+          <source>Player 7</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 7</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player8" translate="yes" xml:space="preserve">
+          <source>Player 8</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 8</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player9" translate="yes" xml:space="preserve">
+          <source>Player 9</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 9</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Away" translate="yes" xml:space="preserve">
+          <source>Away</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Borta</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteGame" translate="yes" xml:space="preserve">
+          <source>Delete Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ta bort spel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/DeleteLeague" translate="yes" xml:space="preserve">
+          <source>Delete League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ta bort liga</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlay" translate="yes" xml:space="preserve">
+          <source>Delete Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ta bort Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayer" translate="yes" xml:space="preserve">
+          <source>Delete Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ta bort spelaren</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteTeam" translate="yes" xml:space="preserve">
+          <source>Delete Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ta bort Team</target>
+        </trans-unit>
+        <trans-unit id="Resx/Home" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hem</target>
+        </trans-unit>
+        <trans-unit id="Resx/None" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ingen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name option for assist in PBP screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/Play" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spela upp</target>
+        </trans-unit>
+        <trans-unit id="Resx/Unknown" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Okänd</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">unknown player from game manager screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/GameStartedScreenDisabled" translate="yes" xml:space="preserve">
+          <source>Inprogress, screen disabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ärendeposter skärmen inaktiveras</target>
+        </trans-unit>
+        <trans-unit id="Resx/InvalidOTLength" translate="yes" xml:space="preserve">
+          <source>Invalid OT Length. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ogiltig längd för OT. Spelet har inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Assists" translate="yes" xml:space="preserve">
+          <source>Assists</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hjälper</target>
+        </trans-unit>
+        <trans-unit id="Resx/Blocks" translate="yes" xml:space="preserve">
+          <source>Blocks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Block</target>
+        </trans-unit>
+        <trans-unit id="Resx/Corners" translate="yes" xml:space="preserve">
+          <source>Corners</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hörn</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersExcellent" translate="yes" xml:space="preserve">
+          <source>Corners Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utmärkt hörn</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersForGoal" translate="yes" xml:space="preserve">
+          <source>Corners For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">För mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersGood" translate="yes" xml:space="preserve">
+          <source>Corners Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">God hörn</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersPoor" translate="yes" xml:space="preserve">
+          <source>Corners Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dålig hörn</target>
+        </trans-unit>
+        <trans-unit id="Resx/Crosses" translate="yes" xml:space="preserve">
+          <source>Crosses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Korsar</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesExcellent" translate="yes" xml:space="preserve">
+          <source>Crosses Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utmärkt korsar</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesGood" translate="yes" xml:space="preserve">
+          <source>Crosses Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Korsar god</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesPoor" translate="yes" xml:space="preserve">
+          <source>Crosses Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Korsar dålig</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicks" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Direkt ledig sparkar</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicksForGoal" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Direkt ledig sparkar för målet</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicksNotForGoal" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks Not For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Direkt ledig sparkar inte för målet</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicks" translate="yes" xml:space="preserve">
+          <source>Drop Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Släpp sparkar</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksExcellent" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Släpp sparkar utmärkt</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksGood" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Släpp sparkar bra</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksPoor" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Släpp sparkar dålig</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsComittedHolding" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Holding</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls bekräftade anläggning</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommitted" translate="yes" xml:space="preserve">
+          <source>Turnovers</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls bekräftade</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedCharging" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Charging</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls utfästa laddning</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedIllegalTackle" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Illegal Tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls begått olagliga ta</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedKicking" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Kicking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls utfästa lanseras</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedPushing" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Pushing</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls utfästa trycka</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedTripping" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Tripping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls utfästa utlösning</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsDrawn" translate="yes" xml:space="preserve">
+          <source>Fouls Drawn</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls ritas</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalKicks" translate="yes" xml:space="preserve">
+          <source>Goal Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Målet sparkar</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goals" translate="yes" xml:space="preserve">
+          <source>Goals</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalsAllowed" translate="yes" xml:space="preserve">
+          <source>Goals Allowed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mål som tillåts</target>
+        </trans-unit>
+        <trans-unit id="Resx/IndirectFreeKicks" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Indirekt fria sparkar</target>
+        </trans-unit>
+        <trans-unit id="Resx/MadeOwnGoal" translate="yes" xml:space="preserve">
+          <source>MadeOwnGoal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MadeOwnGoal</target>
+        </trans-unit>
+        <trans-unit id="Resx/Passes" translate="yes" xml:space="preserve">
+          <source>Passes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pass</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesExcellent" translate="yes" xml:space="preserve">
+          <source>Passes Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Utmärkt pass</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesGood" translate="yes" xml:space="preserve">
+          <source>Passes Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pass bra</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesPoor" translate="yes" xml:space="preserve">
+          <source>Passes Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pass dålig</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicks" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Påföljd sparkar</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksBlocked" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Påföljd sparkar blockeras</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksGoal" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Påföljd sparkar mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksHitPost" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Påföljd sparkar träffar inlägg</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksMissed" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Påföljd sparkar missade</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCards" translate="yes" xml:space="preserve">
+          <source>Red Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rött kort</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsFoulPlay" translate="yes" xml:space="preserve">
+          <source>Red Cards Foul Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Röda Foul Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsIllegalHands" translate="yes" xml:space="preserve">
+          <source>Red Cards Ilegal Hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rött kort ogiltig händer</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsSecondYellowCard" translate="yes" xml:space="preserve">
+          <source>Red Cards Second Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rött kort andra gula kort</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsViolentConduct" translate="yes" xml:space="preserve">
+          <source>Red Cards Violent Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rött kort våldsamma beteende</target>
+        </trans-unit>
+        <trans-unit id="Resx/Saves" translate="yes" xml:space="preserve">
+          <source>Saves</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sparar</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicks" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shootout sparkar</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksBlocked" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shootout sparkar blockeras</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksGoal" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shootout sparkar mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksHitPost" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shootout sparkar träffar inlägg</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksMissed" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shootout sparkar missade</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shots" translate="yes" xml:space="preserve">
+          <source>Shots</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tagningar</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsBlocked" translate="yes" xml:space="preserve">
+          <source>Shots Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blockerade bilder</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsGoal" translate="yes" xml:space="preserve">
+          <source>Shots Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tagningar mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsHitPost" translate="yes" xml:space="preserve">
+          <source>Shots Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tagningar träffar inlägg</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsMissed" translate="yes" xml:space="preserve">
+          <source>Shots Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Missade tagningar</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsOnGoal" translate="yes" xml:space="preserve">
+          <source>Shots On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tagningar för mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tackles" translate="yes" xml:space="preserve">
+          <source>Tackles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tackles</target>
+        </trans-unit>
+        <trans-unit id="Resx/ThrowIns" translate="yes" xml:space="preserve">
+          <source>Throw Ins</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kasta moduler</target>
+        </trans-unit>
+        <trans-unit id="Resx/Turnovers" translate="yes" xml:space="preserve">
+          <source>Turnovers</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Omsättning</target>
+        </trans-unit>
+        <trans-unit id="Resx/TurnoversIllegalThrowIn" translate="yes" xml:space="preserve">
+          <source>Turnovers Illegal Throw In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Omsättning olaglig kasta i</target>
+        </trans-unit>
+        <trans-unit id="Resx/TurnoversLostDribble" translate="yes" xml:space="preserve">
+          <source>Turnovers Lost Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Förlorade Dribble omsättning</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCards" translate="yes" xml:space="preserve">
+          <source>Yellow Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gula kort</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCardsDelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source>Yellow Cards Delaying Restart Of Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gul fördröja omstarten av Play-kort</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowsCardsUnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source>Yellow Cards Unsportsmanline Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gula kort Unsportsmanline genomförande</target>
+        </trans-unit>
+        <trans-unit id="Resx/BirthDate" translate="yes" xml:space="preserve">
+          <source>BirthDate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">FÖDELSEDATUM</target>
+        </trans-unit>
+        <trans-unit id="Resx/AssistedBy" translate="yes" xml:space="preserve">
+          <source> asssited by </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> asssited av </target>
+        </trans-unit>
+        <trans-unit id="Resx/By" translate="yes" xml:space="preserve">
+          <source> by </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> genom </target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAChargingFoul" translate="yes" xml:space="preserve">
+          <source> commits a charging foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> genomför en laddning foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAHoldingFoul" translate="yes" xml:space="preserve">
+          <source> commits a holding foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> genomför en foul anläggning</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAKickingFoul" translate="yes" xml:space="preserve">
+          <source> commits a kicking foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> genomför en foul lanseras</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAnIllegalTackleFoul" translate="yes" xml:space="preserve">
+          <source> commits an illegal tackle foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> genomför en ogiltig ta foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAPushingFoul" translate="yes" xml:space="preserve">
+          <source> commits a pushing foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> genomför en trycka foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsATrippingFoul" translate="yes" xml:space="preserve">
+          <source> commits a tripping foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> genomför en snubbla foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasAnIllegalThrowIn" translate="yes" xml:space="preserve">
+          <source> has an illegal throw in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> har en ogiltig kasta i</target>
+        </trans-unit>
+        <trans-unit id="Resx/IsOffsides" translate="yes" xml:space="preserve">
+          <source> is offisides</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> är offisides</target>
+        </trans-unit>
+        <trans-unit id="Resx/KicksTheBallOutOfBounds" translate="yes" xml:space="preserve">
+          <source> kicks the ball out of bounds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> aktiveras bollen utanför intervallet</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeftFoot" translate="yes" xml:space="preserve">
+          <source>left foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">vänster fot</target>
+        </trans-unit>
+        <trans-unit id="Resx/LostTheDribble" translate="yes" xml:space="preserve">
+          <source> lost the dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> förlorat dribble</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodPass" translate="yes" xml:space="preserve">
+          <source> makes a good pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Gör en bra pass</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentPass" translate="yes" xml:space="preserve">
+          <source> makes an excellent pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Gör ett utmärkt pass</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorPass" translate="yes" xml:space="preserve">
+          <source> makes a poor pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Gör en dålig pass</target>
+        </trans-unit>
+        <trans-unit id="Resx/RightFoot" translate="yes" xml:space="preserve">
+          <source>right foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Höger fot</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a shot and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en bild och träffar inlägget</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a shot and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en bild och den är spärrad</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndScores" translate="yes" xml:space="preserve">
+          <source> takes a shot and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en bild och poäng</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tutorial" translate="yes" xml:space="preserve">
+          <source>Tutorial</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Självstudier</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockAdjustedToPeriod" translate="yes" xml:space="preserve">
+          <source> Clock adjusted to period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Klocka justeras till period</target>
+        </trans-unit>
+        <trans-unit id="Resx/DrawsAFoul" translate="yes" xml:space="preserve">
+          <source> draws a foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Ritar en foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dribbles" translate="yes" xml:space="preserve">
+          <source> dribbles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> dribbles</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForFoulPlay" translate="yes" xml:space="preserve">
+          <source> gets a red card for foul play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> får ett rött kort för foul play</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForIllegalHands" translate="yes" xml:space="preserve">
+          <source> gets a red card for illegal hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> får ett rött kort för olaglig händer</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForSecondYellowCard" translate="yes" xml:space="preserve">
+          <source> gets a red card for second yellow card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> får ett rött kort för andra gula kort</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForViolentConduct" translate="yes" xml:space="preserve">
+          <source> gets a red card for violent conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> får ett rött kort för våldsamt beteende</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsAYellowCardForDelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source> gets a yellow card for delaying restart of play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> får ett gult kort för att fördröja omstarten av play</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsAYellowCardForUnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source> gets a yellow card for unsportsmanlike conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> får ett gult kort för unsportsmanlike</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasATackle" translate="yes" xml:space="preserve">
+          <source> has a tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> har en ta</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasAThrowIn" translate="yes" xml:space="preserve">
+          <source> has a throw in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> har en throw-sats i</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodCross" translate="yes" xml:space="preserve">
+          <source> makes a good cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Gör ett bra kors</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodDropKick" translate="yes" xml:space="preserve">
+          <source> makes a good drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Gör en bra drop kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentCross" translate="yes" xml:space="preserve">
+          <source> makes an excellent cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Gör en utmärkt kors</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentDropKick" translate="yes" xml:space="preserve">
+          <source> makes an excellent drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Gör en utmärkt drop kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorCross" translate="yes" xml:space="preserve">
+          <source> makes a poor cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Gör en dålig korsning</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorDropKick" translate="yes" xml:space="preserve">
+          <source> makes a poor drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Gör en dålig drop kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/SwitchedPositionsWith" translate="yes" xml:space="preserve">
+          <source> switched positions with </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> växlade positioner med </target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesACornerKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a corner kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en hörnet kick och poäng</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesADirectFreeKick" translate="yes" xml:space="preserve">
+          <source> takes a direct free kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en direkt free kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesADirectFreeKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a direct free kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en direkt free kick och poäng</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAGoalKick" translate="yes" xml:space="preserve">
+          <source> takes a goal kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en kick mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAGoodCornerKick" translate="yes" xml:space="preserve">
+          <source> takes a good corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en god hörnet kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAnExcellentCornerKick" translate="yes" xml:space="preserve">
+          <source> takes an excellent corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en utmärkt hörnet kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAnIndirectFreeKick" translate="yes" xml:space="preserve">
+          <source> takes an indirect free kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en indirekt fria kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en påföljd kick och träffar inlägget</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en påföljd slår och det är blockerad</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en påföljd kick och missar</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en påföljd kick och poäng</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPoorCornerKick" translate="yes" xml:space="preserve">
+          <source> takes a poor corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en dålig hörnet kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en shootout kick och träffar inlägget</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en shootout slår och det är blockerad</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en shootout kick och missar</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> tar en shootout kick och poäng</target>
+        </trans-unit>
+        <trans-unit id="Resx/BlueCross" translate="yes" xml:space="preserve">
+          <source>Blue Cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blå kors</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueRed" translate="yes" xml:space="preserve">
+          <source>Blue Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blå röd</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueStripe" translate="yes" xml:space="preserve">
+          <source>Blue Stripe</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blå rand</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueWhite" translate="yes" xml:space="preserve">
+          <source>BlueWhite</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">BlueWhite</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/DarkBlue" translate="yes" xml:space="preserve">
+          <source>Dark Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mörkblå</target>
+        </trans-unit>
+        <trans-unit id="Resx/DarkRed" translate="yes" xml:space="preserve">
+          <source>Dark Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mörkröd</target>
+        </trans-unit>
+        <trans-unit id="Resx/GermanColors" translate="yes" xml:space="preserve">
+          <source>German Colors</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tyska färger</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/GreenRed" translate="yes" xml:space="preserve">
+          <source>Green Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grön-röd</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/LightBlue" translate="yes" xml:space="preserve">
+          <source>Light Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ljusblå</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Orange" translate="yes" xml:space="preserve">
+          <source>Orange</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Orange</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/OrangeGreen" translate="yes" xml:space="preserve">
+          <source>Orange Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Orange grön</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Red" translate="yes" xml:space="preserve">
+          <source>Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Röd</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedBlack" translate="yes" xml:space="preserve">
+          <source>Red Black</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Röd-svart</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedGreen" translate="yes" xml:space="preserve">
+          <source>Red Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Röd-grön</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedStripes" translate="yes" xml:space="preserve">
+          <source>Red Stripes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Röda ränder</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteBlue" translate="yes" xml:space="preserve">
+          <source>White Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vit-blå</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteGreen" translate="yes" xml:space="preserve">
+          <source>White Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vit-grön</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteRed" translate="yes" xml:space="preserve">
+          <source>White Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vit-röd</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/YellowBlue" translate="yes" xml:space="preserve">
+          <source>Yellow Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gul blå</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/YellowGreen" translate="yes" xml:space="preserve">
+          <source>Yellow Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gul-grön</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Demo" translate="yes" xml:space="preserve">
+          <source>Demo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Demo</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddNewPlayer" translate="yes" xml:space="preserve">
+          <source>Add New Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lägg till ny spelare</target>
+        </trans-unit>
+        <trans-unit id="Resx/Timeline" translate="yes" xml:space="preserve">
+          <source>Timeline</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tidslinje</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectTeam" translate="yes" xml:space="preserve">
+          <source>Select Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Välj Team</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name option in teams drop down on game details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/KicksBallIntoOwnGoal" translate="yes" xml:space="preserve">
+          <source> kicks the ball into own goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> aktiveras bollen i eget mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectJersey" translate="yes" xml:space="preserve">
+          <source>Select Jersey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Välj Jersey</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectLeague" translate="yes" xml:space="preserve">
+          <source>Select League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Välj liga</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerMinutes" translate="yes" xml:space="preserve">
+          <source>Player Minutes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player minuter</target>
+        </trans-unit>
+        <trans-unit id="Resx/Statistics" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Statistik</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">screen title</note>
+          </trans-unit>
+        <trans-unit id="Resx/StatsDisclaimer" translate="yes" xml:space="preserve">
+          <source>Player Minutes updated at end of period and end of game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player minuter uppdateras i slutet av perioden och i slutet av spelet</target>
+        </trans-unit>
+        <trans-unit id="Resx/Legend" translate="yes" xml:space="preserve">
+          <source>Legend</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Förklaring</target>
+        </trans-unit>
+        <trans-unit id="Resx/User" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Användare</target>
+        </trans-unit>
+        <trans-unit id="Resx/eMail" translate="yes" xml:space="preserve">
+          <source>eMail</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">e-post</target>
+        </trans-unit>
+        <trans-unit id="Resx/Password" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lösenord</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetPassword" translate="yes" xml:space="preserve">
+          <source>Reset Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Återställa lösenord</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Om</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateApp" translate="yes" xml:space="preserve">
+          <source>Rate App</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kurs-App</target>
+        </trans-unit>
+        <trans-unit id="Resx/Fouls" translate="yes" xml:space="preserve">
+          <source>Fouls</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseApp" translate="yes" xml:space="preserve">
+          <source>Purchase App</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Inköp-App</target>
+        </trans-unit>
+        <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hjälp</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppPrompt" translate="yes" xml:space="preserve">
+          <source>Unlock all stats?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Låsa upp all statistik?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoGame" translate="yes" xml:space="preserve">
+          <source>Demo Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Demo-spel</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoToDemoGamePrompt" translate="yes" xml:space="preserve">
+          <source>Try scoring the demo game?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Försök poängsättning demo spelet?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoLeftButton" translate="yes" xml:space="preserve">
+          <source>Try It</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prova</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoRightButton" translate="yes" xml:space="preserve">
+          <source>No Thanks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nej tack</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rate" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hastighet</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us.  Please rate this app. Rating the app will enable full stats functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Din feedback är mycket viktig för oss.  Betygsätt den här appen.</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us.  Would you like to rate this app?  Rating the app will enable full stats functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Din feedback är mycket viktig för oss.  Vill du att klassificera den här appen?</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/RateLeftButton" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ja</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateRightButton" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nr</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppLeftButton" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Inköp</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppRightButton" translate="yes" xml:space="preserve">
+          <source>Not Now</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Inte nu</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayerToBench" translate="yes" xml:space="preserve">
+          <source>Add Player To Bench</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lägga till spelaren bänk</target>
+        </trans-unit>
+        <trans-unit id="Resx/Advance" translate="yes" xml:space="preserve">
+          <source>Advance</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Förskott</target>
+        </trans-unit>
+        <trans-unit id="Resx/AdvanceToNextPeriod" translate="yes" xml:space="preserve">
+          <source>Advance to next period?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gå vidare till nästa period?</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayBoxscore" translate="yes" xml:space="preserve">
+          <source>Away Boxscore</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Boxscore bort</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToAdjustClock" translate="yes" xml:space="preserve">
+          <source>Click to adjust clock</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klicka om du vill justera klockan</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToAdjustPeriod" translate="yes" xml:space="preserve">
+          <source>Click to adjust period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klicka om du vill justera period</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToStartOrStopGameTime" translate="yes" xml:space="preserve">
+          <source>Click to Start or Stop game time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Klicka om du vill starta eller stoppa speltid</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockDown" translate="yes" xml:space="preserve">
+          <source>Clock Down</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stämpla ned</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockUp" translate="yes" xml:space="preserve">
+          <source>Clock Up</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stämpla</target>
+        </trans-unit>
+        <trans-unit id="Resx/Edit" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Redigera</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/EditGame" translate="yes" xml:space="preserve">
+          <source>Edit Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Redigera spel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/EditPlayByPlay" translate="yes" xml:space="preserve">
+          <source>Edit Play By Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Redigera Play spela upp</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameManager" translate="yes" xml:space="preserve">
+          <source>Game Manager</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelet Manager</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/GameStatistics" translate="yes" xml:space="preserve">
+          <source>Game Statistics</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Statistik</target>
+        </trans-unit>
+        <trans-unit id="Resx/Header" translate="yes" xml:space="preserve">
+          <source>Header</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sidhuvud</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeBoxscore" translate="yes" xml:space="preserve">
+          <source>Home Boxscore</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hem-Boxscore</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoPlaysToUndo" translate="yes" xml:space="preserve">
+          <source>There are no plays to undo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Det finns inga spelas upp att ångra</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyGoal" translate="yes" xml:space="preserve">
+          <source>Penalty Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Påföljd mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayByPlay" translate="yes" xml:space="preserve">
+          <source>Play By Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spela Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/Share" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dela</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootsLeftFoot" translate="yes" xml:space="preserve">
+          <source>Shoots Left Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skott vänster fot</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShootsRightFoot" translate="yes" xml:space="preserve">
+          <source>Shoots Right Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skott höger fot</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShotGoal" translate="yes" xml:space="preserve">
+          <source>Shot Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skjutna mål</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotWithLeftFoot" translate="yes" xml:space="preserve">
+          <source>Shot With Left Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spelats in med vänster fot</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotWithRightFoot" translate="yes" xml:space="preserve">
+          <source>Shot With Right Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tog med höger fot</target>
+        </trans-unit>
+        <trans-unit id="Resx/Undo" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ångra</target>
+        </trans-unit>
+        <trans-unit id="Resx/WasUndone" translate="yes" xml:space="preserve">
+          <source> was undone</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ångrades</target>
+        </trans-unit>
+        <trans-unit id="Resx/Menu" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Menyn</target>
+        </trans-unit>
+        <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Inköp</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAllStats" translate="yes" xml:space="preserve">
+          <source>Purchase All Stats?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Köpa All statistik?</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine1" translate="yes" xml:space="preserve">
+          <source>Full stats package includes: Player Minutes, Plus Minus,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fullständig statistik-paketet inkluderar: Player minuter, Plus Minus,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine2" translate="yes" xml:space="preserve">
+          <source>Pass, Turnover, Offsides,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skicka omsättning, Offsides,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine3" translate="yes" xml:space="preserve">
+          <source>Foul Committed, Out of Bounds, Cross, Throw In, Corner Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Foul förbinder sig utanför gränserna, kryss, kasta i hörnet Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine4" translate="yes" xml:space="preserve">
+          <source>Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ta Goalie Kick, egna mål, Kick för fult ritade, direkt gratis,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine5" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Indirekt fria Kick, påföljd Kick, gula kort, rött kort, Drop Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine6" translate="yes" xml:space="preserve">
+          <source>Dribble, Shootout Kick, Substitution</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dribble, Shootout Kick ersättning</target>
+        </trans-unit>
+        <trans-unit id="Resx/Loading" translate="yes" xml:space="preserve">
+          <source>Loading ...</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laddar...</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayerFromRoster" translate="yes" xml:space="preserve">
+          <source>Delete Player From Team Roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ta bort spelare från Roster</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          </trans-unit>
+        <trans-unit id="Resx/FromPlayerList" translate="yes" xml:space="preserve">
+          <source> from player list</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> player-listan</target>
+        </trans-unit>
+        <trans-unit id="Resx/FromRoster" translate="yes" xml:space="preserve">
+          <source> from roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> från roster</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeAndAwayCanNotBeSameTeam" translate="yes" xml:space="preserve">
+          <source>Home team and away team can not be the same. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Home team och passivt team kan inte vara samma. Spelet har inte sparats.</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameStarted" translate="yes" xml:space="preserve">
+          <source>Game Started</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Starta spelet</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToBuy" translate="yes" xml:space="preserve">
+          <source>- Click Image To Buy Full Version -</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">-Klicka på bilden om du vill köpa en fullständig Version-</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword5" translate="yes" xml:space="preserve">
+          <source>sports</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sport</target>
+        </trans-unit>
+        <trans-unit id="Resx/Feedback" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Feedback</target>
+        </trans-unit>
+        <trans-unit id="Resx/_description" translate="yes" xml:space="preserve">
+          <source>The most intuitive and complete Soccer Scoring application on the market.  Over 50 stats available.  Try it free today!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+Player Stats include:
+
+Minutes played 
+Plus-minus 
+Goals
+Pases
+Offsides
+Red Card
+Turnovers
+and many more!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Den mest intuitiva och fullständig fotboll poängsättning program på marknaden.  Över 50 statistik tillgänglig.  Prova gratis idag!
+
+Hålla reda på: team spel ligor spelare spelarstatistik omfattar: minuter spelade Plus minus mål Pases Offsides rött kort omsättning och mycket mer!
+
+Spelet alternativen är: Stämpla eller klocka ned flexibla på fältet formationer okänd Player alternativet Redigera/Ångra av spelar obegränsad ersättningar anpassningsbara perioder och en periodlängd.
+
+
+Visa Play-By-Play åtgärd för spelet, dela statistik på Twitter, Facebook, Instagram, e-post, text och mycket mer!
+
+Enkelt att ställa upp och lätt att använda!  Börja spåra din nästa spel inom minuter!</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayerFromPlayerList" translate="yes" xml:space="preserve">
+          <source>Delete Player From Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ta bort Player Player-listan</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddNewPlayerToPlayerList" translate="yes" xml:space="preserve">
+          <source>Add New Player To Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lägg till ny Player Player-lista</target>
+        </trans-unit>
+        <trans-unit id="Resx/FollowUsOnTwitter" translate="yes" xml:space="preserve">
+          <source>Follow us on Twitter</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Följ oss på Twitter</target>
+        </trans-unit>
+        <trans-unit id="Resx/_IAPDescription" translate="yes" xml:space="preserve">
+          <source>Full Stats package includes: Player Minutes, Plus Minus,
+Pass, Turnover, Offsides, Foul Committed, Out of Bounds, Cross, Throw In,
+Corner Kick, Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,
+Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,
+Dribble, Shootout Kick, Substitution</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fullständig statistik-paketet inkluderar: Player minuter, Plus Minus, Pass, omsättning, Offsides, fult begåtts, Out of-Bounds, kryss, kasta i hörnet Kick, ta, Goalie Kick, egna mål, fult dragen, direkt Free Kick, indirekt fria Kick, påföljd Kick, gula kort, rött kort, Drop Kick, Dribble, Shootout Kick, ersättning</target>
+        </trans-unit>
+        <trans-unit id="Resx/_iapHeader" translate="yes" xml:space="preserve">
+          <source>Full Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fullständig statistik</target>
+        </trans-unit>
+        <trans-unit id="Resx/_FreeDescription" translate="yes" xml:space="preserve">
+          <source>The most intuitive and complete Soccer Scoring application on the market!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+The free version includes tracking of Shots and Goals!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Den mest intuitiva och fullständig fotboll poängsättning program på marknaden!
+
+Hålla reda på: team spel ligor spelare den kostnadsfria versionen innehåller spårning av tagningar och mål!
+
+Spelet alternativen är: Stämpla eller klocka ned flexibla på fältet formationer okänd Player alternativet Redigera/Ångra av spelar obegränsad ersättningar anpassningsbara perioder och en periodlängd.
+
+
+Visa Play-By-Play åtgärd för spelet, dela statistik på Twitter, Facebook, Instagram, e-post, text och mycket mer!
+
+Enkelt att ställa upp och lätt att använda!  Börja spåra din nästa spel inom minuter!</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodNotStarted" translate="yes" xml:space="preserve">
+          <source>The period has not started yet. Do you wish to continue?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Perioden har inte startats ännu. Vill du fortsätta?</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotStarted" translate="yes" xml:space="preserve">
+          <source>Not Started</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ej påbörjad</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword4" translate="yes" xml:space="preserve">
+          <source>score</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">poäng</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword3" translate="yes" xml:space="preserve">
+          <source>UTrack</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">UTrack</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword2" translate="yes" xml:space="preserve">
+          <source>statistics</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">statistik</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword1" translate="yes" xml:space="preserve">
+          <source>soccer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">fotboll</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoEvents" translate="yes" xml:space="preserve">
+          <source>no events</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Inga händelser</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kickoff" translate="yes" xml:space="preserve">
+          <source>KICKOFF</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">KICKOFF</target>
+        </trans-unit>
+        <trans-unit id="Resx/HalfTime" translate="yes" xml:space="preserve">
+          <source>HALF-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">HALVTID</target>
+        </trans-unit>
+        <trans-unit id="Resx/FullTime" translate="yes" xml:space="preserve">
+          <source>FULL-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">HELTID</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtraTimeHalfTime" translate="yes" xml:space="preserve">
+          <source>EXTRA-TIME HALF-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">EXTRA TID HALVTID</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtraTimeFullTime" translate="yes" xml:space="preserve">
+          <source>EXTRA-TIME FULL-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">EXTRA TID HELTID</target>
+        </trans-unit>
+        <trans-unit id="Resx/EndPeriod" translate="yes" xml:space="preserve">
+          <source>End Period </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Slutperiod </target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

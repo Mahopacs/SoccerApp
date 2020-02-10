@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>lt-LT</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>PRAŠYMO</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>pridėti</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Meniu elementas</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>Pridėti komandos</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>Treneris</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Kontaktinis numeris</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Naikinti</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>Rodyti panaikintus elementus</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>žaidimai</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>Žaidimo statistika</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Generuoti ataskaitą</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>Džersis</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Lyga</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>žaidėjai</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>Žaidėjų statistika</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>Grojaraščio</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Ataskaitos tipas</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Būtina</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>Dalyvių sąrašas</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Trumpasis pavadinimas</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>Statistika ataskaitos</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>Komanda detaliau</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>Komandos pavadinimas</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>Komandos pavadinimas nėra įrašytas. Komanda neįrašomi.</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>Komandos</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>Komandos statistika</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>Pridėti lyga</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>Lygos informacijos</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>Lygos pavadinimas</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Lygos</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Kontakto vardas</value>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>Žaidimo Info</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Vadovas</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>Komanda</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Laikrodis</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Žemyn</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>Žaidimo data</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>Žaidimo detalėmis</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>Žaidimo laikas</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>Namų komanda</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>Numatytasis lyga</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>Viršvalandžiai</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>Viršvalandžiai ilgis</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>Laikotarpio trukmė</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Aukštyn</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Taip</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>Komanda nepažymėta. Žaidimas nėra įrašomi.</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>Laikrodis aukštyn arba žemyn nenustatyta. Žaidimas nėra įrašomi.</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>Žaidimas prasidėjo.  Negalima pakeisti žaidimo detalėmis pradėjus žaidimą. Pakeitimai neįrašyti.</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>Namų komanda nepažymėta. Žaidimas nėra įrašomi.</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>Laikotarpio trukmė nenustatyta. Žaidimas nėra įrašomi.</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>Laikotarpių nenustatyta. Žaidimas nėra įrašomi.</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>Žaidėjai / komanda nenustatyta. Žaidimas nėra įrašomi.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Įtraukti</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>Pridėti žaisti</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>Pridėti Player</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>Žaidėjas sąrašas</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>Žaidėjo vardas</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>Žaisti teksto</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Ieškoti</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>Negalite pakeisti informaciją apie panaikintą žaidėjas. Žaidėjas neįrašomi.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Vardas</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>Vardas nėra įrašytas. Žaidėjas neįrašomi.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Aukštis</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>Jersey skaičius negali būti daugiau kaip 3 simbolių. Žaidėjas neįrašomi.</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Prasideda</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Pavardė</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>Žaidėjas detalių</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Svoris</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>Padėti</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Užblokuotas</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>Kampe Kick</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>Kryžmai</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>Tiesiogiai LCD</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Driblingas</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>Drop Kick</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>Užteršto padarytas</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>Užteršto nupiešti</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>Tikslas leido</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>Vartininkas Kick</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>Netiesioginis LCD</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>Minučių grojo</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Perkelti</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Pastabos</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>Užsienyje</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>Savo vartus</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>Praleisti</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>Baudinys</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>Pliusas ir minusas</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>Raudona kortelė</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Įrašyti</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>Shootout Kick</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>Trumpas</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>Išleido apie tikslas</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>Pakaitalas</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>Spręsti</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>Mesti</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>Apyvartos</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>Geltoną kortelę</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>Puikiai</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Geras</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>Prastas</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>Kulka detalių</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>Blogas Pass</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>Apmokestinimo</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>Delsimo paleisti žaidimo</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>Tikslo</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>Blogo žaisti</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>Tikslas</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>Vadovauja</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>Paspauskite paštu</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>Ūkio</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>Neteisėtas rankas</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>Neteisėtas spręsti</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>Neteisėtas mesti</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>col.</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>Kicking</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>Prarastas driblingas</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>P-lė</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>Ne dėl tikslo</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>Iš</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>Stūmimas</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>Antrą geltoną kortelę</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>Užkliuvimo</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>Nepagrįstų elgesio</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>Smurtinio elgesio</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>Statistika Picker</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value> kulka ir nepataikė</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>Blokuotas</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Atšaukti</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>gerai</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>Kulka ne tikslas</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Laikotarpį</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>Leisti informaciją</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Zaid</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>Žaidėjas</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>Žaidėjas</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>Stat kategorija</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>Stat Aprašymas</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Komanda</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>Laikrodis nėra įrašytas. Žaisti neįrašomi.</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>Nėra palaikomi leisti tipas pbp redaguoti. Žaisti negali būti redaguojamas.</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>Protestą pateikęs asmuo</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>Kitas komandos vartininkas</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>Mūsų komanda</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>Laikotarpis/laikrodis vertė gali būti ne kada nors ateityje. Prašome naudoti žaidimo vadovas stebėti žaisti ateityje. Žaisti neįrašomi.</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>1 žaidėjas</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>Player 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>Player 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>Leistuvo 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>Žaidėjas 13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>Žaidėjas 14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>Žaidėjas 15</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>Grotuvas 16</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>Grotuvas 17</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>Žaidėjas 18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>Žaidėjas 19</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>2 žaidėjas</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>Grotuvas 20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>Žaidėjas 21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>Žaidėjas 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>Žaidėjas 23</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>Grotuvas 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>Žaidėjas 25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>Grotuvas 26</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>Grotuvas 27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>Žaidėjas 28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>Žaidėjas 29</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>3 žaidėjas</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>Žaidėjas 30</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>4 žaidėjas</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>Žaidėjas 5</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>Player 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>Žaidėjas 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>Grotuvas 8</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>Player 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>Atsitraukęs</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>Naikinti žaidimas</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>Naikinti lyga</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>Naikinti žaisti</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>Panaikinti žaidėjo</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>Naikinti komanda</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Pagrindinis puslapis</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Joks</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Leisti</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Nežinoma</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Inprogress, ekranas išjungtas</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>Netinkamas OT ilgis. Žaidimas nėra įrašomi.</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>Padeda</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Stačiakampiai</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>Kampai</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>Kampai puikiai</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>Kampais ir tikslas</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>Kampai gerai</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>Kampai blogas</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>Kerta</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>Kryžių puikus</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>Kryžių gera</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>Kerta blogas</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>Tiesiogiai nemokamai zaczelo</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>Tiesiogiai nemokamai zaczelo tikslo</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>Tiesiogiai nemokamai zaczelo ne tikslas</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>Lašas smūgių</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>Lašas prasideda puikus</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>Lašas prasideda gera</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>Lašas prasideda blogas</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Pražangas padarė ūkio</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>Pražangas, padarė</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Pražangas padarė apmokestinimo</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Pražangas padarė neteisėtą spręsti</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>Pražangas padarė Kicking</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Pražangas padarė stūmimas</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Pražangas padarė užkliuvimo</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>Pražangas sudarytas</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>Tikslas prasideda</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>Tikslai</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>Tikslus leidžiama</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>Netiesioginis nemokamai zaczelo</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>Eina</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>Eina puikiai</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>Eina gerai</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>Eina blogas</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>Baudinių</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>Baudinių užblokuotas</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>Baudos smūgių tikslas</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>Baudinių nukentėjo po</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>Baudinių praleidau</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>Raudona kortelė</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>Raudonos kortelės Nepadorumas žaisti</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>Raudonos kortelės Ilegal rankas</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>Raudonos kortelės antrą geltoną kortelę</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>Raudonos kortelės smurtinio elgesio</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>Taupo</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Baudinių serijos prasideda</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>Baudinių serijos prasideda užblokuotas</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>Baudinių serijos prasideda tikslas</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Baudinių serijos prasideda nukentėjo po</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>Baudinių serijos prasideda praleidau</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>Nuotraukos</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>Kadrų užblokuotas</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>Kadrų tikslas</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>Kadrų nukentėjo po</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>Strzałów praleistus</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>Strzałów dėl tikslo</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Reikmenys</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>Mesti Ins</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Apyvartas</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Apyvartas nelegalios mesti</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>Apyvartas prarado driblingas</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>Geltonos kortelės</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>Geltonos kortelės delsimo paleisti žaidimo</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>Geltonos kortelės Unsportsmanline elgesio</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Gimimo data</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value> asssited iš </value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value> iš </value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value> padaro apmokestinimo blogo</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value> įpareigoja ūkio užteršto</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value> padaro kicking blogo</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value> įsipareigoja galutinai sustabdyti neteisėtą spręsti blogo</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value> padaro stūmimas blogo</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value> padaro užkliuvimo blogo</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value> yra neteisėta mesti</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value> yra offisides</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value> prasideda kamuolys užsienyje</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>kaire koja</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value> prarado driblingas</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value> daro geras praeiti</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value> daro puikus leidimas</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value> daro prastas praeiti</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>dešinės kojos</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value> mano kulka ir hits po</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value> mano kulka ir ji yra užblokuotas</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value> kulka ir balai</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>tutorial</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value> Laikrodis į laikotarpį</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value> atkreipia užteršto</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value> dribbles</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value> gauna raudoną kortelę Nepadorumas žaisti</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value> gauna raudoną kortelę už neteisėtą rankas</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value> gauna raudoną kortelę už antrą geltoną kortelę</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value> gauna raudoną kortelę už smurtinio elgesio</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value> gauna geltoną kortelę delsė naujo žaidimo</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value> gauna geltoną kortelę už nepagrįstų elgesio</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value> yra yra spręsti</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value> turi mesti</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value> daro gera kryžius</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value> daro gerą drop kick</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value> daro puikus kryžiaus</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value> daro puikų drop kick</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value> daro prastas kryžius</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value> daro prastas drop kick</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value> komutuojamo pozicijas su </value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value> kampe ateityje ir balai</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value> mano tiesioginis LCD</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value> mano tiesioginis LCD ir balai</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value> mano tikslas ateityje</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value> mano geras kampe ateityje</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value> mano yra puikus kampo LCD</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value> mano netiesioginio LCD</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value> mano baudinys ir hits po</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value> mano bausmės ateityje ir ji yra užblokuotas</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value> mano baudinys ir praleidžia</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value> baudinys ir balai</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value> mano prastos kampe ateityje</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value> mano shootout ateityje ir hits po</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value> mano shootout ateityje ir ji yra užblokuotas</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value> mano shootout ateityje ir praleidžia</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value> shootout ateityje ir balai</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>Blue Cross</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>Mėlyna raudona</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>Mėlyna juostelė</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>BlueWhite</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>Tamsiai mėlyna</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>Tamsiai raudona</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>Vokietijos spalvų</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>Žalia raudona</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>Šviesiai mėlyna</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Oranžinė</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>Oranžinis Green</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Raudona</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>Raudona juoda</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>Raudona žalia</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>Raudonos juostelės</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>Balta mėlyna</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>Balta žalia</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>Balta raudona</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>Geltonos spalvos mėlyna</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>Geltonai žalia</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Parodomoji versija</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>Pridėti naujas žaidėjas</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>Laiko juosta</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>Pasirinkite komandą</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value> prasideda kamuolį į savo vartus</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>Pasirinkite Jersey</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>Pasirinkite lyga</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>Žaidėjas minučių</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistika</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>Žaidėjas minučių atnaujinta laikotarpio pabaigos ir pabaigoje žaidimas</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>Legenda</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>user</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>el. paštas</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Nustatyti iš naujo slaptažodį</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Apie</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Kurso programa</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Pražangas</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>Pirkimo App</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Žinynas</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>Atrakinti visus statistika?</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>Demo žaidimas</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>Pabandykite taškų žaidimo demo?</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>Pabandykite</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>Ne, ačiū</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>Jūsų atsiliepimai yra labai svarbu mums.  Prašome Įvertinkite šią programą.</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>Jūsų atsiliepimai yra labai svarbu mums.  Ar norite Įvertinkite šią programą?</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>Taip</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>Pirkimas</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>ne dabar</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>Pridėti Player stendo</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>ADVANCE</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>Iš anksto į kitą laikotarpį?</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>Nuo Boxscore</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>Paspauskite, jei norite nustatyti laikrodį</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>Paspauskite, jei norite koreguoti laikotarpį</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>Spustelėkite norėdami pradėti arba sustabdyti žaidimo laiko</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>Laikrodis žemyn</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>Laikrodis</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redaguoti</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>Redaguoti žaidimas</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>Redaguoti žaisti žaisti</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>Žaidimas vadybininkas</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>Žaidimo statistiką</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Viršutinysis kolontitulas</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>Namų Boxscore</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>Yra ne labai anuliuoti</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>Bausmės tikslas</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>Žaisti žaidimą</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Bendrai naudoti</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>Ūgliai kaire koja</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>Ūgliai dešinės kojos</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>Kulka tikslas</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>Kulka su kaire koja</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>Kulka su dešinės kojos</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Anuliuoti	Ctrl+Z</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value> buvo anuliuotas.</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Valgiaraštis</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Pirkimas</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>Pirkti visą statistiką?</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>Visa statistika paketą įeina: žaidėjas minučių, plius Minus,</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>Leidimas, apyvarta, Offsides,</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>Blogo padarė, užsienyje, kryžiaus, mesti, kampe ateityje,</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>Reikmenys, vartininkas Kick, savo vartus, nemalonus tempimo, tiesiogiai laisvosios Kick,</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>Netiesioginis LCD, baudinys, geltoną kortelę, raudona kortelė, lašas ateityje,</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Driblingas, Shootout LCD, pakeitimo</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Pakrovimo...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>Panaikinti žaidėjo iš grafikas</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value> žaidėjas sąraše</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value> iš grafiko</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>Namų komanda ir komanda negali būti tas pats. Žaidimas nėra įrašomi.</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>Žaidimas prasideda</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-Paspauskite pirkti pilna versija-</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>Sportas</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Atsiliepimai</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>rezultatas</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>statistika</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>Futbolas</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>jokių reiškinių</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>KICKOFF</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>PUSĘ LAIKO</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>VISĄ DARBO DIENĄ</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>PAPILDOMO LAIKO DALINIŲ</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>PAPILDOMO LAIKO VISĄ LAIKĄ</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>Pabaigos laikotarpį </value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>Lygos pavadinimas nėra įrašytas. Lygos nėra įrašomi.</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktyvus</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>Pridėti Player komandos sudėtis</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>Įveskite žaidėjų marškinėlių numerį</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>Neaktyvus</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>Jersey numeris turi būti skaičius. Marškinėlių numerį neįrašomi.</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>Jersey skaičius negali būti daugiau kaip 3 simbolių.  Marškinėlių numerį neįrašomi.</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>Marškinėlių numerį</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>NAME</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>Grafikai</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>STATUS</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>Pridėti žaidimas</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Žaidimų</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>Ciklų</value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>Labiausiai intuityviojo ir pilnas futbolo taškų taikymo rinkoje.  Daugiau nei 50 statistika galima.  Bandyti ją nemokamai šiandien!
+
+Sekti: komandos Žaidimai lygos žaidėjų žaidėjas statistika apima: minučių grojo plius-minus tikslų Pases Offsides raudona kortelė apyvartas ir daug daugiau!
+
+Žaidimas taip pat: laikrodis ir laikrodis žemyn neblogą lauko sudėčių nežinomas žaidėjas parinkčių redagavimas/atšaukti vaidina neribota Pavadavimai pritaikoma ir laikotarpio trukmė.
+
+
+Rodyti išsamią veiksmų žaidimas, dalis statistika apie Twitter, Facebook, Instagram, elektroninio pašto, teksto ir daug daugiau!
+
+Lengva nustatyti iki, ir lengva naudotis!  Pradėkite stebėti savo kitą žaidimą per kelias minutes!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>Laikotarpį dar neprasidėjo. Ar norite tęsti?</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>Nepradėta</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>Panaikinti žaidėjo iš leistuvo sąraše</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>Pridėti naują žaidėjo prie žaidėjo sąrašą</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>Sekite mūsų Twitter</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>Visa statistika paketą įeina: žaidėjas minučių, plius Minus, Pass, apyvarta, Offsides, blogo padarė, iš ribų, kryžius, mesti, kampo LCD, spręsti, vartininkas Kick, savo vartus, Nepadorumas sudarytas, tiesiogiai Free Kick, netiesioginio Free Kick, baudinys, geltoną kortelę, raudona kortelė, Drop Kick, driblingas, Shootout Kick, pakeitimo</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>Visa statistika</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>Labiausiai intuityvus ir visiškai futbolo įgarsinimo programa rinkoje!
+
+Sekti: komandos Žaidimai lygos žaidėjų nemokama versija yra stebėjimo kadrų ir tikslus!
+
+Žaidimas taip pat: laikrodis ir laikrodis žemyn neblogą lauko sudėčių nežinomas žaidėjas parinkčių redagavimas/atšaukti vaidina neribota Pavadavimai pritaikoma ir laikotarpio trukmė.
+
+
+Rodyti išsamią veiksmų žaidimas, dalis statistika apie Twitter, Facebook, Instagram, elektroninio pašto, teksto ir daug daugiau!
+
+Lengva nustatyti iki, ir lengva naudotis!  Pradėkite stebėti savo kitą žaidimą per kelias minutes!</value>
+  </data>
+</root>

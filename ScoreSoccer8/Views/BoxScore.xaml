@@ -1,0 +1,1939 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="ScoreSoccer8.Views.BoxScore"  
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Landscape"
+    xmlns:converters="clr-namespace:ScoreSoccer8.Converters"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False"
+    toolkit:TiltEffect.IsTiltEnabled="True">
+
+    <phone:PhoneApplicationPage.Resources>
+        <converters:NumberToColorConverter x:Key="NumberToColorConverter"/>
+
+        <DataTemplate x:Name="PlayListTemplate">
+            <Grid>
+
+                <Border BorderBrush="Gray" BorderThickness="0,0,0,1" HorizontalAlignment="Stretch" />
+
+                <Grid Margin="3,0,3,5" HorizontalAlignment="Stretch" >
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock 
+                        HorizontalAlignment="Left"
+                        Grid.Column="0"
+                        Grid.Row="0"
+                        FontSize="18"
+                        Foreground="Orange"
+                        Text="{Binding Play.TopInfo}" />
+                    <TextBlock 
+                        HorizontalAlignment="Left"
+                        Grid.Column="0"
+                        Grid.Row="1"
+                        FontSize="20"
+                        Foreground="White"
+                        TextWrapping="Wrap"
+                        Margin="5,0,0,0"
+                        Text="{Binding Play.PlayText}" />
+                </Grid>
+
+            </Grid>
+        </DataTemplate>
+
+        <BitmapImage x:Key="Background" UriSource="/Assets/Fields/SoccerField9.png" CreateOptions="BackgroundCreation"/>
+    </phone:PhoneApplicationPage.Resources>
+    <Grid>
+        
+    
+    <Grid x:Name="LayoutRoot" Margin="0,0,0,0">
+
+        <!--Height="{Binding ElementName=LayoutRoot, Path=ActualHeight}"-->
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <!--Top Spacer-->
+            <RowDefinition Height="0*"/>
+            <!--Very Top: Boxscore, Time, Overtime-->
+            <RowDefinition Height="0*"/>
+            <!--Space from time to teams-->
+            <RowDefinition Height="15*"/>
+            <!--Team Flags, Names and Score-->
+            <RowDefinition Height="100*"/>
+            <!--Scrolable section with goals, boxscore info and graphs-->
+            <RowDefinition Height="3*"/>
+            <!--Bottom Spacer-->
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <!--Left Spacer-->
+            <ColumnDefinition Width="100*"></ColumnDefinition>
+            <!--Main Middle Section-->
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <!--Right Spacer-->
+        </Grid.ColumnDefinitions>
+
+            <Grid.Background>
+                <ImageBrush  Opacity="0.6" Stretch="UniformToFill" ImageSource="{StaticResource Background}"/>
+            </Grid.Background>
+
+            <!--<Grid.Background>
+                <ImageBrush Opacity="0.6" ImageSource="/Assets/Fields/SoccerField9.png" Stretch="UniformToFill"  />
+        </Grid.Background>-->
+
+            <ScrollViewer VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" >
+                <Border x:Name="ToSaveAwayPlayerListBox" BorderBrush="White" BorderThickness="1" Width="700">
+                    <Grid  Margin="0" Width="700" >
+
+                        <Grid.Background>
+                            <ImageBrush Opacity="0.6" ImageSource="/Assets/Fields/SoccerField9.png"/>
+                        </Grid.Background>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="80"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0"/>
+                                <RowDefinition Height="*"/>
+                                <!--App Name-->
+                                <RowDefinition Height="*"/>
+                                <!--Teams and Score-->
+                                <RowDefinition Height="*"/>
+                                <!--Date-->
+                                <RowDefinition Height="25"/>
+                            </Grid.RowDefinitions>
+
+                            <Border Background="DarkBlue" Opacity="0.8" Grid.Row="1" Grid.Column="0" BorderThickness="1" BorderBrush="White" />
+                            <TextBlock  HorizontalAlignment="Center" Grid.Row="1" Grid.Column="0" FontSize="30" Foreground="White" FontWeight="Black" Text="uTrackSoccer" />
+                            <TextBlock  HorizontalAlignment="Center" Grid.Row="2" Grid.Column="0" FontSize="25" Foreground="Gold" Text="{Binding GameTitle}" />
+                            <TextBlock  HorizontalAlignment="Center" Grid.Row="3" Grid.Column="0" FontSize="15" Foreground="Wheat" Text="{Binding GameDate}" />
+
+                        </Grid>
+
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition  Width="*"></ColumnDefinition>
+                                <ColumnDefinition  Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Grid.Column="0"  HorizontalAlignment="Center" Height="120" Margin="0,0,50,0" Source="{Binding AwayTeamJerseyPath}" Opacity="0.3" />
+                            <Image Grid.Column="1"  HorizontalAlignment="Center" Height="120" Margin="50,0,0,0" Source="{Binding HomeTeamJerseyPath}" Opacity="0.3" />
+
+                        </Grid>
+
+                        <Grid Grid.Row="1">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+
+                                <ColumnDefinition  Width="*"></ColumnDefinition>
+                                <ColumnDefinition  Width="*"></ColumnDefinition>
+                                <ColumnDefinition  Width="*"></ColumnDefinition>
+
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,0" FontWeight="Bold" FontSize="25" Opacity="0.5" Text="{Binding AwayTeamName}" >
+                                <TextBlock.RenderTransform>
+                                    <RotateTransform Angle="-90" CenterX="30" CenterY="0" />
+                                </TextBlock.RenderTransform>
+                            </TextBlock>
+
+                            <TextBlock Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0" FontWeight="Bold" FontSize="25" Opacity="0.5" Text="{Binding HomeTeamName}" >
+                                <TextBlock.RenderTransform>
+                                    <RotateTransform Angle="90" CenterX="90" CenterY="100"  />
+                                </TextBlock.RenderTransform>
+                            </TextBlock>
+
+
+                        </Grid>
+
+                        <Grid Grid.Row="1">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20*"/>
+                                <RowDefinition Height="100*"/>
+                                <RowDefinition Height="20*"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10*"></ColumnDefinition>
+                                <ColumnDefinition Width="80*"></ColumnDefinition>
+                                <ColumnDefinition Width="10*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Grid Grid.Row="1" Grid.Column="1">
+
+                                <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                                    <StackPanel>
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="20*"/>
+                                                <RowDefinition Height="20*"/>
+                                                <RowDefinition Height="20*"/>
+                                                <RowDefinition Height="20*"/>
+                                                <RowDefinition Height="20*"/>
+                                                <RowDefinition Height="20*"/>
+                                                <RowDefinition Height="20*"/>
+                                                <RowDefinition Height="20*"/>
+                                                <RowDefinition Height="20*"/>
+                                            </Grid.RowDefinitions>
+
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition MinWidth="150" Width="40*"></ColumnDefinition>
+                                                <ColumnDefinition MinWidth="130" Width="20*"></ColumnDefinition>
+                                                <ColumnDefinition MinWidth="150" Width="40*"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+
+                                            <TextBlock Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Text="Total Shots"/>
+                                            <TextBlock Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Text="Shots On Goal"/>
+                                            <TextBlock Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Text="Fouls"/>
+                                            <TextBlock Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" Text="Corners"/>
+                                            <TextBlock Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center" Text="Saves"/>
+                                            <TextBlock Grid.Column="1" Grid.Row="6" HorizontalAlignment="Center" Text="Offsides"/>
+
+                                            <Image Grid.Column="1" Grid.Row="7" Width="15" Height="20" HorizontalAlignment="Center" Source="/Assets/yellowCard.png" />
+                                            <Image Grid.Column="1" Grid.Row="8" Width="15" Height="20" HorizontalAlignment="Center" Source="/Assets/redCard.png" />
+
+                                            <Grid Grid.Column="0" Grid.Row="0">
+                                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding TotalShots_Max}" Value="{Binding TotalShots_Away}" RenderTransformOrigin="0.5,0.5">
+                                                    <ProgressBar.RenderTransform>
+                                                        <CompositeTransform Rotation="180.0"/>
+                                                    </ProgressBar.RenderTransform>
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding TotalShots_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                                            </Grid>
+
+                                            <Grid Grid.Column="0" Grid.Row="1">
+                                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding ShotsOnGoal_Max}" Value="{Binding ShotsOnGoal_Away}" RenderTransformOrigin="0.5,0.5">
+                                                    <ProgressBar.RenderTransform>
+                                                        <CompositeTransform Rotation="180.0"/>
+                                                    </ProgressBar.RenderTransform>
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding ShotsOnGoal_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                                            </Grid>
+
+                                            <Grid Grid.Column="0" Grid.Row="2">
+                                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding Fouls_Max}" Value="{Binding Fouls_Away}" RenderTransformOrigin="0.5,0.5">
+                                                    <ProgressBar.RenderTransform>
+                                                        <CompositeTransform Rotation="180.0"/>
+                                                    </ProgressBar.RenderTransform>
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding Fouls_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                                            </Grid>
+
+                                            <Grid Grid.Column="0" Grid.Row="4">
+                                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding Corners_Max}" Value="{Binding Corners_Away}" RenderTransformOrigin="0.5,0.5">
+                                                    <ProgressBar.RenderTransform>
+                                                        <CompositeTransform Rotation="180.0"/>
+                                                    </ProgressBar.RenderTransform>
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding Corners_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                                            </Grid>
+
+                                            <Grid Grid.Column="0" Grid.Row="5">
+                                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding Saves_Max}" Value="{Binding Saves_Away}" RenderTransformOrigin="0.5,0.5">
+                                                    <ProgressBar.RenderTransform>
+                                                        <CompositeTransform Rotation="180.0"/>
+                                                    </ProgressBar.RenderTransform>
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding Saves_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                                            </Grid>
+
+                                            <Grid Grid.Column="0" Grid.Row="6">
+                                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding Offsides_Max}" Value="{Binding Offsides_Away}" RenderTransformOrigin="0.5,0.5">
+                                                    <ProgressBar.RenderTransform>
+                                                        <CompositeTransform Rotation="180.0"/>
+                                                    </ProgressBar.RenderTransform>
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding Offsides_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                                            </Grid>
+
+                                            <Grid Grid.Column="0" Grid.Row="7">
+                                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding YellowCards_Max}" Value="{Binding YellowCard_Away}" RenderTransformOrigin="0.5,0.5">
+                                                    <ProgressBar.RenderTransform>
+                                                        <CompositeTransform Rotation="180.0"/>
+                                                    </ProgressBar.RenderTransform>
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding YellowCard_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                                            </Grid>
+
+                                            <Grid Grid.Column="0" Grid.Row="8">
+                                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding RedCards_Max}" Value="{Binding RedCard_Away}" RenderTransformOrigin="0.5,0.5">
+                                                    <ProgressBar.RenderTransform>
+                                                        <CompositeTransform Rotation="180.0"/>
+                                                    </ProgressBar.RenderTransform>
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding RedCard_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                                            </Grid>
+
+
+
+
+
+
+                                            <Grid Grid.Column="2" Grid.Row="0">
+                                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding TotalShots_Max}" Value="{Binding TotalShots_Home}" >
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding TotalShots_Home}"  Margin="10,0,0,0" HorizontalAlignment="Left" />
+                                            </Grid>
+
+                                            <Grid Grid.Column="2" Grid.Row="1">
+                                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding ShotsOnGoal_Max}" Value="{Binding ShotsOnGoal_Home}" >
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding ShotsOnGoal_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                                            </Grid>
+
+                                            <Grid Grid.Column="2" Grid.Row="2">
+                                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding Fouls_Max}" Value="{Binding Fouls_Home}" >
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding Fouls_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                                            </Grid>
+
+                                            <Grid Grid.Column="2" Grid.Row="4">
+                                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding Corners_Max}" Value="{Binding Corners_Home}" >
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding Corners_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                                            </Grid>
+
+                                            <Grid Grid.Column="2" Grid.Row="5">
+                                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding Saves_Max}" Value="{Binding Saves_Home}" >
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding Saves_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                                            </Grid>
+
+                                            <Grid Grid.Column="2" Grid.Row="6">
+                                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding Offsides_Max}" Value="{Binding Offsides_Home}" >
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding Offsides_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                                            </Grid>
+
+                                            <Grid Grid.Column="2" Grid.Row="7">
+                                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding YellowCards_Max}" Value="{Binding YellowCard_Home}" >
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding YellowCard_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                                            </Grid>
+
+                                            <Grid Grid.Column="2" Grid.Row="8">
+                                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding RedCards_Max}" Value="{Binding RedCard_Home}" >
+                                                </ProgressBar>
+                                                <TextBlock Text="{Binding RedCard_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                                            </Grid>
+
+                                        </Grid>
+                                    </StackPanel>
+                                </ScrollViewer>
+
+                            </Grid>
+
+                        </Grid>
+
+                        <!--<TextBlock Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,40,20" FontWeight="ExtraBlack" FontSize="35" Opacity="0.5" Text="uTrackSports.com" >
+                        <TextBlock.RenderTransform>
+                            <RotateTransform Angle="-45" />
+                        </TextBlock.RenderTransform>
+                    </TextBlock>-->
+
+                        <!--<Border Grid.Row="1" Grid.RowSpan="2" Height="100" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,0" >
+                        <Border  BorderBrush="White" BorderThickness="2">
+                            <Image  Source="/Assets/QR/QR1.png" Opacity="1" />
+                        </Border>
+                    </Border>-->
+
+                        <!--<Border Grid.Row="1" Grid.RowSpan="2" Height="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="0,0,0,0" >
+                        <Border  BorderBrush="White" BorderThickness="0">
+                            <Image  Source="/Assets/QR/QR3.png" Opacity="1" />
+                        </Border>
+                    </Border>-->
+
+                        <Border Grid.Row="3" >
+                            <Border Background="DarkBlue"  BorderBrush="White" BorderThickness="1">
+                                <TextBlock  HorizontalAlignment="Center" FontSize="16" Foreground="White" FontWeight="SemiBold" Text="All Rights Reserved. www.uTrackSports.com" />
+                            </Border>
+                        </Border>
+
+
+                    </Grid>
+                </Border>
+            </ScrollViewer>
+
+            <Border Background="Black"></Border>
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+            <!--Very Top: Boxscore, Time, Overtime-->
+        <!--<Grid Grid.Column="1" Grid.Row="1" Margin="0,0,0,0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40*"></ColumnDefinition>
+                <ColumnDefinition Width="100*"></ColumnDefinition>
+                <ColumnDefinition Width="25*"></ColumnDefinition>
+                <ColumnDefinition Width="15*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Grid.Row="0" BorderBrush="White" BorderThickness="3,3,3,3" CornerRadius="0,40,0,40" Background="Black"/>
+
+            <Border Grid.Column="2" Grid.Row="0" BorderBrush="White" BorderThickness="0,0,0,3" CornerRadius="40,0,0,0" Background="Black"/>
+            <Border Grid.Column="2" Grid.Row="0" BorderBrush="White" BorderThickness="3,3,3,3" CornerRadius="40,0,40,0" Background="Silver"/>
+            <Border Grid.Column="3" Grid.Row="0" BorderBrush="White" BorderThickness="0,3,3,3" CornerRadius="0,0,40,0" Background="Black"/>
+
+                <TextBlock Grid.Column="2" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" Text="{Binding Game.GameMinutes}" Foreground="Black" />
+                <TextBlock Grid.Column="3" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left" FontWeight="Bold" Text="{Binding Game.GameMinutes}" Foreground="White" />
+
+            <TextBlock Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Text="Statistics" Foreground="White" />
+        </Grid>-->
+
+
+
+            <Grid  Grid.Column="1" Grid.Row="3" Margin="0,0,0,0" >
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40*"/>
+                    <RowDefinition Height="100*"/>
+                    <RowDefinition Height="40*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*"></ColumnDefinition>
+                    <ColumnDefinition Width="15*"></ColumnDefinition>
+                    <ColumnDefinition Width="100*"></ColumnDefinition>
+                    <ColumnDefinition Width="15*"></ColumnDefinition>
+                    <ColumnDefinition Width="10*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+            </Grid>
+
+            <!--Scond From The Top: Team Flags, Names and Score-->
+        <Grid x:Name="TeamScore" Grid.Column="1" Grid.Row="3" Margin="0,0,0,0" >
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="100*"/>
+                <RowDefinition Height="40*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"></ColumnDefinition>
+                <ColumnDefinition Width="15*"></ColumnDefinition>
+                <ColumnDefinition Width="100*"></ColumnDefinition>
+                <ColumnDefinition Width="15*"></ColumnDefinition>
+                <ColumnDefinition Width="10*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <!--Left Corner-->
+            <Border Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" BorderBrush="White" BorderThickness="3,3,0,3" CornerRadius="10,0,0,100" Background="Black"/>
+
+            <!--Left Team Flag Borders-->
+            <Border Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" BorderBrush="White" BorderThickness="0,3,0,3" CornerRadius="0,0,0,0" Background="Black"/>
+            <Border Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White" BorderThickness="3,3,3,3" CornerRadius="15,0,15,0" Background="Black"/>
+
+            <!--Left Team Flag Image curved to borders-->
+                <Grid Grid.Column="1" Grid.Row="0"  Grid.RowSpan="2">
+                
+                    <Border CornerRadius="15,0,15,0" BorderThickness="3,3,3,3" >
+                        <Border.Background>
+                            <ImageBrush Stretch="UniformToFill">
+                                <ImageBrush.ImageSource>
+                                    <BitmapImage UriSource="{Binding AwayTeamJerseyPath}">
+                                    </BitmapImage>
+                                </ImageBrush.ImageSource>
+                            </ImageBrush>
+                        </Border.Background>
+                    </Border>
+
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Text="{Binding AwayTeamShortName}" ></TextBlock>
+                </Grid>
+
+
+            <!--Center-->
+            <Border Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" BorderBrush="White" BorderThickness="0,3,0,3" CornerRadius="0,0,0,0" Background="Black"/>
+            <TextBlock Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White" Text="{Binding GameTitle}" />
+
+            <!--Right Team Flag-->
+            <Border Grid.Column="3" Grid.Row="1" Grid.RowSpan="2" BorderBrush="White" BorderThickness="0,3,0,3" CornerRadius="0,0,0,0" Background="Black"/>
+            <Border Grid.Column="3" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White" BorderThickness="3,3,3,3" CornerRadius="0,15,0,15" Background="Black"/>
+
+            <!--Right Team Flag Image curved to borders-->
+                <Grid Grid.Column="3" Grid.Row="0" Grid.RowSpan="2" >
+
+                    <Border  CornerRadius="0,15,0,15" BorderThickness="3,3,3,3">
+                        <Border.Background>
+                            <ImageBrush Stretch="UniformToFill">
+                                <ImageBrush.ImageSource>
+                                    <BitmapImage UriSource="{Binding HomeTeamJerseyPath}">
+                                    </BitmapImage>
+                                </ImageBrush.ImageSource>
+                            </ImageBrush>
+                        </Border.Background>
+                    </Border>
+
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Text="{Binding HomeTeamShortName}" ></TextBlock>
+                </Grid>
+
+
+            <!--Right Corner-->
+            <Border Grid.Column="4" Grid.Row="1" Grid.RowSpan="2" BorderBrush="White" BorderThickness="0,3,3,3" CornerRadius="0,10,100,0" Background="Black" />
+
+        </Grid>
+
+        <!--<TextBlock Grid.Column="1" Grid.Row="4" Text="abc" />-->
+
+        <Grid Grid.Column="1" Grid.Row="4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="80*"/>
+                <RowDefinition Height="100*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+                <ColumnDefinition Width="25*"></ColumnDefinition>
+                <ColumnDefinition Width="75*"></ColumnDefinition>
+                <ColumnDefinition Width="25*"></ColumnDefinition>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Source="{Binding AwayTeamJerseyPath}" Opacity="0.3" />
+            <Image Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" Source="{Binding HomeTeamJerseyPath}" Opacity="0.3" />
+
+        </Grid>
+
+        <phone:Pivot Grid.Column="1" Grid.Row="4" Margin="0,0,0,0"  HorizontalAlignment="Stretch" >
+
+            <phone:PivotItem  HorizontalAlignment="Center" >
+
+                <phone:PivotItem.Header>
+                    <Grid>
+                        <TextBlock FontSize="30" Text="Timeline" />
+                    </Grid>
+                </phone:PivotItem.Header>
+
+                    <Grid x:Name="TimeLineGrid" >
+                        <ListBox ItemsSource="{Binding TimelineList}" >
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+
+                                    <Border 
+                                Margin="0,0,0,0" 
+                                BorderThickness="0,0,0,0"
+                                BorderBrush="LightGray"
+                                >
+
+                                        <Grid HorizontalAlignment="Center">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="20*"/>
+                                            </Grid.RowDefinitions>
+
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition MinWidth="160" Width="100*"></ColumnDefinition>
+                                                <ColumnDefinition MinWidth="30" Width="15*"></ColumnDefinition>
+                                                <ColumnDefinition MinWidth="70" Width="70"></ColumnDefinition>
+                                                <ColumnDefinition MinWidth="30" Width="15*"></ColumnDefinition>
+                                                <ColumnDefinition MinWidth="160" Width="100*"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+
+                                            <Grid Grid.Column="0" HorizontalAlignment="Right">
+
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="100*"/>
+                                                    <RowDefinition Height="100*"/>
+                                                </Grid.RowDefinitions>
+
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="100*"></ColumnDefinition>
+                                                </Grid.ColumnDefinitions>
+
+                                                <TextBlock Margin="0,0,5,0" Grid.Row="0" Grid.RowSpan="{Binding RowSpam}" VerticalAlignment="Center" Text="{Binding AwayPlayerName}" />
+                                                <TextBlock Margin="0,0,5,0" Grid.Row="1" Text="{Binding AwayPlayerSecondName}" FontSize="{Binding FontSize}" />
+
+                                            </Grid>
+
+                                            <TextBlock Grid.Column="0" Visibility="{Binding ShowGameMarks}" Grid.ColumnSpan="5" VerticalAlignment="Center" HorizontalAlignment="Center"  Text="{Binding GameMarks}" />
+
+
+                                            <Image Grid.Column="1" Margin="6,6,0,0" Width="{Binding ImageWidth}" Height="{Binding ImageHeight}" VerticalAlignment="Center" HorizontalAlignment="Center" Source="{Binding AwayImagePath}" />
+                                            <Image Grid.Column="1" Visibility="{Binding AwaySecondYellow}" Width="15" Height="20" HorizontalAlignment="Center" Margin="-1,-1,0,0" Source="/Assets/redCard.png" />
+
+                                            <TextBlock Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"  Text="{Binding Time}" />
+
+                                            <Image Grid.Column="3" Margin="6,6,0,0" Width="{Binding ImageWidth}" Height="{Binding ImageHeight}" VerticalAlignment="Center" HorizontalAlignment="Center" Source="{Binding HomeImagePath}" />
+                                            <Image Grid.Column="3" Visibility="{Binding HomeSecondYellow}" Width="15" Height="20" HorizontalAlignment="Center" Margin="-1,-1,0,0" Source="/Assets/redCard.png" />
+
+                                            <Grid Grid.Column="4" HorizontalAlignment="Left">
+
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="100*"/>
+                                                    <RowDefinition Height="100*"/>
+                                                </Grid.RowDefinitions>
+
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="100*"></ColumnDefinition>
+                                                </Grid.ColumnDefinitions>
+
+                                                <TextBlock Margin="5,0,0,0" Grid.Row="0" Grid.RowSpan="{Binding RowSpam}" VerticalAlignment="Center" Text="{Binding HomePlayerName}" />
+                                                <TextBlock Margin="5,0,0,0" Grid.Row="1" Text="{Binding HomePlayerSecondName}" FontSize="{Binding FontSize}" />
+
+                                            </Grid>
+
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </Grid>
+                
+                </phone:PivotItem>
+
+            <phone:PivotItem>
+                <phone:PivotItem.Header>
+                    <Grid>
+                        <TextBlock FontSize="30" Text="Game Stats" />
+                    </Grid>
+                </phone:PivotItem.Header>
+
+                    <Grid x:Name="GameStatsGrid">
+
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="85*"/>
+                                <RowDefinition Height="15*"/>
+                            </Grid.RowDefinitions>
+
+                            <ScrollViewer HorizontalAlignment="Stretch"  >
+                    <StackPanel>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                <RowDefinition Height="20*"/>
+                                <RowDefinition Height="20*"/>
+                                <RowDefinition Height="20*"/>
+                                <RowDefinition Height="20*"/>
+                                <RowDefinition Height="20*"/>
+                                <RowDefinition Height="20*"/>
+                                <RowDefinition Height="20*"/>
+                                <RowDefinition Height="20*"/>
+                                <RowDefinition Height="20*"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition MinWidth="150" Width="40*"></ColumnDefinition>
+                                <ColumnDefinition MinWidth="130" Width="20*"></ColumnDefinition>
+                                <ColumnDefinition MinWidth="150" Width="40*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" Text="Total Shots"/>
+                            <TextBlock Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Text="Shots On Goal"/>
+                            <TextBlock Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Text="Fouls"/>
+                            <!--<TextBlock Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" Text="Possession (%)"/>-->
+                            <TextBlock Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" Text="Corners"/>
+                            <TextBlock Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center" Text="Saves"/>
+                            <TextBlock Grid.Column="1" Grid.Row="6" HorizontalAlignment="Center" Text="Offsides"/>
+
+                            <Image Grid.Column="1" Grid.Row="7" Width="15" Height="20" HorizontalAlignment="Center" Source="/Assets/yellowCard.png" />
+                            <Image Grid.Column="1" Grid.Row="8" Width="15" Height="20" HorizontalAlignment="Center" Source="/Assets/redCard.png" />
+
+                            <Grid Grid.Column="0" Grid.Row="0">
+                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding TotalShots_Max}" Value="{Binding TotalShots_Away}" RenderTransformOrigin="0.5,0.5">
+                                    <ProgressBar.RenderTransform>
+                                        <CompositeTransform Rotation="180.0"/>
+                                    </ProgressBar.RenderTransform>
+                                </ProgressBar>
+                                <TextBlock Text="{Binding TotalShots_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                            </Grid>
+
+                            <Grid Grid.Column="0" Grid.Row="1">
+                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding ShotsOnGoal_Max}" Value="{Binding ShotsOnGoal_Away}" RenderTransformOrigin="0.5,0.5">
+                                    <ProgressBar.RenderTransform>
+                                        <CompositeTransform Rotation="180.0"/>
+                                    </ProgressBar.RenderTransform>
+                                </ProgressBar>
+                                <TextBlock Text="{Binding ShotsOnGoal_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                            </Grid>
+
+                            <Grid Grid.Column="0" Grid.Row="2">
+                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding Fouls_Max}" Value="{Binding Fouls_Away}" RenderTransformOrigin="0.5,0.5">
+                                    <ProgressBar.RenderTransform>
+                                        <CompositeTransform Rotation="180.0"/>
+                                    </ProgressBar.RenderTransform>
+                                </ProgressBar>
+                                <TextBlock Text="{Binding Fouls_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                            </Grid>
+
+                            <!--<Grid Grid.Column="0" Grid.Row="3">
+                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="100" Value="69" RenderTransformOrigin="0.5,0.5">
+                                    <ProgressBar.RenderTransform>
+                                        <CompositeTransform Rotation="180.0"/>
+                                    </ProgressBar.RenderTransform>
+                                </ProgressBar>
+                                <TextBlock Text="69%" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                            </Grid>-->
+
+                            <Grid Grid.Column="0" Grid.Row="4">
+                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding Corners_Max}" Value="{Binding Corners_Away}" RenderTransformOrigin="0.5,0.5">
+                                    <ProgressBar.RenderTransform>
+                                        <CompositeTransform Rotation="180.0"/>
+                                    </ProgressBar.RenderTransform>
+                                </ProgressBar>
+                                <TextBlock Text="{Binding Corners_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                            </Grid>
+
+                            <Grid Grid.Column="0" Grid.Row="5">
+                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding Saves_Max}" Value="{Binding Saves_Away}" RenderTransformOrigin="0.5,0.5">
+                                    <ProgressBar.RenderTransform>
+                                        <CompositeTransform Rotation="180.0"/>
+                                    </ProgressBar.RenderTransform>
+                                </ProgressBar>
+                                <TextBlock Text="{Binding Saves_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                            </Grid>
+
+                            <Grid Grid.Column="0" Grid.Row="6">
+                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding Offsides_Max}" Value="{Binding Offsides_Away}" RenderTransformOrigin="0.5,0.5">
+                                    <ProgressBar.RenderTransform>
+                                        <CompositeTransform Rotation="180.0"/>
+                                    </ProgressBar.RenderTransform>
+                                </ProgressBar>
+                                <TextBlock Text="{Binding Offsides_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                            </Grid>
+
+                            <Grid Grid.Column="0" Grid.Row="7">
+                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding YellowCards_Max}" Value="{Binding YellowCard_Away}" RenderTransformOrigin="0.5,0.5">
+                                    <ProgressBar.RenderTransform>
+                                        <CompositeTransform Rotation="180.0"/>
+                                    </ProgressBar.RenderTransform>
+                                </ProgressBar>
+                                <TextBlock Text="{Binding YellowCard_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                            </Grid>
+
+                            <Grid Grid.Column="0" Grid.Row="8">
+                                <ProgressBar Foreground="Blue" Margin="0,0,40,0" Minimum="0" Maximum="{Binding RedCards_Max}" Value="{Binding RedCard_Away}" RenderTransformOrigin="0.5,0.5">
+                                    <ProgressBar.RenderTransform>
+                                        <CompositeTransform Rotation="180.0"/>
+                                    </ProgressBar.RenderTransform>
+                                </ProgressBar>
+                                <TextBlock Text="{Binding RedCard_Away}" Margin="0,0,10,0" HorizontalAlignment="Right"/>
+                            </Grid>
+
+
+
+
+
+
+                            <Grid Grid.Column="2" Grid.Row="0">
+                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding TotalShots_Max}" Value="{Binding TotalShots_Home}" >
+                                </ProgressBar>
+                                <TextBlock Text="{Binding TotalShots_Home}"  Margin="10,0,0,0" HorizontalAlignment="Left" />
+                            </Grid>
+
+                            <Grid Grid.Column="2" Grid.Row="1">
+                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding ShotsOnGoal_Max}" Value="{Binding ShotsOnGoal_Home}" >
+                                </ProgressBar>
+                                <TextBlock Text="{Binding ShotsOnGoal_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                            </Grid>
+
+                            <Grid Grid.Column="2" Grid.Row="2">
+                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding Fouls_Max}" Value="{Binding Fouls_Home}" >
+                                </ProgressBar>
+                                <TextBlock Text="{Binding Fouls_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                            </Grid>
+
+                            <!--<Grid Grid.Column="2" Grid.Row="3">
+                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="100" Value="36" >
+                                </ProgressBar>
+                                <TextBlock Text="31%"  Margin="10,0,0,0" HorizontalAlignment="Left" />
+                            </Grid>-->
+
+                            <Grid Grid.Column="2" Grid.Row="4">
+                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding Corners_Max}" Value="{Binding Corners_Home}" >
+                                </ProgressBar>
+                                <TextBlock Text="{Binding Corners_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                            </Grid>
+
+                            <Grid Grid.Column="2" Grid.Row="5">
+                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding Saves_Max}" Value="{Binding Saves_Home}" >
+                                </ProgressBar>
+                                <TextBlock Text="{Binding Saves_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                            </Grid>
+
+                            <Grid Grid.Column="2" Grid.Row="6">
+                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding Offsides_Max}" Value="{Binding Offsides_Home}" >
+                                </ProgressBar>
+                                <TextBlock Text="{Binding Offsides_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                            </Grid>
+
+                            <Grid Grid.Column="2" Grid.Row="7">
+                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding YellowCards_Max}" Value="{Binding YellowCard_Home}" >
+                                </ProgressBar>
+                                <TextBlock Text="{Binding YellowCard_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                            </Grid>
+
+                            <Grid Grid.Column="2" Grid.Row="8">
+                                <ProgressBar Foreground="Red" Margin="40,0,0,0" Minimum="0" Maximum="{Binding RedCards_Max}" Value="{Binding RedCard_Home}" >
+                                </ProgressBar>
+                                <TextBlock Text="{Binding RedCard_Home}" Margin="10,0,0,0" HorizontalAlignment="Left" />
+                            </Grid>
+
+                        </Grid>
+                    </StackPanel>
+                </ScrollViewer>
+                        
+                            <Border Grid.Row="1" HorizontalAlignment="Right" >
+                                <Grid Width="70" >
+                                    <Image Grid.Column="0"  HorizontalAlignment="Center"  Margin="0,0,0,0" Source="/Assets/share.png" Opacity="1" />
+                                    <Button BorderThickness="0" Padding="0" Margin="-12,-10,-12,-12" Click="Button_Click" />
+                                </Grid>
+                            </Border>
+
+
+
+
+
+
+
+
+
+
+
+
+                        </Grid>
+                        
+                    </Grid>
+                </phone:PivotItem>
+
+
+
+
+
+            <phone:PivotItem>
+                <phone:PivotItem.Header>
+                    <Grid>
+                        <TextBlock FontSize="30" Text="{Binding AwayBoxscore}" />
+                    </Grid>
+                </phone:PivotItem.Header>
+
+                    <Grid>
+                        <Border Background="Black" Opacity="0.6" ></Border>
+
+                        <Grid >
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="88*"></RowDefinition>
+                                <RowDefinition MinHeight="22" Height="12*"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <ScrollViewer Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Stretch"  VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" >
+
+                                <Grid>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"></RowDefinition>
+                                    </Grid.RowDefinitions>
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="200"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid Grid.Column="0">
+
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"></RowDefinition>
+                                            <RowDefinition Height="*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+
+                                        <Border Grid.Row="0" Background="DarkGreen" />
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="#    Name" />
+
+                                        <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding BoxscoreAwayItems}" Width="200" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
+                                            <ListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid>
+                                                        <Grid.ColumnDefinitions>
+                                                            <!--<ColumnDefinition Width="30"></ColumnDefinition>-->
+                                                            <ColumnDefinition Width="200"></ColumnDefinition>
+                                                        </Grid.ColumnDefinitions>
+                                                        <Border Background="{Binding BackgroundColor}" Opacity="{Binding BackgroundOpacity}" Grid.Column="0" Grid.ColumnSpan="2" />
+                                                        <!--<TextBlock Grid.Column="1" Text="{Binding Player.FullName}" />-->
+                                                        <TextBlock Grid.Column="0" Text="{Binding RosterDisplayText}" />
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </ListBox.ItemTemplate>
+                                        </ListBox>
+
+                                    </Grid>
+
+                                    <ScrollViewer Grid.Column="1" VerticalAlignment="Top"  HorizontalAlignment="Stretch" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Visible" >
+
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"></RowDefinition>
+                                                <RowDefinition Height="*"></RowDefinition>
+                                            </Grid.RowDefinitions>
+
+                                            <Grid Grid.Row="0">
+
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="*"></RowDefinition>
+                                                    <RowDefinition Height="*"></RowDefinition>
+                                                </Grid.RowDefinitions>
+
+                                                <Grid.ColumnDefinitions>
+
+                                                    <ColumnDefinition Width="65"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+
+
+                                                </Grid.ColumnDefinitions>
+
+                                                <Border Grid.Row="0" Grid.Column="0" Background="DarkGreen" Grid.ColumnSpan="40" />
+                                                <Border Grid.Row="0" Grid.Column="40" Background="DarkGreen" Grid.ColumnSpan="80" />
+
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="0" Text="MIN" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="1" Text="PM" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="2" Text="GOL" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="3" Text="SOG" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="4" Text="2FG" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="5" Text="SHm" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="6" Text="SHp" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="7" Text="SHb" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="8" Text="SG" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="9" Text="FTM" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="10" Text="PS+" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="11" Text="PS*" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="12" Text="PS-" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="13" Text="REB" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="14" Text="TOt" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="15" Text="TOd" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="16" Text="STL" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="17" Text="TO" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="18" Text="FCk" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="19" Text="FCt" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="20" Text="FCc" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="21" Text="FCp" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="22" Text="FCh" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="23" Text="FCi" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="24" Text="AST" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="25" Text="BLK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="26" Text="CRS*" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="27" Text="CRS+" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="28" Text="CRS-" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="29" Text="FOU" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="30" Text="3FG" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="31" Text="CRN*" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="32" Text="CRN+" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="33" Text="CRN-" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="34" Text="CRNg" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="35" Text="2FGA" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="36" Text="3FGA" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="37" Text="FTA" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="38" Text="FD" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="39" Text="DFK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="40" Text="DFKn" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="41" Text="DFKp" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="42" Text="IFK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="43" Text="PK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="44" Text="PKm" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="45" Text="PKp" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="46" Text="PKb" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="47" Text="PKg" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="48" Text="YC" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="49" Text="YCu" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="50" Text="YCd" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="51" Text="RC" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="52" Text="RCf" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="53" Text="RCv" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="54" Text="RCh" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="55" Text="RCy" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="56" Text="DK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="57" Text="DK*" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="58" Text="DK+" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="59" Text="DK-" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="60" Text="DB" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="61" Text="SK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="62" Text="SKm" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="63" Text="SKp" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="64" Text="SKb" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="65" Text="SKg" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="66" Text="BLO" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="67" Text="ALW" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="68" Text="SV" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="69" Text="AST" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="70" Text="SUB" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="71" Text="MV" />
+
+
+                                            </Grid>
+
+                                            <Grid Grid.Row="1">
+
+                                                <ListBox 
+                                                    Grid.Row="1" 
+                                                    Grid.Column="1"
+                                                    ItemsSource="{Binding BoxscoreAwayItems}"
+                                                    ScrollViewer.VerticalScrollBarVisibility="Disabled" 
+                                                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                                 >
+
+                                                    <ListBox.ItemTemplate>
+                                                        <DataTemplate>
+
+                                                            <Grid>
+                                                                <Grid.ColumnDefinitions>
+                                                                    <ColumnDefinition Width="65"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+
+                                                                </Grid.ColumnDefinitions>
+
+                                                                <Border Background="{Binding BackgroundColor}" Opacity="{Binding BackgroundOpacity}" Grid.Column="0" Grid.ColumnSpan="40" />
+                                                                <Border Background="{Binding BackgroundColor}" Opacity="{Binding BackgroundOpacity}" Grid.Column="40" Grid.ColumnSpan="40" />
+
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.MinutesPlayedTotal_Pos}" Foreground="{Binding FlatTotals.MinutesPlayedTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.MinutesPlayedTotal_mmm_ss}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PlusMinusTotal_Pos}" Foreground="{Binding FlatTotals.PlusMinusTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PlusMinusTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.TotalGoals_Pos}" Foreground="{Binding FlatTotals.TotalGoals, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.TotalGoals}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotTotal_Pos}" Foreground="{Binding FlatTotals.ShotTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotMiss_Pos}" Foreground="{Binding FlatTotals.ShotMiss, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotMiss}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotHitPost_Pos}" Foreground="{Binding FlatTotals.ShotHitPost, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotHitPost}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotBlocked_Pos}" Foreground="{Binding FlatTotals.ShotBlocked, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotBlocked}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotGoal_Pos}" Foreground="{Binding FlatTotals.ShotGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PassTotal_Pos}" Foreground="{Binding FlatTotals.PassTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PassTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PassGood_Pos}" Foreground="{Binding FlatTotals.PassGood, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PassGood}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PassExcellent_Pos}" Foreground="{Binding FlatTotals.PassExcellent, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PassExcellent}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PassPoor_Pos}" Foreground="{Binding FlatTotals.PassPoor, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PassPoor}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.TurnoverTotal_Pos}" Foreground="{Binding FlatTotals.TurnoverTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.TurnoverTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.TurnoverIllegalThrowIn_Pos}" Foreground="{Binding FlatTotals.TurnoverIllegalThrowIn, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.TurnoverIllegalThrowIn}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.TurnoverLostDribble_Pos}" Foreground="{Binding FlatTotals.TurnoverLostDribble, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.TurnoverLostDribble}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.OffsidesTotal_Pos}" Foreground="{Binding FlatTotals.OffsidesTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.OffsidesTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedTotal_Pos}" Foreground="{Binding FlatTotals.FoulCommittedTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedKicking_Pos}" Foreground="{Binding FlatTotals.FoulCommittedKicking, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedKicking}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedTripping_Pos}" Foreground="{Binding FlatTotals.FoulCommittedTripping, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedTripping}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedCharging_Pos}" Foreground="{Binding FlatTotals.FoulCommittedCharging, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedCharging}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedPushing_Pos}" Foreground="{Binding FlatTotals.FoulCommittedPushing, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedPushing}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedHolding_Pos}" Foreground="{Binding FlatTotals.FoulCommittedHolding, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedHolding}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedIllegalTackle_Pos}" Foreground="{Binding FlatTotals.FoulCommittedIllegalTackle, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedIllegalTackle}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.OutOfBoundsTotal_Pos}" Foreground="{Binding FlatTotals.OutOfBoundsTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.OutOfBoundsTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CrossTotal_Pos}" Foreground="{Binding FlatTotals.CrossTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CrossTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CrossExcellent_Pos}" Foreground="{Binding FlatTotals.CrossExcellent, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CrossExcellent}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CrossPoor_Pos}" Foreground="{Binding FlatTotals.CrossPoor, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CrossPoor}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CrossGood_Pos}" Foreground="{Binding FlatTotals.CrossGood, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CrossGood}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ThrowInTotal_Pos}" Foreground="{Binding FlatTotals.ThrowInTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ThrowInTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CornerKickTotal_Pos}" Foreground="{Binding FlatTotals.CornerKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CornerKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CornerKickExcellent_Pos}" Foreground="{Binding FlatTotals.CornerKickExcellent, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CornerKickExcellent}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CornerKickGood_Pos}" Foreground="{Binding FlatTotals.CornerKickGood, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CornerKickGood}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CornerKickPoor_Pos}" Foreground="{Binding FlatTotals.CornerKickPoor, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CornerKickPoor}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CornerKickForGoal_Pos}" Foreground="{Binding FlatTotals.CornerKickForGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CornerKickForGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.TackleTotal_Pos}" Foreground="{Binding FlatTotals.TackleTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.TackleTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.GoalieKickTotal_Pos}" Foreground="{Binding FlatTotals.GoalieKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.GoalieKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.OwnGoalTotal_Pos}" Foreground="{Binding FlatTotals.OwnGoalTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.OwnGoalTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulDrawnTotal_Pos}" Foreground="{Binding FlatTotals.FoulDrawnTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulDrawnTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DirectFreeKickTotal_Pos}" Foreground="{Binding FlatTotals.DirectFreeKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DirectFreeKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DirectFreeKickNotForGoal_Pos}" Foreground="{Binding FlatTotals.DirectFreeKickNotForGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DirectFreeKickNotForGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DirectFreeKickForGoal_Pos}" Foreground="{Binding FlatTotals.DirectFreeKickForGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DirectFreeKickForGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.IndirectFreeKickTotal_Pos}" Foreground="{Binding FlatTotals.IndirectFreeKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.IndirectFreeKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PenaltyKickTotal_Pos}" Foreground="{Binding FlatTotals.PenaltyKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PenaltyKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PenaltyKickMiss_Pos}" Foreground="{Binding FlatTotals.PenaltyKickMiss, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PenaltyKickMiss}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PenaltyKickHitPost_Pos}" Foreground="{Binding FlatTotals.PenaltyKickHitPost, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PenaltyKickHitPost}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PenaltyKickBlocked_Pos}" Foreground="{Binding FlatTotals.PenaltyKickBlocked, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PenaltyKickBlocked}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PenaltyKickGoal_Pos}" Foreground="{Binding FlatTotals.PenaltyKickGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PenaltyKickGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.YellowCardTotal_Pos}" Foreground="{Binding FlatTotals.YellowCardTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.YellowCardTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.YellowCardUnsportsmanLikeConduct_Pos}" Foreground="{Binding FlatTotals.YellowCardUnsportsmanLikeConduct, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.YellowCardUnsportsmanLikeConduct}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.YellowCardDelayingRestartOfPlay_Pos}" Foreground="{Binding FlatTotals.YellowCardDelayingRestartOfPlay, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.YellowCardDelayingRestartOfPlay}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.RedCardTotal_Pos}" Foreground="{Binding FlatTotals.RedCardTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.RedCardTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.RedCardFoulPlay_Pos}" Foreground="{Binding FlatTotals.RedCardFoulPlay, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.RedCardFoulPlay}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.RedCardViolentConduct_Pos}" Foreground="{Binding FlatTotals.RedCardViolentConduct, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.RedCardViolentConduct}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.RedCardIllegalHands_Pos}" Foreground="{Binding FlatTotals.RedCardIllegalHands, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.RedCardIllegalHands}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.RedCardSecondYellowCard_Pos}" Foreground="{Binding FlatTotals.RedCardSecondYellowCard, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.RedCardSecondYellowCard}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DropKickTotal_Pos}" Foreground="{Binding FlatTotals.DropKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DropKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DropKickExcellent_Pos}" Foreground="{Binding FlatTotals.DropKickExcellent, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DropKickExcellent}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DropKickGood_Pos}" Foreground="{Binding FlatTotals.DropKickGood, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DropKickGood}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DropKickPoor_Pos}" Foreground="{Binding FlatTotals.DropKickPoor, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DropKickPoor}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DribbleTotal_Pos}" Foreground="{Binding FlatTotals.DribbleTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DribbleTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShootoutKickTotal_Pos}" Foreground="{Binding FlatTotals.ShootoutKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShootoutKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShootoutKickMiss_Pos}" Foreground="{Binding FlatTotals.ShootoutKickMiss, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShootoutKickMiss}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShootoutKickHitPost_Pos}" Foreground="{Binding FlatTotals.ShootoutKickHitPost, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShootoutKickHitPost}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShootoutKickBlocked_Pos}" Foreground="{Binding FlatTotals.ShootoutKickBlocked, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShootoutKickBlocked}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShootoutKickGoal_Pos}" Foreground="{Binding FlatTotals.ShootoutKickGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShootoutKickGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.BlockedTotal_Pos}" Foreground="{Binding FlatTotals.BlockedTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.BlockedTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.GoalAllowedTotal_Pos}" Foreground="{Binding FlatTotals.GoalAllowedTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.GoalAllowedTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.SaveTotal_Pos}" Foreground="{Binding FlatTotals.SaveTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.SaveTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.AssistTotal_Pos}" Foreground="{Binding FlatTotals.AssistTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.AssistTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotOnGoalTotal_Pos}" Foreground="{Binding FlatTotals.ShotOnGoalTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotOnGoalTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.SubstitutionTotal_Pos}" Foreground="{Binding FlatTotals.SubstitutionTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.SubstitutionTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.MoveTotal_Pos}" Foreground="{Binding FlatTotals.MoveTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.MoveTotal}" />
+
+
+                                                            </Grid>
+
+                                                        </DataTemplate>
+                                                    </ListBox.ItemTemplate>
+
+                                                </ListBox>
+
+                                            </Grid>
+
+                                        </Grid>
+                                    </ScrollViewer>
+
+                                </Grid>
+
+
+                            </ScrollViewer>
+
+
+                        <!--<Button Grid.Row="1"
+                                Height="55"
+                                FontSize="20"
+                                Style="{StaticResource ButtonStyle1}"
+                                Content="Legend"
+                                HorizontalAlignment="Right"
+                                Width="200"
+                                Foreground="White"
+                                Background="#666362" 
+                            Margin="-10"
+                                Command="{Binding ShowLegendCommand}" />-->
+
+
+                            <Button 
+                                Grid.Row="1"
+                                MinWidth="80"
+                                MaxWidth="80"
+                                Padding="5,0,5,0"
+                                BorderThickness="0"
+                                HorizontalAlignment="Right"
+                                Style="{StaticResource PhoneButtonBase}"
+                                Command="{Binding ShowLegendCommand}"
+                                Margin="-8"
+                                Foreground="White">
+                                <Image>
+                                    <Image.Source>
+                                        <BitmapImage UriSource="\Assets\legend.png" CreateOptions="BackgroundCreation"/>
+                                    </Image.Source>
+                                </Image>
+                            </Button>
+
+
+                        </Grid>
+                    </Grid>
+                
+                </phone:PivotItem>
+
+            <phone:PivotItem>
+                    <phone:PivotItem.Header>
+                        <Grid>
+                            <TextBlock FontSize="30" Text="{Binding HomeBoxscore}" />
+                        </Grid>
+                    </phone:PivotItem.Header>
+
+                    <Grid>
+                        <Border Background="Black" Opacity="0.6" ></Border>
+
+                        <Grid >
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="88*"></RowDefinition>
+                                <RowDefinition MinHeight="22" Height="12*"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <ScrollViewer Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Stretch"  VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Disabled" >
+
+                                <Grid>
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"></RowDefinition>
+                                    </Grid.RowDefinitions>
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="200"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Grid Grid.Column="0">
+
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"></RowDefinition>
+                                            <RowDefinition Height="*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+
+                                        <Border Grid.Row="0" Background="DarkGreen" />
+                                        <TextBlock Grid.Row="0" Grid.Column="0" Text="#    Name" />
+
+                                        <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding BoxscoreHomeItems}" Width="200" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
+                                            <ListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid>
+                                                        <Grid.ColumnDefinitions>
+                                                            <!--<ColumnDefinition Width="30"></ColumnDefinition>-->
+                                                            <ColumnDefinition Width="200"></ColumnDefinition>
+                                                        </Grid.ColumnDefinitions>
+                                                        <Border Background="{Binding BackgroundColor}" Opacity="{Binding BackgroundOpacity}" Grid.Column="0" Grid.ColumnSpan="2" />
+                                                        <!--<TextBlock Grid.Column="1" Text="{Binding Player.FullName}" />-->
+                                                        <TextBlock Grid.Column="0" Text="{Binding RosterDisplayText}" />
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </ListBox.ItemTemplate>
+                                        </ListBox>
+
+                                    </Grid>
+
+                                    <ScrollViewer Grid.Column="1" VerticalAlignment="Top"  HorizontalAlignment="Stretch" VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Visible" >
+
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*"></RowDefinition>
+                                                <RowDefinition Height="*"></RowDefinition>
+                                            </Grid.RowDefinitions>
+
+                                            <Grid Grid.Row="0">
+
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="*"></RowDefinition>
+                                                    <RowDefinition Height="*"></RowDefinition>
+                                                </Grid.RowDefinitions>
+
+                                                <Grid.ColumnDefinitions>
+
+                                                    <ColumnDefinition Width="65"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+
+
+                                                </Grid.ColumnDefinitions>
+
+                                                <Border Grid.Row="0" Grid.Column="0" Background="DarkGreen" Grid.ColumnSpan="40" />
+                                                <Border Grid.Row="0" Grid.Column="40" Background="DarkGreen" Grid.ColumnSpan="80" />
+
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="0" Text="MIN" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="1" Text="PM" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="2" Text="GOL" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="3" Text="SOG" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="4" Text="2FG" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="5" Text="SHm" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="6" Text="SHp" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="7" Text="SHb" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="8" Text="SG" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="9" Text="FTM" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="10" Text="PS+" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="11" Text="PS*" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="12" Text="PS-" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="13" Text="REB" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="14" Text="TOt" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="15" Text="TOd" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="16" Text="STL" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="17" Text="TO" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="18" Text="FCk" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="19" Text="FCt" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="20" Text="FCc" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="21" Text="FCp" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="22" Text="FCh" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="23" Text="FCi" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="24" Text="AST" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="25" Text="BLK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="26" Text="CRS*" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="27" Text="CRS+" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="28" Text="CRS-" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="29" Text="FOU" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="30" Text="3FG" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="31" Text="CRN*" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="32" Text="CRN+" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="33" Text="CRN-" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="34" Text="CRNg" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="35" Text="2FGA" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="36" Text="3FGA" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="37" Text="FTA" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="38" Text="FD" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="39" Text="DFK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="40" Text="DFKn" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="41" Text="DFKp" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="42" Text="IFK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="43" Text="PK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="44" Text="PKm" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="45" Text="PKp" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="46" Text="PKb" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="47" Text="PKg" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="48" Text="YC" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="49" Text="YCu" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="50" Text="YCd" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="51" Text="RC" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="52" Text="RCf" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="53" Text="RCv" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="54" Text="RCh" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="55" Text="RCy" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="56" Text="DK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="57" Text="DK*" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="58" Text="DK+" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="59" Text="DK-" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="60" Text="DB" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="61" Text="SK" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="62" Text="SKm" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="63" Text="SKp" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="64" Text="SKb" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="65" Text="SKg" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="66" Text="BLO" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="67" Text="ALW" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="68" Text="SV" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="69" Text="AST" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="70" Text="SUB" />
+                                                <TextBlock  HorizontalAlignment="Right" Grid.Row="0" Grid.Column="71" Text="MV" />
+
+
+
+                                            </Grid>
+
+                                            <Grid Grid.Row="1">
+
+                                                <ListBox 
+                                                    Grid.Row="1" 
+                                                    Grid.Column="1"
+                                                    ItemsSource="{Binding BoxscoreHomeItems}"
+                                                    ScrollViewer.VerticalScrollBarVisibility="Disabled" 
+                                                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                                 >
+
+                                                    <ListBox.ItemTemplate>
+                                                        <DataTemplate>
+
+                                                            <Grid>
+                                                                <Grid.ColumnDefinitions>
+                                                                    <ColumnDefinition Width="65"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="55"></ColumnDefinition>
+
+                                                                </Grid.ColumnDefinitions>
+
+                                                                <Border Background="{Binding BackgroundColor}" Opacity="{Binding BackgroundOpacity}" Grid.Column="0" Grid.ColumnSpan="40" />
+                                                                <Border Background="{Binding BackgroundColor}" Opacity="{Binding BackgroundOpacity}" Grid.Column="40" Grid.ColumnSpan="40" />
+
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.MinutesPlayedTotal_Pos}" Foreground="{Binding FlatTotals.MinutesPlayedTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.MinutesPlayedTotal_mmm_ss}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PlusMinusTotal_Pos}" Foreground="{Binding FlatTotals.PlusMinusTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PlusMinusTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.TotalGoals_Pos}" Foreground="{Binding FlatTotals.TotalGoals, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.TotalGoals}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotTotal_Pos}" Foreground="{Binding FlatTotals.ShotTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotMiss_Pos}" Foreground="{Binding FlatTotals.ShotMiss, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotMiss}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotHitPost_Pos}" Foreground="{Binding FlatTotals.ShotHitPost, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotHitPost}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotBlocked_Pos}" Foreground="{Binding FlatTotals.ShotBlocked, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotBlocked}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotGoal_Pos}" Foreground="{Binding FlatTotals.ShotGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PassTotal_Pos}" Foreground="{Binding FlatTotals.PassTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PassTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PassGood_Pos}" Foreground="{Binding FlatTotals.PassGood, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PassGood}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PassExcellent_Pos}" Foreground="{Binding FlatTotals.PassExcellent, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PassExcellent}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PassPoor_Pos}" Foreground="{Binding FlatTotals.PassPoor, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PassPoor}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.TurnoverTotal_Pos}" Foreground="{Binding FlatTotals.TurnoverTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.TurnoverTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.TurnoverIllegalThrowIn_Pos}" Foreground="{Binding FlatTotals.TurnoverIllegalThrowIn, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.TurnoverIllegalThrowIn}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.TurnoverLostDribble_Pos}" Foreground="{Binding FlatTotals.TurnoverLostDribble, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.TurnoverLostDribble}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.OffsidesTotal_Pos}" Foreground="{Binding FlatTotals.OffsidesTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.OffsidesTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedTotal_Pos}" Foreground="{Binding FlatTotals.FoulCommittedTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedKicking_Pos}" Foreground="{Binding FlatTotals.FoulCommittedKicking, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedKicking}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedTripping_Pos}" Foreground="{Binding FlatTotals.FoulCommittedTripping, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedTripping}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedCharging_Pos}" Foreground="{Binding FlatTotals.FoulCommittedCharging, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedCharging}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedPushing_Pos}" Foreground="{Binding FlatTotals.FoulCommittedPushing, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedPushing}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedHolding_Pos}" Foreground="{Binding FlatTotals.FoulCommittedHolding, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedHolding}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulCommittedIllegalTackle_Pos}" Foreground="{Binding FlatTotals.FoulCommittedIllegalTackle, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulCommittedIllegalTackle}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.OutOfBoundsTotal_Pos}" Foreground="{Binding FlatTotals.OutOfBoundsTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.OutOfBoundsTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CrossTotal_Pos}" Foreground="{Binding FlatTotals.CrossTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CrossTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CrossExcellent_Pos}" Foreground="{Binding FlatTotals.CrossExcellent, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CrossExcellent}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CrossPoor_Pos}" Foreground="{Binding FlatTotals.CrossPoor, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CrossPoor}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CrossGood_Pos}" Foreground="{Binding FlatTotals.CrossGood, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CrossGood}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ThrowInTotal_Pos}" Foreground="{Binding FlatTotals.ThrowInTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ThrowInTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CornerKickTotal_Pos}" Foreground="{Binding FlatTotals.CornerKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CornerKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CornerKickExcellent_Pos}" Foreground="{Binding FlatTotals.CornerKickExcellent, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CornerKickExcellent}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CornerKickGood_Pos}" Foreground="{Binding FlatTotals.CornerKickGood, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CornerKickGood}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CornerKickPoor_Pos}" Foreground="{Binding FlatTotals.CornerKickPoor, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CornerKickPoor}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.CornerKickForGoal_Pos}" Foreground="{Binding FlatTotals.CornerKickForGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.CornerKickForGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.TackleTotal_Pos}" Foreground="{Binding FlatTotals.TackleTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.TackleTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.GoalieKickTotal_Pos}" Foreground="{Binding FlatTotals.GoalieKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.GoalieKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.OwnGoalTotal_Pos}" Foreground="{Binding FlatTotals.OwnGoalTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.OwnGoalTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.FoulDrawnTotal_Pos}" Foreground="{Binding FlatTotals.FoulDrawnTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.FoulDrawnTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DirectFreeKickTotal_Pos}" Foreground="{Binding FlatTotals.DirectFreeKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DirectFreeKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DirectFreeKickNotForGoal_Pos}" Foreground="{Binding FlatTotals.DirectFreeKickNotForGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DirectFreeKickNotForGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DirectFreeKickForGoal_Pos}" Foreground="{Binding FlatTotals.DirectFreeKickForGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DirectFreeKickForGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.IndirectFreeKickTotal_Pos}" Foreground="{Binding FlatTotals.IndirectFreeKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.IndirectFreeKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PenaltyKickTotal_Pos}" Foreground="{Binding FlatTotals.PenaltyKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PenaltyKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PenaltyKickMiss_Pos}" Foreground="{Binding FlatTotals.PenaltyKickMiss, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PenaltyKickMiss}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PenaltyKickHitPost_Pos}" Foreground="{Binding FlatTotals.PenaltyKickHitPost, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PenaltyKickHitPost}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PenaltyKickBlocked_Pos}" Foreground="{Binding FlatTotals.PenaltyKickBlocked, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PenaltyKickBlocked}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.PenaltyKickGoal_Pos}" Foreground="{Binding FlatTotals.PenaltyKickGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.PenaltyKickGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.YellowCardTotal_Pos}" Foreground="{Binding FlatTotals.YellowCardTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.YellowCardTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.YellowCardUnsportsmanLikeConduct_Pos}" Foreground="{Binding FlatTotals.YellowCardUnsportsmanLikeConduct, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.YellowCardUnsportsmanLikeConduct}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.YellowCardDelayingRestartOfPlay_Pos}" Foreground="{Binding FlatTotals.YellowCardDelayingRestartOfPlay, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.YellowCardDelayingRestartOfPlay}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.RedCardTotal_Pos}" Foreground="{Binding FlatTotals.RedCardTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.RedCardTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.RedCardFoulPlay_Pos}" Foreground="{Binding FlatTotals.RedCardFoulPlay, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.RedCardFoulPlay}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.RedCardViolentConduct_Pos}" Foreground="{Binding FlatTotals.RedCardViolentConduct, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.RedCardViolentConduct}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.RedCardIllegalHands_Pos}" Foreground="{Binding FlatTotals.RedCardIllegalHands, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.RedCardIllegalHands}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.RedCardSecondYellowCard_Pos}" Foreground="{Binding FlatTotals.RedCardSecondYellowCard, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.RedCardSecondYellowCard}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DropKickTotal_Pos}" Foreground="{Binding FlatTotals.DropKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DropKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DropKickExcellent_Pos}" Foreground="{Binding FlatTotals.DropKickExcellent, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DropKickExcellent}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DropKickGood_Pos}" Foreground="{Binding FlatTotals.DropKickGood, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DropKickGood}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DropKickPoor_Pos}" Foreground="{Binding FlatTotals.DropKickPoor, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DropKickPoor}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.DribbleTotal_Pos}" Foreground="{Binding FlatTotals.DribbleTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.DribbleTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShootoutKickTotal_Pos}" Foreground="{Binding FlatTotals.ShootoutKickTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShootoutKickTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShootoutKickMiss_Pos}" Foreground="{Binding FlatTotals.ShootoutKickMiss, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShootoutKickMiss}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShootoutKickHitPost_Pos}" Foreground="{Binding FlatTotals.ShootoutKickHitPost, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShootoutKickHitPost}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShootoutKickBlocked_Pos}" Foreground="{Binding FlatTotals.ShootoutKickBlocked, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShootoutKickBlocked}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShootoutKickGoal_Pos}" Foreground="{Binding FlatTotals.ShootoutKickGoal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShootoutKickGoal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.BlockedTotal_Pos}" Foreground="{Binding FlatTotals.BlockedTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.BlockedTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.GoalAllowedTotal_Pos}" Foreground="{Binding FlatTotals.GoalAllowedTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.GoalAllowedTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.SaveTotal_Pos}" Foreground="{Binding FlatTotals.SaveTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.SaveTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.AssistTotal_Pos}" Foreground="{Binding FlatTotals.AssistTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.AssistTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.ShotOnGoalTotal_Pos}" Foreground="{Binding FlatTotals.ShotOnGoalTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.ShotOnGoalTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.SubstitutionTotal_Pos}" Foreground="{Binding FlatTotals.SubstitutionTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.SubstitutionTotal}" />
+                                                                <TextBlock HorizontalAlignment="Right" Grid.Column="{Binding FlatTotals.MoveTotal_Pos}" Foreground="{Binding FlatTotals.MoveTotal, Converter={StaticResource NumberToColorConverter}}" Text="{Binding FlatTotals.MoveTotal}" />
+
+
+
+                                                            </Grid>
+
+                                                        </DataTemplate>
+                                                    </ListBox.ItemTemplate>
+
+                                                </ListBox>
+
+                                            </Grid>
+
+                                        </Grid>
+                                    </ScrollViewer>
+
+                                </Grid>
+
+
+                            </ScrollViewer>
+
+
+                            <!--<Button Grid.Row="1"
+                                Height="55"
+                                FontSize="20"
+                                Style="{StaticResource ButtonStyle1}"
+                                Content="Legend"
+                                HorizontalAlignment="Right"
+                                Width="200"
+                                Foreground="White"
+                                Background="#666362" 
+                                Margin="-10"
+                                Command="{Binding ShowLegendCommand}" />-->
+
+                            <Button 
+                                Grid.Row="1"
+                                MinWidth="80"
+                                MaxWidth="80"
+                                Padding="5,0,5,0"
+                                BorderThickness="0"
+                                HorizontalAlignment="Right"
+                                Style="{StaticResource PhoneButtonBase}"
+                                Command="{Binding ShowLegendCommand}"
+                                Margin="-8"
+                                Foreground="White">
+                                <Image>
+                                    <Image.Source>
+                                        <BitmapImage UriSource="\Assets\legend.png" CreateOptions="BackgroundCreation"/>
+                                    </Image.Source>
+                                </Image>
+                            </Button>
+
+
+                        </Grid>
+                    </Grid>
+
+                </phone:PivotItem>
+
+            <phone:PivotItem>
+                <phone:PivotItem.Header>
+                    <Grid>
+                        <TextBlock FontSize="30" Text="Play By Play" />
+                    </Grid>
+                </phone:PivotItem.Header>
+                    <Grid >
+                    <Border Background="Black" Opacity="0.7"/>
+                        <ScrollViewer VerticalScrollBarVisibility="Disabled">
+                            <ListBox
+                                BorderBrush="White"
+                                BorderThickness="2,2,2,2"
+                                ItemsSource="{Binding PlayByPlayList}" 
+                                ItemTemplate="{StaticResource PlayListTemplate}">
+
+                                <ListBox.ItemContainerStyle>
+                                    <Style TargetType="ListBoxItem">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate>
+                                                    <ContentPresenter HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </ListBox.ItemContainerStyle>
+
+                            </ListBox>
+                        </ScrollViewer>
+                    </Grid>
+                </phone:PivotItem>
+
+        </phone:Pivot>
+
+    </Grid>
+
+
+
+
+
+
+
+
+        <!--Legend popup-->
+        <Grid Background="Transparent" Opacity="1" Visibility="{Binding ShowPopup}">
+
+            <Grid.RowDefinitions>
+                <RowDefinition MinHeight="25" MaxHeight="15" Height="20*"/>
+                <RowDefinition MinHeight="150" Height="*"/>
+                <RowDefinition MinHeight="25" MaxHeight="15" Height="20*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MinWidth="20" Width="5*"></ColumnDefinition>
+                <ColumnDefinition MinWidth="200" Width="90*"></ColumnDefinition>
+                <ColumnDefinition MinWidth="20" Width="5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Row="1" Grid.Column="1">
+
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition MinHeight="20" MaxHeight="35" Height="20*"/>
+                        <RowDefinition MinHeight="200" Height="*"/>
+                        <RowDefinition MinHeight="52" MaxHeight="52" Height="20*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition MinWidth="5" Width="2*"></ColumnDefinition>
+                        <ColumnDefinition MinWidth="200" Width="96*"></ColumnDefinition>
+                        <ColumnDefinition MinWidth="2" Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="3" Background="Black" Opacity="0.8" />
+
+                    <Border Grid.Row="0" Grid.Column="1" Background="Black" >
+                        <TextBlock  
+                                   Text="{Binding Path=LocalizedResources.Legend, Source={StaticResource LocalizedStrings}}"                                          
+                                   FontSize="20" Margin="10,0" Foreground="White" HorizontalAlignment="Left" />
+                    </Border>
+
+                    <Border Grid.Row="1" Grid.Column="1" Background="White" Opacity="1.0" />
+
+                    <ListBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding LegendList}" Margin="0,0,0,0">
+                        <ListBox.ItemContainerStyle>
+                            <Style TargetType="ListBoxItem">
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate>
+                                            <ContentPresenter HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </ListBox.ItemContainerStyle>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="Gray" BorderThickness="0,0,0,1" Margin="0,0,0,0" >
+                                    <Grid Margin="0,2,0,2">
+
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="30*"/>
+                                        </Grid.RowDefinitions>
+
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition MinWidth="60" Width="15*"></ColumnDefinition>
+                                            <ColumnDefinition Width="90*"></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Border Background="{Binding BackgroundColor}" Opacity="{Binding BackgroundOpacity}"  Grid.ColumnSpan="2" />
+                                        <TextBlock Grid.Column="0" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="22" Foreground="Black" Text="{Binding ShortName}" />
+                                        <TextBlock Grid.Column="1" VerticalAlignment="Center" FontWeight="Normal" FontSize="22" Foreground="Black" TextWrapping="Wrap" Text="{Binding LongName}" />
+
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <!--<Button 
+                        Grid.Row="2" 
+                        Grid.Column="1" 
+                        Style="{StaticResource ButtonStyle1}" 
+                        HorizontalAlignment="Right" 
+                        Margin="-10" 
+                        Content="Close"   
+                        Width="232" 
+                        Command="{Binding ShowLegendCommand}" 
+                        Height="71"/>-->
+
+                    <Button 
+                        Grid.Row="2" 
+                        Grid.Column="1" 
+                        MinWidth="80"
+                        MaxWidth="80"
+                        Padding="0,0,0,0"
+                        BorderThickness="0"
+                        HorizontalAlignment="Right" 
+                        Command="{Binding ShowLegendCommand}"
+                        Style="{StaticResource PhoneButtonBase}"
+                        Margin="-8"
+                        Foreground="White">
+                        <Image>
+                            <Image.Source>
+                                <BitmapImage UriSource="\Assets\cancel.png" CreateOptions="BackgroundCreation"/>
+                            </Image.Source>
+                        </Image>
+                    </Button>
+
+                </Grid>
+
+            </Border>
+
+        </Grid>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</phone:PhoneApplicationPage>

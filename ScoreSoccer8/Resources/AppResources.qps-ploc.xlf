@@ -1,0 +1,1997 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="qps-ploc" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="UTrackSoccer" product-version="1.0.3" build-num="3">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+          </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">qps-ploc</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+          </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[46916][!!_ΜЎ ÂΡÞĹĮČÂТÎÔŇ_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5588D][!!_áďď_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DFFBB][!!_Μèйù Ìţęм_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Jersey" translate="yes" xml:space="preserve">
+          <source>Jersey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AB4A8][!!_Јéřşèÿ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Required" translate="yes" xml:space="preserve">
+          <source>Required</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[834D2][!!_Ŗęqûîŕéđ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/League" translate="yes" xml:space="preserve">
+          <source>League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F62E3][!!_Ĺêàĝµê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ReportType" translate="yes" xml:space="preserve">
+          <source>Report Type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E82C3][!!_Ѓęþôŕτ Тÿρê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Players" translate="yes" xml:space="preserve">
+          <source>Players</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FF07F][!!_РĺáУęřŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayList" translate="yes" xml:space="preserve">
+          <source>Play List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F4BAC][!!_Рļáý Ļįśť_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerStats" translate="yes" xml:space="preserve">
+          <source>Player Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[36F7A][!!_ΡĺàУêř Šţãţş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Teams" translate="yes" xml:space="preserve">
+          <source>Teams</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3B022][!!_Τèãmş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamStats" translate="yes" xml:space="preserve">
+          <source>Team Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7F25B][!!_Τêãm Šτãťš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Leagues" translate="yes" xml:space="preserve">
+          <source>Leagues</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FE42A][!!_Ŀèãģùéš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ContactName" translate="yes" xml:space="preserve">
+          <source>Contact Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D1B0D][!!_Ćôήţáĉт Ņãmè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeagueNotEnteredValidationMessage" translate="yes" xml:space="preserve">
+          <source>League name not entered. League not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[43E66][!!_Ľêáğúé йãmę йòť êйťèŗéď. Ĺéâġúé йôт şâνéð._!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Active" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E46B9][!!_Àĉτíνè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Status" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6B516][!!_Šтàţùŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Game" translate="yes" xml:space="preserve">
+          <source>Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[BF330][!!_Ġãмę_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">used in prompt</note>
+          </trans-unit>
+        <trans-unit id="Resx/AddGame" translate="yes" xml:space="preserve">
+          <source>Add Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[78E92][!!_Àďđ Ĝãmê_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/GameInfo" translate="yes" xml:space="preserve">
+          <source>Game Info</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A0F15][!!_Ģàmé Įήƒô_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Manager" translate="yes" xml:space="preserve">
+          <source>Manager</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[13F79][!!_Мâйâĝêŕ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Periods" translate="yes" xml:space="preserve">
+          <source>Periods</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6FEA8][!!_Þèřįòđś_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7D5FA][!!_Ϋêš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayersPerTeamNotSet" translate="yes" xml:space="preserve">
+          <source>Players per team not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[39DEE][!!_Рļàŷęřš þéř ţèám йôτ ŝèт. Ģámę иõт ŝâνèð._!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Search" translate="yes" xml:space="preserve">
+          <source>Search</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[ABAB8][!!_Śęàŗĉћ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CannotChangeDeletedPlayerInfo" translate="yes" xml:space="preserve">
+          <source>Can not change information on a deleted player. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[254FE][!!_Ċáη ηõť ćћãйğé įήƒõřmáťîõи ôи à ďêĺęτéđ рĺãŷêŗ. Þłâўéѓ иòτ šàνęð._!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Weight" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9FDA2][!!_Ẅêìġћτ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCard" translate="yes" xml:space="preserve">
+          <source>Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FF8B2][!!_Ŷèłļõẁ Ċãѓď_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotDetails" translate="yes" xml:space="preserve">
+          <source>Shot Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2A0A9][!!_Ŝћòт Ďęťãîłš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tripping" translate="yes" xml:space="preserve">
+          <source>Tripping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C38F0][!!_Ťѓîþрįйġ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ViolentConduct" translate="yes" xml:space="preserve">
+          <source>Violent Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E67EE][!!_Vįòłéήţ Ĉõиđûĉт_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsPicker" translate="yes" xml:space="preserve">
+          <source>Stats Picker</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[47015][!!_Şтãτš Рįćќêŕ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a shot and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4B731][!!_ тãќęś á ŝнõţ àиð мîšşęś_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/BlockedBy" translate="yes" xml:space="preserve">
+          <source>Blocked By</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[56A47][!!_Βĺóčкêď ßŷ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotNotOnGoal" translate="yes" xml:space="preserve">
+          <source>Shot Not On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B4905][!!_Śнóţ Ñôť Óή Ģõãľ_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Team" translate="yes" xml:space="preserve">
+          <source>Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3BC61][!!_Тęám_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockNotEntered" translate="yes" xml:space="preserve">
+          <source>Clock not entered. Play not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8F73F][!!_Čłòċќ ήõт ęηтêŗêð. ÞļàУ ήòť śâνéđ._!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/OtherTeamGoalie" translate="yes" xml:space="preserve">
+          <source>Other Team Goalie</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[57593][!!_Ôτђêѓ Тęâм Ğôãľíè_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/OurTeam" translate="yes" xml:space="preserve">
+          <source>Our Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C261E][!!_Ôùŗ Тêãм_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name for demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/PeriodClockValueInFuture" translate="yes" xml:space="preserve">
+          <source>Period/Clock value can not be a time in the future. Please use game manager to track a play in the future. Play not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1FC54][!!_Рèŗíóď/Čļõčķ νâĺùé ćáη иôť ьè â ťíмé įй тħè ƒùтûřé. Рĺêâśé µşè ğãmé máηãĝèř ťó ťřâċĸ ã рłáý îй ťħê ƒûťúŕé. Þłáŷ йôť ŝáνêď._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player9" translate="yes" xml:space="preserve">
+          <source>Player 9</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F94B0][!!_ÞĺâУêŗ 9_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Away" translate="yes" xml:space="preserve">
+          <source>Away</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6A28B][!!_Âŵàŷ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Play" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4ED2F][!!_Рĺáÿ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Unknown" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[EBDD6][!!_Üиќйóẃή_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">unknown player from game manager screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/GameStartedScreenDisabled" translate="yes" xml:space="preserve">
+          <source>Inprogress, screen disabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D631D][!!_Ģámè şтãŕţęđ, śĉŗêèй đîšáьļêď_!!!!!!!!]</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          </trans-unit>
+        <trans-unit id="Resx/InvalidOTLength" translate="yes" xml:space="preserve">
+          <source>Invalid OT Length. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[EADFB][!!_Įиνáĺîđ ÒТ Ŀèиģťћ. Ğámé йõţ ŝáνèð._!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Blocks" translate="yes" xml:space="preserve">
+          <source>Blocks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[99BAB][!!_ßļòċќş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Assists" translate="yes" xml:space="preserve">
+          <source>Assists</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A7C52][!!_Àŝşįšтś_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowsCardsUnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source>Yellow Cards Unsportsmanline Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[954CB][!!_Ўéľĺõŵ Ċàřđš Ûиşþôѓτśmãиļìиé Ćõйðùċţ_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/BirthDate" translate="yes" xml:space="preserve">
+          <source>BirthDate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0B2F7][!!_ВìŕťћÐâτę_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndScores" translate="yes" xml:space="preserve">
+          <source> takes a shot and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B36D0][!!_ ťãĸéš â ŝђòτ áйď şĉóѓèş_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tutorial" translate="yes" xml:space="preserve">
+          <source>Tutorial</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B2439][!!_Тùţóŗíáł_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockAdjustedToPeriod" translate="yes" xml:space="preserve">
+          <source> Clock adjusted to period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B0DC1][!!_ Ĉĺôćк ãðĵúśτèđ τô þèŗìòď_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPoorCornerKick" translate="yes" xml:space="preserve">
+          <source> takes a poor corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D5DB7][!!_ τãќêś à рôõѓ ćóŕиęŗ ķíċķ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A8BE4][!!_ ťâķęş á şђõòťóûτ ĸìčķ àήđ śćôŕèš_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowGreen" translate="yes" xml:space="preserve">
+          <source>Yellow Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B1378][!!_Ýéłľòẅ Ĝřêèη_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Demo" translate="yes" xml:space="preserve">
+          <source>Demo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[25AD3][!!_Ďêмó_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddNewPlayer" translate="yes" xml:space="preserve">
+          <source>Add New Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[44D0E][!!_Ãđđ Ńéŵ Ρļàŷèŗ_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Timeline" translate="yes" xml:space="preserve">
+          <source>Timeline</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4F79E][!!_Ťíмęľįиé_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectTeam" translate="yes" xml:space="preserve">
+          <source>Select Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6A017][!!_Ŝęļéċť Ţęâм_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name option in teams drop down on game details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/KicksBallIntoOwnGoal" translate="yes" xml:space="preserve">
+          <source> kicks the ball into own goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F6F03][!!_ кîĉķš τнè Бàĺľ ìήтò ôẃи ĝòáľ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectLeague" translate="yes" xml:space="preserve">
+          <source>Select League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[00335][!!_Śéļęčť Ŀêâĝùę_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Statistics" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[ECEE5][!!_Šτãτîśťíčŝ_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">screen title</note>
+          </trans-unit>
+        <trans-unit id="Resx/StatsDisclaimer" translate="yes" xml:space="preserve">
+          <source>Player Minutes updated at end of period and end of game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[983F4][!!_Рłãýèř Мįиúτéŝ µрðàťęď ãť éиď òƒ рèříòď âйð éиđ ôƒ ĝãмè_!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Legend" translate="yes" xml:space="preserve">
+          <source>Legend</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D1A81][!!_Ľéġęйď_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/User" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D9011][!!_Ùşèѓ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Password" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[BCD37][!!_Рãśśŵòŕđ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetPassword" translate="yes" xml:space="preserve">
+          <source>Reset Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CFF6B][!!_Řêşêţ Þâşşẃôŗđ_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AED3C][!!_Àвôùť_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateApp" translate="yes" xml:space="preserve">
+          <source>Rate App</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[77AD8][!!_Ŕáţê Âрр_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Fouls" translate="yes" xml:space="preserve">
+          <source>Fouls</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[37B04][!!_₣óúłş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseApp" translate="yes" xml:space="preserve">
+          <source>Purchase App</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4BA9E][!!_Þùřćĥàşé Áþρ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4DC2C][!!_Ηèļρ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppPrompt" translate="yes" xml:space="preserve">
+          <source>Unlock all stats?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[856C8][!!_Ûηļôčк áľľ ŝţâťş?_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoToDemoGamePrompt" translate="yes" xml:space="preserve">
+          <source>Try scoring the demo game?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D1E72][!!_Τŕŷ śĉõřìиĝ τħè ðęмô ĝàmé?_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoRightButton" translate="yes" xml:space="preserve">
+          <source>No Thanks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1CB49][!!_Ñô Ťђãиќŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoLeftButton" translate="yes" xml:space="preserve">
+          <source>Try It</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D57DB][!!_Ţŗŷ Įţ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us.  Would you like to rate this app?  Rating the app will enable full stats functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F4409][!!_Ŷõûŗ ƒèęðБáčк îŝ νêŗŷ įmрõѓţàит ţô µş.  Ẃôûļď ŷóµ ļîќé ţô řáτé τħíŝ àрр?_!!!!!!!!!!!!!!!!!!!!!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/RateRightButton" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A0B6F][!!_Ňò_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppRightButton" translate="yes" xml:space="preserve">
+          <source>Not Now</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[45B6B][!!_Ñõт Ňôẅ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayerToBench" translate="yes" xml:space="preserve">
+          <source>Add Player To Bench</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[21E8C][!!_Ãďđ Ρľàÿêŕ Ţõ βéйċĥ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AdvanceToNextPeriod" translate="yes" xml:space="preserve">
+          <source>Advance to next period?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DFA7E][!!_Àďνáиċę тõ ήè×ţ рêѓìóð?_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeBoxscore" translate="yes" xml:space="preserve">
+          <source>Home Boxscore</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[20CCF][!!_Ħõmę ßõхşĉõŕè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Header" translate="yes" xml:space="preserve">
+          <source>Header</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D233A][!!_Нęãđéѓ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameStatistics" translate="yes" xml:space="preserve">
+          <source>Game Statistics</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[93EA1][!!_Ģámę Ŝтâťíşτîĉš_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameManager" translate="yes" xml:space="preserve">
+          <source>Game Manager</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[689FE][!!_Ğâmè Μàиãģéŕ_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/EditPlayByPlay" translate="yes" xml:space="preserve">
+          <source>Edit Play By Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[485BD][!!_Ęđîť Рĺáў ßŷ Рłâŷ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/EditGame" translate="yes" xml:space="preserve">
+          <source>Edit Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[52ACA][!!_Êđíт Ĝámę_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/Edit" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7605A][!!_Èđįţ_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/ClockUp" translate="yes" xml:space="preserve">
+          <source>Clock Up</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8CD18][!!_Ćľòċќ Ùþ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockDown" translate="yes" xml:space="preserve">
+          <source>Clock Down</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9B560][!!_Ĉľòčķ Đòŵη_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToStartOrStopGameTime" translate="yes" xml:space="preserve">
+          <source>Click to Start or Stop game time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[71FFF][!!_Ćļìćк ťô Śтáѓť ôѓ Šτòþ ģãмé τîмê_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToAdjustPeriod" translate="yes" xml:space="preserve">
+          <source>Click to adjust period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[518D6][!!_Ċĺìċķ ţô àðĵûšτ þęŕįõđ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToAdjustClock" translate="yes" xml:space="preserve">
+          <source>Click to adjust clock</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[983D5][!!_Ćĺįčķ τõ âďĵúşť ċłôćķ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayBoxscore" translate="yes" xml:space="preserve">
+          <source>Away Boxscore</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[13712][!!_Âŵáў βóхŝĉôѓę_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Advance" translate="yes" xml:space="preserve">
+          <source>Advance</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[ED0C5][!!_Áďνàηĉè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/WasUndone" translate="yes" xml:space="preserve">
+          <source> was undone</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[280F6][!!_ ŵáš µηďòηê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Menu" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[25426][!!_Μéиú_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAllStats" translate="yes" xml:space="preserve">
+          <source>Purchase All Stats?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6F915][!!_Ρúŕčĥãśê Âłļ Ŝţàтš?_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine6" translate="yes" xml:space="preserve">
+          <source>Dribble, Shootout Kick, Substitution</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E2119][!!_ÐŕîБьļę, Ŝħóõтóúт Ķįčķ, Šµьşтîтùţíõή_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Loading" translate="yes" xml:space="preserve">
+          <source>Loading ...</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9F49C][!!_Ŀóãđíήğ ..._!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayerFromRoster" translate="yes" xml:space="preserve">
+          <source>Delete Player From Team Roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5DAD8][!!_Ðęĺèťę Þļáÿęŕ ₣ѓôм Ŗõşтęŕ_!!!!!!!!]</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          </trans-unit>
+        <trans-unit id="Resx/FromPlayerList" translate="yes" xml:space="preserve">
+          <source> from player list</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[780C1][!!_ ƒřôm рĺàўèѓ ļįşт_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FromRoster" translate="yes" xml:space="preserve">
+          <source> from roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[BB72C][!!_ ƒŕõm řòşтéŗ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeAndAwayCanNotBeSameTeam" translate="yes" xml:space="preserve">
+          <source>Home team and away team can not be the same. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2BBE2][!!_Ħòмè ţęàм áήď ãẅàУ τéáм ćàй ήõť вê тħê şáмé. Ğàmę ήõţ šáνęð._!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameStarted" translate="yes" xml:space="preserve">
+          <source>Game Started</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CDB49][!!_Ĝámê Śτářţêð_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToBuy" translate="yes" xml:space="preserve">
+          <source>- Click Image To Buy Full Version -</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9407C][!!_- Ĉĺíčĸ Ìmâġê Ťô Вûŷ ₣µłľ Vęŕşìòή -_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword5" translate="yes" xml:space="preserve">
+          <source>sports</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2FD52][!!_ŝρôѓтş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Feedback" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0FA6D][!!_₣ééđвãċќ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/_description" translate="yes" xml:space="preserve">
+          <source>The most intuitive and complete Soccer Scoring application on the market.  Over 50 stats available.  Try it free today!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+Player Stats include:
+
+Minutes played 
+Plus-minus 
+Goals
+Pases
+Offsides
+Red Card
+Turnovers
+and many more!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F9345][!!_Ťħé мóśţ ìйτúíťíνè âήď ĉómрľèťę Şôĉćęѓ Śĉõŗîηĝ áррĺįćãτįóи õή ťђê màŕķęт.  Óνèѓ 50 šтáţš ãνãįļàъľę.  Тřŷ îť ƒřêé ťõđâŷ!
+
+Κêęр τŕàĉк ôƒ:
+Ţêãmş
+Ğãмęŝ
+Ľéãġúéś
+Рĺàŷéřŝ
+
+Ρłâýèř Şτàτş íηċļúďè:
+
+Μîηµτęŝ ρĺãýèđ 
+Ρłµš-мîηúš 
+Ģòãĺś
+Рáŝêś
+Óƒƒśįðêş
+Ŕęď Ĉářð
+Ţúŗήôνęřš
+áήđ màйÿ mõѓè!
+
+Ġàмè Õртîòиŝ ìηĉļûďé:
+
+Čłòĉк Úþ óѓ Ĉļõċќ Ďóẃη
+₣ĺéхįьļę óи ƒįęłď ƒóŕмáţìõηş
+Üиķηõŵй Þłáýéŕ óрťìòи
+Êđįťíηğ/Ûήðòįήġ õƒ Þĺàўŝ
+Üйļįmîτéð Şúъšťìťùтíòиş
+Ĉµşтômížáъľè рéřįóðś àйđ þêŕìõđ ľêиġтĥ.
+
+
+Víêẁ Рĺãý-ΒУ-Рĺãÿ âĉτìôη ƒóŗ тнè ġáмè, śђãřê ťħè šτáτś õй Τẁįтťèŗ, ₣âċèъôôĸ, Įиşтàģŗám, ęmáįļ, тęхť ãηď мàήÿ мôřê!
+
+Èâşý ţõ šéт ùþ, áήð èášУ τô úŝê!  Śтâŕť ťŗãĉķîиģ Уôùŗ йêхţ ģâмé ẃîтђîй мìйùтęŝ!_!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayerFromPlayerList" translate="yes" xml:space="preserve">
+          <source>Delete Player From Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[22756][!!_Ďęľéτę Þłãўéŗ ₣ŕõm Þĺàÿéŗ Ĺîśτ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddNewPlayerToPlayerList" translate="yes" xml:space="preserve">
+          <source>Add New Player To Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6A19A][!!_Âđď Ņéẃ ÞļáУèŗ Τô Þłàýęř Ĺįšţ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FollowUsOnTwitter" translate="yes" xml:space="preserve">
+          <source>Follow us on Twitter</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[110CF][!!_₣õļĺõŵ ûŝ ôή Тẃìţтèř_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/_IAPDescription" translate="yes" xml:space="preserve">
+          <source>Full Stats package includes: Player Minutes, Plus Minus,
+Pass, Turnover, Offsides, Foul Committed, Out of Bounds, Cross, Throw In,
+Corner Kick, Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,
+Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,
+Dribble, Shootout Kick, Substitution</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F31B5][!!_₣úĺł Śτãťŝ þâċĸáġè íиċļúðèş: Рłãŷêѓ Мíиûтęŝ, Þľùş Мíйúş,
+Ρáŝš, Ťùřиõνêř, Õƒƒśìðęš, ₣òµľ Ċòmмįťťêď, Óúт óƒ βôûηďş, Ĉѓóŝŝ, Ťнѓóẁ Îη,
+Ĉõѓйêř Кìčĸ, Ţãĉќłę, Ğòàľîè Κįćĸ, Õẁή Ğõâł, ₣ôµļ Đŗâẅή, Đįŗéĉт ₣řéę Ќîĉĸ,
+Îηđìŕéĉτ ₣ѓêè Кįċķ, Þèиãľţŷ Кìċк, Ϋèļļòẁ Ĉãѓď, Řèð Ĉãŕđ, Đŗôþ Κîčќ,
+ĐѓîъБļé, Šнòôτóµт Ķįčĸ, Šµьşťíтµтîôй_!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/_iapHeader" translate="yes" xml:space="preserve">
+          <source>Full Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B333A][!!_₣µļł Śťàτş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/_FreeDescription" translate="yes" xml:space="preserve">
+          <source>The most intuitive and complete Soccer Scoring application on the market!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+The free version includes tracking of Shots and Goals!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AC875][!!_Тħê mòşť îйťúíτįνê áηð ćõмрĺęτé Śóċćęѓ Ŝčóŗîиğ àрþłíćâţìõή óй ťнę máŕķèт!
+
+Кéęρ тŕáčķ óƒ:
+Ţêámš
+Ĝãмèŝ
+Ŀêâģúèŝ
+Þĺáýèřś
+
+Ťћé ƒřéę νêŗśîõи íήćľùďêş ťŕâĉķîήğ óƒ Ŝħõťş àйď Ġòàłš!
+
+Ğámê Óρтìôйŝ įήĉĺûðé:
+
+Čłóćķ Üρ ôř Ćļõćќ Ðóẅй
+₣łęхìвłę òή ƒîêłď ƒôŕmáťîôиş
+Úиķиõẃη Þľàŷéŗ òртíõη
+Èðíтįήģ/Ûиðõîήġ õƒ ÞļáУś
+Ùиľímįτéð Ŝùьśţįτùťíõηŝ
+Ċµŝťôмįžâьļę рêŕíóðš ãйď þèřîõð łêηĝťĥ.
+
+
+Víèẅ Ρłãý-Ъý-Ρĺâÿ áĉτįôή ƒõř ţнè ğâмè, śĥãѓę тћê šťãţš ôή Ťẁįţτęŗ, ₣áčęьóòк, Įиŝţãğřãm, êmâíł, тęхţ àηď máήŷ môѓé!
+
+Èášý тò şéţ ùр, âйð ęàśŷ ťò ûśê!  Ŝťãѓт ťѓáčќíиĝ ÿóûѓ ηè×ť ġâмè ẃíťнîή мìйûţęŝ!_!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodNotStarted" translate="yes" xml:space="preserve">
+          <source>The period has not started yet. Do you wish to continue?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C270B][!!_Τĥę рèѓįõď нãš ήòť ŝτáŗτéð ўèţ. Ðó ўòù ẁįšħ τô ĉõήťįηûè?_!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotStarted" translate="yes" xml:space="preserve">
+          <source>Not Started</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AB8C0][!!_Ňôτ Ŝţàřтéð_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword4" translate="yes" xml:space="preserve">
+          <source>score</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8CA6C][!!_şčõŗé_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword3" translate="yes" xml:space="preserve">
+          <source>UTrack</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9D37A][!!_ÜТѓàčķ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword2" translate="yes" xml:space="preserve">
+          <source>statistics</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[ED91F][!!_şτáтįśтîčş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword1" translate="yes" xml:space="preserve">
+          <source>soccer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5A72B][!!_śõćčéŕ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoEvents" translate="yes" xml:space="preserve">
+          <source>no events</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1EADE][!!_ηõ éνéйтŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kickoff" translate="yes" xml:space="preserve">
+          <source>KICKOFF</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3C183][!!_ĶÍČЌÔ₣₣_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/HalfTime" translate="yes" xml:space="preserve">
+          <source>HALF-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5B369][!!_ĦÂĹ₣-ТĮМÈ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FullTime" translate="yes" xml:space="preserve">
+          <source>FULL-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F6AB7][!!_₣ÛĽĿ-ŤĮМÊ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtraTimeHalfTime" translate="yes" xml:space="preserve">
+          <source>EXTRA-TIME HALF-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E339B][!!_ÈΧŤŔÂ-ŤĮМÊ ΗÁĹ₣-ΤĮМÊ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtraTimeFullTime" translate="yes" xml:space="preserve">
+          <source>EXTRA-TIME FULL-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[ED08F][!!_ÉХТŔÀ-ТÌΜĘ ₣ÚĿĽ-ŤÌМĘ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/EndPeriod" translate="yes" xml:space="preserve">
+          <source>End Period </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[EA852][!!_Èηð Ρęŗìóđ _!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine5" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[96BCA][!!_Ìηðíŗęčτ ₣ŕęę Ķíĉĸ, Рêηãĺţý Ќìĉк, Ŷęļļôẁ Ĉàŕď, Ŗęđ Ċãѓđ, Ðŕõþ Κìćķ,_!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine4" translate="yes" xml:space="preserve">
+          <source>Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0AF63][!!_Ţáċкľé, Ĝõãľíê Κîċķ, Ôẅη Ģóàľ, ₣òùľ Ðŕâẃи, Ďîŕêčτ ₣ѓèê Кįĉĸ,_!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine3" translate="yes" xml:space="preserve">
+          <source>Foul Committed, Out of Bounds, Cross, Throw In, Corner Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[376C2][!!_₣òùļ Ċómмîţτęð, Ôùť óƒ βõùήďš, Čŗõŝş, Ţнѓôẅ Íй, Ċõŗйęŕ Ќíċќ,_!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine2" translate="yes" xml:space="preserve">
+          <source>Pass, Turnover, Offsides,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D2D4E][!!_Þàśś, Тµŗйõνêř, Õƒƒŝíđęś,_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine1" translate="yes" xml:space="preserve">
+          <source>Full stats package includes: Player Minutes, Plus Minus,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[BE146][!!_₣úľł şťâţś рàċķàģé íήčľûðéş: Ρĺáÿéѓ Μìηûţèś, Рľúś Μįиûş,_!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[139C0][!!_Þùŗćħâśè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Undo" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[EFAAA][!!_Ùиďô_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoPlaysToUndo" translate="yes" xml:space="preserve">
+          <source>There are no plays to undo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[522BF][!!_Τнéŗè ãřé ηó рľãÿś ţò ûиđó_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotWithRightFoot" translate="yes" xml:space="preserve">
+          <source>Shot With Right Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C0F93][!!_Ŝђôτ Ŵîťћ Ŕîĝĥť ₣õòţ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotWithLeftFoot" translate="yes" xml:space="preserve">
+          <source>Shot With Left Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7010A][!!_Śħòť Ẅîţн Ŀêƒť ₣õóτ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotGoal" translate="yes" xml:space="preserve">
+          <source>Shot Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8B8BD][!!_Şћôт Ġõâĺ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootsRightFoot" translate="yes" xml:space="preserve">
+          <source>Shoots Right Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B08A9][!!_Śђôóтŝ Ŕîĝħţ ₣òóт_!!!!!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShootsLeftFoot" translate="yes" xml:space="preserve">
+          <source>Shoots Left Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B8B52][!!_Şĥôòтŝ Ļéƒт ₣ôõτ_!!!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/Share" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[72875][!!_Śћàѓê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayByPlay" translate="yes" xml:space="preserve">
+          <source>Play By Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2F510][!!_Þľáў Ъў Рļáý_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyGoal" translate="yes" xml:space="preserve">
+          <source>Penalty Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9EF66][!!_Рęиãľţŷ Ġõáļ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppLeftButton" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B5A91][!!_Рúѓċђâşę_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateLeftButton" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B3E70][!!_Ỳéŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us.  Please rate this app. Rating the app will enable full stats functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[678DB][!!_Ỳôûŗ ƒêêđьáĉк ìś νéřў íмрõѓτãήт τõ ùś.  Þĺéâšè ŕâтè τħįś âρρ._!!!!!!!!!!!!!!!!!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Rate" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8E4B8][!!_Ŗàţê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoGame" translate="yes" xml:space="preserve">
+          <source>Demo Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2DCA8][!!_Đêmõ Ĝáмê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/eMail" translate="yes" xml:space="preserve">
+          <source>eMail</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[80841][!!_ęΜâíļ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerMinutes" translate="yes" xml:space="preserve">
+          <source>Player Minutes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3DE8D][!!_Þłâýèŗ Μîиûţéş_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectJersey" translate="yes" xml:space="preserve">
+          <source>Select Jersey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E7CB6][!!_Śêĺéċť Јèŕšęў_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowBlue" translate="yes" xml:space="preserve">
+          <source>Yellow Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A872F][!!_Ŷéłľóŵ Βľµé_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteRed" translate="yes" xml:space="preserve">
+          <source>White Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6110B][!!_Ẃĥįτê Ŗęď_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteGreen" translate="yes" xml:space="preserve">
+          <source>White Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[26453][!!_Ẃĥîţę Ģŕéęη_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteBlue" translate="yes" xml:space="preserve">
+          <source>White Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DDEEB][!!_Ẅĥįτé βłûê_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedStripes" translate="yes" xml:space="preserve">
+          <source>Red Stripes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A5659][!!_Ŕêď Šţѓîрęŝ_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedGreen" translate="yes" xml:space="preserve">
+          <source>Red Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[42A85][!!_Ѓèđ Ĝѓêêй_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedBlack" translate="yes" xml:space="preserve">
+          <source>Red Black</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4CC51][!!_Řêđ ßłàċк_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Red" translate="yes" xml:space="preserve">
+          <source>Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CB8DF][!!_Ŗêđ_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/OrangeGreen" translate="yes" xml:space="preserve">
+          <source>Orange Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D0901][!!_Ôŕâηġè Ĝѓéèη_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Orange" translate="yes" xml:space="preserve">
+          <source>Orange</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F5BBC][!!_Òŗãηĝé_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/LightBlue" translate="yes" xml:space="preserve">
+          <source>Light Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[48893][!!_Ļìğћτ Вłùê_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/GreenRed" translate="yes" xml:space="preserve">
+          <source>Green Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D62C7][!!_Ĝřèèи Ѓęď_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/GermanColors" translate="yes" xml:space="preserve">
+          <source>German Colors</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[778AF][!!_Ĝéѓmàи Ćóĺòŗŝ_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/DarkRed" translate="yes" xml:space="preserve">
+          <source>Dark Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4C5E4][!!_Ďàŕĸ Ŕêđ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DarkBlue" translate="yes" xml:space="preserve">
+          <source>Dark Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A35B2][!!_Ďáŕќ βļûè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/BlueWhite" translate="yes" xml:space="preserve">
+          <source>BlueWhite</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[EF61A][!!_ЬļûęẂĥįťę_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueStripe" translate="yes" xml:space="preserve">
+          <source>Blue Stripe</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2CE50][!!_Ъĺµé Šţѓíρé_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueRed" translate="yes" xml:space="preserve">
+          <source>Blue Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E26E6][!!_ßľµê Ѓêď_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueCross" translate="yes" xml:space="preserve">
+          <source>Blue Cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2A992][!!_ßĺùê Ĉřôśş_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[EA53C][!!_ ţáкêš á śђòôтòûт кįĉķ ãήð мįśśęŝ_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7F263][!!_ ţáќéŝ â śђôòťõúţ ќìĉк àиđ îτ îŝ ъļõčĸèð_!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9B8D2][!!_ ťàќèş â ŝћóóťôùť ķìćĸ âйď ħįτś τђè ρôšт_!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5DE60][!!_ ťâкéŝ á рèиãłťÿ ќįćќ ãήð šċõѓêś_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4FDEF][!!_ ţáкèš à рęήâĺтУ ĸîćќ ãηđ míŝśéŝ_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[BB889][!!_ ťãќèś ã þęηãĺţў ĸíċĸ âηđ ìţ íş ьľóċќéď_!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5FAC9][!!_ ţáĸęş à рèήáłťÿ ĸíĉĸ ãйð ђįťś ţнę þôśт_!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAnIndirectFreeKick" translate="yes" xml:space="preserve">
+          <source> takes an indirect free kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A463B][!!_ τâќèş àη ìηðìѓèĉτ ƒřęê ĸíĉќ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAnExcellentCornerKick" translate="yes" xml:space="preserve">
+          <source> takes an excellent corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2B9B2][!!_ ťãќéś àй êхĉéĺĺèήţ ćôŕήęř ĸîčк_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAGoodCornerKick" translate="yes" xml:space="preserve">
+          <source> takes a good corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FFA3F][!!_ ţàķêş â ġôòð ĉòŕйèŗ кíĉќ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAGoalKick" translate="yes" xml:space="preserve">
+          <source> takes a goal kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5842E][!!_ ţàќéš à ĝòãĺ кìčķ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesADirectFreeKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a direct free kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[74199][!!_ ťàкéš à đîŕęċţ ƒřéé кįĉк àиď śćóŗèş_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesADirectFreeKick" translate="yes" xml:space="preserve">
+          <source> takes a direct free kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A8167][!!_ тàкéš à ðîŗęċţ ƒŕèé ќíčķ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesACornerKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a corner kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[116BD][!!_ ţâĸéš â ĉôŕиêѓ ĸìčк áηð śčóřęş_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorCross" translate="yes" xml:space="preserve">
+          <source> makes a poor cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7627E][!!_ мâќêś ã ρóôř ćřòśŝ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/SwitchedPositionsWith" translate="yes" xml:space="preserve">
+          <source> switched positions with </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4FCC8][!!_ śŵìťćћéď рôŝįτįôйš ẅîťћ _!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorDropKick" translate="yes" xml:space="preserve">
+          <source> makes a poor drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5C6F4][!!_ màĸęś ã рôóŗ đřõþ ĸįċĸ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentCross" translate="yes" xml:space="preserve">
+          <source> makes an excellent cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[31FEC][!!_ mãкéś ãи èхćéľľêήт ċŗòşš_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentDropKick" translate="yes" xml:space="preserve">
+          <source> makes an excellent drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B97D0][!!_ мáĸèŝ âй éхċęľļéйτ ðŕóρ кìćк_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodCross" translate="yes" xml:space="preserve">
+          <source> makes a good cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[542B0][!!_ мàкéŝ à ġõòð čŕôŝś_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodDropKick" translate="yes" xml:space="preserve">
+          <source> makes a good drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5F24A][!!_ мàķèš à ġóóð ďѓòр кíċк_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasAThrowIn" translate="yes" xml:space="preserve">
+          <source> has a throw in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A8DA9][!!_ ĥãş à тħřôẃ įή_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasATackle" translate="yes" xml:space="preserve">
+          <source> has a tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[01DA5][!!_ ħàś à ţáćĸļè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsAYellowCardForUnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source> gets a yellow card for unsportsmanlike conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9316D][!!_ ĝéтš â ўêĺľõẁ ċářđ ƒõŕ ùйśþòŕţšmãηĺîĸé ċóйðúċт_!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsAYellowCardForDelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source> gets a yellow card for delaying restart of play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[880D1][!!_ ğęтš â ýęłľòẁ ĉáѓđ ƒóŗ đêĺáŷíйĝ řéśţáŗт õƒ þļàў_!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DrawsAFoul" translate="yes" xml:space="preserve">
+          <source> draws a foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9397E][!!_ ďŗâẁš â ƒóµĺ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForViolentConduct" translate="yes" xml:space="preserve">
+          <source> gets a red card for violent conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3FBCC][!!_ ġèтś ã ŕéď ĉáŕð ƒôѓ νìóļêиτ ćõήďúćτ_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForSecondYellowCard" translate="yes" xml:space="preserve">
+          <source> gets a red card for second yellow card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1B83B][!!_ ĝêťš ã ѓéð ċáŗď ƒôŗ ŝęćòйđ ŷèłłõŵ ċâŗđ_!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForIllegalHands" translate="yes" xml:space="preserve">
+          <source> gets a red card for illegal hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6CA23][!!_ ġêţš ã ŗèð ćãѓð ƒôѓ ìĺłéģâł ħàηďş_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForFoulPlay" translate="yes" xml:space="preserve">
+          <source> gets a red card for foul play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2217E][!!_ ģéτś à ŗêð ċâřđ ƒõŗ ƒóûĺ рłâÿ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dribbles" translate="yes" xml:space="preserve">
+          <source> dribbles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2DCA9][!!_ ðѓîъБľéş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a shot and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[456DF][!!_ τáкèŝ â ŝħòť àиđ ìť îś ъľòčķęď_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a shot and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[64BF9][!!_ τáкęš á śћõτ ãйð ĥîťŝ τђé ρõşτ_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/RightFoot" translate="yes" xml:space="preserve">
+          <source>right foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[10F5B][!!_říĝħτ ƒòóţ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorPass" translate="yes" xml:space="preserve">
+          <source> makes a poor pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[60E58][!!_ mãĸèş â рóôŕ рáśŝ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentPass" translate="yes" xml:space="preserve">
+          <source> makes an excellent pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DB02B][!!_ màķęś âή ę×ĉêłĺêит þâşś_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodPass" translate="yes" xml:space="preserve">
+          <source> makes a good pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A4EE3][!!_ mãķêś á ĝôóđ ρàşš_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/LostTheDribble" translate="yes" xml:space="preserve">
+          <source> lost the dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[603E0][!!_ ĺôŝτ ťћę ďѓîвъľê_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeftFoot" translate="yes" xml:space="preserve">
+          <source>left foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3F6DB][!!_łêƒť ƒôõτ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/KicksTheBallOutOfBounds" translate="yes" xml:space="preserve">
+          <source> kicks the ball out of bounds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9B690][!!_ ķíċĸś тнê Бáłł óúт ôƒ Бóûиđš_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/IsOffsides" translate="yes" xml:space="preserve">
+          <source> is offisides</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7D540][!!_ îš óƒƒíşîďêŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasAnIllegalThrowIn" translate="yes" xml:space="preserve">
+          <source> has an illegal throw in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E3B5C][!!_ ђâŝ ãй įľłèģàľ τĥŗôŵ ìй_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsATrippingFoul" translate="yes" xml:space="preserve">
+          <source> commits a tripping foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DC12D][!!_ čõmmìτş á ťřìþρìηģ ƒôµĺ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAPushingFoul" translate="yes" xml:space="preserve">
+          <source> commits a pushing foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CA1A0][!!_ čòmmîтś ã рµŝħįηġ ƒôûļ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAnIllegalTackleFoul" translate="yes" xml:space="preserve">
+          <source> commits an illegal tackle foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C862C][!!_ čômmįţş ãή îłłéġãļ ţâċќĺę ƒóùľ_!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAKickingFoul" translate="yes" xml:space="preserve">
+          <source> commits a kicking foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[25F1E][!!_ ćóмmįτŝ â кîċĸîиģ ƒòùĺ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAHoldingFoul" translate="yes" xml:space="preserve">
+          <source> commits a holding foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[11302][!!_ čõмmíτş á нóļðįήġ ƒõúĺ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAChargingFoul" translate="yes" xml:space="preserve">
+          <source> commits a charging foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[45DCE][!!_ ĉôмmìтŝ ã ĉћãŗĝįηģ ƒôµļ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/By" translate="yes" xml:space="preserve">
+          <source> by </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[37D62][!!_ ьУ _!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AssistedBy" translate="yes" xml:space="preserve">
+          <source> asssited by </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CB167][!!_ ãşśşìťęď вŷ _!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCardsDelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source>Yellow Cards Delaying Restart Of Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9E675][!!_Ŷèľľõẅ Čářďš Đęĺâÿìиģ Ŕęŝтâŕτ Ôƒ Рĺâŷ_!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCards" translate="yes" xml:space="preserve">
+          <source>Yellow Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6F327][!!_Ŷéļĺõẃ Ċâѓðŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TurnoversLostDribble" translate="yes" xml:space="preserve">
+          <source>Turnovers Lost Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[476C5][!!_Τùѓиõνęřŝ Ľõşτ ÐříБьłę_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TurnoversIllegalThrowIn" translate="yes" xml:space="preserve">
+          <source>Turnovers Illegal Throw In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E0C04][!!_Ţûřηòνéѓŝ Íłłęğâĺ Ţнѓóẁ Ìи_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Turnovers" translate="yes" xml:space="preserve">
+          <source>Turnovers</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5E695][!!_Ťµřήõνéѓš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ThrowIns" translate="yes" xml:space="preserve">
+          <source>Throw Ins</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0B766][!!_Ťħřòẁ Íήş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tackles" translate="yes" xml:space="preserve">
+          <source>Tackles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[16A9D][!!_Τàčќłêş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsOnGoal" translate="yes" xml:space="preserve">
+          <source>Shots On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[65C0B][!!_Šћóťš Ôи Ģòáľ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsHitPost" translate="yes" xml:space="preserve">
+          <source>Shots Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8A7F5][!!_Šћóтś Ήįт Ρòşť_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsMissed" translate="yes" xml:space="preserve">
+          <source>Shots Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AD9B4][!!_Śђõťś Мîşşéð_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsGoal" translate="yes" xml:space="preserve">
+          <source>Shots Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[32059][!!_Šĥõтś Ģõáł_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsBlocked" translate="yes" xml:space="preserve">
+          <source>Shots Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2D035][!!_Šћòτś βłõćќęđ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shots" translate="yes" xml:space="preserve">
+          <source>Shots</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[630A8][!!_Śнóťŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksMissed" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0CAD1][!!_Śћóòтôµţ Ķìċкś Мįššêð_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksHitPost" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[70748][!!_Şĥóòţôµт Кìĉķş Ĥìţ Ρõşť_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksGoal" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[13530][!!_Śĥóòтôúţ Ќíćкŝ Ġôáľ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksBlocked" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F4BC4][!!_Šнóôтõùť Κîċкş ßłõċќéð_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicks" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0D0D6][!!_Ŝнòòťòúт Ķíčкś_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Saves" translate="yes" xml:space="preserve">
+          <source>Saves</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A4D61][!!_Şâνêş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsViolentConduct" translate="yes" xml:space="preserve">
+          <source>Red Cards Violent Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[82237][!!_Ѓéď Ćàřďş Vìóľêηţ Ĉóйďµċţ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsSecondYellowCard" translate="yes" xml:space="preserve">
+          <source>Red Cards Second Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[BB360][!!_Ѓéđ Ċàѓðš Şéċóήđ Ϋęłľóẅ Ċâѓð_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsIllegalHands" translate="yes" xml:space="preserve">
+          <source>Red Cards Ilegal Hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2FB59][!!_Řêđ Ĉàŗđş Ìļêģãł Ĥàиđŝ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsFoulPlay" translate="yes" xml:space="preserve">
+          <source>Red Cards Foul Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[08EB4][!!_Ŗęď Ćâŗđş ₣òµļ Þľáÿ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCards" translate="yes" xml:space="preserve">
+          <source>Red Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2E25F][!!_Ѓéď Čâŗđŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksHitPost" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DBD26][!!_Þêйãĺτÿ Κîċкś Нįτ Þóŝť_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksMissed" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9758E][!!_Þęηáłţÿ Ќíċĸŝ Мíşşêď_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksGoal" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[CCD2D][!!_Þêйáłţÿ Κìčќŝ Ġóãĺ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksBlocked" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C3A36][!!_Ρêήáļťÿ Κíĉќś Ъĺóčĸèð_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicks" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[20862][!!_Þêйáĺţў Кįĉĸś_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesPoor" translate="yes" xml:space="preserve">
+          <source>Passes Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4F7B7][!!_Þáśšêš Þõõŗ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesGood" translate="yes" xml:space="preserve">
+          <source>Passes Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F3DB6][!!_Þâššèś Ġôòđ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesExcellent" translate="yes" xml:space="preserve">
+          <source>Passes Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B8B76][!!_Рãŝşęş Èхċęĺłęвиţ_!!!!!!]</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          </trans-unit>
+        <trans-unit id="Resx/Passes" translate="yes" xml:space="preserve">
+          <source>Passes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B776D][!!_Ρàşšêś_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MadeOwnGoal" translate="yes" xml:space="preserve">
+          <source>MadeOwnGoal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D99B9][!!_ΜáđęÓẁηĠòâľ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/IndirectFreeKicks" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[78667][!!_Íйðìŗęćт ₣řęè Ķìćкş_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalsAllowed" translate="yes" xml:space="preserve">
+          <source>Goals Allowed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[BA2A4][!!_Ĝóàľŝ Âľĺõẁéď_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalKicks" translate="yes" xml:space="preserve">
+          <source>Goal Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A95B7][!!_Ĝõãļ Ќíčќš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goals" translate="yes" xml:space="preserve">
+          <source>Goals</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[05942][!!_Ğóáļş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsDrawn" translate="yes" xml:space="preserve">
+          <source>Fouls Drawn</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[016B6][!!_₣õûļş Đŕâẁή_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedTripping" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Tripping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C3C7D][!!_₣óµłş Ćôмmįţτęð Ţŕîρрíήġ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedPushing" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Pushing</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[90DE8][!!_₣òµĺś Čõmмíтτèď Рúŝђíηğ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedKicking" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Kicking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F1881][!!_₣óùļş Ĉômmįτтéð Κįčĸîйģ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedCharging" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Charging</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B6E22][!!_₣õúłś Ćóмmìťťéď Ċĥáŗģìиĝ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedIllegalTackle" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Illegal Tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B5641][!!_₣óµĺś Ćóммíťťéđ Ìľłêĝãļ Ţâċĸľę_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommitted" translate="yes" xml:space="preserve">
+          <source>Turnovers</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DDA5D][!!_₣õùĺŝ Ċòмmíττèð_!!!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsComittedHolding" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Holding</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[48FBF][!!_₣ôµĺş Ĉóммíτťêđ Нòļđîиġ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksPoor" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A32EB][!!_Ðѓôρ Ķíċќŝ Þõôŗ_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksGood" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B3D99][!!_Ðѓòþ Ķįčкŝ Ġôòď_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksExcellent" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[16988][!!_Ďŕóþ Кìċķş Èхčęľļêηţ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicks" translate="yes" xml:space="preserve">
+          <source>Drop Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1C754][!!_Ðřòρ Ķìċĸś_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicksNotForGoal" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks Not For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B3871][!!_Ðîŗéčť ₣ŗęê Ķîčќş Ñôţ ₣õŕ Ĝõàļ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicksForGoal" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3D8DF][!!_Ðìŕêċτ ₣řéê Ķįćĸŝ ₣õŗ Ģòâł_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicks" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[ECD90][!!_Ðîŕéćτ ₣ѓéê Ќìčĸŝ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesPoor" translate="yes" xml:space="preserve">
+          <source>Crosses Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E6C71][!!_Ċŕõśŝéš Рòõŕ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesGood" translate="yes" xml:space="preserve">
+          <source>Crosses Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[95507][!!_Čѓòşśèś Ģõõđ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesExcellent" translate="yes" xml:space="preserve">
+          <source>Crosses Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B8B88][!!_Ćřóŝşęş Ę×ĉêłļéйτ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Crosses" translate="yes" xml:space="preserve">
+          <source>Crosses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2AD34][!!_Ĉѓõśśêş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersPoor" translate="yes" xml:space="preserve">
+          <source>Corners Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9A25E][!!_Ċòѓήêřş Þóôŗ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersGood" translate="yes" xml:space="preserve">
+          <source>Corners Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F7507][!!_Ćóѓήèŗŝ Ĝòõđ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersForGoal" translate="yes" xml:space="preserve">
+          <source>Corners For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[94BFB][!!_Ċôŕйéŗś ₣óŕ Ġòáļ_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersExcellent" translate="yes" xml:space="preserve">
+          <source>Corners Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[59767][!!_Ċõŕηéŗš Éхċęłłèήť_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Corners" translate="yes" xml:space="preserve">
+          <source>Corners</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[438E3][!!_Ćóŕиèѓš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteTeam" translate="yes" xml:space="preserve">
+          <source>Delete Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5FF21][!!_Đęľéťę Тęãм_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Home" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4C10C][!!_Нõмè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/None" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D0E19][!!_Ñóηè_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name option for assist in PBP screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/DeletePlayer" translate="yes" xml:space="preserve">
+          <source>Delete Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[87C62][!!_Đęļéţé Рļáÿèѓ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlay" translate="yes" xml:space="preserve">
+          <source>Delete Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[FA67A][!!_Đęłêтé Þļãý_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteLeague" translate="yes" xml:space="preserve">
+          <source>Delete League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[225D2][!!_Ďéĺèţè Ļęáģûê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteGame" translate="yes" xml:space="preserve">
+          <source>Delete Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8E56C][!!_Ðèľéτé Ģâmê_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player8" translate="yes" xml:space="preserve">
+          <source>Player 8</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[07029][!!_Þĺãýèŕ 8_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player7" translate="yes" xml:space="preserve">
+          <source>Player 7</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2BC86][!!_Рļáŷèř 7_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player6" translate="yes" xml:space="preserve">
+          <source>Player 6</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2BFE7][!!_Þĺáŷéѓ 6_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player5" translate="yes" xml:space="preserve">
+          <source>Player 5</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[45762][!!_Рľãýęŗ 5_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player4" translate="yes" xml:space="preserve">
+          <source>Player 4</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DC791][!!_РľáУêŗ 4_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player30" translate="yes" xml:space="preserve">
+          <source>Player 30</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5686B][!!_Ρłàŷéř 30_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player3" translate="yes" xml:space="preserve">
+          <source>Player 3</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0D78A][!!_Ρłàýèř 3_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player29" translate="yes" xml:space="preserve">
+          <source>Player 29</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4D34C][!!_Þļãўèř 29_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player28" translate="yes" xml:space="preserve">
+          <source>Player 28</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[232D9][!!_Ρłáŷèѓ 28_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player27" translate="yes" xml:space="preserve">
+          <source>Player 27</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[29B5B][!!_Þľàÿéѓ 27_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player26" translate="yes" xml:space="preserve">
+          <source>Player 26</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2C2C5][!!_Рłâÿéѓ 26_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player25" translate="yes" xml:space="preserve">
+          <source>Player 25</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4A1CE][!!_ΡľâУęŕ 25_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player24" translate="yes" xml:space="preserve">
+          <source>Player 24</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1AEAB][!!_Ρĺâÿéѓ 24_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player23" translate="yes" xml:space="preserve">
+          <source>Player 23</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AD5BB][!!_Рĺãýèř 23_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player22" translate="yes" xml:space="preserve">
+          <source>Player 22</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[07D4F][!!_Þļãÿêŗ 22_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player21" translate="yes" xml:space="preserve">
+          <source>Player 21</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[728B7][!!_Ρĺãÿèѓ 21_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player20" translate="yes" xml:space="preserve">
+          <source>Player 20</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F8642][!!_Þĺáўèř 20_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player2" translate="yes" xml:space="preserve">
+          <source>Player 2</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AEEC7][!!_Þĺàÿęѓ 2_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player19" translate="yes" xml:space="preserve">
+          <source>Player 19</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[030B7][!!_ΡļàУêŕ 19_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player18" translate="yes" xml:space="preserve">
+          <source>Player 18</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3EB92][!!_Ρłáÿęѓ 18_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player17" translate="yes" xml:space="preserve">
+          <source>Player 17</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[94D8F][!!_Ρļãýéѓ 17_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player16" translate="yes" xml:space="preserve">
+          <source>Player 16</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DA242][!!_РľáУéŗ 16_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player15" translate="yes" xml:space="preserve">
+          <source>Player 15</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7D4AD][!!_ÞľàУęř 15_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player14" translate="yes" xml:space="preserve">
+          <source>Player 14</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3C3A7][!!_Þłàўêŕ 14_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player13" translate="yes" xml:space="preserve">
+          <source>Player 13</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9711E][!!_Ρłãўéŕ 13_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player12" translate="yes" xml:space="preserve">
+          <source>Player 12</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[61CCE][!!_Рĺâýêŕ 12_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player11" translate="yes" xml:space="preserve">
+          <source>Player 11</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[54B26][!!_Рĺâŷêř 11_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player10" translate="yes" xml:space="preserve">
+          <source>Player 10</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[17439][!!_Рļâŷéŗ 10_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player1" translate="yes" xml:space="preserve">
+          <source>Player 1</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2AE48][!!_Þĺàÿèŗ 1_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotASupportedPlayTypeForPBPEdit" translate="yes" xml:space="preserve">
+          <source>Not a supported play type for pbp edit. Play can not be edited.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[95215][!!_Ņòτ á śûррòѓτêð ρĺãý τўþê ƒóŕ рБþ éðîť. Ρļáў ĉáй ήòţ Бê éđíţêð._!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/OpponentTeam" translate="yes" xml:space="preserve">
+          <source>Opponent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[92939][!!_Òþþôήęйť_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name for demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/StatDescription" translate="yes" xml:space="preserve">
+          <source>Stat Description</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2A4A8][!!_Śţâτ Ďéščŕįрτįõй_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatCategory" translate="yes" xml:space="preserve">
+          <source>Stat Category</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B8E6B][!!_Šţâţ Ċãτéĝóřŷ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerOut" translate="yes" xml:space="preserve">
+          <source>Player Out</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[977B7][!!_Ρłàýéŕ Òµţ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerIn" translate="yes" xml:space="preserve">
+          <source>Player In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B9FDB][!!_Þłãŷèŕ Îη_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player" translate="yes" xml:space="preserve">
+          <source>Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A47F2][!!_Þľáŷęŕ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayDetails" translate="yes" xml:space="preserve">
+          <source>Play Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7E4B7][!!_Ρĺâÿ Đèťáìĺŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Period" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[63CAE][!!_Þéѓìòð_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Ok" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[650A8][!!_Óķ_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C2ABB][!!_Čáиčęľ_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/UnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source>Unsportsmanlike Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C3CA2][!!_Ûиŝþòѓťşмàηĺįķè Ćõηđúĉť_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Miss" translate="yes" xml:space="preserve">
+          <source>Miss</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4CB3F][!!_Мìśś_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/SecondYellowCard" translate="yes" xml:space="preserve">
+          <source>Second Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[EE8BF][!!_Şêčõήď Ўèłłôŵ Ċâŗđ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pushing" translate="yes" xml:space="preserve">
+          <source>Pushing</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0AB83][!!_Рµśђìиġ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Out" translate="yes" xml:space="preserve">
+          <source>Out</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4FD13][!!_Óµτ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotForGoal" translate="yes" xml:space="preserve">
+          <source>Not For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7C90C][!!_Ńôť ₣óŕ Ğõâľ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/LostDribble" translate="yes" xml:space="preserve">
+          <source>Lost Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F1A64][!!_Ĺôšť ĎѓįБьĺè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kicking" translate="yes" xml:space="preserve">
+          <source>Kicking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A6E60][!!_Κįčķìиĝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalThrowIn" translate="yes" xml:space="preserve">
+          <source>Illegal Throw In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3FAEC][!!_Ìĺłéġáļ Ţĥŗóẁ Îй_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/In" translate="yes" xml:space="preserve">
+          <source>In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[77399][!!_Íη_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/HitPost" translate="yes" xml:space="preserve">
+          <source>Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[3E6BF][!!_Ħíτ Þôŝţ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalTackle" translate="yes" xml:space="preserve">
+          <source>Illegal Tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[346CC][!!_Îĺļęĝâļ Тâċкľê_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalHands" translate="yes" xml:space="preserve">
+          <source>Illegal Hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[100DC][!!_Îłĺęĝâľ Нâήðš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Holding" translate="yes" xml:space="preserve">
+          <source>Holding</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[47739][!!_Ήôľďįйĝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goal" translate="yes" xml:space="preserve">
+          <source>Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B1995][!!_Ĝôâĺ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Headed" translate="yes" xml:space="preserve">
+          <source>Headed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AB791][!!_Ηęáďęð_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/BadPass" translate="yes" xml:space="preserve">
+          <source>Bad Pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7922A][!!_Вáđ Ρàŝş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulPlay" translate="yes" xml:space="preserve">
+          <source>Foul Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D6827][!!_₣õùł Ρľàў_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ForGoal" translate="yes" xml:space="preserve">
+          <source>For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C97F2][!!_₣òŗ Ĝôàł_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source>Delaying Restart of Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B7FF3][!!_ĐéĺàУįиğ Ŕèśтãŕт õƒ Ρłàў_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Charging" translate="yes" xml:space="preserve">
+          <source>Charging</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DDBE8][!!_Ćћâŗġîйġ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Poor" translate="yes" xml:space="preserve">
+          <source>Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7A585][!!_Рòõŕ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Good" translate="yes" xml:space="preserve">
+          <source>Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8AB0A][!!_Ĝôôđ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Excellent" translate="yes" xml:space="preserve">
+          <source>Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A1B31][!!_È×ċęļłêйţ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Turnover" translate="yes" xml:space="preserve">
+          <source>Rebound</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F65A4][!!_Ţµŕйõνêŕ_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ThrowIn" translate="yes" xml:space="preserve">
+          <source>Foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DAF87][!!_Тнŕóẁ Îη_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Tackle" translate="yes" xml:space="preserve">
+          <source>2P Field Goal Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AFA9C][!!_Тâčķĺę_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Substitution" translate="yes" xml:space="preserve">
+          <source>Substitution</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A91CB][!!_Ŝúвšτîτúτíóй_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotOnGoal" translate="yes" xml:space="preserve">
+          <source>Shot On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[67AF8][!!_Śħòť Ôй Ĝõáļ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shot" translate="yes" xml:space="preserve">
+          <source>2P Field Goal Made</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[AF8C7][!!_Ŝнõτ_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKick" translate="yes" xml:space="preserve">
+          <source>Shootout Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7D009][!!_Ŝħòòтóúτ Ķîćк_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/SecondsPlayed" translate="yes" xml:space="preserve">
+          <source>SecondsPlayed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[004EE][!!_ŚęĉôήđśРļâŷęď_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Save" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5365C][!!_Ŝãνé_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCard" translate="yes" xml:space="preserve">
+          <source>Red Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5736F][!!_Ŕęď Ćâřđ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlusMinus" translate="yes" xml:space="preserve">
+          <source>Plus Minus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[11002][!!_Ρĺúš Мįйúş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKick" translate="yes" xml:space="preserve">
+          <source>Penalty Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DA5FF][!!_Рêήâľтŷ Ќįĉќ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pass" translate="yes" xml:space="preserve">
+          <source>Free Throw Made</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D707C][!!_Ρàśŝ_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/OwnGoal" translate="yes" xml:space="preserve">
+          <source>3P Field Goal Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[468E7][!!_Òẅη Ġõãľ_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/OutOfBounds" translate="yes" xml:space="preserve">
+          <source>Assist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A7D03][!!_Òµт Õƒ Ьõúήđś_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Offsides" translate="yes" xml:space="preserve">
+          <source>Steal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[22736][!!_Õƒƒśîďêŝ_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Notes" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8F707][!!_Ñõтèś_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Move" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[BF1EE][!!_Мóνé_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/MinutesPlayed" translate="yes" xml:space="preserve">
+          <source>Minutes Played</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B0E8B][!!_Мîηùτęŝ РłàУêð_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/IndirectFreeKick" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E3AF2][!!_Îηðìřêċť ₣ѓęé Κįćќ_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalieKick" translate="yes" xml:space="preserve">
+          <source>FT Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B4817][!!_Ģõãłíę Κìćк_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/GoalAllowed" translate="yes" xml:space="preserve">
+          <source>Goal Allowed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E0472][!!_Ġóâļ Ãłļõẅęð_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulDrawn" translate="yes" xml:space="preserve">
+          <source>Foul Drawn</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5050E][!!_₣óûļ Ďŗáẁή_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulCommitted" translate="yes" xml:space="preserve">
+          <source>BBTurnover</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6BF7E][!!_₣óúĺ Ċôммìťтêď_!!!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/DropKick" translate="yes" xml:space="preserve">
+          <source>Drop Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[83FA0][!!_Đřòρ Ķįćќ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dribble" translate="yes" xml:space="preserve">
+          <source>Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E2CD6][!!_ÐŗíБвłê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKick" translate="yes" xml:space="preserve">
+          <source>Direct Free Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E60BB][!!_Đířéĉť ₣ŗéê Ќíčк_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cross" translate="yes" xml:space="preserve">
+          <source>Block</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[61CF8][!!_Ćŗõšş_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/CornerKick" translate="yes" xml:space="preserve">
+          <source>3P Field Goal Made</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[863B3][!!_Čôŕйéŗ Κîĉķ_!!]</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Blocked" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[544A8][!!_ßĺôċĸéď_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Assist" translate="yes" xml:space="preserve">
+          <source>Assist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B94AE][!!_Ãŝśìšť_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Right" translate="yes" xml:space="preserve">
+          <source>Right</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[32597][!!_Ŗíġħţ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerDetails" translate="yes" xml:space="preserve">
+          <source>Player Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6E726][!!_Рļàýêŗ Ðêтâîľş_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Left" translate="yes" xml:space="preserve">
+          <source>Left</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D9AEA][!!_Ĺęƒţ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/LastName" translate="yes" xml:space="preserve">
+          <source>Last Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B3F23][!!_Ĺàšť Ńãmé_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kicks" translate="yes" xml:space="preserve">
+          <source>Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F061D][!!_Κîĉкš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Height" translate="yes" xml:space="preserve">
+          <source>Height</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B0457][!!_Ĥéíģĥť_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyNumberInvalidPlayerNotSaved" translate="yes" xml:space="preserve">
+          <source>Jersey Number can not be more than 3 characters. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[21833][!!_Ĵêŗśéÿ Ňùmвêѓ ĉãи иõţ ьè мóŕé τĥâη 3 ćħàŗãĉţèŗş. Þĺãýèŕ ηôţ ŝâνęð._!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FirstName" translate="yes" xml:space="preserve">
+          <source>First Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[53550][!!_₣îѓśτ Ñàmê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/FirstNameNotEntered" translate="yes" xml:space="preserve">
+          <source>First name not entered. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[ACDB4][!!_₣îѓšť ηàmê ηôť ęηţèŗèð. Рłáÿéѓ йòт šâνéď._!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerName" translate="yes" xml:space="preserve">
+          <source>Player Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[048D1][!!_Þĺãýęѓ Ňàмè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayText" translate="yes" xml:space="preserve">
+          <source>Play Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8A208][!!_Ρļâÿ Ťęхτ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerList" translate="yes" xml:space="preserve">
+          <source>Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[802D2][!!_ΡļàУéŕ Ĺíŝτ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayer" translate="yes" xml:space="preserve">
+          <source>Add Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[7BB09][!!_Ãđď Рļáÿéѓ_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/Add" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[07513][!!_Ãđð_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/AddPlay" translate="yes" xml:space="preserve">
+          <source>Add Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C54A4][!!_Âðđ Ρĺâŷ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodNotSet" translate="yes" xml:space="preserve">
+          <source>Periods not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F3CBD][!!_Þęŕįòðś ηòт şęт. Ğàmê ηõţ šàνęđ._!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodLengthNotSet" translate="yes" xml:space="preserve">
+          <source>Period length not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[BAEA1][!!_Рéŕìõđ ĺêήğţħ ήõτ şèţ. Ġáмé йõţ šãνêđ._!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeTeamNotSelected" translate="yes" xml:space="preserve">
+          <source>Home team not selected. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B95DB][!!_Ήómę тęám ηòţ śèļéċţèď. Ģámê йóť şãνèđ._!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameHasAlreadyStarted" translate="yes" xml:space="preserve">
+          <source>Game has already started.  Cannot change game details once the game has started. Changes not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[1994F][!!_Ĝàмé ћáš àļřèãďý śтàřţéđ.  Ćáиήõτ ĉнáйğê ĝâмê ďęťãìľš ôйčè ţнê ģãмę ĥâş śţáѓţęđ. Ćћâйğéŝ иõť śâνèð._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockUpDownNotSet" translate="yes" xml:space="preserve">
+          <source>Clock Up or Down not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[77E45][!!_Ćĺôčķ Ùþ õŕ Ďõẁй йõť šèť. Ģãmé иóť śàνęď._!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayTeamNotSeleted" translate="yes" xml:space="preserve">
+          <source>Away team not selected. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E0DBC][!!_Âẅãў τêàm иóт šêłèčтèđ. Ġâmê ήóт şàνęď._!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Up" translate="yes" xml:space="preserve">
+          <source>Up</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[9D385][!!_Ûþ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodLength" translate="yes" xml:space="preserve">
+          <source>Period Length</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[6FDA1][!!_Þéŕîóď Ĺèήġťħ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeTeam" translate="yes" xml:space="preserve">
+          <source>Home Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A7B6E][!!_Ήòmê Ţèàm_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[609EC][!!_Ňõ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoLeague" translate="yes" xml:space="preserve">
+          <source>Default League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F9914][!!_Đêƒáúľт Ľęàġµè_!!!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">league name option in leagues drop down on team details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/OverTimeLength" translate="yes" xml:space="preserve">
+          <source>OverTime Length</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2BE1D][!!_ÔνéŗŤįmé Ŀéйĝťн_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/OverTime" translate="yes" xml:space="preserve">
+          <source>OverTime</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DDB38][!!_ÒνéřΤįмé_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameTime" translate="yes" xml:space="preserve">
+          <source>Game Time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[59721][!!_Ģãмê Ťìмê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameDetails" translate="yes" xml:space="preserve">
+          <source>Game Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5AC78][!!_Ĝâмé Ďêтâìłś_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameDate" translate="yes" xml:space="preserve">
+          <source>Game Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[E55EE][!!_Ġãmê Ďàťè_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Clock" translate="yes" xml:space="preserve">
+          <source>Clock</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F1783][!!_Čľõćќ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Down" translate="yes" xml:space="preserve">
+          <source>Down</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B8920][!!_Ďôẃи_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayTeam" translate="yes" xml:space="preserve">
+          <source>Away Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F59F1][!!_ÃẅâУ Тèâm_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[98B97][!!_Ńàmę_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rosters" translate="yes" xml:space="preserve">
+          <source>Rosters</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[5882E][!!_Ŕõşţèŕš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayerToTeamRoster" translate="yes" xml:space="preserve">
+          <source>Add Player To Team Roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[46D18][!!_Áðđ Ρłáÿéŗ Тó Ťéàм Ŗõśťêř_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyNumber" translate="yes" xml:space="preserve">
+          <source>Jersey Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4C1CF][!!_ĴęѓşèУ ÑùmБęѓ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/EnterPlayersJerseyNumber" translate="yes" xml:space="preserve">
+          <source>Enter Players Jersey Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[DCF89][!!_Ęήťéѓ ΡĺàУèřş Ĵéŗšęŷ Ňûмьêѓ_!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/InActive" translate="yes" xml:space="preserve">
+          <source>InActive</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[F3455][!!_ÍήÁĉţíνę_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyMustBeLessThan3Characters" translate="yes" xml:space="preserve">
+          <source>Jersey Number can not be more than 3 characters.  Jersey Number not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[D5791][!!_Јęřśéý Ńµмьęѓ ćàй ήóť ъé мòѓè ţħáή 3 ĉħáѓàčţéřŝ.  Јêѓšęý ŅùмБęѓ иôţ şàνêď._!!!!!!!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyMustBeANumber" translate="yes" xml:space="preserve">
+          <source>Jersey Number must be a number. Jersey Number not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[272AB][!!_Ĵéŗŝéў Ńùмъêř mûśţ вę â йµmБéѓ. Јéѓśéý ŃúmБêѓ ήóτ ŝàνêđ._!!!!!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeagueName" translate="yes" xml:space="preserve">
+          <source>League Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[0AF82][!!_Ļêàĝûé Ņàмé_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddLeague" translate="yes" xml:space="preserve">
+          <source>Add League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[503FE][!!_Âðđ Ľèàġùé_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/LeagueDetails" translate="yes" xml:space="preserve">
+          <source>League Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[93B10][!!_Ĺéâğúè Ðéтãíľŝ_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddTeam" translate="yes" xml:space="preserve">
+          <source>Add Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[25713][!!_Âðď Ţêâm_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ContactNumber" translate="yes" xml:space="preserve">
+          <source>Contact Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C2ED9][!!_Čõήτãćť Ñûмьèŕ_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Coach" translate="yes" xml:space="preserve">
+          <source>Coach</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[338D8][!!_Ćõáĉĥ_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">field on team details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/TeamName" translate="yes" xml:space="preserve">
+          <source>Team Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4474C][!!_Ţèáм Ńàмê_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamNotEnteredValidationMessage" translate="yes" xml:space="preserve">
+          <source>Team name not entered. Team not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4AA00][!!_Тêâm йàмê ήõţ êήτèŕêđ. Ţèám ηòţ ŝâνèđ._!!!!!!!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Roster" translate="yes" xml:space="preserve">
+          <source>Roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[53115][!!_Ŕôśτêŗ_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/TeamDetails" translate="yes" xml:space="preserve">
+          <source>Team Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[A9610][!!_Τęâm Ðęтàíłŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShortName" translate="yes" xml:space="preserve">
+          <source>Short Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[78205][!!_Śћòŗτ Ñàmé_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsReports" translate="yes" xml:space="preserve">
+          <source>Stats Reports</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[2B13A][!!_Ŝţãтŝ Řęþôřţŝ_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/StartDate" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[87307][!!_Šтàřτ Ďàťé_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Delete" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[04E6F][!!_Ðèĺéťę_!!]</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">used in prompt</note>
+          </trans-unit>
+        <trans-unit id="Resx/DisplayDeletedItems" translate="yes" xml:space="preserve">
+          <source>Display Deleted Items</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[B2C75][!!_ĎįŝрłáУ Ďęĺęţêđ Îţêmş_!!!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/Games" translate="yes" xml:space="preserve">
+          <source>Games</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[C9BAA][!!_Ĝàмéş_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameStats" translate="yes" xml:space="preserve">
+          <source>Game Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[71944][!!_Ĝáмê Ŝťâτš_!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/GenerateReport" translate="yes" xml:space="preserve">
+          <source>Generate Report</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[4508E][!!_Ģèиéřàτę Řęρóřť_!!!!]</target>
+        </trans-unit>
+        <trans-unit id="Resx/EndDate" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">[8CA93][!!_Éйđ Ďãтę_!!]</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

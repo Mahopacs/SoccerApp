@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="ScoreSoccer8.Views.Notes"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="400" d:DesignWidth="400">
+    
+    <Grid x:Name="LayoutRootGrid" Background="{StaticResource PhoneChromeBrush}">
+
+        <StackPanel Width="400" Height="400" Background="Gray">
+            <TextBox Height="250" x:Name="tbx"/>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <Button Width="150" x:Name="btnOK" Content="OK"/>
+                <Button Width="150" x:Name="btnCancel" Content="Cancel"/>
+            </StackPanel>          
+        </StackPanel>
+
+
+    </Grid>
+</UserControl>

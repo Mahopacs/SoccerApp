@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>id-ID</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>APLIKASI SAYA</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>tambah</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Item Menu</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>Tambahkan tim</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>Pelatih</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Nomor kontak</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>Menampilkan item yang dihapus</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Tanggal berakhir</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Permainan</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>Statistik permainan</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Hasilkan Laporan</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>Jersey</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>Pemain</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>Statistik pemain</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>Daftar putar</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Jenis laporan</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Diperlukan</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>Daftar</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Nama singkat</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Tanggal mulai</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>Laporan Statistik</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>Tim rincian</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>Nama tim</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>Nama tim tidak dimasukkan. Tim tidak disimpan.</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>Tim</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>Tim Statistik</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>Tambahkan Liga</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>Liga rincian</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>Nama Liga</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Liga</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Nama kontak</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>Liga nama tidak dimasukkan. Liga tidak disimpan.</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>Menambah pemain tim daftar pemain</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>Masukkan nomor punggung pemain</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>Tidak aktif</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>Nomor punggung harus sejumlah. Nomor punggung tidak disimpan.</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>Nomor punggung tidak dapat lebih dari 3 karakter.  Nomor punggung tidak disimpan.</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>Nomor punggung</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nama</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>Permainan waktu</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>Tim tuan rumah</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Tidak</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>Default Liga</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>Lembur</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>Lembur panjang</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>Periode panjang</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Naik</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ya</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>Tim tidak dipilih. Permainan tidak disimpan.</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>Clock naik atau turun tidak diatur. Permainan tidak disimpan.</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>Permainan telah dimulai.  Tidak dapat mengubah rincian permainan setelah pertandingan dimulai. Perubahan yang tidak diselamatkan.</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>Tim tuan rumah tidak dipilih. Permainan tidak disimpan.</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>Jangka panjang tidak diatur. Permainan tidak disimpan.</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>Periode tidak diatur. Permainan tidak disimpan.</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>Pemain per tim tidak diatur. Permainan tidak disimpan.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Tambahkan</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>Tambahkan bermain</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>Tambahkan pemain</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>Daftar pemain</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>Nama pemain</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>Bermain teks</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Cari</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>Tidak dapat mengubah informasi pada pemutar dihapus. Pemain yang tidak diselamatkan.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Nama Keluarga</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>Nama tidak dimasukkan. Pemain yang tidak diselamatkan.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>Nomor punggung tidak dapat lebih dari 3 karakter. Pemain yang tidak diselamatkan.</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Tendangan</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Nama belakang</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Kiri</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>Pemain rincian</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Berat</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>Membantu</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Diblokir</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>Tendangan sudut</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>Silang</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>Tendangan bebas langsung</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Menggiring bola</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>Drop tendangan</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>Busuk berkomitmen</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>Busuk ditarik</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>Tujuan yang diizinkan</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>Kiper tendangan</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>Tidak langsung tendangan bebas</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>Menit bermain</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Pindah</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Catatan</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>Keluar batas</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>Gol bunuh diri</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>Pass</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>Tendangan penalti</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>Plus Minus</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>Kartu merah</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Amankan</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>Penalti Kick</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>Bidikan</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>Ditembak di Goal</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>Substitusi</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>Mengatasi</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>Melempar</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>Perputaran</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>Kartu kuning</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>Baik sekali</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Baik</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>Jelek</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>Rincian ditembak</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>Pass buruk</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>Pengisian</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>Menunda Restart bermain</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>Untuk tujuan</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>Permainan kotor</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>Tujuan</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>Menuju</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>Memukul posting</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>Memegang</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>Tangan ilegal</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>Mengatasi ilegal</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>Melempar ilegal</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>Dalam</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>Menendang</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>Menggiring bola yang hilang</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>Hilang</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>Bukan untuk tujuan</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>Keluar</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>Mendorong</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>Kartu kuning kedua</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>Tersandung</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>Tdk sportif perilaku</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>Perilaku kekerasan</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>Statistik Picker</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value> mengambil tembakan dan merindukan</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>Diblokir oleh</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Oke</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>Ditembak bukan pada tujuan</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>Putar rincian</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Pemain</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>Pemain</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>Pemain keluar</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>Stat Kategori</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>Deskripsi stat</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Tim</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>Jam tidak dimasukkan. Bermain tidak disimpan.</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>Tidak didukung bermain jenis untuk mengedit pbp. Bermain bisa diedit.</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>Lawan</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>Kiper tim lain</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>Tim kami</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>Periode Clock nilai tidak dapat waktu di masa depan. Silakan gunakan permainan manajer untuk melacak bermain di masa depan. Bermain tidak disimpan.</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>Pemain 1</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>Player 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>Player 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>12 pemain</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>Pemain 13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>Pemain 14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>15 pemain</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>16 pemain</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>Pemain 17</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>Pemain 18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>19 pemain</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>Pemain 2</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>20 pemain</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>Pemain 21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>Pemain 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>23 pemain</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>Pemain 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>Pemain 25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>26 pemain</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>Pemain 27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>Pemain 28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>Pemain 29</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>Pemain 3</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>30 pemain</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>Pemain 4</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>5 pemain</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>Player 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>Player 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>8 pemain</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>Player 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>Tidak di Tempat</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>Menghapus permainan</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>Menghapus Liga</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>Menghapus bermain</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>Menghapus pemain</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>Menghapus tim</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Rumah</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Nihil</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Putar</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Tidak dikenal</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Inprogress, layar dinonaktifkan</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>Panjang PL tidak valid. Permainan tidak disimpan.</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>Membantu</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Blok</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>Sudut</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>Sudut-sudut yang sangat baik</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>Sudut untuk tujuan</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>Sudut baik</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>Sudut miskin</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>Salib</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>Salib-salib yang hebat</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>Salib baik</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>Melintasi miskin</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>Tendangan bebas langsung</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>Tendangan bebas langsung untuk tujuan</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>Tendangan bebas langsung bukan untuk tujuan</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>Drop tendangan</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>Drop tendangan Hebat</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>Drop tendangan baik</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>Drop tendangan miskin</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Pelanggaran berkomitmen memegang</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>Pelanggaran yang dilakukan</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Pelanggaran yang dilakukan pengisian</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Pelanggaran berkomitmen mengatasi ilegal</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>Pelanggaran yang dilakukan menendang</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Pelanggaran yang dilakukan mendorong</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Pelanggaran yang dilakukan tersandung</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>Pelanggaran yang ditarik</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>Tendangan gawang</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>Tujuan</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>Cita-cita yang diperbolehkan</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>Tidak langsung tendangan bebas</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>Tiket</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>Tiket sangat baik</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>Melewati baik</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>Tiket miskin</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>Adu penalti</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>Tendangan penalti yang diblokir</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>Tujuan tendangan penalti</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>Adu penalti menghantam posting</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>Tendangan penalti yang tidak terjawab</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>Kartu merah</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>Kecurangan kartu merah</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>Kartu merah Ilegal tangan</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>Kartu kuning kedua kartu merah</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>Kartu merah perilaku kekerasan</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>Menyimpan</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Tendangan penalti</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>Tendangan penalti yang diblokir</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>Gol adu tendangan</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Tendangan penalti menghantam posting</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>Tendangan penalti yang tidak terjawab</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>Tembakan</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>Tembakan diblokir</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>Tujuan tembakan</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>Tembakan memukul posting</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>Gambar yang tidak terjawab</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>Tembakan pada tujuan</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Menangani</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>Melemparkan Ins</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Turnovers</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Turnovers melempar ilegal</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>Turnovers kehilangan menggiring bola</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>Kartu kuning</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>Kartu Kuning menunda Restart bermain</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>Kartu Kuning Unsportsmanline perilaku</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Tanggal Lahir</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value> asssited oleh </value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value> oleh </value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value> melakukan pengisian busuk</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value> berkomitmen busuk memegang</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value> melakukan menendang busuk</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value> berkomitmen busuk mengatasi ilegal</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value> melakukan mendorong busuk</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value> melakukan tersandung busuk</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value> telah melemparkan ilegal</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value> adalah offisides</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value> menendang bola keluar batas</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>kaki kiri</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value> kehilangan menggiring bola</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value> membuat lulus baik</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value> membuat lulus sangat baik</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value> membuat lulus miskin</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>kaki kanan</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value> sloki dan hits pos</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value> mengambil tembakan dan itu diblokir</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value> mengambil tembakan dan nilai</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>Tutorial</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value> Clock disesuaikan jangka</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value> menarik busuk</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value> menggiring bola</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value> mendapat kartu merah untuk permainan kotor</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value> mendapat kartu merah untuk tangan ilegal</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value> mendapat kartu merah untuk kartu kuning kedua</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value> mendapat kartu merah untuk perilaku kekerasan</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value> kartu kuning untuk menunda restart bermain</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value> Kartu Kuning tdk sportif perilaku</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value> telah menangani</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value> memiliki sebuah melemparkan di</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value> membuat salib baik</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value> membuat tendangan drop baik</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value> membuat silang yang sangat</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value> membuat tendangan drop Hebat</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value> membuat salib miskin</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value> membuat tendangan drop miskin</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value> beralih posisi dengan </value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value> mengambil tendangan sudut dan nilai</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value> mengambil tendangan bebas langsung</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value> mengambil tendangan bebas langsung dan nilai</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value> mengambil tujuan kick</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value> mengambil tendangan sudut yang baik</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value> mengambil tendangan sudut Hebat</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value> mengambil tendangan bebas langsung</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value> mengambil tendangan penalti dan hits pos</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value> mengambil penalti kick dan itu diblokir</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value> mengambil tendangan penalti dan merindukan</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value> mengambil tendangan penalti dan nilai</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value> mengambil tendangan sudut miskin</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value> mengambil tendangan penalti dan hits pos</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value> mengambil penalti kick dan itu diblokir</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value> mengambil tendangan penalti dan merindukan</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value> mengambil tendangan penalti dan nilai</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>Blue Cross</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>Biru merah</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>Blue Stripe</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>BlueWhite</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>Biru Tua</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>Merah Tua</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>Warna Jerman</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>Merah hijau</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>Biru Muda</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Oranye</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>Hijau oranye</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Merah</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>Merah hitam</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>Merah hijau</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>Garis-garis merah</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>Putih biru</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>Putih kehijauan</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>Merah putih</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>Kuning biru</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>Hijau kuning</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Demo</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>Tambahkan pemain baru</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>Timeline</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>Pilih tim</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value> menendang bola ke gawang sendiri</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>Pilih Jersey</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>Pilih Liga</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>Pemain menit</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistik</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>Pemain menit Diperbarui pada akhir periode dan akhir permainan</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>Keterangan</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Pengguna</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>eMail</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Sandi</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Reset sandi</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Tentang</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Tingkat App</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Pelanggaran</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>App pembelian</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Tolong</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>Membuka semua Statistik?</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>Demo permainan</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>Mencoba demo permainan penilaian?</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>Coba</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>Tidak terima kasih</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Peringkat</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>Umpan balik Anda sangat penting bagi kami.  Silahkan menilai aplikasi ini.</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>Umpan balik Anda sangat penting bagi kami.  Anda ingin untuk tingkat app ini?</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>Ya</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>Tidak</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>Pembelian</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>Tidak sekarang</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>Tambahkan pemain ke bangku</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>Advance</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>Maju ke periode berikutnya?</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>Pergi Boxscore</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>Klik untuk menyesuaikan jam</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>Klik untuk menyesuaikan periode</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>Klik untuk memulai atau menghentikan waktu permainan</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>Clock turun</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>Jam</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Sunting</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>Mengedit permainan</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>Edit bermain dengan bermain</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>Permainan Manajer</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>Statistik permainan</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Kop</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>Rumah Boxscore</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>Ada tidak bermain untuk membatalkan</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>Gol penalti</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>Bermain oleh Bermain</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Berbagi</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>Tunas kaki kiri</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>Tunas kaki kanan</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>Tujuan menembak</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>Ditembak dengan kaki kiri</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>Ditembak dengan kaki kanan</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value> ini dibatalkan</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Pembelian</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>Membeli semua Statistik?</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>Statistik lengkap paket termasuk: pemain menit, ditambah Minus,</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>Pass, omset, Offsides,</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>Berkomitmen busuk, keluar batas, salib, melempar, tendangan sudut,</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>Menangani, kiper tendangan gawang sendiri, busuk ditarik, langsung tendangan bebas,</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>Tidak langsung tendangan bebas, tendangan penalti, kartu kuning, kartu merah, tendangan Drop,</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Menggiring bola, tendangan penalti, substitusi</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Memuat...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>Menghapus pemain dari daftar</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value> dari daftar pemain</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value> dari daftar</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>Tim tuan rumah dan tim tidak bisa menjadi sama. Permainan tidak disimpan.</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>Permainan dimulai</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-Klik gambar untuk membeli versi lengkap-</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>Olahraga</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Saran</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>Skor</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>sepak bola</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>tidak ada acara</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>KICKOFF</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>SETENGAH-WAKTU</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>PENUH WAKTU</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>BABAK PERPANJANGAN WAKTU</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>PERPANJANGAN WAKTU PENUH WAKTU</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>Akhir periode </value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>Roster</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>Tambahkan Game</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Permainan</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>Permainan Info</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Pengelola</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>Tim</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Clock</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Bawah</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>Game tanggal</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>Rincian permainan</value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>Yang paling intuitif dan lengkap sepak bola mencetak aplikasi di pasar.  Lebih dari 50 statistik yang tersedia.  Coba gratis hari ini!
+
+Melacak: tim permainan Liga pemain pemain Statistik termasuk: menit bermain Plus minus tujuan dapat menimbulkan Offsides merah kartu Turnovers dan banyak lagi!
+
+Permainan pilihan meliputi: Clock Up atau Clock turun fleksibel pada bidang formasi tidak diketahui pemain pilihan Editing/melepas periode memainkan Unlimited substitusi disesuaikan dan jangka panjang.
+
+
+Lihat Play-By-Play aksi permainan, berbagi statistik pada kegugupan, Facebook, Instagram, email, teks dan banyak lagi!
+
+Mudah untuk mengatur up, dan mudah digunakan!  Mulai melacak permainan berikutnya Anda dalam beberapa menit!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>Periode belum dimulai belum. Apakah Anda ingin melanjutkan?</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>Tidak Dimulai</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>Menghapus pemain dari daftar pemain</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>Tambahkan daftar pemain untuk pemain baru</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>Ikuti kami di Twitter</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>Statistik paket lengkap meliputi: pemain menit Plus Minus, Pass, omset, Offsides, berkomitmen busuk, keluar dari batas, Cross, melemparkan di Corner Kick, mengatasi, kiper tendangan, tujuan sendiri, ditarik busuk, tendangan bebas langsung, tidak langsung tendangan bebas, tendangan penalti, kartu kuning, kartu merah, Drop tendangan, menggiring bola, tendangan penalti, substitusi</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>Statistik penuh</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>Yang paling intuitif dan lengkap sepak bola mencetak aplikasi di pasar!
+
+Melacak: Tim Liga pemain game versi gratis termasuk pelacakan tembakan dan tujuan!
+
+Permainan pilihan meliputi: Clock Up atau Clock turun fleksibel pada bidang formasi tidak diketahui pemain pilihan Editing/melepas periode memainkan Unlimited substitusi disesuaikan dan jangka panjang.
+
+
+Lihat Play-By-Play aksi permainan, berbagi statistik pada kegugupan, Facebook, Instagram, email, teks dan banyak lagi!
+
+Mudah untuk mengatur up, dan mudah digunakan!  Mulai melacak permainan berikutnya Anda dalam beberapa menit!</value>
+  </data>
+</root>

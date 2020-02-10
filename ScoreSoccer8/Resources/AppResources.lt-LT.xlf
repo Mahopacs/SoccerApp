@@ -1,0 +1,1956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="lt-LT" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="UTrackSoccer" product-version="1.0.3" build-num="3">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+          </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">lt-LT</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+          </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">PRAŠYMO</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">pridėti</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="translated" state-qualifier="tm-suggestion">Meniu elementas</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddTeam" translate="yes" xml:space="preserve">
+          <source>Add Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridėti komandos</target>
+        </trans-unit>
+        <trans-unit id="Resx/Coach" translate="yes" xml:space="preserve">
+          <source>Coach</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Treneris</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">field on team details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/ContactNumber" translate="yes" xml:space="preserve">
+          <source>Contact Number</source>
+          <target state="translated" state-qualifier="tm-suggestion">Kontaktinis numeris</target>
+        </trans-unit>
+        <trans-unit id="Resx/Delete" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated" state-qualifier="tm-suggestion">Naikinti</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">used in prompt</note>
+          </trans-unit>
+        <trans-unit id="Resx/DisplayDeletedItems" translate="yes" xml:space="preserve">
+          <source>Display Deleted Items</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rodyti panaikintus elementus</target>
+        </trans-unit>
+        <trans-unit id="Resx/EndDate" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+          <target state="translated" state-qualifier="tm-suggestion">End Date</target>
+        </trans-unit>
+        <trans-unit id="Resx/Games" translate="yes" xml:space="preserve">
+          <source>Games</source>
+          <target state="translated" state-qualifier="tm-suggestion">žaidimai</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameStats" translate="yes" xml:space="preserve">
+          <source>Game Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidimo statistika</target>
+        </trans-unit>
+        <trans-unit id="Resx/GenerateReport" translate="yes" xml:space="preserve">
+          <source>Generate Report</source>
+          <target state="translated" state-qualifier="tm-suggestion">Generuoti ataskaitą</target>
+        </trans-unit>
+        <trans-unit id="Resx/Jersey" translate="yes" xml:space="preserve">
+          <source>Jersey</source>
+          <target state="translated" state-qualifier="tm-suggestion">Džersis</target>
+        </trans-unit>
+        <trans-unit id="Resx/League" translate="yes" xml:space="preserve">
+          <source>League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lyga</target>
+        </trans-unit>
+        <trans-unit id="Resx/Players" translate="yes" xml:space="preserve">
+          <source>Players</source>
+          <target state="translated" state-qualifier="tm-suggestion">žaidėjai</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerStats" translate="yes" xml:space="preserve">
+          <source>Player Stats</source>
+          <target state="translated" state-qualifier="tm-suggestion">Žaidėjų statistika</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayList" translate="yes" xml:space="preserve">
+          <source>Play List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grojaraščio</target>
+        </trans-unit>
+        <trans-unit id="Resx/ReportType" translate="yes" xml:space="preserve">
+          <source>Report Type</source>
+          <target state="translated" state-qualifier="tm-suggestion">Ataskaitos tipas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Required" translate="yes" xml:space="preserve">
+          <source>Required</source>
+          <target state="translated" state-qualifier="tm-suggestion">Būtina</target>
+        </trans-unit>
+        <trans-unit id="Resx/Roster" translate="yes" xml:space="preserve">
+          <source>Roster</source>
+          <target state="translated" state-qualifier="tm-suggestion">Dalyvių sąrašas</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShortName" translate="yes" xml:space="preserve">
+          <source>Short Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trumpasis pavadinimas</target>
+        </trans-unit>
+        <trans-unit id="Resx/StartDate" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <target state="translated" state-qualifier="tm-suggestion">Start Date</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsReports" translate="yes" xml:space="preserve">
+          <source>Stats Reports</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Statistika ataskaitos</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamDetails" translate="yes" xml:space="preserve">
+          <source>Team Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Komanda detaliau</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamName" translate="yes" xml:space="preserve">
+          <source>Team Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">Komandos pavadinimas</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamNotEnteredValidationMessage" translate="yes" xml:space="preserve">
+          <source>Team name not entered. Team not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Komandos pavadinimas nėra įrašytas. Komanda neįrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Teams" translate="yes" xml:space="preserve">
+          <source>Teams</source>
+          <target state="translated" state-qualifier="tm-suggestion">Komandos</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamStats" translate="yes" xml:space="preserve">
+          <source>Team Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Komandos statistika</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddLeague" translate="yes" xml:space="preserve">
+          <source>Add League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridėti lyga</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/LeagueDetails" translate="yes" xml:space="preserve">
+          <source>League Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lygos informacijos</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeagueName" translate="yes" xml:space="preserve">
+          <source>League Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lygos pavadinimas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Leagues" translate="yes" xml:space="preserve">
+          <source>Leagues</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lygos</target>
+        </trans-unit>
+        <trans-unit id="Resx/ContactName" translate="yes" xml:space="preserve">
+          <source>Contact Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">Kontakto vardas</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeagueNotEnteredValidationMessage" translate="yes" xml:space="preserve">
+          <source>League name not entered. League not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lygos pavadinimas nėra įrašytas. Lygos nėra įrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Active" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <target state="translated" state-qualifier="tm-suggestion">Aktyvus</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayerToTeamRoster" translate="yes" xml:space="preserve">
+          <source>Add Player To Team Roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridėti Player komandos sudėtis</target>
+        </trans-unit>
+        <trans-unit id="Resx/EnterPlayersJerseyNumber" translate="yes" xml:space="preserve">
+          <source>Enter Players Jersey Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Įveskite žaidėjų marškinėlių numerį</target>
+        </trans-unit>
+        <trans-unit id="Resx/InActive" translate="yes" xml:space="preserve">
+          <source>InActive</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neaktyvus</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyMustBeANumber" translate="yes" xml:space="preserve">
+          <source>Jersey Number must be a number. Jersey Number not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jersey numeris turi būti skaičius. Marškinėlių numerį neįrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyMustBeLessThan3Characters" translate="yes" xml:space="preserve">
+          <source>Jersey Number can not be more than 3 characters.  Jersey Number not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jersey skaičius negali būti daugiau kaip 3 simbolių.  Marškinėlių numerį neįrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyNumber" translate="yes" xml:space="preserve">
+          <source>Jersey Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Marškinėlių numerį</target>
+        </trans-unit>
+        <trans-unit id="Resx/Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">NAME</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rosters" translate="yes" xml:space="preserve">
+          <source>Rosters</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grafikai</target>
+        </trans-unit>
+        <trans-unit id="Resx/Status" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated" state-qualifier="tm-suggestion">STATUS</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddGame" translate="yes" xml:space="preserve">
+          <source>Add Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridėti žaidimas</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/Game" translate="yes" xml:space="preserve">
+          <source>Game</source>
+          <target state="translated" state-qualifier="tm-suggestion">Žaidimų</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">used in prompt</note>
+          </trans-unit>
+        <trans-unit id="Resx/GameInfo" translate="yes" xml:space="preserve">
+          <source>Game Info</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidimo Info</target>
+        </trans-unit>
+        <trans-unit id="Resx/Manager" translate="yes" xml:space="preserve">
+          <source>Manager</source>
+          <target state="translated" state-qualifier="tm-suggestion">Vadovas</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayTeam" translate="yes" xml:space="preserve">
+          <source>Away Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Komanda</target>
+        </trans-unit>
+        <trans-unit id="Resx/Clock" translate="yes" xml:space="preserve">
+          <source>Clock</source>
+          <target state="translated" state-qualifier="tm-suggestion">Laikrodis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Down" translate="yes" xml:space="preserve">
+          <source>Down</source>
+          <target state="translated" state-qualifier="tm-suggestion">Žemyn</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameDate" translate="yes" xml:space="preserve">
+          <source>Game Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidimo data</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameDetails" translate="yes" xml:space="preserve">
+          <source>Game Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidimo detalėmis</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameTime" translate="yes" xml:space="preserve">
+          <source>Game Time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidimo laikas</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeTeam" translate="yes" xml:space="preserve">
+          <source>Home Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Namų komanda</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated" state-qualifier="tm-suggestion">Ne</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoLeague" translate="yes" xml:space="preserve">
+          <source>Default League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Numatytasis lyga</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">league name option in leagues drop down on team details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/OverTime" translate="yes" xml:space="preserve">
+          <source>OverTime</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Viršvalandžiai</target>
+        </trans-unit>
+        <trans-unit id="Resx/OverTimeLength" translate="yes" xml:space="preserve">
+          <source>OverTime Length</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Viršvalandžiai ilgis</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodLength" translate="yes" xml:space="preserve">
+          <source>Period Length</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikotarpio trukmė</target>
+        </trans-unit>
+        <trans-unit id="Resx/Periods" translate="yes" xml:space="preserve">
+          <source>Periods</source>
+          <target state="translated" state-qualifier="tm-suggestion">Ciklų</target>
+        </trans-unit>
+        <trans-unit id="Resx/Up" translate="yes" xml:space="preserve">
+          <source>Up</source>
+          <target state="translated" state-qualifier="tm-suggestion">Aukštyn</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated" state-qualifier="tm-suggestion">Taip</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayTeamNotSeleted" translate="yes" xml:space="preserve">
+          <source>Away team not selected. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Komanda nepažymėta. Žaidimas nėra įrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockUpDownNotSet" translate="yes" xml:space="preserve">
+          <source>Clock Up or Down not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikrodis aukštyn arba žemyn nenustatyta. Žaidimas nėra įrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameHasAlreadyStarted" translate="yes" xml:space="preserve">
+          <source>Game has already started.  Cannot change game details once the game has started. Changes not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidimas prasidėjo.  Negalima pakeisti žaidimo detalėmis pradėjus žaidimą. Pakeitimai neįrašyti.</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeTeamNotSelected" translate="yes" xml:space="preserve">
+          <source>Home team not selected. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Namų komanda nepažymėta. Žaidimas nėra įrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodLengthNotSet" translate="yes" xml:space="preserve">
+          <source>Period length not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikotarpio trukmė nenustatyta. Žaidimas nėra įrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodNotSet" translate="yes" xml:space="preserve">
+          <source>Periods not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikotarpių nenustatyta. Žaidimas nėra įrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayersPerTeamNotSet" translate="yes" xml:space="preserve">
+          <source>Players per team not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjai / komanda nenustatyta. Žaidimas nėra įrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Add" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="translated" state-qualifier="tm-suggestion">Įtraukti</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/AddPlay" translate="yes" xml:space="preserve">
+          <source>Add Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridėti žaisti</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayer" translate="yes" xml:space="preserve">
+          <source>Add Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridėti Player</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/PlayerList" translate="yes" xml:space="preserve">
+          <source>Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas sąrašas</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerName" translate="yes" xml:space="preserve">
+          <source>Player Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">Žaidėjo vardas</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayText" translate="yes" xml:space="preserve">
+          <source>Play Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaisti teksto</target>
+        </trans-unit>
+        <trans-unit id="Resx/Search" translate="yes" xml:space="preserve">
+          <source>Search</source>
+          <target state="translated" state-qualifier="tm-suggestion">Ieškoti</target>
+        </trans-unit>
+        <trans-unit id="Resx/CannotChangeDeletedPlayerInfo" translate="yes" xml:space="preserve">
+          <source>Can not change information on a deleted player. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Negalite pakeisti informaciją apie panaikintą žaidėjas. Žaidėjas neįrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/FirstName" translate="yes" xml:space="preserve">
+          <source>First Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">Vardas</target>
+        </trans-unit>
+        <trans-unit id="Resx/FirstNameNotEntered" translate="yes" xml:space="preserve">
+          <source>First name not entered. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vardas nėra įrašytas. Žaidėjas neįrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Height" translate="yes" xml:space="preserve">
+          <source>Height</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aukštis</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyNumberInvalidPlayerNotSaved" translate="yes" xml:space="preserve">
+          <source>Jersey Number can not be more than 3 characters. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jersey skaičius negali būti daugiau kaip 3 simbolių. Žaidėjas neįrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kicks" translate="yes" xml:space="preserve">
+          <source>Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prasideda</target>
+        </trans-unit>
+        <trans-unit id="Resx/LastName" translate="yes" xml:space="preserve">
+          <source>Last Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">Pavardė</target>
+        </trans-unit>
+        <trans-unit id="Resx/Left" translate="yes" xml:space="preserve">
+          <source>Left</source>
+          <target state="translated" state-qualifier="tm-suggestion">left</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerDetails" translate="yes" xml:space="preserve">
+          <source>Player Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas detalių</target>
+        </trans-unit>
+        <trans-unit id="Resx/Right" translate="yes" xml:space="preserve">
+          <source>Right</source>
+          <target state="translated" state-qualifier="tm-suggestion">right</target>
+        </trans-unit>
+        <trans-unit id="Resx/Weight" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <target state="translated" state-qualifier="tm-suggestion">Svoris</target>
+        </trans-unit>
+        <trans-unit id="Resx/Assist" translate="yes" xml:space="preserve">
+          <source>Assist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Padėti</target>
+        </trans-unit>
+        <trans-unit id="Resx/Blocked" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Užblokuotas</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornerKick" translate="yes" xml:space="preserve">
+          <source>3P Field Goal Made</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kampe Kick</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Cross" translate="yes" xml:space="preserve">
+          <source>Block</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kryžmai</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKick" translate="yes" xml:space="preserve">
+          <source>Direct Free Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tiesiogiai LCD</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dribble" translate="yes" xml:space="preserve">
+          <source>Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Driblingas</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKick" translate="yes" xml:space="preserve">
+          <source>Drop Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Drop Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulCommitted" translate="yes" xml:space="preserve">
+          <source>BBTurnover</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Užteršto padarytas</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/FoulDrawn" translate="yes" xml:space="preserve">
+          <source>Foul Drawn</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Užteršto nupiešti</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalAllowed" translate="yes" xml:space="preserve">
+          <source>Goal Allowed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tikslas leido</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalieKick" translate="yes" xml:space="preserve">
+          <source>FT Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vartininkas Kick</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/IndirectFreeKick" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Netiesioginis LCD</target>
+        </trans-unit>
+        <trans-unit id="Resx/MinutesPlayed" translate="yes" xml:space="preserve">
+          <source>Minutes Played</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Minučių grojo</target>
+        </trans-unit>
+        <trans-unit id="Resx/Move" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <target state="translated" state-qualifier="tm-suggestion">Perkelti</target>
+        </trans-unit>
+        <trans-unit id="Resx/Notes" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="translated" state-qualifier="tm-suggestion">Pastabos</target>
+        </trans-unit>
+        <trans-unit id="Resx/Offsides" translate="yes" xml:space="preserve">
+          <source>Steal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Offsides</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/OutOfBounds" translate="yes" xml:space="preserve">
+          <source>Assist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Užsienyje</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/OwnGoal" translate="yes" xml:space="preserve">
+          <source>3P Field Goal Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Savo vartus</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Pass" translate="yes" xml:space="preserve">
+          <source>Free Throw Made</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Praleisti</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKick" translate="yes" xml:space="preserve">
+          <source>Penalty Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baudinys</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlusMinus" translate="yes" xml:space="preserve">
+          <source>Plus Minus</source>
+          <target state="translated" state-qualifier="tm-suggestion">Pliusas ir minusas</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCard" translate="yes" xml:space="preserve">
+          <source>Red Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raudona kortelė</target>
+        </trans-unit>
+        <trans-unit id="Resx/Save" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="translated" state-qualifier="tm-suggestion">Įrašyti</target>
+        </trans-unit>
+        <trans-unit id="Resx/SecondsPlayed" translate="yes" xml:space="preserve">
+          <source>SecondsPlayed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">SecondsPlayed</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKick" translate="yes" xml:space="preserve">
+          <source>Shootout Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shootout Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shot" translate="yes" xml:space="preserve">
+          <source>2P Field Goal Made</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Trumpas</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ShotOnGoal" translate="yes" xml:space="preserve">
+          <source>Shot On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Išleido apie tikslas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Substitution" translate="yes" xml:space="preserve">
+          <source>Substitution</source>
+          <target state="translated" state-qualifier="tm-suggestion">Pakaitalas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tackle" translate="yes" xml:space="preserve">
+          <source>2P Field Goal Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spręsti</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ThrowIn" translate="yes" xml:space="preserve">
+          <source>Foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mesti</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Turnover" translate="yes" xml:space="preserve">
+          <source>Rebound</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Apyvartos</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCard" translate="yes" xml:space="preserve">
+          <source>Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geltoną kortelę</target>
+        </trans-unit>
+        <trans-unit id="Resx/Excellent" translate="yes" xml:space="preserve">
+          <source>Excellent</source>
+          <target state="translated" state-qualifier="tm-suggestion">Puikiai</target>
+        </trans-unit>
+        <trans-unit id="Resx/Good" translate="yes" xml:space="preserve">
+          <source>Good</source>
+          <target state="translated" state-qualifier="tm-suggestion">Geras</target>
+        </trans-unit>
+        <trans-unit id="Resx/Poor" translate="yes" xml:space="preserve">
+          <source>Poor</source>
+          <target state="translated" state-qualifier="tm-suggestion">Prastas</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotDetails" translate="yes" xml:space="preserve">
+          <source>Shot Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulka detalių</target>
+        </trans-unit>
+        <trans-unit id="Resx/BadPass" translate="yes" xml:space="preserve">
+          <source>Bad Pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blogas Pass</target>
+        </trans-unit>
+        <trans-unit id="Resx/Charging" translate="yes" xml:space="preserve">
+          <source>Charging</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Apmokestinimo</target>
+        </trans-unit>
+        <trans-unit id="Resx/DelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source>Delaying Restart of Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Delsimo paleisti žaidimo</target>
+        </trans-unit>
+        <trans-unit id="Resx/ForGoal" translate="yes" xml:space="preserve">
+          <source>For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tikslo</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulPlay" translate="yes" xml:space="preserve">
+          <source>Foul Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blogo žaisti</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goal" translate="yes" xml:space="preserve">
+          <source>Goal</source>
+          <target state="translated" state-qualifier="tm-suggestion">Tikslas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Headed" translate="yes" xml:space="preserve">
+          <source>Headed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vadovauja</target>
+        </trans-unit>
+        <trans-unit id="Resx/HitPost" translate="yes" xml:space="preserve">
+          <source>Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Paspauskite paštu</target>
+        </trans-unit>
+        <trans-unit id="Resx/Holding" translate="yes" xml:space="preserve">
+          <source>Holding</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ūkio</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalHands" translate="yes" xml:space="preserve">
+          <source>Illegal Hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neteisėtas rankas</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalTackle" translate="yes" xml:space="preserve">
+          <source>Illegal Tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neteisėtas spręsti</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalThrowIn" translate="yes" xml:space="preserve">
+          <source>Illegal Throw In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neteisėtas mesti</target>
+        </trans-unit>
+        <trans-unit id="Resx/In" translate="yes" xml:space="preserve">
+          <source>In</source>
+          <target state="translated" state-qualifier="tm-suggestion">col.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kicking" translate="yes" xml:space="preserve">
+          <source>Kicking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicking</target>
+        </trans-unit>
+        <trans-unit id="Resx/LostDribble" translate="yes" xml:space="preserve">
+          <source>Lost Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prarastas driblingas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Miss" translate="yes" xml:space="preserve">
+          <source>Miss</source>
+          <target state="translated" state-qualifier="tm-suggestion">P-lė</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotForGoal" translate="yes" xml:space="preserve">
+          <source>Not For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ne dėl tikslo</target>
+        </trans-unit>
+        <trans-unit id="Resx/Out" translate="yes" xml:space="preserve">
+          <source>Out</source>
+          <target state="translated" state-qualifier="tm-suggestion">Iš</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pushing" translate="yes" xml:space="preserve">
+          <source>Pushing</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stūmimas</target>
+        </trans-unit>
+        <trans-unit id="Resx/SecondYellowCard" translate="yes" xml:space="preserve">
+          <source>Second Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Antrą geltoną kortelę</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tripping" translate="yes" xml:space="preserve">
+          <source>Tripping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Užkliuvimo</target>
+        </trans-unit>
+        <trans-unit id="Resx/UnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source>Unsportsmanlike Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nepagrįstų elgesio</target>
+        </trans-unit>
+        <trans-unit id="Resx/ViolentConduct" translate="yes" xml:space="preserve">
+          <source>Violent Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Smurtinio elgesio</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsPicker" translate="yes" xml:space="preserve">
+          <source>Stats Picker</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Statistika Picker</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a shot and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> kulka ir nepataikė</target>
+        </trans-unit>
+        <trans-unit id="Resx/BlockedBy" translate="yes" xml:space="preserve">
+          <source>Blocked By</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blokuotas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated" state-qualifier="tm-suggestion">Atšaukti</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/Ok" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">gerai</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShotNotOnGoal" translate="yes" xml:space="preserve">
+          <source>Shot Not On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulka ne tikslas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Period" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikotarpį</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayDetails" translate="yes" xml:space="preserve">
+          <source>Play Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Leisti informaciją</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player" translate="yes" xml:space="preserve">
+          <source>Player</source>
+          <target state="translated" state-qualifier="tm-suggestion">Zaid</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerIn" translate="yes" xml:space="preserve">
+          <source>Player In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerOut" translate="yes" xml:space="preserve">
+          <source>Player Out</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatCategory" translate="yes" xml:space="preserve">
+          <source>Stat Category</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stat kategorija</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatDescription" translate="yes" xml:space="preserve">
+          <source>Stat Description</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Stat Aprašymas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Team" translate="yes" xml:space="preserve">
+          <source>Team</source>
+          <target state="translated" state-qualifier="tm-suggestion">Komanda</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockNotEntered" translate="yes" xml:space="preserve">
+          <source>Clock not entered. Play not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikrodis nėra įrašytas. Žaisti neįrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotASupportedPlayTypeForPBPEdit" translate="yes" xml:space="preserve">
+          <source>Not a supported play type for pbp edit. Play can not be edited.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nėra palaikomi leisti tipas pbp redaguoti. Žaisti negali būti redaguojamas.</target>
+        </trans-unit>
+        <trans-unit id="Resx/OpponentTeam" translate="yes" xml:space="preserve">
+          <source>Opponent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Protestą pateikęs asmuo</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name for demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/OtherTeamGoalie" translate="yes" xml:space="preserve">
+          <source>Other Team Goalie</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kitas komandos vartininkas</target>
+        </trans-unit>
+        <trans-unit id="Resx/OurTeam" translate="yes" xml:space="preserve">
+          <source>Our Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mūsų komanda</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name for demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/PeriodClockValueInFuture" translate="yes" xml:space="preserve">
+          <source>Period/Clock value can not be a time in the future. Please use game manager to track a play in the future. Play not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikotarpis/laikrodis vertė gali būti ne kada nors ateityje. Prašome naudoti žaidimo vadovas stebėti žaisti ateityje. Žaisti neįrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player1" translate="yes" xml:space="preserve">
+          <source>Player 1</source>
+          <target state="translated" state-qualifier="tm-suggestion">1 žaidėjas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player10" translate="yes" xml:space="preserve">
+          <source>Player 10</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 10</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player11" translate="yes" xml:space="preserve">
+          <source>Player 11</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 11</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player12" translate="yes" xml:space="preserve">
+          <source>Player 12</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Leistuvo 12</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player13" translate="yes" xml:space="preserve">
+          <source>Player 13</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 13</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player14" translate="yes" xml:space="preserve">
+          <source>Player 14</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 14</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player15" translate="yes" xml:space="preserve">
+          <source>Player 15</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 15</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player16" translate="yes" xml:space="preserve">
+          <source>Player 16</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grotuvas 16</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player17" translate="yes" xml:space="preserve">
+          <source>Player 17</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grotuvas 17</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player18" translate="yes" xml:space="preserve">
+          <source>Player 18</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 18</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player19" translate="yes" xml:space="preserve">
+          <source>Player 19</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 19</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player2" translate="yes" xml:space="preserve">
+          <source>Player 2</source>
+          <target state="translated" state-qualifier="tm-suggestion">2 žaidėjas</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player20" translate="yes" xml:space="preserve">
+          <source>Player 20</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grotuvas 20</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player21" translate="yes" xml:space="preserve">
+          <source>Player 21</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 21</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player22" translate="yes" xml:space="preserve">
+          <source>Player 22</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 22</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player23" translate="yes" xml:space="preserve">
+          <source>Player 23</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 23</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player24" translate="yes" xml:space="preserve">
+          <source>Player 24</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grotuvas 24</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player25" translate="yes" xml:space="preserve">
+          <source>Player 25</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 25</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player26" translate="yes" xml:space="preserve">
+          <source>Player 26</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grotuvas 26</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player27" translate="yes" xml:space="preserve">
+          <source>Player 27</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grotuvas 27</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player28" translate="yes" xml:space="preserve">
+          <source>Player 28</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 28</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player29" translate="yes" xml:space="preserve">
+          <source>Player 29</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 29</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player3" translate="yes" xml:space="preserve">
+          <source>Player 3</source>
+          <target state="translated" state-qualifier="tm-suggestion">3 žaidėjas</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player30" translate="yes" xml:space="preserve">
+          <source>Player 30</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 30</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player4" translate="yes" xml:space="preserve">
+          <source>Player 4</source>
+          <target state="translated" state-qualifier="tm-suggestion">4 žaidėjas</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player5" translate="yes" xml:space="preserve">
+          <source>Player 5</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 5</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player6" translate="yes" xml:space="preserve">
+          <source>Player 6</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 6</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player7" translate="yes" xml:space="preserve">
+          <source>Player 7</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas 7</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player8" translate="yes" xml:space="preserve">
+          <source>Player 8</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Grotuvas 8</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player9" translate="yes" xml:space="preserve">
+          <source>Player 9</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 9</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Away" translate="yes" xml:space="preserve">
+          <source>Away</source>
+          <target state="translated" state-qualifier="tm-suggestion">Atsitraukęs</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteGame" translate="yes" xml:space="preserve">
+          <source>Delete Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Naikinti žaidimas</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/DeleteLeague" translate="yes" xml:space="preserve">
+          <source>Delete League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Naikinti lyga</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlay" translate="yes" xml:space="preserve">
+          <source>Delete Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Naikinti žaisti</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayer" translate="yes" xml:space="preserve">
+          <source>Delete Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Panaikinti žaidėjo</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteTeam" translate="yes" xml:space="preserve">
+          <source>Delete Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Naikinti komanda</target>
+        </trans-unit>
+        <trans-unit id="Resx/Home" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <target state="translated" state-qualifier="tm-suggestion">Pagrindinis puslapis</target>
+        </trans-unit>
+        <trans-unit id="Resx/None" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated" state-qualifier="tm-suggestion">Joks</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name option for assist in PBP screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/Play" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="translated" state-qualifier="tm-suggestion">Leisti</target>
+        </trans-unit>
+        <trans-unit id="Resx/Unknown" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="translated" state-qualifier="tm-suggestion">Nežinoma</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">unknown player from game manager screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/GameStartedScreenDisabled" translate="yes" xml:space="preserve">
+          <source>Inprogress, screen disabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Inprogress, ekranas išjungtas</target>
+        </trans-unit>
+        <trans-unit id="Resx/InvalidOTLength" translate="yes" xml:space="preserve">
+          <source>Invalid OT Length. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Netinkamas OT ilgis. Žaidimas nėra įrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Assists" translate="yes" xml:space="preserve">
+          <source>Assists</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Padeda</target>
+        </trans-unit>
+        <trans-unit id="Resx/Blocks" translate="yes" xml:space="preserve">
+          <source>Blocks</source>
+          <target state="translated" state-qualifier="tm-suggestion">Stačiakampiai</target>
+        </trans-unit>
+        <trans-unit id="Resx/Corners" translate="yes" xml:space="preserve">
+          <source>Corners</source>
+          <target state="translated" state-qualifier="tm-suggestion">Kampai</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersExcellent" translate="yes" xml:space="preserve">
+          <source>Corners Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kampai puikiai</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersForGoal" translate="yes" xml:space="preserve">
+          <source>Corners For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kampais ir tikslas</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersGood" translate="yes" xml:space="preserve">
+          <source>Corners Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kampai gerai</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersPoor" translate="yes" xml:space="preserve">
+          <source>Corners Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kampai blogas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Crosses" translate="yes" xml:space="preserve">
+          <source>Crosses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kerta</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesExcellent" translate="yes" xml:space="preserve">
+          <source>Crosses Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kryžių puikus</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesGood" translate="yes" xml:space="preserve">
+          <source>Crosses Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kryžių gera</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesPoor" translate="yes" xml:space="preserve">
+          <source>Crosses Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kerta blogas</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicks" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tiesiogiai nemokamai zaczelo</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicksForGoal" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tiesiogiai nemokamai zaczelo tikslo</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicksNotForGoal" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks Not For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tiesiogiai nemokamai zaczelo ne tikslas</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicks" translate="yes" xml:space="preserve">
+          <source>Drop Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lašas smūgių</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksExcellent" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lašas prasideda puikus</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksGood" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lašas prasideda gera</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksPoor" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lašas prasideda blogas</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsComittedHolding" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Holding</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pražangas padarė ūkio</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommitted" translate="yes" xml:space="preserve">
+          <source>Turnovers</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pražangas, padarė</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedCharging" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Charging</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pražangas padarė apmokestinimo</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedIllegalTackle" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Illegal Tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pražangas padarė neteisėtą spręsti</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedKicking" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Kicking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pražangas padarė Kicking</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedPushing" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Pushing</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pražangas padarė stūmimas</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedTripping" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Tripping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pražangas padarė užkliuvimo</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsDrawn" translate="yes" xml:space="preserve">
+          <source>Fouls Drawn</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pražangas sudarytas</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalKicks" translate="yes" xml:space="preserve">
+          <source>Goal Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tikslas prasideda</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goals" translate="yes" xml:space="preserve">
+          <source>Goals</source>
+          <target state="translated" state-qualifier="tm-suggestion">Tikslai</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalsAllowed" translate="yes" xml:space="preserve">
+          <source>Goals Allowed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tikslus leidžiama</target>
+        </trans-unit>
+        <trans-unit id="Resx/IndirectFreeKicks" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Netiesioginis nemokamai zaczelo</target>
+        </trans-unit>
+        <trans-unit id="Resx/MadeOwnGoal" translate="yes" xml:space="preserve">
+          <source>MadeOwnGoal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MadeOwnGoal</target>
+        </trans-unit>
+        <trans-unit id="Resx/Passes" translate="yes" xml:space="preserve">
+          <source>Passes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Eina</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesExcellent" translate="yes" xml:space="preserve">
+          <source>Passes Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Eina puikiai</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesGood" translate="yes" xml:space="preserve">
+          <source>Passes Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Eina gerai</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesPoor" translate="yes" xml:space="preserve">
+          <source>Passes Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Eina blogas</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicks" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baudinių</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksBlocked" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baudinių užblokuotas</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksGoal" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baudos smūgių tikslas</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksHitPost" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baudinių nukentėjo po</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksMissed" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baudinių praleidau</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCards" translate="yes" xml:space="preserve">
+          <source>Red Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raudona kortelė</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsFoulPlay" translate="yes" xml:space="preserve">
+          <source>Red Cards Foul Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raudonos kortelės Nepadorumas žaisti</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsIllegalHands" translate="yes" xml:space="preserve">
+          <source>Red Cards Ilegal Hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raudonos kortelės Ilegal rankas</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsSecondYellowCard" translate="yes" xml:space="preserve">
+          <source>Red Cards Second Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raudonos kortelės antrą geltoną kortelę</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsViolentConduct" translate="yes" xml:space="preserve">
+          <source>Red Cards Violent Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raudonos kortelės smurtinio elgesio</target>
+        </trans-unit>
+        <trans-unit id="Resx/Saves" translate="yes" xml:space="preserve">
+          <source>Saves</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taupo</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicks" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baudinių serijos prasideda</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksBlocked" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baudinių serijos prasideda užblokuotas</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksGoal" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baudinių serijos prasideda tikslas</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksHitPost" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baudinių serijos prasideda nukentėjo po</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksMissed" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Baudinių serijos prasideda praleidau</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shots" translate="yes" xml:space="preserve">
+          <source>Shots</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nuotraukos</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsBlocked" translate="yes" xml:space="preserve">
+          <source>Shots Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kadrų užblokuotas</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsGoal" translate="yes" xml:space="preserve">
+          <source>Shots Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kadrų tikslas</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsHitPost" translate="yes" xml:space="preserve">
+          <source>Shots Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kadrų nukentėjo po</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsMissed" translate="yes" xml:space="preserve">
+          <source>Shots Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Strzałów praleistus</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsOnGoal" translate="yes" xml:space="preserve">
+          <source>Shots On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Strzałów dėl tikslo</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tackles" translate="yes" xml:space="preserve">
+          <source>Tackles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Reikmenys</target>
+        </trans-unit>
+        <trans-unit id="Resx/ThrowIns" translate="yes" xml:space="preserve">
+          <source>Throw Ins</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mesti Ins</target>
+        </trans-unit>
+        <trans-unit id="Resx/Turnovers" translate="yes" xml:space="preserve">
+          <source>Turnovers</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Apyvartas</target>
+        </trans-unit>
+        <trans-unit id="Resx/TurnoversIllegalThrowIn" translate="yes" xml:space="preserve">
+          <source>Turnovers Illegal Throw In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Apyvartas nelegalios mesti</target>
+        </trans-unit>
+        <trans-unit id="Resx/TurnoversLostDribble" translate="yes" xml:space="preserve">
+          <source>Turnovers Lost Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Apyvartas prarado driblingas</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCards" translate="yes" xml:space="preserve">
+          <source>Yellow Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geltonos kortelės</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCardsDelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source>Yellow Cards Delaying Restart Of Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geltonos kortelės delsimo paleisti žaidimo</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowsCardsUnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source>Yellow Cards Unsportsmanline Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geltonos kortelės Unsportsmanline elgesio</target>
+        </trans-unit>
+        <trans-unit id="Resx/BirthDate" translate="yes" xml:space="preserve">
+          <source>BirthDate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gimimo data</target>
+        </trans-unit>
+        <trans-unit id="Resx/AssistedBy" translate="yes" xml:space="preserve">
+          <source> asssited by </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> asssited iš </target>
+        </trans-unit>
+        <trans-unit id="Resx/By" translate="yes" xml:space="preserve">
+          <source> by </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> iš </target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAChargingFoul" translate="yes" xml:space="preserve">
+          <source> commits a charging foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> padaro apmokestinimo blogo</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAHoldingFoul" translate="yes" xml:space="preserve">
+          <source> commits a holding foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> įpareigoja ūkio užteršto</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAKickingFoul" translate="yes" xml:space="preserve">
+          <source> commits a kicking foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> padaro kicking blogo</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAnIllegalTackleFoul" translate="yes" xml:space="preserve">
+          <source> commits an illegal tackle foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> įsipareigoja galutinai sustabdyti neteisėtą spręsti blogo</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAPushingFoul" translate="yes" xml:space="preserve">
+          <source> commits a pushing foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> padaro stūmimas blogo</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsATrippingFoul" translate="yes" xml:space="preserve">
+          <source> commits a tripping foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> padaro užkliuvimo blogo</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasAnIllegalThrowIn" translate="yes" xml:space="preserve">
+          <source> has an illegal throw in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> yra neteisėta mesti</target>
+        </trans-unit>
+        <trans-unit id="Resx/IsOffsides" translate="yes" xml:space="preserve">
+          <source> is offisides</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> yra offisides</target>
+        </trans-unit>
+        <trans-unit id="Resx/KicksTheBallOutOfBounds" translate="yes" xml:space="preserve">
+          <source> kicks the ball out of bounds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> prasideda kamuolys užsienyje</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeftFoot" translate="yes" xml:space="preserve">
+          <source>left foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">kaire koja</target>
+        </trans-unit>
+        <trans-unit id="Resx/LostTheDribble" translate="yes" xml:space="preserve">
+          <source> lost the dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> prarado driblingas</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodPass" translate="yes" xml:space="preserve">
+          <source> makes a good pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> daro geras praeiti</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentPass" translate="yes" xml:space="preserve">
+          <source> makes an excellent pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> daro puikus leidimas</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorPass" translate="yes" xml:space="preserve">
+          <source> makes a poor pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> daro prastas praeiti</target>
+        </trans-unit>
+        <trans-unit id="Resx/RightFoot" translate="yes" xml:space="preserve">
+          <source>right foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">dešinės kojos</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a shot and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano kulka ir hits po</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a shot and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano kulka ir ji yra užblokuotas</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndScores" translate="yes" xml:space="preserve">
+          <source> takes a shot and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> kulka ir balai</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tutorial" translate="yes" xml:space="preserve">
+          <source>Tutorial</source>
+          <target state="translated" state-qualifier="tm-suggestion">tutorial</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockAdjustedToPeriod" translate="yes" xml:space="preserve">
+          <source> Clock adjusted to period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> Laikrodis į laikotarpį</target>
+        </trans-unit>
+        <trans-unit id="Resx/DrawsAFoul" translate="yes" xml:space="preserve">
+          <source> draws a foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> atkreipia užteršto</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dribbles" translate="yes" xml:space="preserve">
+          <source> dribbles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> dribbles</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForFoulPlay" translate="yes" xml:space="preserve">
+          <source> gets a red card for foul play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> gauna raudoną kortelę Nepadorumas žaisti</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForIllegalHands" translate="yes" xml:space="preserve">
+          <source> gets a red card for illegal hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> gauna raudoną kortelę už neteisėtą rankas</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForSecondYellowCard" translate="yes" xml:space="preserve">
+          <source> gets a red card for second yellow card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> gauna raudoną kortelę už antrą geltoną kortelę</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForViolentConduct" translate="yes" xml:space="preserve">
+          <source> gets a red card for violent conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> gauna raudoną kortelę už smurtinio elgesio</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsAYellowCardForDelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source> gets a yellow card for delaying restart of play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> gauna geltoną kortelę delsė naujo žaidimo</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsAYellowCardForUnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source> gets a yellow card for unsportsmanlike conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> gauna geltoną kortelę už nepagrįstų elgesio</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasATackle" translate="yes" xml:space="preserve">
+          <source> has a tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> yra yra spręsti</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasAThrowIn" translate="yes" xml:space="preserve">
+          <source> has a throw in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> turi mesti</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodCross" translate="yes" xml:space="preserve">
+          <source> makes a good cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> daro gera kryžius</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodDropKick" translate="yes" xml:space="preserve">
+          <source> makes a good drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> daro gerą drop kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentCross" translate="yes" xml:space="preserve">
+          <source> makes an excellent cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> daro puikus kryžiaus</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentDropKick" translate="yes" xml:space="preserve">
+          <source> makes an excellent drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> daro puikų drop kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorCross" translate="yes" xml:space="preserve">
+          <source> makes a poor cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> daro prastas kryžius</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorDropKick" translate="yes" xml:space="preserve">
+          <source> makes a poor drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> daro prastas drop kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/SwitchedPositionsWith" translate="yes" xml:space="preserve">
+          <source> switched positions with </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> komutuojamo pozicijas su </target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesACornerKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a corner kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> kampe ateityje ir balai</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesADirectFreeKick" translate="yes" xml:space="preserve">
+          <source> takes a direct free kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano tiesioginis LCD</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesADirectFreeKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a direct free kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano tiesioginis LCD ir balai</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAGoalKick" translate="yes" xml:space="preserve">
+          <source> takes a goal kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano tikslas ateityje</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAGoodCornerKick" translate="yes" xml:space="preserve">
+          <source> takes a good corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano geras kampe ateityje</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAnExcellentCornerKick" translate="yes" xml:space="preserve">
+          <source> takes an excellent corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano yra puikus kampo LCD</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAnIndirectFreeKick" translate="yes" xml:space="preserve">
+          <source> takes an indirect free kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano netiesioginio LCD</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano baudinys ir hits po</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano bausmės ateityje ir ji yra užblokuotas</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano baudinys ir praleidžia</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> baudinys ir balai</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPoorCornerKick" translate="yes" xml:space="preserve">
+          <source> takes a poor corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano prastos kampe ateityje</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano shootout ateityje ir hits po</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano shootout ateityje ir ji yra užblokuotas</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> mano shootout ateityje ir praleidžia</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> shootout ateityje ir balai</target>
+        </trans-unit>
+        <trans-unit id="Resx/BlueCross" translate="yes" xml:space="preserve">
+          <source>Blue Cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blue Cross</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueRed" translate="yes" xml:space="preserve">
+          <source>Blue Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mėlyna raudona</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueStripe" translate="yes" xml:space="preserve">
+          <source>Blue Stripe</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mėlyna juostelė</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueWhite" translate="yes" xml:space="preserve">
+          <source>BlueWhite</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">BlueWhite</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/DarkBlue" translate="yes" xml:space="preserve">
+          <source>Dark Blue</source>
+          <target state="translated" state-qualifier="tm-suggestion">Tamsiai mėlyna</target>
+        </trans-unit>
+        <trans-unit id="Resx/DarkRed" translate="yes" xml:space="preserve">
+          <source>Dark Red</source>
+          <target state="translated" state-qualifier="tm-suggestion">Tamsiai raudona</target>
+        </trans-unit>
+        <trans-unit id="Resx/GermanColors" translate="yes" xml:space="preserve">
+          <source>German Colors</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vokietijos spalvų</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/GreenRed" translate="yes" xml:space="preserve">
+          <source>Green Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žalia raudona</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/LightBlue" translate="yes" xml:space="preserve">
+          <source>Light Blue</source>
+          <target state="translated" state-qualifier="tm-suggestion">Šviesiai mėlyna</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Orange" translate="yes" xml:space="preserve">
+          <source>Orange</source>
+          <target state="translated" state-qualifier="tm-suggestion">Oranžinė</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/OrangeGreen" translate="yes" xml:space="preserve">
+          <source>Orange Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Oranžinis Green</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Red" translate="yes" xml:space="preserve">
+          <source>Red</source>
+          <target state="translated" state-qualifier="tm-suggestion">Raudona</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedBlack" translate="yes" xml:space="preserve">
+          <source>Red Black</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raudona juoda</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedGreen" translate="yes" xml:space="preserve">
+          <source>Red Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raudona žalia</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedStripes" translate="yes" xml:space="preserve">
+          <source>Red Stripes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raudonos juostelės</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteBlue" translate="yes" xml:space="preserve">
+          <source>White Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Balta mėlyna</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteGreen" translate="yes" xml:space="preserve">
+          <source>White Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Balta žalia</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteRed" translate="yes" xml:space="preserve">
+          <source>White Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Balta raudona</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/YellowBlue" translate="yes" xml:space="preserve">
+          <source>Yellow Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geltonos spalvos mėlyna</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/YellowGreen" translate="yes" xml:space="preserve">
+          <source>Yellow Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geltonai žalia</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Demo" translate="yes" xml:space="preserve">
+          <source>Demo</source>
+          <target state="translated" state-qualifier="tm-suggestion">Parodomoji versija</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddNewPlayer" translate="yes" xml:space="preserve">
+          <source>Add New Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridėti naujas žaidėjas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Timeline" translate="yes" xml:space="preserve">
+          <source>Timeline</source>
+          <target state="translated" state-qualifier="tm-suggestion">Laiko juosta</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectTeam" translate="yes" xml:space="preserve">
+          <source>Select Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pasirinkite komandą</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name option in teams drop down on game details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/KicksBallIntoOwnGoal" translate="yes" xml:space="preserve">
+          <source> kicks the ball into own goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> prasideda kamuolį į savo vartus</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectJersey" translate="yes" xml:space="preserve">
+          <source>Select Jersey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pasirinkite Jersey</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectLeague" translate="yes" xml:space="preserve">
+          <source>Select League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pasirinkite lyga</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerMinutes" translate="yes" xml:space="preserve">
+          <source>Player Minutes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas minučių</target>
+        </trans-unit>
+        <trans-unit id="Resx/Statistics" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <target state="translated" state-qualifier="tm-suggestion">Statistika</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">screen title</note>
+          </trans-unit>
+        <trans-unit id="Resx/StatsDisclaimer" translate="yes" xml:space="preserve">
+          <source>Player Minutes updated at end of period and end of game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidėjas minučių atnaujinta laikotarpio pabaigos ir pabaigoje žaidimas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Legend" translate="yes" xml:space="preserve">
+          <source>Legend</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Legenda</target>
+        </trans-unit>
+        <trans-unit id="Resx/User" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <target state="translated" state-qualifier="tm-suggestion">user</target>
+        </trans-unit>
+        <trans-unit id="Resx/eMail" translate="yes" xml:space="preserve">
+          <source>eMail</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">el. paštas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Password" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated" state-qualifier="tm-suggestion">Password</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetPassword" translate="yes" xml:space="preserve">
+          <source>Reset Password</source>
+          <target state="translated" state-qualifier="tm-suggestion">Nustatyti iš naujo slaptažodį</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="translated" state-qualifier="tm-suggestion">Apie</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateApp" translate="yes" xml:space="preserve">
+          <source>Rate App</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kurso programa</target>
+        </trans-unit>
+        <trans-unit id="Resx/Fouls" translate="yes" xml:space="preserve">
+          <source>Fouls</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pražangas</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseApp" translate="yes" xml:space="preserve">
+          <source>Purchase App</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pirkimo App</target>
+        </trans-unit>
+        <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="translated" state-qualifier="tm-suggestion">Žinynas</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppPrompt" translate="yes" xml:space="preserve">
+          <source>Unlock all stats?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Atrakinti visus statistika?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoGame" translate="yes" xml:space="preserve">
+          <source>Demo Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Demo žaidimas</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoToDemoGamePrompt" translate="yes" xml:space="preserve">
+          <source>Try scoring the demo game?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pabandykite taškų žaidimo demo?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoLeftButton" translate="yes" xml:space="preserve">
+          <source>Try It</source>
+          <target state="translated" state-qualifier="tm-suggestion">Pabandykite</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoRightButton" translate="yes" xml:space="preserve">
+          <source>No Thanks</source>
+          <target state="translated" state-qualifier="tm-suggestion">Ne, ačiū</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rate" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="translated" state-qualifier="tm-suggestion">Rate</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us.  Please rate this app. Rating the app will enable full stats functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūsų atsiliepimai yra labai svarbu mums.  Prašome Įvertinkite šią programą.</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us.  Would you like to rate this app?  Rating the app will enable full stats functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jūsų atsiliepimai yra labai svarbu mums.  Ar norite Įvertinkite šią programą?</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/RateLeftButton" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated" state-qualifier="tm-suggestion">Taip</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateRightButton" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated" state-qualifier="tm-suggestion">Ne</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppLeftButton" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="translated" state-qualifier="tm-suggestion">Pirkimas</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppRightButton" translate="yes" xml:space="preserve">
+          <source>Not Now</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ne dabar</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayerToBench" translate="yes" xml:space="preserve">
+          <source>Add Player To Bench</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridėti Player stendo</target>
+        </trans-unit>
+        <trans-unit id="Resx/Advance" translate="yes" xml:space="preserve">
+          <source>Advance</source>
+          <target state="translated" state-qualifier="tm-suggestion">ADVANCE</target>
+        </trans-unit>
+        <trans-unit id="Resx/AdvanceToNextPeriod" translate="yes" xml:space="preserve">
+          <source>Advance to next period?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Iš anksto į kitą laikotarpį?</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayBoxscore" translate="yes" xml:space="preserve">
+          <source>Away Boxscore</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nuo Boxscore</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToAdjustClock" translate="yes" xml:space="preserve">
+          <source>Click to adjust clock</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Paspauskite, jei norite nustatyti laikrodį</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToAdjustPeriod" translate="yes" xml:space="preserve">
+          <source>Click to adjust period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Paspauskite, jei norite koreguoti laikotarpį</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToStartOrStopGameTime" translate="yes" xml:space="preserve">
+          <source>Click to Start or Stop game time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spustelėkite norėdami pradėti arba sustabdyti žaidimo laiko</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockDown" translate="yes" xml:space="preserve">
+          <source>Clock Down</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikrodis žemyn</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockUp" translate="yes" xml:space="preserve">
+          <source>Clock Up</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikrodis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Edit" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Redaguoti</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/EditGame" translate="yes" xml:space="preserve">
+          <source>Edit Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Redaguoti žaidimas</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/EditPlayByPlay" translate="yes" xml:space="preserve">
+          <source>Edit Play By Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Redaguoti žaisti žaisti</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameManager" translate="yes" xml:space="preserve">
+          <source>Game Manager</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidimas vadybininkas</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/GameStatistics" translate="yes" xml:space="preserve">
+          <source>Game Statistics</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidimo statistiką</target>
+        </trans-unit>
+        <trans-unit id="Resx/Header" translate="yes" xml:space="preserve">
+          <source>Header</source>
+          <target state="translated" state-qualifier="tm-suggestion">Viršutinysis kolontitulas</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeBoxscore" translate="yes" xml:space="preserve">
+          <source>Home Boxscore</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Namų Boxscore</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoPlaysToUndo" translate="yes" xml:space="preserve">
+          <source>There are no plays to undo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Yra ne labai anuliuoti</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyGoal" translate="yes" xml:space="preserve">
+          <source>Penalty Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bausmės tikslas</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayByPlay" translate="yes" xml:space="preserve">
+          <source>Play By Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaisti žaidimą</target>
+        </trans-unit>
+        <trans-unit id="Resx/Share" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="translated" state-qualifier="tm-suggestion">Bendrai naudoti</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootsLeftFoot" translate="yes" xml:space="preserve">
+          <source>Shoots Left Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ūgliai kaire koja</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShootsRightFoot" translate="yes" xml:space="preserve">
+          <source>Shoots Right Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ūgliai dešinės kojos</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShotGoal" translate="yes" xml:space="preserve">
+          <source>Shot Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulka tikslas</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotWithLeftFoot" translate="yes" xml:space="preserve">
+          <source>Shot With Left Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulka su kaire koja</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotWithRightFoot" translate="yes" xml:space="preserve">
+          <source>Shot With Right Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kulka su dešinės kojos</target>
+        </trans-unit>
+        <trans-unit id="Resx/Undo" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="translated" state-qualifier="tm-suggestion">Anuliuoti	Ctrl+Z</target>
+        </trans-unit>
+        <trans-unit id="Resx/WasUndone" translate="yes" xml:space="preserve">
+          <source> was undone</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> buvo anuliuotas.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Menu" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="translated" state-qualifier="tm-suggestion">Valgiaraštis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="translated" state-qualifier="tm-suggestion">Pirkimas</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAllStats" translate="yes" xml:space="preserve">
+          <source>Purchase All Stats?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pirkti visą statistiką?</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine1" translate="yes" xml:space="preserve">
+          <source>Full stats package includes: Player Minutes, Plus Minus,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visa statistika paketą įeina: žaidėjas minučių, plius Minus,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine2" translate="yes" xml:space="preserve">
+          <source>Pass, Turnover, Offsides,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Leidimas, apyvarta, Offsides,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine3" translate="yes" xml:space="preserve">
+          <source>Foul Committed, Out of Bounds, Cross, Throw In, Corner Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Blogo padarė, užsienyje, kryžiaus, mesti, kampe ateityje,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine4" translate="yes" xml:space="preserve">
+          <source>Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Reikmenys, vartininkas Kick, savo vartus, nemalonus tempimo, tiesiogiai laisvosios Kick,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine5" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Netiesioginis LCD, baudinys, geltoną kortelę, raudona kortelė, lašas ateityje,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine6" translate="yes" xml:space="preserve">
+          <source>Dribble, Shootout Kick, Substitution</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Driblingas, Shootout LCD, pakeitimo</target>
+        </trans-unit>
+        <trans-unit id="Resx/Loading" translate="yes" xml:space="preserve">
+          <source>Loading ...</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pakrovimo...</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayerFromRoster" translate="yes" xml:space="preserve">
+          <source>Delete Player From Team Roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Panaikinti žaidėjo iš grafikas</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          </trans-unit>
+        <trans-unit id="Resx/FromPlayerList" translate="yes" xml:space="preserve">
+          <source> from player list</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> žaidėjas sąraše</target>
+        </trans-unit>
+        <trans-unit id="Resx/FromRoster" translate="yes" xml:space="preserve">
+          <source> from roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> iš grafiko</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeAndAwayCanNotBeSameTeam" translate="yes" xml:space="preserve">
+          <source>Home team and away team can not be the same. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Namų komanda ir komanda negali būti tas pats. Žaidimas nėra įrašomi.</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameStarted" translate="yes" xml:space="preserve">
+          <source>Game Started</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žaidimas prasideda</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToBuy" translate="yes" xml:space="preserve">
+          <source>- Click Image To Buy Full Version -</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">-Paspauskite pirkti pilna versija-</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword5" translate="yes" xml:space="preserve">
+          <source>sports</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sportas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Feedback" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="translated" state-qualifier="tm-suggestion">Atsiliepimai</target>
+        </trans-unit>
+        <trans-unit id="Resx/_description" translate="yes" xml:space="preserve">
+          <source>The most intuitive and complete Soccer Scoring application on the market.  Over 50 stats available.  Try it free today!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+Player Stats include:
+
+Minutes played 
+Plus-minus 
+Goals
+Pases
+Offsides
+Red Card
+Turnovers
+and many more!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Labiausiai intuityviojo ir pilnas futbolo taškų taikymo rinkoje.  Daugiau nei 50 statistika galima.  Bandyti ją nemokamai šiandien!
+
+Sekti: komandos Žaidimai lygos žaidėjų žaidėjas statistika apima: minučių grojo plius-minus tikslų Pases Offsides raudona kortelė apyvartas ir daug daugiau!
+
+Žaidimas taip pat: laikrodis ir laikrodis žemyn neblogą lauko sudėčių nežinomas žaidėjas parinkčių redagavimas/atšaukti vaidina neribota Pavadavimai pritaikoma ir laikotarpio trukmė.
+
+
+Rodyti išsamią veiksmų žaidimas, dalis statistika apie Twitter, Facebook, Instagram, elektroninio pašto, teksto ir daug daugiau!
+
+Lengva nustatyti iki, ir lengva naudotis!  Pradėkite stebėti savo kitą žaidimą per kelias minutes!</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayerFromPlayerList" translate="yes" xml:space="preserve">
+          <source>Delete Player From Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Panaikinti žaidėjo iš leistuvo sąraše</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddNewPlayerToPlayerList" translate="yes" xml:space="preserve">
+          <source>Add New Player To Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pridėti naują žaidėjo prie žaidėjo sąrašą</target>
+        </trans-unit>
+        <trans-unit id="Resx/FollowUsOnTwitter" translate="yes" xml:space="preserve">
+          <source>Follow us on Twitter</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sekite mūsų Twitter</target>
+        </trans-unit>
+        <trans-unit id="Resx/_IAPDescription" translate="yes" xml:space="preserve">
+          <source>Full Stats package includes: Player Minutes, Plus Minus,
+Pass, Turnover, Offsides, Foul Committed, Out of Bounds, Cross, Throw In,
+Corner Kick, Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,
+Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,
+Dribble, Shootout Kick, Substitution</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visa statistika paketą įeina: žaidėjas minučių, plius Minus, Pass, apyvarta, Offsides, blogo padarė, iš ribų, kryžius, mesti, kampo LCD, spręsti, vartininkas Kick, savo vartus, Nepadorumas sudarytas, tiesiogiai Free Kick, netiesioginio Free Kick, baudinys, geltoną kortelę, raudona kortelė, Drop Kick, driblingas, Shootout Kick, pakeitimo</target>
+        </trans-unit>
+        <trans-unit id="Resx/_iapHeader" translate="yes" xml:space="preserve">
+          <source>Full Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Visa statistika</target>
+        </trans-unit>
+        <trans-unit id="Resx/_FreeDescription" translate="yes" xml:space="preserve">
+          <source>The most intuitive and complete Soccer Scoring application on the market!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+The free version includes tracking of Shots and Goals!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Labiausiai intuityvus ir visiškai futbolo įgarsinimo programa rinkoje!
+
+Sekti: komandos Žaidimai lygos žaidėjų nemokama versija yra stebėjimo kadrų ir tikslus!
+
+Žaidimas taip pat: laikrodis ir laikrodis žemyn neblogą lauko sudėčių nežinomas žaidėjas parinkčių redagavimas/atšaukti vaidina neribota Pavadavimai pritaikoma ir laikotarpio trukmė.
+
+
+Rodyti išsamią veiksmų žaidimas, dalis statistika apie Twitter, Facebook, Instagram, elektroninio pašto, teksto ir daug daugiau!
+
+Lengva nustatyti iki, ir lengva naudotis!  Pradėkite stebėti savo kitą žaidimą per kelias minutes!</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodNotStarted" translate="yes" xml:space="preserve">
+          <source>The period has not started yet. Do you wish to continue?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Laikotarpį dar neprasidėjo. Ar norite tęsti?</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotStarted" translate="yes" xml:space="preserve">
+          <source>Not Started</source>
+          <target state="translated" state-qualifier="tm-suggestion">Nepradėta</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword4" translate="yes" xml:space="preserve">
+          <source>score</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">rezultatas</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword3" translate="yes" xml:space="preserve">
+          <source>UTrack</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">UTrack</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword2" translate="yes" xml:space="preserve">
+          <source>statistics</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">statistika</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword1" translate="yes" xml:space="preserve">
+          <source>soccer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Futbolas</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoEvents" translate="yes" xml:space="preserve">
+          <source>no events</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">jokių reiškinių</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kickoff" translate="yes" xml:space="preserve">
+          <source>KICKOFF</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">KICKOFF</target>
+        </trans-unit>
+        <trans-unit id="Resx/HalfTime" translate="yes" xml:space="preserve">
+          <source>HALF-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">PUSĘ LAIKO</target>
+        </trans-unit>
+        <trans-unit id="Resx/FullTime" translate="yes" xml:space="preserve">
+          <source>FULL-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">VISĄ DARBO DIENĄ</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtraTimeHalfTime" translate="yes" xml:space="preserve">
+          <source>EXTRA-TIME HALF-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">PAPILDOMO LAIKO DALINIŲ</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtraTimeFullTime" translate="yes" xml:space="preserve">
+          <source>EXTRA-TIME FULL-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">PAPILDOMO LAIKO VISĄ LAIKĄ</target>
+        </trans-unit>
+        <trans-unit id="Resx/EndPeriod" translate="yes" xml:space="preserve">
+          <source>End Period </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pabaigos laikotarpį </target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

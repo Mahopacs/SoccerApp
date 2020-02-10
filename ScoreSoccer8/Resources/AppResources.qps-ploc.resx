@@ -1,0 +1,1614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>qps-ploc</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>[46916][!!_ΜЎ ÂΡÞĹĮČÂТÎÔŇ_!!!!]</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>[5588D][!!_áďď_!!]</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>[DFFBB][!!_Μèйù Ìţęм_!!]</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>[AB4A8][!!_Јéřşèÿ_!!]</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>[834D2][!!_Ŗęqûîŕéđ_!!]</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>[F62E3][!!_Ĺêàĝµê_!!]</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>[E82C3][!!_Ѓęþôŕτ Тÿρê_!!]</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>[FF07F][!!_РĺáУęřŝ_!!]</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>[F4BAC][!!_Рļáý Ļįśť_!!]</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>[36F7A][!!_ΡĺàУêř Šţãţş_!!]</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>[3B022][!!_Τèãmş_!!]</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>[7F25B][!!_Τêãm Šτãťš_!!]</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>[FE42A][!!_Ŀèãģùéš_!!]</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>[D1B0D][!!_Ćôήţáĉт Ņãmè_!!]</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>[43E66][!!_Ľêáğúé йãmę йòť êйťèŗéď. Ĺéâġúé йôт şâνéð._!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>[E46B9][!!_Àĉτíνè_!!]</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>[6B516][!!_Šтàţùŝ_!!]</value>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>[BF330][!!_Ġãмę_!!]</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>[78E92][!!_Àďđ Ĝãmê_!!]</value>
+    <comment>icon</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>[A0F15][!!_Ģàmé Įήƒô_!!]</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>[13F79][!!_Мâйâĝêŕ_!!]</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>[6FEA8][!!_Þèřįòđś_!!]</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>[7D5FA][!!_Ϋêš_!!]</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>[39DEE][!!_Рļàŷęřš þéř ţèám йôτ ŝèт. Ģámę иõт ŝâνèð._!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>[ABAB8][!!_Śęàŗĉћ_!!]</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>[254FE][!!_Ċáη ηõť ćћãйğé įήƒõřmáťîõи ôи à ďêĺęτéđ рĺãŷêŗ. Þłâўéѓ иòτ šàνęð._!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>[9FDA2][!!_Ẅêìġћτ_!!]</value>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>[FF8B2][!!_Ŷèłļõẁ Ċãѓď_!!]</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>[2A0A9][!!_Ŝћòт Ďęťãîłš_!!]</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>[C38F0][!!_Ťѓîþрįйġ_!!]</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>[E67EE][!!_Vįòłéήţ Ĉõиđûĉт_!!!!]</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>[47015][!!_Şтãτš Рįćќêŕ_!!]</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value>[4B731][!!_ тãќęś á ŝнõţ àиð мîšşęś_!!!!!!!!]</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>[56A47][!!_Βĺóčкêď ßŷ_!!]</value>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>[B4905][!!_Śнóţ Ñôť Óή Ģõãľ_!!!!]</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>[3BC61][!!_Тęám_!!]</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>[8F73F][!!_Čłòċќ ήõт ęηтêŗêð. ÞļàУ ήòť śâνéđ._!!!!!!!!!!]</value>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>[57593][!!_Ôτђêѓ Тęâм Ğôãľíè_!!!!!!]</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>[C261E][!!_Ôùŗ Тêãм_!!]</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>[1FC54][!!_Рèŗíóď/Čļõčķ νâĺùé ćáη иôť ьè â ťíмé įй тħè ƒùтûřé. Рĺêâśé µşè ğãmé máηãĝèř ťó ťřâċĸ ã рłáý îй ťħê ƒûťúŕé. Þłáŷ йôť ŝáνêď._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>[F94B0][!!_ÞĺâУêŗ 9_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>[6A28B][!!_Âŵàŷ_!!]</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>[4ED2F][!!_Рĺáÿ_!!]</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>[EBDD6][!!_Üиќйóẃή_!!]</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>[D631D][!!_Ģámè şтãŕţęđ, śĉŗêèй đîšáьļêď_!!!!!!!!]</value>
+    <comment></comment>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>[EADFB][!!_Įиνáĺîđ ÒТ Ŀèиģťћ. Ğámé йõţ ŝáνèð._!!!!!!!!!!]</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>[99BAB][!!_ßļòċќş_!!]</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>[A7C52][!!_Àŝşįšтś_!!]</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>[954CB][!!_Ўéľĺõŵ Ċàřđš Ûиşþôѓτśmãиļìиé Ćõйðùċţ_!!!!!!!!!!]</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>[0B2F7][!!_ВìŕťћÐâτę_!!]</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value>[B36D0][!!_ ťãĸéš â ŝђòτ áйď şĉóѓèş_!!!!!!!!]</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>[B2439][!!_Тùţóŗíáł_!!]</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value>[B0DC1][!!_ Ĉĺôćк ãðĵúśτèđ τô þèŗìòď_!!!!!!!!]</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value>[D5DB7][!!_ τãќêś à рôõѓ ćóŕиęŗ ķíċķ_!!!!!!!!]</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value>[A8BE4][!!_ ťâķęş á şђõòťóûτ ĸìčķ àήđ śćôŕèš_!!!!!!!!!!]</value>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>[B1378][!!_Ýéłľòẅ Ĝřêèη_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>[25AD3][!!_Ďêмó_!!]</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>[44D0E][!!_Ãđđ Ńéŵ Ρļàŷèŗ_!!!!]</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>[4F79E][!!_Ťíмęľįиé_!!]</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>[6A017][!!_Ŝęļéċť Ţęâм_!!]</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value>[F6F03][!!_ кîĉķš τнè Бàĺľ ìήтò ôẃи ĝòáľ_!!!!!!!!]</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>[00335][!!_Śéļęčť Ŀêâĝùę_!!]</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>[ECEE5][!!_Šτãτîśťíčŝ_!!]</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>[3DE8D][!!_Þłâýèŗ Μîиûţéş_!!!!]</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>[E7CB6][!!_Śêĺéċť Јèŕšęў_!!]</value>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>[A872F][!!_Ŷéłľóŵ Βľµé_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>[6110B][!!_Ẃĥįτê Ŗęď_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>[26453][!!_Ẃĥîţę Ģŕéęη_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>[DDEEB][!!_Ẅĥįτé βłûê_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>[A5659][!!_Ŕêď Šţѓîрęŝ_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>[42A85][!!_Ѓèđ Ĝѓêêй_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>[4CC51][!!_Řêđ ßłàċк_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>[CB8DF][!!_Ŗêđ_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>[D0901][!!_Ôŕâηġè Ĝѓéèη_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>[F5BBC][!!_Òŗãηĝé_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>[48893][!!_Ļìğћτ Вłùê_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>[D62C7][!!_Ĝřèèи Ѓęď_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>[778AF][!!_Ĝéѓmàи Ćóĺòŗŝ_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>[4C5E4][!!_Ďàŕĸ Ŕêđ_!!]</value>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>[A35B2][!!_Ďáŕќ βļûè_!!]</value>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>[EF61A][!!_ЬļûęẂĥįťę_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>[2CE50][!!_Ъĺµé Šţѓíρé_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>[E26E6][!!_ßľµê Ѓêď_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>[2A992][!!_ßĺùê Ĉřôśş_!!]</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value>[EA53C][!!_ ţáкêš á śђòôтòûт кįĉķ ãήð мįśśęŝ_!!!!!!!!!!]</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value>[7F263][!!_ ţáќéŝ â śђôòťõúţ ќìĉк àиđ îτ îŝ ъļõčĸèð_!!!!!!!!!!!!]</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value>[9B8D2][!!_ ťàќèş â ŝћóóťôùť ķìćĸ âйď ħįτś τђè ρôšт_!!!!!!!!!!!!]</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value>[5DE60][!!_ ťâкéŝ á рèиãłťÿ ќįćќ ãήð šċõѓêś_!!!!!!!!!!]</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value>[4FDEF][!!_ ţáкèš à рęήâĺтУ ĸîćќ ãηđ míŝśéŝ_!!!!!!!!!!]</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value>[BB889][!!_ ťãќèś ã þęηãĺţў ĸíċĸ âηđ ìţ íş ьľóċќéď_!!!!!!!!!!!!]</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value>[5FAC9][!!_ ţáĸęş à рèήáłťÿ ĸíĉĸ ãйð ђįťś ţнę þôśт_!!!!!!!!!!!!]</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value>[A463B][!!_ τâќèş àη ìηðìѓèĉτ ƒřęê ĸíĉќ_!!!!!!!!]</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value>[2B9B2][!!_ ťãќéś àй êхĉéĺĺèήţ ćôŕήęř ĸîčк_!!!!!!!!!!]</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value>[FFA3F][!!_ ţàķêş â ġôòð ĉòŕйèŗ кíĉќ_!!!!!!!!]</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value>[5842E][!!_ ţàќéš à ĝòãĺ кìčķ_!!!!!!]</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value>[74199][!!_ ťàкéš à đîŕęċţ ƒřéé кįĉк àиď śćóŗèş_!!!!!!!!!!]</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value>[A8167][!!_ тàкéš à ðîŗęċţ ƒŕèé ќíčķ_!!!!!!!!]</value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value>[116BD][!!_ ţâĸéš â ĉôŕиêѓ ĸìčк áηð śčóřęş_!!!!!!!!!!]</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value>[7627E][!!_ мâќêś ã ρóôř ćřòśŝ_!!!!!!]</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value>[4FCC8][!!_ śŵìťćћéď рôŝįτįôйš ẅîťћ _!!!!!!!!]</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value>[5C6F4][!!_ màĸęś ã рôóŗ đřõþ ĸįċĸ_!!!!!!]</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value>[31FEC][!!_ mãкéś ãи èхćéľľêήт ċŗòşš_!!!!!!!!]</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value>[B97D0][!!_ мáĸèŝ âй éхċęľļéйτ ðŕóρ кìćк_!!!!!!!!]</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value>[542B0][!!_ мàкéŝ à ġõòð čŕôŝś_!!!!!!]</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value>[5F24A][!!_ мàķèš à ġóóð ďѓòр кíċк_!!!!!!]</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value>[A8DA9][!!_ ĥãş à тħřôẃ įή_!!!!]</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value>[01DA5][!!_ ħàś à ţáćĸļè_!!]</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value>[9316D][!!_ ĝéтš â ўêĺľõẁ ċářđ ƒõŕ ùйśþòŕţšmãηĺîĸé ċóйðúċт_!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value>[880D1][!!_ ğęтš â ýęłľòẁ ĉáѓđ ƒóŗ đêĺáŷíйĝ řéśţáŗт õƒ þļàў_!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value>[9397E][!!_ ďŗâẁš â ƒóµĺ_!!]</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value>[3FBCC][!!_ ġèтś ã ŕéď ĉáŕð ƒôѓ νìóļêиτ ćõήďúćτ_!!!!!!!!!!]</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value>[1B83B][!!_ ĝêťš ã ѓéð ċáŗď ƒôŗ ŝęćòйđ ŷèłłõŵ ċâŗđ_!!!!!!!!!!!!]</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value>[6CA23][!!_ ġêţš ã ŗèð ćãѓð ƒôѓ ìĺłéģâł ħàηďş_!!!!!!!!!!]</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value>[2217E][!!_ ģéτś à ŗêð ċâřđ ƒõŗ ƒóûĺ рłâÿ_!!!!!!!!]</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value>[2DCA9][!!_ ðѓîъБľéş_!!]</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value>[456DF][!!_ τáкèŝ â ŝħòť àиđ ìť îś ъľòčķęď_!!!!!!!!!!]</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value>[64BF9][!!_ τáкęš á śћõτ ãйð ĥîťŝ τђé ρõşτ_!!!!!!!!!!]</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>[10F5B][!!_říĝħτ ƒòóţ_!!]</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value>[60E58][!!_ mãĸèş â рóôŕ рáśŝ_!!!!!!]</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value>[DB02B][!!_ màķęś âή ę×ĉêłĺêит þâşś_!!!!!!!!]</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value>[A4EE3][!!_ mãķêś á ĝôóđ ρàşš_!!!!!!]</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value>[603E0][!!_ ĺôŝτ ťћę ďѓîвъľê_!!!!!!]</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>[3F6DB][!!_łêƒť ƒôõτ_!!]</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value>[9B690][!!_ ķíċĸś тнê Бáłł óúт ôƒ Бóûиđš_!!!!!!!!]</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value>[7D540][!!_ îš óƒƒíşîďêŝ_!!]</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value>[E3B5C][!!_ ђâŝ ãй įľłèģàľ τĥŗôŵ ìй_!!!!!!!!]</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value>[DC12D][!!_ čõmmìτş á ťřìþρìηģ ƒôµĺ_!!!!!!!!]</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value>[CA1A0][!!_ čòmmîтś ã рµŝħįηġ ƒôûļ_!!!!!!]</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value>[C862C][!!_ čômmįţş ãή îłłéġãļ ţâċќĺę ƒóùľ_!!!!!!!!!!]</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value>[25F1E][!!_ ćóмmįτŝ â кîċĸîиģ ƒòùĺ_!!!!!!]</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value>[11302][!!_ čõмmíτş á нóļðįήġ ƒõúĺ_!!!!!!]</value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value>[45DCE][!!_ ĉôмmìтŝ ã ĉћãŗĝįηģ ƒôµļ_!!!!!!!!]</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>[37D62][!!_ ьУ _!!]</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value>[CB167][!!_ ãşśşìťęď вŷ _!!]</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>[9E675][!!_Ŷèľľõẅ Čářďš Đęĺâÿìиģ Ŕęŝтâŕτ Ôƒ Рĺâŷ_!!!!!!!!!!!!]</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>[6F327][!!_Ŷéļĺõẃ Ċâѓðŝ_!!]</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>[476C5][!!_Τùѓиõνęřŝ Ľõşτ ÐříБьłę_!!!!!!]</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>[E0C04][!!_Ţûřηòνéѓŝ Íłłęğâĺ Ţнѓóẁ Ìи_!!!!!!!!]</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>[5E695][!!_Ťµřήõνéѓš_!!]</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>[0B766][!!_Ťħřòẁ Íήş_!!]</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>[16A9D][!!_Τàčќłêş_!!]</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>[65C0B][!!_Šћóťš Ôи Ģòáľ_!!]</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>[8A7F5][!!_Šћóтś Ήįт Ρòşť_!!!!]</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>[AD9B4][!!_Śђõťś Мîşşéð_!!]</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>[32059][!!_Šĥõтś Ģõáł_!!]</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>[2D035][!!_Šћòτś βłõćќęđ_!!]</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>[630A8][!!_Śнóťŝ_!!]</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>[0CAD1][!!_Śћóòтôµţ Ķìċкś Мįššêð_!!!!!!]</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>[70748][!!_Şĥóòţôµт Кìĉķş Ĥìţ Ρõşť_!!!!!!]</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>[13530][!!_Śĥóòтôúţ Ќíćкŝ Ġôáľ_!!!!!!]</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>[F4BC4][!!_Šнóôтõùť Κîċкş ßłõċќéð_!!!!!!]</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>[0D0D6][!!_Ŝнòòťòúт Ķíčкś_!!!!]</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>[A4D61][!!_Şâνêş_!!]</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>[82237][!!_Ѓéď Ćàřďş Vìóľêηţ Ĉóйďµċţ_!!!!!!!!]</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>[BB360][!!_Ѓéđ Ċàѓðš Şéċóήđ Ϋęłľóẅ Ċâѓð_!!!!!!!!]</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>[2FB59][!!_Řêđ Ĉàŗđş Ìļêģãł Ĥàиđŝ_!!!!!!]</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>[08EB4][!!_Ŗęď Ćâŗđş ₣òµļ Þľáÿ_!!!!!!]</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>[2E25F][!!_Ѓéď Čâŗđŝ_!!]</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>[DBD26][!!_Þêйãĺτÿ Κîċкś Нįτ Þóŝť_!!!!!!]</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>[9758E][!!_Þęηáłţÿ Ќíċĸŝ Мíşşêď_!!!!!!]</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>[CCD2D][!!_Þêйáłţÿ Κìčќŝ Ġóãĺ_!!!!!!]</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>[C3A36][!!_Ρêήáļťÿ Κíĉќś Ъĺóčĸèð_!!!!!!]</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>[20862][!!_Þêйáĺţў Кįĉĸś_!!]</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>[4F7B7][!!_Þáśšêš Þõõŗ_!!]</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>[F3DB6][!!_Þâššèś Ġôòđ_!!]</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>[B8B76][!!_Рãŝşęş Èхċęĺłęвиţ_!!!!!!]</value>
+    <comment></comment>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>[B776D][!!_Ρàşšêś_!!]</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>[D99B9][!!_ΜáđęÓẁηĠòâľ_!!]</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>[78667][!!_Íйðìŗęćт ₣řęè Ķìćкş_!!!!!!]</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>[BA2A4][!!_Ĝóàľŝ Âľĺõẁéď_!!]</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>[A95B7][!!_Ĝõãļ Ќíčќš_!!]</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>[05942][!!_Ğóáļş_!!]</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>[016B6][!!_₣õûļş Đŕâẁή_!!]</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>[C3C7D][!!_₣óµłş Ćôмmįţτęð Ţŕîρрíήġ_!!!!!!!!]</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>[90DE8][!!_₣òµĺś Čõmмíтτèď Рúŝђíηğ_!!!!!!]</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>[F1881][!!_₣óùļş Ĉômmįτтéð Κįčĸîйģ_!!!!!!]</value>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>[B6E22][!!_₣õúłś Ćóмmìťťéď Ċĥáŗģìиĝ_!!!!!!!!]</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>[B5641][!!_₣óµĺś Ćóммíťťéđ Ìľłêĝãļ Ţâċĸľę_!!!!!!!!]</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>[DDA5D][!!_₣õùĺŝ Ċòмmíττèð_!!!!]</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>[48FBF][!!_₣ôµĺş Ĉóммíτťêđ Нòļđîиġ_!!!!!!]</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>[A32EB][!!_Ðѓôρ Ķíċќŝ Þõôŗ_!!!!]</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>[B3D99][!!_Ðѓòþ Ķįčкŝ Ġôòď_!!!!]</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>[16988][!!_Ďŕóþ Кìċķş Èхčęľļêηţ_!!!!!!]</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>[1C754][!!_Ðřòρ Ķìċĸś_!!]</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>[B3871][!!_Ðîŗéčť ₣ŗęê Ķîčќş Ñôţ ₣õŕ Ĝõàļ_!!!!!!!!]</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>[3D8DF][!!_Ðìŕêċτ ₣řéê Ķįćĸŝ ₣õŗ Ģòâł_!!!!!!!!]</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>[ECD90][!!_Ðîŕéćτ ₣ѓéê Ќìčĸŝ_!!!!!!]</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>[E6C71][!!_Ċŕõśŝéš Рòõŕ_!!]</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>[95507][!!_Čѓòşśèś Ģõõđ_!!]</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>[B8B88][!!_Ćřóŝşęş Ę×ĉêłļéйτ_!!!!!!]</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>[2AD34][!!_Ĉѓõśśêş_!!]</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>[9A25E][!!_Ċòѓήêřş Þóôŗ_!!]</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>[F7507][!!_Ćóѓήèŗŝ Ĝòõđ_!!]</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>[94BFB][!!_Ċôŕйéŗś ₣óŕ Ġòáļ_!!!!]</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>[59767][!!_Ċõŕηéŗš Éхċęłłèήť_!!!!!!]</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>[438E3][!!_Ćóŕиèѓš_!!]</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>[5FF21][!!_Đęľéťę Тęãм_!!]</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>[4C10C][!!_Нõмè_!!]</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>[D0E19][!!_Ñóηè_!!]</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>[87C62][!!_Đęļéţé Рļáÿèѓ_!!]</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>[FA67A][!!_Đęłêтé Þļãý_!!]</value>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>[225D2][!!_Ďéĺèţè Ļęáģûê_!!]</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>[8E56C][!!_Ðèľéτé Ģâmê_!!]</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>[07029][!!_Þĺãýèŕ 8_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>[2BC86][!!_Рļáŷèř 7_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>[2BFE7][!!_Þĺáŷéѓ 6_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>[45762][!!_Рľãýęŗ 5_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>[DC791][!!_РľáУêŗ 4_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>[5686B][!!_Ρłàŷéř 30_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>[0D78A][!!_Ρłàýèř 3_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>[4D34C][!!_Þļãўèř 29_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>[232D9][!!_Ρłáŷèѓ 28_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>[29B5B][!!_Þľàÿéѓ 27_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>[2C2C5][!!_Рłâÿéѓ 26_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>[4A1CE][!!_ΡľâУęŕ 25_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>[1AEAB][!!_Ρĺâÿéѓ 24_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>[AD5BB][!!_Рĺãýèř 23_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>[07D4F][!!_Þļãÿêŗ 22_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>[728B7][!!_Ρĺãÿèѓ 21_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>[F8642][!!_Þĺáўèř 20_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>[AEEC7][!!_Þĺàÿęѓ 2_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>[030B7][!!_ΡļàУêŕ 19_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>[3EB92][!!_Ρłáÿęѓ 18_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>[94D8F][!!_Ρļãýéѓ 17_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>[DA242][!!_РľáУéŗ 16_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>[7D4AD][!!_ÞľàУęř 15_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>[3C3A7][!!_Þłàўêŕ 14_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>[9711E][!!_Ρłãўéŕ 13_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>[61CCE][!!_Рĺâýêŕ 12_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>[54B26][!!_Рĺâŷêř 11_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>[17439][!!_Рļâŷéŗ 10_!!]</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>[2AE48][!!_Þĺàÿèŗ 1_!!]</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>[95215][!!_Ņòτ á śûррòѓτêð ρĺãý τўþê ƒóŕ рБþ éðîť. Ρļáў ĉáй ήòţ Бê éđíţêð._!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>[92939][!!_Òþþôήęйť_!!]</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>[2A4A8][!!_Śţâτ Ďéščŕįрτįõй_!!!!]</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>[B8E6B][!!_Šţâţ Ċãτéĝóřŷ_!!]</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>[977B7][!!_Ρłàýéŕ Òµţ_!!]</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>[B9FDB][!!_Þłãŷèŕ Îη_!!]</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>[A47F2][!!_Þľáŷęŕ_!!]</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>[7E4B7][!!_Ρĺâÿ Đèťáìĺŝ_!!]</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>[63CAE][!!_Þéѓìòð_!!]</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>[650A8][!!_Óķ_!!]</value>
+    <comment>button</comment>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>[C2ABB][!!_Čáиčęľ_!!]</value>
+    <comment>button</comment>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>[C3CA2][!!_Ûиŝþòѓťşмàηĺįķè Ćõηđúĉť_!!!!!!]</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>[4CB3F][!!_Мìśś_!!]</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>[EE8BF][!!_Şêčõήď Ўèłłôŵ Ċâŗđ_!!!!!!]</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>[0AB83][!!_Рµśђìиġ_!!]</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>[4FD13][!!_Óµτ_!!]</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>[7C90C][!!_Ńôť ₣óŕ Ğõâľ_!!]</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>[F1A64][!!_Ĺôšť ĎѓįБьĺè_!!]</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>[A6E60][!!_Κįčķìиĝ_!!]</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>[3FAEC][!!_Ìĺłéġáļ Ţĥŗóẁ Îй_!!!!]</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>[77399][!!_Íη_!!]</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>[3E6BF][!!_Ħíτ Þôŝţ_!!]</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>[346CC][!!_Îĺļęĝâļ Тâċкľê_!!!!]</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>[100DC][!!_Îłĺęĝâľ Нâήðš_!!]</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>[47739][!!_Ήôľďįйĝ_!!]</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>[B1995][!!_Ĝôâĺ_!!]</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>[AB791][!!_Ηęáďęð_!!]</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>[7922A][!!_Вáđ Ρàŝş_!!]</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>[D6827][!!_₣õùł Ρľàў_!!]</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>[C97F2][!!_₣òŗ Ĝôàł_!!]</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>[B7FF3][!!_ĐéĺàУįиğ Ŕèśтãŕт õƒ Ρłàў_!!!!!!!!]</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>[DDBE8][!!_Ćћâŗġîйġ_!!]</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>[7A585][!!_Рòõŕ_!!]</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>[8AB0A][!!_Ĝôôđ_!!]</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>[A1B31][!!_È×ċęļłêйţ_!!]</value>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>[F65A4][!!_Ţµŕйõνêŕ_!!]</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>[DAF87][!!_Тнŕóẁ Îη_!!]</value>
+    <comment></comment>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>[AFA9C][!!_Тâčķĺę_!!]</value>
+    <comment></comment>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>[A91CB][!!_Ŝúвšτîτúτíóй_!!]</value>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>[67AF8][!!_Śħòť Ôй Ĝõáļ_!!]</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>[AF8C7][!!_Ŝнõτ_!!]</value>
+    <comment></comment>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>[7D009][!!_Ŝħòòтóúτ Ķîćк_!!]</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>[004EE][!!_ŚęĉôήđśРļâŷęď_!!]</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>[5365C][!!_Ŝãνé_!!]</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>[5736F][!!_Ŕęď Ćâřđ_!!]</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>[11002][!!_Ρĺúš Мįйúş_!!]</value>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>[DA5FF][!!_Рêήâľтŷ Ќįĉќ_!!]</value>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>[D707C][!!_Ρàśŝ_!!]</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>[468E7][!!_Òẅη Ġõãľ_!!]</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>[A7D03][!!_Òµт Õƒ Ьõúήđś_!!]</value>
+    <comment></comment>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>[22736][!!_Õƒƒśîďêŝ_!!]</value>
+    <comment></comment>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>[8F707][!!_Ñõтèś_!!]</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>[BF1EE][!!_Мóνé_!!]</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>[B0E8B][!!_Мîηùτęŝ РłàУêð_!!!!]</value>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>[E3AF2][!!_Îηðìřêċť ₣ѓęé Κįćќ_!!!!!!]</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>[B4817][!!_Ģõãłíę Κìćк_!!]</value>
+    <comment></comment>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>[E0472][!!_Ġóâļ Ãłļõẅęð_!!]</value>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>[5050E][!!_₣óûļ Ďŗáẁή_!!]</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>[6BF7E][!!_₣óúĺ Ċôммìťтêď_!!!!]</value>
+    <comment></comment>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>[83FA0][!!_Đřòρ Ķįćќ_!!]</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>[E2CD6][!!_ÐŗíБвłê_!!]</value>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>[E60BB][!!_Đířéĉť ₣ŗéê Ќíčк_!!!!]</value>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>[61CF8][!!_Ćŗõšş_!!]</value>
+    <comment></comment>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>[863B3][!!_Čôŕйéŗ Κîĉķ_!!]</value>
+    <comment></comment>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>[544A8][!!_ßĺôċĸéď_!!]</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>[B94AE][!!_Ãŝśìšť_!!]</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>[32597][!!_Ŗíġħţ_!!]</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>[6E726][!!_Рļàýêŗ Ðêтâîľş_!!!!]</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>[D9AEA][!!_Ĺęƒţ_!!]</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>[B3F23][!!_Ĺàšť Ńãmé_!!]</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>[F061D][!!_Κîĉкš_!!]</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>[B0457][!!_Ĥéíģĥť_!!]</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>[21833][!!_Ĵêŗśéÿ Ňùmвêѓ ĉãи иõţ ьè мóŕé τĥâη 3 ćħàŗãĉţèŗş. Þĺãýèŕ ηôţ ŝâνęð._!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>[53550][!!_₣îѓśτ Ñàmê_!!]</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>[ACDB4][!!_₣îѓšť ηàmê ηôť ęηţèŗèð. Рłáÿéѓ йòт šâνéď._!!!!!!!!!!!!]</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>[048D1][!!_Þĺãýęѓ Ňàмè_!!]</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>[8A208][!!_Ρļâÿ Ťęхτ_!!]</value>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>[802D2][!!_ΡļàУéŕ Ĺíŝτ_!!]</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>[7BB09][!!_Ãđď Рļáÿéѓ_!!]</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>[07513][!!_Ãđð_!!]</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>[C54A4][!!_Âðđ Ρĺâŷ_!!]</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>[F3CBD][!!_Þęŕįòðś ηòт şęт. Ğàmê ηõţ šàνęđ._!!!!!!!!!!]</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>[BAEA1][!!_Рéŕìõđ ĺêήğţħ ήõτ şèţ. Ġáмé йõţ šãνêđ._!!!!!!!!!!!!]</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>[B95DB][!!_Ήómę тęám ηòţ śèļéċţèď. Ģámê йóť şãνèđ._!!!!!!!!!!!!]</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>[1994F][!!_Ĝàмé ћáš àļřèãďý śтàřţéđ.  Ćáиήõτ ĉнáйğê ĝâмê ďęťãìľš ôйčè ţнê ģãмę ĥâş śţáѓţęđ. Ćћâйğéŝ иõť śâνèð._!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>[77E45][!!_Ćĺôčķ Ùþ õŕ Ďõẁй йõť šèť. Ģãmé иóť śàνęď._!!!!!!!!!!!!]</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>[E0DBC][!!_Âẅãў τêàm иóт šêłèčтèđ. Ġâmê ήóт şàνęď._!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>[9D385][!!_Ûþ_!!]</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>[6FDA1][!!_Þéŕîóď Ĺèήġťħ_!!]</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>[A7B6E][!!_Ήòmê Ţèàm_!!]</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>[609EC][!!_Ňõ_!!]</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>[F9914][!!_Đêƒáúľт Ľęàġµè_!!!!]</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>[2BE1D][!!_ÔνéŗŤįmé Ŀéйĝťн_!!!!]</value>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>[DDB38][!!_ÒνéřΤįмé_!!]</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>[59721][!!_Ģãмê Ťìмê_!!]</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>[5AC78][!!_Ĝâмé Ďêтâìłś_!!]</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>[E55EE][!!_Ġãmê Ďàťè_!!]</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>[F1783][!!_Čľõćќ_!!]</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>[B8920][!!_Ďôẃи_!!]</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>[F59F1][!!_ÃẅâУ Тèâm_!!]</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>[98B97][!!_Ńàmę_!!]</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>[5882E][!!_Ŕõşţèŕš_!!]</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>[46D18][!!_Áðđ Ρłáÿéŗ Тó Ťéàм Ŗõśťêř_!!!!!!!!]</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>[4C1CF][!!_ĴęѓşèУ ÑùmБęѓ_!!]</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>[DCF89][!!_Ęήťéѓ ΡĺàУèřş Ĵéŗšęŷ Ňûмьêѓ_!!!!!!!!]</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>[F3455][!!_ÍήÁĉţíνę_!!]</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>[D5791][!!_Јęřśéý Ńµмьęѓ ćàй ήóť ъé мòѓè ţħáή 3 ĉħáѓàčţéřŝ.  Јêѓšęý ŅùмБęѓ иôţ şàνêď._!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>[272AB][!!_Ĵéŗŝéў Ńùмъêř mûśţ вę â йµmБéѓ. Јéѓśéý ŃúmБêѓ ήóτ ŝàνêđ._!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>[0AF82][!!_Ļêàĝûé Ņàмé_!!]</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>[503FE][!!_Âðđ Ľèàġùé_!!]</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>[93B10][!!_Ĺéâğúè Ðéтãíľŝ_!!!!]</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>[25713][!!_Âðď Ţêâm_!!]</value>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>[C2ED9][!!_Čõήτãćť Ñûмьèŕ_!!!!]</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>[338D8][!!_Ćõáĉĥ_!!]</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>[4474C][!!_Ţèáм Ńàмê_!!]</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>[4AA00][!!_Тêâm йàмê ήõţ êήτèŕêđ. Ţèám ηòţ ŝâνèđ._!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>[53115][!!_Ŕôśτêŗ_!!]</value>
+    <comment>icon</comment>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>[A9610][!!_Τęâm Ðęтàíłŝ_!!]</value>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>[78205][!!_Śћòŗτ Ñàmé_!!]</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>[2B13A][!!_Ŝţãтŝ Řęþôřţŝ_!!]</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>[87307][!!_Šтàřτ Ďàťé_!!]</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>[04E6F][!!_Ðèĺéťę_!!]</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>[B2C75][!!_ĎįŝрłáУ Ďęĺęţêđ Îţêmş_!!!!!!]</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>[C9BAA][!!_Ĝàмéş_!!]</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>[71944][!!_Ĝáмê Ŝťâτš_!!]</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>[4508E][!!_Ģèиéřàτę Řęρóřť_!!!!]</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>[8CA93][!!_Éйđ Ďãтę_!!]</value>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>[983F4][!!_Рłãýèř Мįиúτéŝ µрðàťęď ãť éиď òƒ рèříòď âйð éиđ ôƒ ĝãмè_!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>[D1A81][!!_Ľéġęйď_!!]</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>[D9011][!!_Ùşèѓ_!!]</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>[BCD37][!!_Рãśśŵòŕđ_!!]</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>[CFF6B][!!_Řêşêţ Þâşşẃôŗđ_!!!!]</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>[AED3C][!!_Àвôùť_!!]</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>[77AD8][!!_Ŕáţê Âрр_!!]</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>[37B04][!!_₣óúłş_!!]</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>[4BA9E][!!_Þùřćĥàşé Áþρ_!!]</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>[4DC2C][!!_Ηèļρ_!!]</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>[856C8][!!_Ûηļôčк áľľ ŝţâťş?_!!!!!!]</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>[D1E72][!!_Τŕŷ śĉõřìиĝ τħè ðęмô ĝàmé?_!!!!!!!!]</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>[1CB49][!!_Ñô Ťђãиќŝ_!!]</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>[D57DB][!!_Ţŗŷ Įţ_!!]</value>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>[F4409][!!_Ŷõûŗ ƒèęðБáčк îŝ νêŗŷ įmрõѓţàит ţô µş.  Ẃôûļď ŷóµ ļîќé ţô řáτé τħíŝ àрр?_!!!!!!!!!!!!!!!!!!!!!!]</value>
+    <comment></comment>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>[A0B6F][!!_Ňò_!!]</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>[45B6B][!!_Ñõт Ňôẅ_!!]</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>[21E8C][!!_Ãďđ Ρľàÿêŕ Ţõ βéйċĥ_!!!!!!]</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>[DFA7E][!!_Àďνáиċę тõ ήè×ţ рêѓìóð?_!!!!!!]</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>[20CCF][!!_Ħõmę ßõхşĉõŕè_!!]</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>[D233A][!!_Нęãđéѓ_!!]</value>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>[93EA1][!!_Ģámę Ŝтâťíşτîĉš_!!!!]</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>[689FE][!!_Ğâmè Μàиãģéŕ_!!]</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>[485BD][!!_Ęđîť Рĺáў ßŷ Рłâŷ_!!!!!!]</value>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>[52ACA][!!_Êđíт Ĝámę_!!]</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>[7605A][!!_Èđįţ_!!]</value>
+    <comment>button</comment>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>[8CD18][!!_Ćľòċќ Ùþ_!!]</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>[9B560][!!_Ĉľòčķ Đòŵη_!!]</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>[71FFF][!!_Ćļìćк ťô Śтáѓť ôѓ Šτòþ ģãмé τîмê_!!!!!!!!!!]</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>[518D6][!!_Ċĺìċķ ţô àðĵûšτ þęŕįõđ_!!!!!!]</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>[983D5][!!_Ćĺįčķ τõ âďĵúşť ċłôćķ_!!!!!!]</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>[13712][!!_Âŵáў βóхŝĉôѓę_!!]</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>[ED0C5][!!_Áďνàηĉè_!!]</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value>[280F6][!!_ ŵáš µηďòηê_!!]</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>[25426][!!_Μéиú_!!]</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>[6F915][!!_Ρúŕčĥãśê Âłļ Ŝţàтš?_!!!!!!]</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>[E2119][!!_ÐŕîБьļę, Ŝħóõтóúт Ķįčķ, Šµьşтîтùţíõή_!!!!!!!!!!]</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>[9F49C][!!_Ŀóãđíήğ ..._!!]</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>[5DAD8][!!_Ðęĺèťę Þļáÿęŕ ₣ѓôм Ŗõşтęŕ_!!!!!!!!]</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value>[780C1][!!_ ƒřôm рĺàўèѓ ļįşт_!!!!!!]</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value>[BB72C][!!_ ƒŕõm řòşтéŗ_!!]</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>[2BBE2][!!_Ħòмè ţęàм áήď ãẅàУ τéáм ćàй ήõť вê тħê şáмé. Ğàmę ήõţ šáνęð._!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>[CDB49][!!_Ĝámê Śτářţêð_!!]</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>[9407C][!!_- Ĉĺíčĸ Ìmâġê Ťô Вûŷ ₣µłľ Vęŕşìòή -_!!!!!!!!!!]</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>[2FD52][!!_ŝρôѓтş_!!]</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>[0FA6D][!!_₣ééđвãċќ_!!]</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>[8CA6C][!!_şčõŗé_!!]</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>[9D37A][!!_ÜТѓàčķ_!!]</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>[ED91F][!!_şτáтįśтîčş_!!]</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>[5A72B][!!_śõćčéŕ_!!]</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>[1EADE][!!_ηõ éνéйтŝ_!!]</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>[3C183][!!_ĶÍČЌÔ₣₣_!!]</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>[5B369][!!_ĦÂĹ₣-ТĮМÈ_!!]</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>[F6AB7][!!_₣ÛĽĿ-ŤĮМÊ_!!]</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>[E339B][!!_ÈΧŤŔÂ-ŤĮМÊ ΗÁĹ₣-ΤĮМÊ_!!!!!!]</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>[ED08F][!!_ÉХТŔÀ-ТÌΜĘ ₣ÚĿĽ-ŤÌМĘ_!!!!!!]</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>[EA852][!!_Èηð Ρęŗìóđ _!!]</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>[96BCA][!!_Ìηðíŗęčτ ₣ŕęę Ķíĉĸ, Рêηãĺţý Ќìĉк, Ŷęļļôẁ Ĉàŕď, Ŗęđ Ċãѓđ, Ðŕõþ Κìćķ,_!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>[0AF63][!!_Ţáċкľé, Ĝõãľíê Κîċķ, Ôẅη Ģóàľ, ₣òùľ Ðŕâẃи, Ďîŕêčτ ₣ѓèê Кįĉĸ,_!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>[376C2][!!_₣òùļ Ċómмîţτęð, Ôùť óƒ βõùήďš, Čŗõŝş, Ţнѓôẅ Íй, Ċõŗйęŕ Ќíċќ,_!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>[D2D4E][!!_Þàśś, Тµŗйõνêř, Õƒƒŝíđęś,_!!!!!!!!]</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>[BE146][!!_₣úľł şťâţś рàċķàģé íήčľûðéş: Ρĺáÿéѓ Μìηûţèś, Рľúś Μįиûş,_!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>[139C0][!!_Þùŗćħâśè_!!]</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>[EFAAA][!!_Ùиďô_!!]</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>[522BF][!!_Τнéŗè ãřé ηó рľãÿś ţò ûиđó_!!!!!!!!]</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>[C0F93][!!_Ŝђôτ Ŵîťћ Ŕîĝĥť ₣õòţ_!!!!!!]</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>[7010A][!!_Śħòť Ẅîţн Ŀêƒť ₣õóτ_!!!!!!]</value>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>[8B8BD][!!_Şћôт Ġõâĺ_!!]</value>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>[B08A9][!!_Śђôóтŝ Ŕîĝħţ ₣òóт_!!!!!!]</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>[B8B52][!!_Şĥôòтŝ Ļéƒт ₣ôõτ_!!!!]</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>[72875][!!_Śћàѓê_!!]</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>[2F510][!!_Þľáў Ъў Рļáý_!!]</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>[9EF66][!!_Рęиãľţŷ Ġõáļ_!!]</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>[B5A91][!!_Рúѓċђâşę_!!]</value>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>[B3E70][!!_Ỳéŝ_!!]</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>[678DB][!!_Ỳôûŗ ƒêêđьáĉк ìś νéřў íмрõѓτãήт τõ ùś.  Þĺéâšè ŕâтè τħįś âρρ._!!!!!!!!!!!!!!!!!!]</value>
+    <comment></comment>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>[8E4B8][!!_Ŗàţê_!!]</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>[2DCA8][!!_Đêmõ Ĝáмê_!!]</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>[80841][!!_ęΜâíļ_!!]</value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>[F9345][!!_Ťħé мóśţ ìйτúíťíνè âήď ĉómрľèťę Şôĉćęѓ Śĉõŗîηĝ áррĺįćãτįóи õή ťђê màŕķęт.  Óνèѓ 50 šтáţš ãνãįļàъľę.  Тřŷ îť ƒřêé ťõđâŷ!
+
+Κêęр τŕàĉк ôƒ:
+Ţêãmş
+Ğãмęŝ
+Ľéãġúéś
+Рĺàŷéřŝ
+
+Ρłâýèř Şτàτş íηċļúďè:
+
+Μîηµτęŝ ρĺãýèđ 
+Ρłµš-мîηúš 
+Ģòãĺś
+Рáŝêś
+Óƒƒśįðêş
+Ŕęď Ĉářð
+Ţúŗήôνęřš
+áήđ màйÿ mõѓè!
+
+Ġàмè Õртîòиŝ ìηĉļûďé:
+
+Čłòĉк Úþ óѓ Ĉļõċќ Ďóẃη
+₣ĺéхįьļę óи ƒįęłď ƒóŕмáţìõηş
+Üиķηõŵй Þłáýéŕ óрťìòи
+Êđįťíηğ/Ûήðòįήġ õƒ Þĺàўŝ
+Üйļįmîτéð Şúъšťìťùтíòиş
+Ĉµşтômížáъľè рéřįóðś àйđ þêŕìõđ ľêиġтĥ.
+
+
+Víêẁ Рĺãý-ΒУ-Рĺãÿ âĉτìôη ƒóŗ тнè ġáмè, śђãřê ťħè šτáτś õй Τẁįтťèŗ, ₣âċèъôôĸ, Įиşтàģŗám, ęmáįļ, тęхť ãηď мàήÿ мôřê!
+
+Èâşý ţõ šéт ùþ, áήð èášУ τô úŝê!  Śтâŕť ťŗãĉķîиģ Уôùŗ йêхţ ģâмé ẃîтђîй мìйùтęŝ!_!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>[C270B][!!_Τĥę рèѓįõď нãš ήòť ŝτáŗτéð ўèţ. Ðó ўòù ẁįšħ τô ĉõήťįηûè?_!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>[AB8C0][!!_Ňôτ Ŝţàřтéð_!!]</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>[22756][!!_Ďęľéτę Þłãўéŗ ₣ŕõm Þĺàÿéŗ Ĺîśτ_!!!!!!!!]</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>[6A19A][!!_Âđď Ņéẃ ÞļáУèŗ Τô Þłàýęř Ĺįšţ_!!!!!!!!]</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>[110CF][!!_₣õļĺõŵ ûŝ ôή Тẃìţтèř_!!!!!!]</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>[F31B5][!!_₣úĺł Śτãťŝ þâċĸáġè íиċļúðèş: Рłãŷêѓ Мíиûтęŝ, Þľùş Мíйúş,
+Ρáŝš, Ťùřиõνêř, Õƒƒśìðęš, ₣òµľ Ċòmмįťťêď, Óúт óƒ βôûηďş, Ĉѓóŝŝ, Ťнѓóẁ Îη,
+Ĉõѓйêř Кìčĸ, Ţãĉќłę, Ğòàľîè Κįćĸ, Õẁή Ğõâł, ₣ôµļ Đŗâẅή, Đįŗéĉт ₣řéę Ќîĉĸ,
+Îηđìŕéĉτ ₣ѓêè Кįċķ, Þèиãľţŷ Кìċк, Ϋèļļòẁ Ĉãѓď, Řèð Ĉãŕđ, Đŗôþ Κîčќ,
+ĐѓîъБļé, Šнòôτóµт Ķįčĸ, Šµьşťíтµтîôй_!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>[B333A][!!_₣µļł Śťàτş_!!]</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>[AC875][!!_Тħê mòşť îйťúíτįνê áηð ćõмрĺęτé Śóċćęѓ Ŝčóŗîиğ àрþłíćâţìõή óй ťнę máŕķèт!
+
+Кéęρ тŕáčķ óƒ:
+Ţêámš
+Ĝãмèŝ
+Ŀêâģúèŝ
+Þĺáýèřś
+
+Ťћé ƒřéę νêŗśîõи íήćľùďêş ťŕâĉķîήğ óƒ Ŝħõťş àйď Ġòàłš!
+
+Ğámê Óρтìôйŝ įήĉĺûðé:
+
+Čłóćķ Üρ ôř Ćļõćќ Ðóẅй
+₣łęхìвłę òή ƒîêłď ƒôŕmáťîôиş
+Úиķиõẃη Þľàŷéŗ òртíõη
+Èðíтįήģ/Ûиðõîήġ õƒ ÞļáУś
+Ùиľímįτéð Ŝùьśţįτùťíõηŝ
+Ċµŝťôмįžâьļę рêŕíóðš ãйď þèřîõð łêηĝťĥ.
+
+
+Víèẅ Ρłãý-Ъý-Ρĺâÿ áĉτįôή ƒõř ţнè ğâмè, śĥãѓę тћê šťãţš ôή Ťẁįţτęŗ, ₣áčęьóòк, Įиŝţãğřãm, êmâíł, тęхţ àηď máήŷ môѓé!
+
+Èášý тò şéţ ùр, âйð ęàśŷ ťò ûśê!  Ŝťãѓт ťѓáčќíиĝ ÿóûѓ ηè×ť ġâмè ẃíťнîή мìйûţęŝ!_!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]</value>
+  </data>
+</root>

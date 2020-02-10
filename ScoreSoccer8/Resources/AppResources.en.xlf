@@ -1,0 +1,1994 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="UTrackSoccer" product-version="1.0.3" build-num="3">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+          </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">en</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+          </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="new">MY APPLICATION</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="new">add</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="new">Menu Item</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddTeam" translate="yes" xml:space="preserve">
+          <source>Add Team</source>
+          <target state="new">Add Team</target>
+        </trans-unit>
+        <trans-unit id="Resx/Coach" translate="yes" xml:space="preserve">
+          <source>Coach</source>
+          <target state="new">Coach</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">field on team details screen</note>
+        </trans-unit>
+        <trans-unit id="Resx/ContactNumber" translate="yes" xml:space="preserve">
+          <source>Contact Number</source>
+          <target state="new">Contact Number</target>
+        </trans-unit>
+        <trans-unit id="Resx/Delete" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="new">Delete</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">used in prompt</note>
+        </trans-unit>
+        <trans-unit id="Resx/DisplayDeletedItems" translate="yes" xml:space="preserve">
+          <source>Display Deleted Items</source>
+          <target state="new">Display Deleted Items</target>
+        </trans-unit>
+        <trans-unit id="Resx/EndDate" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+          <target state="new">End Date</target>
+        </trans-unit>
+        <trans-unit id="Resx/Games" translate="yes" xml:space="preserve">
+          <source>Games</source>
+          <target state="new">Games</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameStats" translate="yes" xml:space="preserve">
+          <source>Game Stats</source>
+          <target state="new">Game Stats</target>
+        </trans-unit>
+        <trans-unit id="Resx/GenerateReport" translate="yes" xml:space="preserve">
+          <source>Generate Report</source>
+          <target state="new">Generate Report</target>
+        </trans-unit>
+        <trans-unit id="Resx/Jersey" translate="yes" xml:space="preserve">
+          <source>Jersey</source>
+          <target state="new">Jersey</target>
+        </trans-unit>
+        <trans-unit id="Resx/League" translate="yes" xml:space="preserve">
+          <source>League</source>
+          <target state="new">League</target>
+        </trans-unit>
+        <trans-unit id="Resx/Players" translate="yes" xml:space="preserve">
+          <source>Players</source>
+          <target state="new">Players</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerStats" translate="yes" xml:space="preserve">
+          <source>Player Stats</source>
+          <target state="new">Player Stats</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayList" translate="yes" xml:space="preserve">
+          <source>Play List</source>
+          <target state="new">Play List</target>
+        </trans-unit>
+        <trans-unit id="Resx/ReportType" translate="yes" xml:space="preserve">
+          <source>Report Type</source>
+          <target state="new">Report Type</target>
+        </trans-unit>
+        <trans-unit id="Resx/Required" translate="yes" xml:space="preserve">
+          <source>Required</source>
+          <target state="new">Required</target>
+        </trans-unit>
+        <trans-unit id="Resx/Roster" translate="yes" xml:space="preserve">
+          <source>Roster</source>
+          <target state="new">Roster</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+        </trans-unit>
+        <trans-unit id="Resx/ShortName" translate="yes" xml:space="preserve">
+          <source>Short Name</source>
+          <target state="new">Short Name</target>
+        </trans-unit>
+        <trans-unit id="Resx/StartDate" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <target state="new">Start Date</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsReports" translate="yes" xml:space="preserve">
+          <source>Stats Reports</source>
+          <target state="new">Stats Reports</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamDetails" translate="yes" xml:space="preserve">
+          <source>Team Details</source>
+          <target state="new">Team Details</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamName" translate="yes" xml:space="preserve">
+          <source>Team Name</source>
+          <target state="new">Team Name</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamNotEnteredValidationMessage" translate="yes" xml:space="preserve">
+          <source>Team name not entered. Team not saved.</source>
+          <target state="new">Team name not entered. Team not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Teams" translate="yes" xml:space="preserve">
+          <source>Teams</source>
+          <target state="new">Teams</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamStats" translate="yes" xml:space="preserve">
+          <source>Team Stats</source>
+          <target state="new">Team Stats</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddLeague" translate="yes" xml:space="preserve">
+          <source>Add League</source>
+          <target state="new">Add League</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+        </trans-unit>
+        <trans-unit id="Resx/LeagueDetails" translate="yes" xml:space="preserve">
+          <source>League Details</source>
+          <target state="new">League Details</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeagueName" translate="yes" xml:space="preserve">
+          <source>League Name</source>
+          <target state="new">League Name</target>
+        </trans-unit>
+        <trans-unit id="Resx/Leagues" translate="yes" xml:space="preserve">
+          <source>Leagues</source>
+          <target state="new">Leagues</target>
+        </trans-unit>
+        <trans-unit id="Resx/ContactName" translate="yes" xml:space="preserve">
+          <source>Contact Name</source>
+          <target state="new">Contact Name</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeagueNotEnteredValidationMessage" translate="yes" xml:space="preserve">
+          <source>League name not entered. League not saved.</source>
+          <target state="new">League name not entered. League not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Active" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <target state="new">Active</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayerToTeamRoster" translate="yes" xml:space="preserve">
+          <source>Add Player To Team Roster</source>
+          <target state="new">Add Player To Team Roster</target>
+        </trans-unit>
+        <trans-unit id="Resx/EnterPlayersJerseyNumber" translate="yes" xml:space="preserve">
+          <source>Enter Players Jersey Number</source>
+          <target state="new">Enter Players Jersey Number</target>
+        </trans-unit>
+        <trans-unit id="Resx/InActive" translate="yes" xml:space="preserve">
+          <source>InActive</source>
+          <target state="new">InActive</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyMustBeANumber" translate="yes" xml:space="preserve">
+          <source>Jersey Number must be a number. Jersey Number not saved.</source>
+          <target state="new">Jersey Number must be a number. Jersey Number not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyMustBeLessThan3Characters" translate="yes" xml:space="preserve">
+          <source>Jersey Number can not be more than 3 characters.  Jersey Number not saved.</source>
+          <target state="new">Jersey Number can not be more than 3 characters.  Jersey Number not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyNumber" translate="yes" xml:space="preserve">
+          <source>Jersey Number</source>
+          <target state="new">Jersey Number</target>
+        </trans-unit>
+        <trans-unit id="Resx/Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="new">Name</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rosters" translate="yes" xml:space="preserve">
+          <source>Rosters</source>
+          <target state="new">Rosters</target>
+        </trans-unit>
+        <trans-unit id="Resx/Status" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="new">Status</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddGame" translate="yes" xml:space="preserve">
+          <source>Add Game</source>
+          <target state="new">Add Game</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+        </trans-unit>
+        <trans-unit id="Resx/Game" translate="yes" xml:space="preserve">
+          <source>Game</source>
+          <target state="new">Game</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">used in prompt</note>
+        </trans-unit>
+        <trans-unit id="Resx/GameInfo" translate="yes" xml:space="preserve">
+          <source>Game Info</source>
+          <target state="new">Game Info</target>
+        </trans-unit>
+        <trans-unit id="Resx/Manager" translate="yes" xml:space="preserve">
+          <source>Manager</source>
+          <target state="new">Manager</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayTeam" translate="yes" xml:space="preserve">
+          <source>Away Team</source>
+          <target state="new">Away Team</target>
+        </trans-unit>
+        <trans-unit id="Resx/Clock" translate="yes" xml:space="preserve">
+          <source>Clock</source>
+          <target state="new">Clock</target>
+        </trans-unit>
+        <trans-unit id="Resx/Down" translate="yes" xml:space="preserve">
+          <source>Down</source>
+          <target state="new">Down</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameDate" translate="yes" xml:space="preserve">
+          <source>Game Date</source>
+          <target state="new">Game Date</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameDetails" translate="yes" xml:space="preserve">
+          <source>Game Details</source>
+          <target state="new">Game Details</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameTime" translate="yes" xml:space="preserve">
+          <source>Game Time</source>
+          <target state="new">Game Time</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeTeam" translate="yes" xml:space="preserve">
+          <source>Home Team</source>
+          <target state="new">Home Team</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoLeague" translate="yes" xml:space="preserve">
+          <source>Default League</source>
+          <target state="new">Default League</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">league name option in leagues drop down on team details screen</note>
+        </trans-unit>
+        <trans-unit id="Resx/OverTime" translate="yes" xml:space="preserve">
+          <source>OverTime</source>
+          <target state="new">OverTime</target>
+        </trans-unit>
+        <trans-unit id="Resx/OverTimeLength" translate="yes" xml:space="preserve">
+          <source>OverTime Length</source>
+          <target state="new">OverTime Length</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodLength" translate="yes" xml:space="preserve">
+          <source>Period Length</source>
+          <target state="new">Period Length</target>
+        </trans-unit>
+        <trans-unit id="Resx/Periods" translate="yes" xml:space="preserve">
+          <source>Periods</source>
+          <target state="new">Periods</target>
+        </trans-unit>
+        <trans-unit id="Resx/Up" translate="yes" xml:space="preserve">
+          <source>Up</source>
+          <target state="new">Up</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayTeamNotSeleted" translate="yes" xml:space="preserve">
+          <source>Away team not selected. Game not saved.</source>
+          <target state="new">Away team not selected. Game not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockUpDownNotSet" translate="yes" xml:space="preserve">
+          <source>Clock Up or Down not set. Game not saved.</source>
+          <target state="new">Clock Up or Down not set. Game not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameHasAlreadyStarted" translate="yes" xml:space="preserve">
+          <source>Game has already started.  Cannot change game details once the game has started. Changes not saved.</source>
+          <target state="new">Game has already started.  Cannot change game details once the game has started. Changes not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeTeamNotSelected" translate="yes" xml:space="preserve">
+          <source>Home team not selected. Game not saved.</source>
+          <target state="new">Home team not selected. Game not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodLengthNotSet" translate="yes" xml:space="preserve">
+          <source>Period length not set. Game not saved.</source>
+          <target state="new">Period length not set. Game not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodNotSet" translate="yes" xml:space="preserve">
+          <source>Periods not set. Game not saved.</source>
+          <target state="new">Periods not set. Game not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayersPerTeamNotSet" translate="yes" xml:space="preserve">
+          <source>Players per team not set. Game not saved.</source>
+          <target state="new">Players per team not set. Game not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Add" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="new">Add</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlay" translate="yes" xml:space="preserve">
+          <source>Add Play</source>
+          <target state="new">Add Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayer" translate="yes" xml:space="preserve">
+          <source>Add Player</source>
+          <target state="new">Add Player</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerList" translate="yes" xml:space="preserve">
+          <source>Player List</source>
+          <target state="new">Player List</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerName" translate="yes" xml:space="preserve">
+          <source>Player Name</source>
+          <target state="new">Player Name</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayText" translate="yes" xml:space="preserve">
+          <source>Play Text</source>
+          <target state="new">Play Text</target>
+        </trans-unit>
+        <trans-unit id="Resx/Search" translate="yes" xml:space="preserve">
+          <source>Search</source>
+          <target state="new">Search</target>
+        </trans-unit>
+        <trans-unit id="Resx/CannotChangeDeletedPlayerInfo" translate="yes" xml:space="preserve">
+          <source>Can not change information on a deleted player. Player not saved.</source>
+          <target state="new">Can not change information on a deleted player. Player not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/FirstName" translate="yes" xml:space="preserve">
+          <source>First Name</source>
+          <target state="new">First Name</target>
+        </trans-unit>
+        <trans-unit id="Resx/FirstNameNotEntered" translate="yes" xml:space="preserve">
+          <source>First name not entered. Player not saved.</source>
+          <target state="new">First name not entered. Player not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Height" translate="yes" xml:space="preserve">
+          <source>Height</source>
+          <target state="new">Height</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyNumberInvalidPlayerNotSaved" translate="yes" xml:space="preserve">
+          <source>Jersey Number can not be more than 3 characters. Player not saved.</source>
+          <target state="new">Jersey Number can not be more than 3 characters. Player not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kicks" translate="yes" xml:space="preserve">
+          <source>Kicks</source>
+          <target state="new">Kicks</target>
+        </trans-unit>
+        <trans-unit id="Resx/LastName" translate="yes" xml:space="preserve">
+          <source>Last Name</source>
+          <target state="new">Last Name</target>
+        </trans-unit>
+        <trans-unit id="Resx/Left" translate="yes" xml:space="preserve">
+          <source>Left</source>
+          <target state="new">Left</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerDetails" translate="yes" xml:space="preserve">
+          <source>Player Details</source>
+          <target state="new">Player Details</target>
+        </trans-unit>
+        <trans-unit id="Resx/Right" translate="yes" xml:space="preserve">
+          <source>Right</source>
+          <target state="new">Right</target>
+        </trans-unit>
+        <trans-unit id="Resx/Weight" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <target state="new">Weight</target>
+        </trans-unit>
+        <trans-unit id="Resx/Assist" translate="yes" xml:space="preserve">
+          <source>Assist</source>
+          <target state="new">Assist</target>
+        </trans-unit>
+        <trans-unit id="Resx/Blocked" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="new">Blocked</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornerKick" translate="yes" xml:space="preserve">
+          <source>3P Field Goal Made</source>
+          <target state="new">3P Field Goal Made</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cross" translate="yes" xml:space="preserve">
+          <source>Block</source>
+          <target state="new">Block</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKick" translate="yes" xml:space="preserve">
+          <source>Direct Free Kick</source>
+          <target state="new">Direct Free Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dribble" translate="yes" xml:space="preserve">
+          <source>Dribble</source>
+          <target state="new">Dribble</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKick" translate="yes" xml:space="preserve">
+          <source>Drop Kick</source>
+          <target state="new">Drop Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulCommitted" translate="yes" xml:space="preserve">
+          <source>BBTurnover</source>
+          <target state="new">BBTurnover</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulDrawn" translate="yes" xml:space="preserve">
+          <source>Foul Drawn</source>
+          <target state="new">Foul Drawn</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalAllowed" translate="yes" xml:space="preserve">
+          <source>Goal Allowed</source>
+          <target state="new">Goal Allowed</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalieKick" translate="yes" xml:space="preserve">
+          <source>FT Attempt</source>
+          <target state="new">FT Attempt</target>
+        </trans-unit>
+        <trans-unit id="Resx/IndirectFreeKick" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kick</source>
+          <target state="new">Indirect Free Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/MinutesPlayed" translate="yes" xml:space="preserve">
+          <source>Minutes Played</source>
+          <target state="new">Minutes Played</target>
+        </trans-unit>
+        <trans-unit id="Resx/Move" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <target state="new">Move</target>
+        </trans-unit>
+        <trans-unit id="Resx/Notes" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="new">Notes</target>
+        </trans-unit>
+        <trans-unit id="Resx/Offsides" translate="yes" xml:space="preserve">
+          <source>Steal</source>
+          <target state="new">Steal</target>
+        </trans-unit>
+        <trans-unit id="Resx/OutOfBounds" translate="yes" xml:space="preserve">
+          <source>Assist</source>
+          <target state="new">Assist</target>
+        </trans-unit>
+        <trans-unit id="Resx/OwnGoal" translate="yes" xml:space="preserve">
+          <source>3P Field Goal Attempt</source>
+          <target state="new">3P Field Goal Attempt</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pass" translate="yes" xml:space="preserve">
+          <source>Free Throw Made</source>
+          <target state="new">Free Throw Made</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKick" translate="yes" xml:space="preserve">
+          <source>Penalty Kick</source>
+          <target state="new">Penalty Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlusMinus" translate="yes" xml:space="preserve">
+          <source>Plus Minus</source>
+          <target state="new">Plus Minus</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCard" translate="yes" xml:space="preserve">
+          <source>Red Card</source>
+          <target state="new">Red Card</target>
+        </trans-unit>
+        <trans-unit id="Resx/Save" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="new">Save</target>
+        </trans-unit>
+        <trans-unit id="Resx/SecondsPlayed" translate="yes" xml:space="preserve">
+          <source>SecondsPlayed</source>
+          <target state="new">SecondsPlayed</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKick" translate="yes" xml:space="preserve">
+          <source>Shootout Kick</source>
+          <target state="new">Shootout Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shot" translate="yes" xml:space="preserve">
+          <source>2P Field Goal Made</source>
+          <target state="new">2P Field Goal Made</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotOnGoal" translate="yes" xml:space="preserve">
+          <source>Shot On Goal</source>
+          <target state="new">Shot On Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/Substitution" translate="yes" xml:space="preserve">
+          <source>Substitution</source>
+          <target state="new">Substitution</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tackle" translate="yes" xml:space="preserve">
+          <source>2P Field Goal Attempt</source>
+          <target state="new">2P Field Goal Attempt</target>
+        </trans-unit>
+        <trans-unit id="Resx/ThrowIn" translate="yes" xml:space="preserve">
+          <source>Foul</source>
+          <target state="new">Foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/Turnover" translate="yes" xml:space="preserve">
+          <source>Rebound</source>
+          <target state="new">Rebound</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCard" translate="yes" xml:space="preserve">
+          <source>Yellow Card</source>
+          <target state="new">Yellow Card</target>
+        </trans-unit>
+        <trans-unit id="Resx/Excellent" translate="yes" xml:space="preserve">
+          <source>Excellent</source>
+          <target state="new">Excellent</target>
+        </trans-unit>
+        <trans-unit id="Resx/Good" translate="yes" xml:space="preserve">
+          <source>Good</source>
+          <target state="new">Good</target>
+        </trans-unit>
+        <trans-unit id="Resx/Poor" translate="yes" xml:space="preserve">
+          <source>Poor</source>
+          <target state="new">Poor</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotDetails" translate="yes" xml:space="preserve">
+          <source>Shot Details</source>
+          <target state="new">Shot Details</target>
+        </trans-unit>
+        <trans-unit id="Resx/BadPass" translate="yes" xml:space="preserve">
+          <source>Bad Pass</source>
+          <target state="new">Bad Pass</target>
+        </trans-unit>
+        <trans-unit id="Resx/Charging" translate="yes" xml:space="preserve">
+          <source>Charging</source>
+          <target state="new">Charging</target>
+        </trans-unit>
+        <trans-unit id="Resx/DelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source>Delaying Restart of Play</source>
+          <target state="new">Delaying Restart of Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/ForGoal" translate="yes" xml:space="preserve">
+          <source>For Goal</source>
+          <target state="new">For Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulPlay" translate="yes" xml:space="preserve">
+          <source>Foul Play</source>
+          <target state="new">Foul Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goal" translate="yes" xml:space="preserve">
+          <source>Goal</source>
+          <target state="new">Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/Headed" translate="yes" xml:space="preserve">
+          <source>Headed</source>
+          <target state="new">Headed</target>
+        </trans-unit>
+        <trans-unit id="Resx/HitPost" translate="yes" xml:space="preserve">
+          <source>Hit Post</source>
+          <target state="new">Hit Post</target>
+        </trans-unit>
+        <trans-unit id="Resx/Holding" translate="yes" xml:space="preserve">
+          <source>Holding</source>
+          <target state="new">Holding</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalHands" translate="yes" xml:space="preserve">
+          <source>Illegal Hands</source>
+          <target state="new">Illegal Hands</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalTackle" translate="yes" xml:space="preserve">
+          <source>Illegal Tackle</source>
+          <target state="new">Illegal Tackle</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalThrowIn" translate="yes" xml:space="preserve">
+          <source>Illegal Throw In</source>
+          <target state="new">Illegal Throw In</target>
+        </trans-unit>
+        <trans-unit id="Resx/In" translate="yes" xml:space="preserve">
+          <source>In</source>
+          <target state="new">In</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kicking" translate="yes" xml:space="preserve">
+          <source>Kicking</source>
+          <target state="new">Kicking</target>
+        </trans-unit>
+        <trans-unit id="Resx/LostDribble" translate="yes" xml:space="preserve">
+          <source>Lost Dribble</source>
+          <target state="new">Lost Dribble</target>
+        </trans-unit>
+        <trans-unit id="Resx/Miss" translate="yes" xml:space="preserve">
+          <source>Miss</source>
+          <target state="new">Miss</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotForGoal" translate="yes" xml:space="preserve">
+          <source>Not For Goal</source>
+          <target state="new">Not For Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/Out" translate="yes" xml:space="preserve">
+          <source>Out</source>
+          <target state="new">Out</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pushing" translate="yes" xml:space="preserve">
+          <source>Pushing</source>
+          <target state="new">Pushing</target>
+        </trans-unit>
+        <trans-unit id="Resx/SecondYellowCard" translate="yes" xml:space="preserve">
+          <source>Second Yellow Card</source>
+          <target state="new">Second Yellow Card</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tripping" translate="yes" xml:space="preserve">
+          <source>Tripping</source>
+          <target state="new">Tripping</target>
+        </trans-unit>
+        <trans-unit id="Resx/UnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source>Unsportsmanlike Conduct</source>
+          <target state="new">Unsportsmanlike Conduct</target>
+        </trans-unit>
+        <trans-unit id="Resx/ViolentConduct" translate="yes" xml:space="preserve">
+          <source>Violent Conduct</source>
+          <target state="new">Violent Conduct</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsPicker" translate="yes" xml:space="preserve">
+          <source>Stats Picker</source>
+          <target state="new">Stats Picker</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a shot and misses</source>
+          <target state="new"> takes a shot and misses</target>
+        </trans-unit>
+        <trans-unit id="Resx/BlockedBy" translate="yes" xml:space="preserve">
+          <source>Blocked By</source>
+          <target state="new">Blocked By</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">Cancel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+        </trans-unit>
+        <trans-unit id="Resx/Ok" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="new">Ok</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+        </trans-unit>
+        <trans-unit id="Resx/ShotNotOnGoal" translate="yes" xml:space="preserve">
+          <source>Shot Not On Goal</source>
+          <target state="new">Shot Not On Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/Period" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <target state="new">Period</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayDetails" translate="yes" xml:space="preserve">
+          <source>Play Details</source>
+          <target state="new">Play Details</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player" translate="yes" xml:space="preserve">
+          <source>Player</source>
+          <target state="new">Player</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerIn" translate="yes" xml:space="preserve">
+          <source>Player In</source>
+          <target state="new">Player In</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerOut" translate="yes" xml:space="preserve">
+          <source>Player Out</source>
+          <target state="new">Player Out</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatCategory" translate="yes" xml:space="preserve">
+          <source>Stat Category</source>
+          <target state="new">Stat Category</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatDescription" translate="yes" xml:space="preserve">
+          <source>Stat Description</source>
+          <target state="new">Stat Description</target>
+        </trans-unit>
+        <trans-unit id="Resx/Team" translate="yes" xml:space="preserve">
+          <source>Team</source>
+          <target state="new">Team</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockNotEntered" translate="yes" xml:space="preserve">
+          <source>Clock not entered. Play not saved.</source>
+          <target state="new">Clock not entered. Play not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotASupportedPlayTypeForPBPEdit" translate="yes" xml:space="preserve">
+          <source>Not a supported play type for pbp edit. Play can not be edited.</source>
+          <target state="new">Not a supported play type for pbp edit. Play can not be edited.</target>
+        </trans-unit>
+        <trans-unit id="Resx/OpponentTeam" translate="yes" xml:space="preserve">
+          <source>Opponent</source>
+          <target state="new">Opponent</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name for demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/OtherTeamGoalie" translate="yes" xml:space="preserve">
+          <source>Other Team Goalie</source>
+          <target state="new">Other Team Goalie</target>
+        </trans-unit>
+        <trans-unit id="Resx/OurTeam" translate="yes" xml:space="preserve">
+          <source>Our Team</source>
+          <target state="new">Our Team</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name for demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodClockValueInFuture" translate="yes" xml:space="preserve">
+          <source>Period/Clock value can not be a time in the future. Please use game manager to track a play in the future. Play not saved.</source>
+          <target state="new">Period/Clock value can not be a time in the future. Please use game manager to track a play in the future. Play not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player1" translate="yes" xml:space="preserve">
+          <source>Player 1</source>
+          <target state="new">Player 1</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player10" translate="yes" xml:space="preserve">
+          <source>Player 10</source>
+          <target state="new">Player 10</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player11" translate="yes" xml:space="preserve">
+          <source>Player 11</source>
+          <target state="new">Player 11</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player12" translate="yes" xml:space="preserve">
+          <source>Player 12</source>
+          <target state="new">Player 12</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player13" translate="yes" xml:space="preserve">
+          <source>Player 13</source>
+          <target state="new">Player 13</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player14" translate="yes" xml:space="preserve">
+          <source>Player 14</source>
+          <target state="new">Player 14</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player15" translate="yes" xml:space="preserve">
+          <source>Player 15</source>
+          <target state="new">Player 15</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player16" translate="yes" xml:space="preserve">
+          <source>Player 16</source>
+          <target state="new">Player 16</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player17" translate="yes" xml:space="preserve">
+          <source>Player 17</source>
+          <target state="new">Player 17</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player18" translate="yes" xml:space="preserve">
+          <source>Player 18</source>
+          <target state="new">Player 18</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player19" translate="yes" xml:space="preserve">
+          <source>Player 19</source>
+          <target state="new">Player 19</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player2" translate="yes" xml:space="preserve">
+          <source>Player 2</source>
+          <target state="new">Player 2</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player20" translate="yes" xml:space="preserve">
+          <source>Player 20</source>
+          <target state="new">Player 20</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player21" translate="yes" xml:space="preserve">
+          <source>Player 21</source>
+          <target state="new">Player 21</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player22" translate="yes" xml:space="preserve">
+          <source>Player 22</source>
+          <target state="new">Player 22</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player23" translate="yes" xml:space="preserve">
+          <source>Player 23</source>
+          <target state="new">Player 23</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player24" translate="yes" xml:space="preserve">
+          <source>Player 24</source>
+          <target state="new">Player 24</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player25" translate="yes" xml:space="preserve">
+          <source>Player 25</source>
+          <target state="new">Player 25</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player26" translate="yes" xml:space="preserve">
+          <source>Player 26</source>
+          <target state="new">Player 26</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player27" translate="yes" xml:space="preserve">
+          <source>Player 27</source>
+          <target state="new">Player 27</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player28" translate="yes" xml:space="preserve">
+          <source>Player 28</source>
+          <target state="new">Player 28</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player29" translate="yes" xml:space="preserve">
+          <source>Player 29</source>
+          <target state="new">Player 29</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player3" translate="yes" xml:space="preserve">
+          <source>Player 3</source>
+          <target state="new">Player 3</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player30" translate="yes" xml:space="preserve">
+          <source>Player 30</source>
+          <target state="new">Player 30</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player4" translate="yes" xml:space="preserve">
+          <source>Player 4</source>
+          <target state="new">Player 4</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player5" translate="yes" xml:space="preserve">
+          <source>Player 5</source>
+          <target state="new">Player 5</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player6" translate="yes" xml:space="preserve">
+          <source>Player 6</source>
+          <target state="new">Player 6</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player7" translate="yes" xml:space="preserve">
+          <source>Player 7</source>
+          <target state="new">Player 7</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player8" translate="yes" xml:space="preserve">
+          <source>Player 8</source>
+          <target state="new">Player 8</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Player9" translate="yes" xml:space="preserve">
+          <source>Player 9</source>
+          <target state="new">Player 9</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+        </trans-unit>
+        <trans-unit id="Resx/Away" translate="yes" xml:space="preserve">
+          <source>Away</source>
+          <target state="new">Away</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteGame" translate="yes" xml:space="preserve">
+          <source>Delete Game</source>
+          <target state="new">Delete Game</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteLeague" translate="yes" xml:space="preserve">
+          <source>Delete League</source>
+          <target state="new">Delete League</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlay" translate="yes" xml:space="preserve">
+          <source>Delete Play</source>
+          <target state="new">Delete Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayer" translate="yes" xml:space="preserve">
+          <source>Delete Player</source>
+          <target state="new">Delete Player</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteTeam" translate="yes" xml:space="preserve">
+          <source>Delete Team</source>
+          <target state="new">Delete Team</target>
+        </trans-unit>
+        <trans-unit id="Resx/Home" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <target state="new">Home</target>
+        </trans-unit>
+        <trans-unit id="Resx/None" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="new">None</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name option for assist in PBP screen</note>
+        </trans-unit>
+        <trans-unit id="Resx/Play" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="new">Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/Unknown" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="new">Unknown</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">unknown player from game manager screen</note>
+        </trans-unit>
+        <trans-unit id="Resx/GameStartedScreenDisabled" translate="yes" xml:space="preserve">
+          <source>Inprogress, screen disabled</source>
+          <target state="new">Inprogress, screen disabled</target>
+        </trans-unit>
+        <trans-unit id="Resx/InvalidOTLength" translate="yes" xml:space="preserve">
+          <source>Invalid OT Length. Game not saved.</source>
+          <target state="new">Invalid OT Length. Game not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Assists" translate="yes" xml:space="preserve">
+          <source>Assists</source>
+          <target state="new">Assists</target>
+        </trans-unit>
+        <trans-unit id="Resx/Blocks" translate="yes" xml:space="preserve">
+          <source>Blocks</source>
+          <target state="new">Blocks</target>
+        </trans-unit>
+        <trans-unit id="Resx/Corners" translate="yes" xml:space="preserve">
+          <source>Corners</source>
+          <target state="new">Corners</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersExcellent" translate="yes" xml:space="preserve">
+          <source>Corners Excellent</source>
+          <target state="new">Corners Excellent</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersForGoal" translate="yes" xml:space="preserve">
+          <source>Corners For Goal</source>
+          <target state="new">Corners For Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersGood" translate="yes" xml:space="preserve">
+          <source>Corners Good</source>
+          <target state="new">Corners Good</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersPoor" translate="yes" xml:space="preserve">
+          <source>Corners Poor</source>
+          <target state="new">Corners Poor</target>
+        </trans-unit>
+        <trans-unit id="Resx/Crosses" translate="yes" xml:space="preserve">
+          <source>Crosses</source>
+          <target state="new">Crosses</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesExcellent" translate="yes" xml:space="preserve">
+          <source>Crosses Excellent</source>
+          <target state="new">Crosses Excellent</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesGood" translate="yes" xml:space="preserve">
+          <source>Crosses Good</source>
+          <target state="new">Crosses Good</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesPoor" translate="yes" xml:space="preserve">
+          <source>Crosses Poor</source>
+          <target state="new">Crosses Poor</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicks" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks</source>
+          <target state="new">Direct Free Kicks</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicksForGoal" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks For Goal</source>
+          <target state="new">Direct Free Kicks For Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicksNotForGoal" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks Not For Goal</source>
+          <target state="new">Direct Free Kicks Not For Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicks" translate="yes" xml:space="preserve">
+          <source>Drop Kicks</source>
+          <target state="new">Drop Kicks</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksExcellent" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Excellent</source>
+          <target state="new">Drop Kicks Excellent</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksGood" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Good</source>
+          <target state="new">Drop Kicks Good</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksPoor" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Poor</source>
+          <target state="new">Drop Kicks Poor</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsComittedHolding" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Holding</source>
+          <target state="new">Fouls Committed Holding</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommitted" translate="yes" xml:space="preserve">
+          <source>Turnovers</source>
+          <target state="new">Turnovers</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedCharging" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Charging</source>
+          <target state="new">Fouls Committed Charging</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedIllegalTackle" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Illegal Tackle</source>
+          <target state="new">Fouls Committed Illegal Tackle</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedKicking" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Kicking</source>
+          <target state="new">Fouls Committed Kicking</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedPushing" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Pushing</source>
+          <target state="new">Fouls Committed Pushing</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedTripping" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Tripping</source>
+          <target state="new">Fouls Committed Tripping</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsDrawn" translate="yes" xml:space="preserve">
+          <source>Fouls Drawn</source>
+          <target state="new">Fouls Drawn</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalKicks" translate="yes" xml:space="preserve">
+          <source>Goal Kicks</source>
+          <target state="new">Goal Kicks</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goals" translate="yes" xml:space="preserve">
+          <source>Goals</source>
+          <target state="new">Goals</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalsAllowed" translate="yes" xml:space="preserve">
+          <source>Goals Allowed</source>
+          <target state="new">Goals Allowed</target>
+        </trans-unit>
+        <trans-unit id="Resx/IndirectFreeKicks" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kicks</source>
+          <target state="new">Indirect Free Kicks</target>
+        </trans-unit>
+        <trans-unit id="Resx/MadeOwnGoal" translate="yes" xml:space="preserve">
+          <source>MadeOwnGoal</source>
+          <target state="new">MadeOwnGoal</target>
+        </trans-unit>
+        <trans-unit id="Resx/Passes" translate="yes" xml:space="preserve">
+          <source>Passes</source>
+          <target state="new">Passes</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesExcellent" translate="yes" xml:space="preserve">
+          <source>Passes Excellent</source>
+          <target state="new">Passes Excellent</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesGood" translate="yes" xml:space="preserve">
+          <source>Passes Good</source>
+          <target state="new">Passes Good</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesPoor" translate="yes" xml:space="preserve">
+          <source>Passes Poor</source>
+          <target state="new">Passes Poor</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicks" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks</source>
+          <target state="new">Penalty Kicks</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksBlocked" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Blocked</source>
+          <target state="new">Penalty Kicks Blocked</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksGoal" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Goal</source>
+          <target state="new">Penalty Kicks Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksHitPost" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Hit Post</source>
+          <target state="new">Penalty Kicks Hit Post</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksMissed" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Missed</source>
+          <target state="new">Penalty Kicks Missed</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCards" translate="yes" xml:space="preserve">
+          <source>Red Cards</source>
+          <target state="new">Red Cards</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsFoulPlay" translate="yes" xml:space="preserve">
+          <source>Red Cards Foul Play</source>
+          <target state="new">Red Cards Foul Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsIllegalHands" translate="yes" xml:space="preserve">
+          <source>Red Cards Ilegal Hands</source>
+          <target state="new">Red Cards Ilegal Hands</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsSecondYellowCard" translate="yes" xml:space="preserve">
+          <source>Red Cards Second Yellow Card</source>
+          <target state="new">Red Cards Second Yellow Card</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsViolentConduct" translate="yes" xml:space="preserve">
+          <source>Red Cards Violent Conduct</source>
+          <target state="new">Red Cards Violent Conduct</target>
+        </trans-unit>
+        <trans-unit id="Resx/Saves" translate="yes" xml:space="preserve">
+          <source>Saves</source>
+          <target state="new">Saves</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicks" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks</source>
+          <target state="new">Shootout Kicks</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksBlocked" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Blocked</source>
+          <target state="new">Shootout Kicks Blocked</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksGoal" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Goal</source>
+          <target state="new">Shootout Kicks Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksHitPost" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Hit Post</source>
+          <target state="new">Shootout Kicks Hit Post</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksMissed" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Missed</source>
+          <target state="new">Shootout Kicks Missed</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shots" translate="yes" xml:space="preserve">
+          <source>Shots</source>
+          <target state="new">Shots</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsBlocked" translate="yes" xml:space="preserve">
+          <source>Shots Blocked</source>
+          <target state="new">Shots Blocked</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsGoal" translate="yes" xml:space="preserve">
+          <source>Shots Goal</source>
+          <target state="new">Shots Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsHitPost" translate="yes" xml:space="preserve">
+          <source>Shots Hit Post</source>
+          <target state="new">Shots Hit Post</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsMissed" translate="yes" xml:space="preserve">
+          <source>Shots Missed</source>
+          <target state="new">Shots Missed</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsOnGoal" translate="yes" xml:space="preserve">
+          <source>Shots On Goal</source>
+          <target state="new">Shots On Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tackles" translate="yes" xml:space="preserve">
+          <source>Tackles</source>
+          <target state="new">Tackles</target>
+        </trans-unit>
+        <trans-unit id="Resx/ThrowIns" translate="yes" xml:space="preserve">
+          <source>Throw Ins</source>
+          <target state="new">Throw Ins</target>
+        </trans-unit>
+        <trans-unit id="Resx/Turnovers" translate="yes" xml:space="preserve">
+          <source>Turnovers</source>
+          <target state="new">Turnovers</target>
+        </trans-unit>
+        <trans-unit id="Resx/TurnoversIllegalThrowIn" translate="yes" xml:space="preserve">
+          <source>Turnovers Illegal Throw In</source>
+          <target state="new">Turnovers Illegal Throw In</target>
+        </trans-unit>
+        <trans-unit id="Resx/TurnoversLostDribble" translate="yes" xml:space="preserve">
+          <source>Turnovers Lost Dribble</source>
+          <target state="new">Turnovers Lost Dribble</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCards" translate="yes" xml:space="preserve">
+          <source>Yellow Cards</source>
+          <target state="new">Yellow Cards</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCardsDelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source>Yellow Cards Delaying Restart Of Play</source>
+          <target state="new">Yellow Cards Delaying Restart Of Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowsCardsUnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source>Yellow Cards Unsportsmanline Conduct</source>
+          <target state="new">Yellow Cards Unsportsmanline Conduct</target>
+        </trans-unit>
+        <trans-unit id="Resx/BirthDate" translate="yes" xml:space="preserve">
+          <source>BirthDate</source>
+          <target state="new">BirthDate</target>
+        </trans-unit>
+        <trans-unit id="Resx/AssistedBy" translate="yes" xml:space="preserve">
+          <source> asssited by </source>
+          <target state="new"> asssited by </target>
+        </trans-unit>
+        <trans-unit id="Resx/By" translate="yes" xml:space="preserve">
+          <source> by </source>
+          <target state="new"> by </target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAChargingFoul" translate="yes" xml:space="preserve">
+          <source> commits a charging foul</source>
+          <target state="new"> commits a charging foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAHoldingFoul" translate="yes" xml:space="preserve">
+          <source> commits a holding foul</source>
+          <target state="new"> commits a holding foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAKickingFoul" translate="yes" xml:space="preserve">
+          <source> commits a kicking foul</source>
+          <target state="new"> commits a kicking foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAnIllegalTackleFoul" translate="yes" xml:space="preserve">
+          <source> commits an illegal tackle foul</source>
+          <target state="new"> commits an illegal tackle foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAPushingFoul" translate="yes" xml:space="preserve">
+          <source> commits a pushing foul</source>
+          <target state="new"> commits a pushing foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsATrippingFoul" translate="yes" xml:space="preserve">
+          <source> commits a tripping foul</source>
+          <target state="new"> commits a tripping foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasAnIllegalThrowIn" translate="yes" xml:space="preserve">
+          <source> has an illegal throw in</source>
+          <target state="new"> has an illegal throw in</target>
+        </trans-unit>
+        <trans-unit id="Resx/IsOffsides" translate="yes" xml:space="preserve">
+          <source> is offisides</source>
+          <target state="new"> is offisides</target>
+        </trans-unit>
+        <trans-unit id="Resx/KicksTheBallOutOfBounds" translate="yes" xml:space="preserve">
+          <source> kicks the ball out of bounds</source>
+          <target state="new"> kicks the ball out of bounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeftFoot" translate="yes" xml:space="preserve">
+          <source>left foot</source>
+          <target state="new">left foot</target>
+        </trans-unit>
+        <trans-unit id="Resx/LostTheDribble" translate="yes" xml:space="preserve">
+          <source> lost the dribble</source>
+          <target state="new"> lost the dribble</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodPass" translate="yes" xml:space="preserve">
+          <source> makes a good pass</source>
+          <target state="new"> makes a good pass</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentPass" translate="yes" xml:space="preserve">
+          <source> makes an excellent pass</source>
+          <target state="new"> makes an excellent pass</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorPass" translate="yes" xml:space="preserve">
+          <source> makes a poor pass</source>
+          <target state="new"> makes a poor pass</target>
+        </trans-unit>
+        <trans-unit id="Resx/RightFoot" translate="yes" xml:space="preserve">
+          <source>right foot</source>
+          <target state="new">right foot</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a shot and hits the post</source>
+          <target state="new"> takes a shot and hits the post</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a shot and it is blocked</source>
+          <target state="new"> takes a shot and it is blocked</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndScores" translate="yes" xml:space="preserve">
+          <source> takes a shot and scores</source>
+          <target state="new"> takes a shot and scores</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tutorial" translate="yes" xml:space="preserve">
+          <source>Tutorial</source>
+          <target state="new">Tutorial</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockAdjustedToPeriod" translate="yes" xml:space="preserve">
+          <source> Clock adjusted to period</source>
+          <target state="new"> Clock adjusted to period</target>
+        </trans-unit>
+        <trans-unit id="Resx/DrawsAFoul" translate="yes" xml:space="preserve">
+          <source> draws a foul</source>
+          <target state="new"> draws a foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dribbles" translate="yes" xml:space="preserve">
+          <source> dribbles</source>
+          <target state="new"> dribbles</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForFoulPlay" translate="yes" xml:space="preserve">
+          <source> gets a red card for foul play</source>
+          <target state="new"> gets a red card for foul play</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForIllegalHands" translate="yes" xml:space="preserve">
+          <source> gets a red card for illegal hands</source>
+          <target state="new"> gets a red card for illegal hands</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForSecondYellowCard" translate="yes" xml:space="preserve">
+          <source> gets a red card for second yellow card</source>
+          <target state="new"> gets a red card for second yellow card</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForViolentConduct" translate="yes" xml:space="preserve">
+          <source> gets a red card for violent conduct</source>
+          <target state="new"> gets a red card for violent conduct</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsAYellowCardForDelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source> gets a yellow card for delaying restart of play</source>
+          <target state="new"> gets a yellow card for delaying restart of play</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsAYellowCardForUnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source> gets a yellow card for unsportsmanlike conduct</source>
+          <target state="new"> gets a yellow card for unsportsmanlike conduct</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasATackle" translate="yes" xml:space="preserve">
+          <source> has a tackle</source>
+          <target state="new"> has a tackle</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasAThrowIn" translate="yes" xml:space="preserve">
+          <source> has a throw in</source>
+          <target state="new"> has a throw in</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodCross" translate="yes" xml:space="preserve">
+          <source> makes a good cross</source>
+          <target state="new"> makes a good cross</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodDropKick" translate="yes" xml:space="preserve">
+          <source> makes a good drop kick</source>
+          <target state="new"> makes a good drop kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentCross" translate="yes" xml:space="preserve">
+          <source> makes an excellent cross</source>
+          <target state="new"> makes an excellent cross</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentDropKick" translate="yes" xml:space="preserve">
+          <source> makes an excellent drop kick</source>
+          <target state="new"> makes an excellent drop kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorCross" translate="yes" xml:space="preserve">
+          <source> makes a poor cross</source>
+          <target state="new"> makes a poor cross</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorDropKick" translate="yes" xml:space="preserve">
+          <source> makes a poor drop kick</source>
+          <target state="new"> makes a poor drop kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/SwitchedPositionsWith" translate="yes" xml:space="preserve">
+          <source> switched positions with </source>
+          <target state="new"> switched positions with </target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesACornerKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a corner kick and scores</source>
+          <target state="new"> takes a corner kick and scores</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesADirectFreeKick" translate="yes" xml:space="preserve">
+          <source> takes a direct free kick</source>
+          <target state="new"> takes a direct free kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesADirectFreeKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a direct free kick and scores</source>
+          <target state="new"> takes a direct free kick and scores</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAGoalKick" translate="yes" xml:space="preserve">
+          <source> takes a goal kick</source>
+          <target state="new"> takes a goal kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAGoodCornerKick" translate="yes" xml:space="preserve">
+          <source> takes a good corner kick</source>
+          <target state="new"> takes a good corner kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAnExcellentCornerKick" translate="yes" xml:space="preserve">
+          <source> takes an excellent corner kick</source>
+          <target state="new"> takes an excellent corner kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAnIndirectFreeKick" translate="yes" xml:space="preserve">
+          <source> takes an indirect free kick</source>
+          <target state="new"> takes an indirect free kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and hits the post</source>
+          <target state="new"> takes a penalty kick and hits the post</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and it is blocked</source>
+          <target state="new"> takes a penalty kick and it is blocked</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and misses</source>
+          <target state="new"> takes a penalty kick and misses</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and scores</source>
+          <target state="new"> takes a penalty kick and scores</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPoorCornerKick" translate="yes" xml:space="preserve">
+          <source> takes a poor corner kick</source>
+          <target state="new"> takes a poor corner kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and hits the post</source>
+          <target state="new"> takes a shootout kick and hits the post</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and it is blocked</source>
+          <target state="new"> takes a shootout kick and it is blocked</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and misses</source>
+          <target state="new"> takes a shootout kick and misses</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and scores</source>
+          <target state="new"> takes a shootout kick and scores</target>
+        </trans-unit>
+        <trans-unit id="Resx/BlueCross" translate="yes" xml:space="preserve">
+          <source>Blue Cross</source>
+          <target state="new">Blue Cross</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/BlueRed" translate="yes" xml:space="preserve">
+          <source>Blue Red</source>
+          <target state="new">Blue Red</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/BlueStripe" translate="yes" xml:space="preserve">
+          <source>Blue Stripe</source>
+          <target state="new">Blue Stripe</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/BlueWhite" translate="yes" xml:space="preserve">
+          <source>BlueWhite</source>
+          <target state="new">BlueWhite</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/DarkBlue" translate="yes" xml:space="preserve">
+          <source>Dark Blue</source>
+          <target state="new">Dark Blue</target>
+        </trans-unit>
+        <trans-unit id="Resx/DarkRed" translate="yes" xml:space="preserve">
+          <source>Dark Red</source>
+          <target state="new">Dark Red</target>
+        </trans-unit>
+        <trans-unit id="Resx/GermanColors" translate="yes" xml:space="preserve">
+          <source>German Colors</source>
+          <target state="new">German Colors</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/GreenRed" translate="yes" xml:space="preserve">
+          <source>Green Red</source>
+          <target state="new">Green Red</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/LightBlue" translate="yes" xml:space="preserve">
+          <source>Light Blue</source>
+          <target state="new">Light Blue</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/Orange" translate="yes" xml:space="preserve">
+          <source>Orange</source>
+          <target state="new">Orange</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/OrangeGreen" translate="yes" xml:space="preserve">
+          <source>Orange Green</source>
+          <target state="new">Orange Green</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/Red" translate="yes" xml:space="preserve">
+          <source>Red</source>
+          <target state="new">Red</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/RedBlack" translate="yes" xml:space="preserve">
+          <source>Red Black</source>
+          <target state="new">Red Black</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/RedGreen" translate="yes" xml:space="preserve">
+          <source>Red Green</source>
+          <target state="new">Red Green</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/RedStripes" translate="yes" xml:space="preserve">
+          <source>Red Stripes</source>
+          <target state="new">Red Stripes</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/WhiteBlue" translate="yes" xml:space="preserve">
+          <source>White Blue</source>
+          <target state="new">White Blue</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/WhiteGreen" translate="yes" xml:space="preserve">
+          <source>White Green</source>
+          <target state="new">White Green</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/WhiteRed" translate="yes" xml:space="preserve">
+          <source>White Red</source>
+          <target state="new">White Red</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/YellowBlue" translate="yes" xml:space="preserve">
+          <source>Yellow Blue</source>
+          <target state="new">Yellow Blue</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/YellowGreen" translate="yes" xml:space="preserve">
+          <source>Yellow Green</source>
+          <target state="new">Yellow Green</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+        </trans-unit>
+        <trans-unit id="Resx/Demo" translate="yes" xml:space="preserve">
+          <source>Demo</source>
+          <target state="new">Demo</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddNewPlayer" translate="yes" xml:space="preserve">
+          <source>Add New Player</source>
+          <target state="new">Add New Player</target>
+        </trans-unit>
+        <trans-unit id="Resx/Timeline" translate="yes" xml:space="preserve">
+          <source>Timeline</source>
+          <target state="new">Timeline</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectTeam" translate="yes" xml:space="preserve">
+          <source>Select Team</source>
+          <target state="new">Select Team</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name option in teams drop down on game details screen</note>
+        </trans-unit>
+        <trans-unit id="Resx/KicksBallIntoOwnGoal" translate="yes" xml:space="preserve">
+          <source> kicks the ball into own goal</source>
+          <target state="new"> kicks the ball into own goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectJersey" translate="yes" xml:space="preserve">
+          <source>Select Jersey</source>
+          <target state="new">Select Jersey</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectLeague" translate="yes" xml:space="preserve">
+          <source>Select League</source>
+          <target state="new">Select League</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerMinutes" translate="yes" xml:space="preserve">
+          <source>Player Minutes</source>
+          <target state="new">Player Minutes</target>
+        </trans-unit>
+        <trans-unit id="Resx/Statistics" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <target state="new">Statistics</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">screen title</note>
+        </trans-unit>
+        <trans-unit id="Resx/StatsDisclaimer" translate="yes" xml:space="preserve">
+          <source>Player Minutes updated at end of period and end of game</source>
+          <target state="new">Player Minutes updated at end of period and end of game</target>
+        </trans-unit>
+        <trans-unit id="Resx/Legend" translate="yes" xml:space="preserve">
+          <source>Legend</source>
+          <target state="new">Legend</target>
+        </trans-unit>
+        <trans-unit id="Resx/User" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <target state="new">User</target>
+        </trans-unit>
+        <trans-unit id="Resx/eMail" translate="yes" xml:space="preserve">
+          <source>eMail</source>
+          <target state="new">eMail</target>
+        </trans-unit>
+        <trans-unit id="Resx/Password" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="new">Password</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetPassword" translate="yes" xml:space="preserve">
+          <source>Reset Password</source>
+          <target state="new">Reset Password</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="new">About</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateApp" translate="yes" xml:space="preserve">
+          <source>Rate App</source>
+          <target state="new">Rate App</target>
+        </trans-unit>
+        <trans-unit id="Resx/Fouls" translate="yes" xml:space="preserve">
+          <source>Fouls</source>
+          <target state="new">Fouls</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseApp" translate="yes" xml:space="preserve">
+          <source>Purchase App</source>
+          <target state="new">Purchase App</target>
+        </trans-unit>
+        <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="new">Help</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppPrompt" translate="yes" xml:space="preserve">
+          <source>Unlock all stats?</source>
+          <target state="new">Unlock all stats?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoGame" translate="yes" xml:space="preserve">
+          <source>Demo Game</source>
+          <target state="new">Demo Game</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoToDemoGamePrompt" translate="yes" xml:space="preserve">
+          <source>Try scoring the demo game?</source>
+          <target state="new">Try scoring the demo game?</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoLeftButton" translate="yes" xml:space="preserve">
+          <source>Try It</source>
+          <target state="new">Try It</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoRightButton" translate="yes" xml:space="preserve">
+          <source>No Thanks</source>
+          <target state="new">No Thanks</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rate" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="new">Rate</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us.  Please rate this app. Rating the app will enable full stats functionality.</source>
+          <target state="new">Your feedback is very important to us.  Please rate this app. Rating the app will enable full stats functionality.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us.  Would you like to rate this app?  Rating the app will enable full stats functionality.</source>
+          <target state="new">Your feedback is very important to us.  Would you like to rate this app?  Rating the app will enable full stats functionality.</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateLeftButton" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="new">Yes</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateRightButton" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="new">No</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppLeftButton" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="new">Purchase</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppRightButton" translate="yes" xml:space="preserve">
+          <source>Not Now</source>
+          <target state="new">Not Now</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayerToBench" translate="yes" xml:space="preserve">
+          <source>Add Player To Bench</source>
+          <target state="new">Add Player To Bench</target>
+        </trans-unit>
+        <trans-unit id="Resx/Advance" translate="yes" xml:space="preserve">
+          <source>Advance</source>
+          <target state="new">Advance</target>
+        </trans-unit>
+        <trans-unit id="Resx/AdvanceToNextPeriod" translate="yes" xml:space="preserve">
+          <source>Advance to next period?</source>
+          <target state="new">Advance to next period?</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayBoxscore" translate="yes" xml:space="preserve">
+          <source>Away Boxscore</source>
+          <target state="new">Away Boxscore</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToAdjustClock" translate="yes" xml:space="preserve">
+          <source>Click to adjust clock</source>
+          <target state="new">Click to adjust clock</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToAdjustPeriod" translate="yes" xml:space="preserve">
+          <source>Click to adjust period</source>
+          <target state="new">Click to adjust period</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToStartOrStopGameTime" translate="yes" xml:space="preserve">
+          <source>Click to Start or Stop game time</source>
+          <target state="new">Click to Start or Stop game time</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockDown" translate="yes" xml:space="preserve">
+          <source>Clock Down</source>
+          <target state="new">Clock Down</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockUp" translate="yes" xml:space="preserve">
+          <source>Clock Up</source>
+          <target state="new">Clock Up</target>
+        </trans-unit>
+        <trans-unit id="Resx/Edit" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="new">Edit</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+        </trans-unit>
+        <trans-unit id="Resx/EditGame" translate="yes" xml:space="preserve">
+          <source>Edit Game</source>
+          <target state="new">Edit Game</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+        </trans-unit>
+        <trans-unit id="Resx/EditPlayByPlay" translate="yes" xml:space="preserve">
+          <source>Edit Play By Play</source>
+          <target state="new">Edit Play By Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameManager" translate="yes" xml:space="preserve">
+          <source>Game Manager</source>
+          <target state="new">Game Manager</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+        </trans-unit>
+        <trans-unit id="Resx/GameStatistics" translate="yes" xml:space="preserve">
+          <source>Game Statistics</source>
+          <target state="new">Game Statistics</target>
+        </trans-unit>
+        <trans-unit id="Resx/Header" translate="yes" xml:space="preserve">
+          <source>Header</source>
+          <target state="new">Header</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeBoxscore" translate="yes" xml:space="preserve">
+          <source>Home Boxscore</source>
+          <target state="new">Home Boxscore</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoPlaysToUndo" translate="yes" xml:space="preserve">
+          <source>There are no plays to undo</source>
+          <target state="new">There are no plays to undo</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyGoal" translate="yes" xml:space="preserve">
+          <source>Penalty Goal</source>
+          <target state="new">Penalty Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayByPlay" translate="yes" xml:space="preserve">
+          <source>Play By Play</source>
+          <target state="new">Play By Play</target>
+        </trans-unit>
+        <trans-unit id="Resx/Share" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="new">Share</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootsLeftFoot" translate="yes" xml:space="preserve">
+          <source>Shoots Left Foot</source>
+          <target state="new">Shoots Left Foot</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+        </trans-unit>
+        <trans-unit id="Resx/ShootsRightFoot" translate="yes" xml:space="preserve">
+          <source>Shoots Right Foot</source>
+          <target state="new">Shoots Right Foot</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+        </trans-unit>
+        <trans-unit id="Resx/ShotGoal" translate="yes" xml:space="preserve">
+          <source>Shot Goal</source>
+          <target state="new">Shot Goal</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotWithLeftFoot" translate="yes" xml:space="preserve">
+          <source>Shot With Left Foot</source>
+          <target state="new">Shot With Left Foot</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotWithRightFoot" translate="yes" xml:space="preserve">
+          <source>Shot With Right Foot</source>
+          <target state="new">Shot With Right Foot</target>
+        </trans-unit>
+        <trans-unit id="Resx/Undo" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="new">Undo</target>
+        </trans-unit>
+        <trans-unit id="Resx/WasUndone" translate="yes" xml:space="preserve">
+          <source> was undone</source>
+          <target state="new"> was undone</target>
+        </trans-unit>
+        <trans-unit id="Resx/Menu" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="new">Menu</target>
+        </trans-unit>
+        <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="new">Purchase</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAllStats" translate="yes" xml:space="preserve">
+          <source>Purchase All Stats?</source>
+          <target state="new">Purchase All Stats?</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine1" translate="yes" xml:space="preserve">
+          <source>Full stats package includes: Player Minutes, Plus Minus,</source>
+          <target state="new">Full stats package includes: Player Minutes, Plus Minus,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine2" translate="yes" xml:space="preserve">
+          <source>Pass, Turnover, Offsides,</source>
+          <target state="new">Pass, Turnover, Offsides,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine3" translate="yes" xml:space="preserve">
+          <source>Foul Committed, Out of Bounds, Cross, Throw In, Corner Kick,</source>
+          <target state="new">Foul Committed, Out of Bounds, Cross, Throw In, Corner Kick,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine4" translate="yes" xml:space="preserve">
+          <source>Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,</source>
+          <target state="new">Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine5" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,</source>
+          <target state="new">Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine6" translate="yes" xml:space="preserve">
+          <source>Dribble, Shootout Kick, Substitution</source>
+          <target state="new">Dribble, Shootout Kick, Substitution</target>
+        </trans-unit>
+        <trans-unit id="Resx/Loading" translate="yes" xml:space="preserve">
+          <source>Loading ...</source>
+          <target state="new">Loading ...</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayerFromRoster" translate="yes" xml:space="preserve">
+          <source>Delete Player From Team Roster</source>
+          <target state="new">Delete Player From Team Roster</target>
+        </trans-unit>
+        <trans-unit id="Resx/FromPlayerList" translate="yes" xml:space="preserve">
+          <source> from player list</source>
+          <target state="new"> from player list</target>
+        </trans-unit>
+        <trans-unit id="Resx/FromRoster" translate="yes" xml:space="preserve">
+          <source> from roster</source>
+          <target state="new"> from roster</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeAndAwayCanNotBeSameTeam" translate="yes" xml:space="preserve">
+          <source>Home team and away team can not be the same. Game not saved.</source>
+          <target state="new">Home team and away team can not be the same. Game not saved.</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameStarted" translate="yes" xml:space="preserve">
+          <source>Game Started</source>
+          <target state="new">Game Started</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToBuy" translate="yes" xml:space="preserve">
+          <source>- Click Image To Buy Full Version -</source>
+          <target state="new">- Click Image To Buy Full Version -</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword5" translate="yes" xml:space="preserve">
+          <source>sports</source>
+          <target state="new">sports</target>
+        </trans-unit>
+        <trans-unit id="Resx/Feedback" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="new">Feedback</target>
+        </trans-unit>
+        <trans-unit id="Resx/_description" translate="yes" xml:space="preserve">
+          <source>The most intuitive and complete Soccer Scoring application on the market.  Over 50 stats available.  Try it free today!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+Player Stats include:
+
+Minutes played 
+Plus-minus 
+Goals
+Pases
+Offsides
+Red Card
+Turnovers
+and many more!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</source>
+          <target state="new">The most intuitive and complete Soccer Scoring application on the market.  Over 50 stats available.  Try it free today!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+Player Stats include:
+
+Minutes played 
+Plus-minus 
+Goals
+Pases
+Offsides
+Red Card
+Turnovers
+and many more!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayerFromPlayerList" translate="yes" xml:space="preserve">
+          <source>Delete Player From Player List</source>
+          <target state="new">Delete Player From Player List</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddNewPlayerToPlayerList" translate="yes" xml:space="preserve">
+          <source>Add New Player To Player List</source>
+          <target state="new">Add New Player To Player List</target>
+        </trans-unit>
+        <trans-unit id="Resx/FollowUsOnTwitter" translate="yes" xml:space="preserve">
+          <source>Follow us on Twitter</source>
+          <target state="new">Follow us on Twitter</target>
+        </trans-unit>
+        <trans-unit id="Resx/_IAPDescription" translate="yes" xml:space="preserve">
+          <source>Full Stats package includes: Player Minutes, Plus Minus,
+Pass, Turnover, Offsides, Foul Committed, Out of Bounds, Cross, Throw In,
+Corner Kick, Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,
+Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,
+Dribble, Shootout Kick, Substitution</source>
+          <target state="new">Full Stats package includes: Player Minutes, Plus Minus,
+Pass, Turnover, Offsides, Foul Committed, Out of Bounds, Cross, Throw In,
+Corner Kick, Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,
+Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,
+Dribble, Shootout Kick, Substitution</target>
+        </trans-unit>
+        <trans-unit id="Resx/_iapHeader" translate="yes" xml:space="preserve">
+          <source>Full Stats</source>
+          <target state="new">Full Stats</target>
+        </trans-unit>
+        <trans-unit id="Resx/_FreeDescription" translate="yes" xml:space="preserve">
+          <source>The most intuitive and complete Soccer Scoring application on the market!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+The free version includes tracking of Shots and Goals!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</source>
+          <target state="new">The most intuitive and complete Soccer Scoring application on the market!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+The free version includes tracking of Shots and Goals!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodNotStarted" translate="yes" xml:space="preserve">
+          <source>The period has not started yet. Do you wish to continue?</source>
+          <target state="new">The period has not started yet. Do you wish to continue?</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotStarted" translate="yes" xml:space="preserve">
+          <source>Not Started</source>
+          <target state="new">Not Started</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword4" translate="yes" xml:space="preserve">
+          <source>score</source>
+          <target state="new">score</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword3" translate="yes" xml:space="preserve">
+          <source>UTrack</source>
+          <target state="new">UTrack</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword2" translate="yes" xml:space="preserve">
+          <source>statistics</source>
+          <target state="new">statistics</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword1" translate="yes" xml:space="preserve">
+          <source>soccer</source>
+          <target state="new">soccer</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoEvents" translate="yes" xml:space="preserve">
+          <source>no events</source>
+          <target state="new">no events</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kickoff" translate="yes" xml:space="preserve">
+          <source>KICKOFF</source>
+          <target state="new">KICKOFF</target>
+        </trans-unit>
+        <trans-unit id="Resx/HalfTime" translate="yes" xml:space="preserve">
+          <source>HALF-TIME</source>
+          <target state="new">HALF-TIME</target>
+        </trans-unit>
+        <trans-unit id="Resx/FullTime" translate="yes" xml:space="preserve">
+          <source>FULL-TIME</source>
+          <target state="new">FULL-TIME</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtraTimeHalfTime" translate="yes" xml:space="preserve">
+          <source>EXTRA-TIME HALF-TIME</source>
+          <target state="new">EXTRA-TIME HALF-TIME</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtraTimeFullTime" translate="yes" xml:space="preserve">
+          <source>EXTRA-TIME FULL-TIME</source>
+          <target state="new">EXTRA-TIME FULL-TIME</target>
+        </trans-unit>
+        <trans-unit id="Resx/EndPeriod" translate="yes" xml:space="preserve">
+          <source>End Period </source>
+          <target state="new">End Period </target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

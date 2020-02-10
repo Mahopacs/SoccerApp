@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>vi-VN</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>ĐƠN XIN CỦA TÔI</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>thêm</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Mục Menu</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>Thêm nhóm</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>Huấn luyện viên</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Số Liên lạc</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Xóa</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>Hiển thị các mục đã xóa</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Ngày kết thúc</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Trò chơi</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>Số liệu thống kê trò chơi</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Tạo Báo cáo</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>Jơxy</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Giải đấu</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>Người chơi</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>Số cầu thủ</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>Danh sách chơi</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Loại báo cáo</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Bắt buộc</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>Danh sách</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Tên viết tắt</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Ngày bắt đầu</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>Báo cáo số liệu thống kê</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>Chi tiết nhóm</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>Tên nhóm</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>Tên nhóm không được nhập. Nhóm không được lưu.</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>Đội</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>Đội số liệu thống kê</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>Thêm giải đấu</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>Giải đấu thông tin chi tiết</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>Tên giải đấu</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Giải đấu</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Tên liên lạc</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>Giải đấu tên không được nhập. Giải đấu không được lưu.</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Hiện hoạt</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>Thêm cầu thủ vào đội danh sách</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>Nhập số áo cầu thủ</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>Không hoạt động</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>Số áo phải là số một. Số áo không được lưu.</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>Số áo không thể nhiều hơn 3 ký tự.  Số áo không được lưu.</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>Số áo</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>Rosters</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Tình trạng</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>Thêm trò chơi</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Trò chơi</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>Game thông tin</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Người quản lý</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>Đội</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Đồng hồ</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Xuống</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>Ngày trò chơi</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>Thông tin chi tiết trò chơi</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>Game thời gian</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>Đội chủ nhà</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>Giải đấu mặc định</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>Làm thêm giờ</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>Chiều dài thời gian bù giờ</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>Chiều dài thời gian</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>Thời Kỳ</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Lên</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>Đội không được chọn. Trò chơi không được lưu.</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>Đồng hồ lên hoặc xuống không đặt. Trò chơi không được lưu.</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>Trò chơi đã bắt đầu.  Không thể thay đổi thông tin chi tiết trò chơi một khi trò chơi đã bắt đầu. Thay đổi không được lưu.</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>Đội chủ nhà không được chọn. Trò chơi không được lưu.</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>Khoảng thời gian dài không được thiết lập. Trò chơi không được lưu.</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>Thời gian không thiết lập. Trò chơi không được lưu.</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>Người chơi cho một đội bóng không đặt. Trò chơi không được lưu.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>Thêm chơi</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>Thêm cầu thủ</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>Danh sách cầu thủ</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>Tên cầu thủ</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>Chơi văn bản</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>tìm kiếm</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>Không thể thay đổi thông tin trên một máy nghe nhạc đã bị xóa. Máy nghe nhạc không được lưu.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>Tên không được nhập. Máy nghe nhạc không được lưu.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>Số áo không thể nhiều hơn 3 ký tự. Máy nghe nhạc không được lưu.</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Đá</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Họ</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>Chi tiết máy nghe nhạc</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Độ dày</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>Hỗ trợ</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Bị chặn</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>Góc Kick</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>Chữ thập</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>Sút phạt trực tiếp</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Dribble</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>Thả đá</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>Hôi cam</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>Hôi rút ra</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>Mục tiêu được cho phép</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>Thủ môn Kick</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>Gián tiếp miễn phí Kick</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>Số phút chơi</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Di chuyển</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>Nằm ngoài giới hạn</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>Mục tiêu của riêng</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>Vượt qua</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>Đá phạt</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>Cộng Trừ</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>Thẻ đỏ</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>Kick loạt đá luân lưu</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>Tấm</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>Bắn vào mục tiêu</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>Sự thay thế</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>Giải quyết</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>Ném vào</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>Doanh thu</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>Thẻ vàng</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>Xuất sắc</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Tốt</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>Kém</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>Thông tin chi tiết bắn</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>Bad Pass</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>Sạc</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>Trì hoãn khởi động lại chơi</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>Cho mục tiêu</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>Hôi chơi</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>Mục tiêu</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>Đứng đầu</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>Nhấn bài</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>Giữ</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>Tay bất hợp pháp</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>Giải quyết bất hợp pháp</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>Ném bất hợp pháp vào</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>Trong</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>Đá</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>Mất Dribble</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>Hoa hậu</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>Không cho mục tiêu</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>Ra khỏi</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>Đẩy</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>Thẻ vàng thứ hai</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>Vấp ngã</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>Unsportsmanlike tiến hành</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>Hành vi bạo lực</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>Số liệu thống kê Picker</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value> phải mất một shot và bỏ lỡ</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>Bị chặn bởi</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Hủy</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>Bắn không phải trên mục tiêu</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>Chơi thông tin chi tiết</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Bộ phát</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>Cầu thủ</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>Các cầu thủ ra</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>Thể loại stat</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>Mô tả stat</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Đội</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>Đồng hồ không được nhập. Chơi không lưu.</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>Không một loại chơi được hỗ trợ cho pbp soạn. Chơi không có thể được chỉnh sửa.</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>Đối thủ</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>Thủ môn đội khác</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>Nhóm của chúng tôi</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>Thời gian/đồng hồ giá trị không thể là một thời gian trong tương lai. Xin vui lòng sử dụng trò chơi quản lý để theo dõi một vở kịch trong tương lai. Chơi không lưu.</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>Người chơi 1</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>Player 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>Player 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>Máy nghe nhạc 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>Máy nghe nhạc 13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>Chơi 14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>Chơi 15</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>16 cầu thủ</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>17 cầu thủ</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>Cầu thủ 18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>Cầu thủ 19</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>Người chơi 2</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>Cầu thủ 20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>Cầu thủ 21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>Cầu thủ 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>23 cầu thủ</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>Máy nghe nhạc 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>Cầu thủ 25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>26 cầu thủ</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>Cầu thủ 27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>Cầu thủ 28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>29 cầu thủ</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>Người chơi 3</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>Cầu thủ 30</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>Người chơi 4</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>5 cầu thủ</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>Cầu thủ 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>Player 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>8 cầu thủ</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>Player 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>Đi vắng</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>Xóa trò chơi</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>Xóa League</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>Xóa chơi</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>Xoá cầu thủ</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>Xoá nhóm</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Không có</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Phát</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Không Biết</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Inprogress, màn hình bị vô hiệu hoá</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>Không hợp lệ OT chiều dài. Trò chơi không được lưu.</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>Hỗ trợ</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Khối</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>Góc</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>Góc tuyệt vời</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>Góc cho mục tiêu</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>Góc tốt</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>Góc người nghèo</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>Thánh giá</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>Thánh giá tuyệt vời</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>Thánh giá tốt</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>Vượt qua nghèo</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>Đá miễn phí trực tiếp</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>Đá miễn phí trực tiếp cho mục tiêu</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>Đá miễn phí trực tiếp không cho mục tiêu</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>Thả đá</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>Thả đá tuyệt vời</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>Thả đá tốt</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>Thả đá nghèo</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Fouls cam kết giữ</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>Fouls cam kết</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Fouls không cam kết tính phí</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Fouls cam kết giải quyết bất hợp pháp</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>Fouls cam đá</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Fouls cam kết đẩy</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Fouls cam kết vấp ngã</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>Fouls rút ra</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>Mục tiêu đá</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>Mục tiêu</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>Mục tiêu được cho phép</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>Đá miễn phí gián tiếp</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>Pass tuyệt vời</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>Đi tốt</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>Pass người nghèo</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>Quả phạt đền</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>Phạt bị chặn</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>Hình phạt đá mục tiêu</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>Phạt đánh bài</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>Phạt bị mất</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>Thẻ đỏ</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>Thẻ đỏ hôi chơi</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>Thẻ đỏ Ilegal tay</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>Thẻ vàng thứ hai thẻ đỏ</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>Red thẻ hành vi bạo lực</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>Tiết kiệm</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Đá loạt đá luân lưu</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>Loạt đá luân lưu đá bị chặn</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>Loạt đá luân lưu đá mục tiêu</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Loạt đá luân lưu đá đánh bài</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>Loạt đá luân lưu đá bị mất</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>Mũi chích ngừa</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>Các mũi chích ngừa bị chặn</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>Mục tiêu mũi chích ngừa</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>Mũi chích ngừa đánh bài</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>Các mũi chích ngừa bị mất</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>Bức ảnh về mục tiêu</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Giải quyết</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>Ném in</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Doanh thu</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Doanh thu bất hợp pháp ném vào</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>Doanh thu bị mất Dribble</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>Thẻ vàng</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>Thẻ vàng trì hoãn khởi động lại chơi</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>Thẻ vàng Unsportsmanline tiến hành</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Ngày sinh</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value> asssited bởi </value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value> bởi </value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value> cam kết một sạc hôi</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value> cam kết một pha phạm lỗi đang nắm giữ</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value> cam kết một đá hôi</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value> cam kết một pha phạm lỗi giải quyết bất hợp pháp</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value> cam kết một đẩy hôi</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value> cam kết một hôi vấp ngã</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value> có một ném bất hợp pháp</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value> là offisides</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value> đá bóng ra khỏi giới hạn</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>chân trái</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value> mất các dribble</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value> làm cho một vượt qua tốt</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value> làm cho một vượt qua tuyệt vời</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value> làm cho một vượt qua nghèo</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>chân phải</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value> phải mất một shot và số truy cập bài viết</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value> phải mất một shot và nó bị chặn</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value> phải mất một shot và điểm số</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>Bài học</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value> Đồng hồ điều chỉnh để thời gian</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value> rút ra một pha phạm lỗi</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value> dribbles</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value> được một thẻ đỏ cho hôi chơi</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value> được một thẻ đỏ cho tay bất hợp pháp</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value> được một thẻ đỏ cho thẻ vàng thứ hai</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value> được một thẻ đỏ cho hành vi bạo lực</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value> được một thẻ vàng cho trì hoãn khởi động lại chơi</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value> được một thẻ vàng cho unsportsmanlike tiến hành</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value> đã giải quyết một</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value> đã ném một</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value> làm cho một cây thánh giá tốt</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value> làm cho một kick thả tốt</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value> làm cho một đường tuyệt vời</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value> làm cho một tuyệt vời thả kick</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value> làm cho một cây thánh giá nghèo</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value> làm cho một kick giảm nghèo</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value> chuyển sang vị trí </value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value> mất một cú đá góc và điểm số</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value> mất một cú đá phạt trực tiếp</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value> mất một cú đá phạt trực tiếp và điểm số</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value> mất một kick mục tiêu</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value> mất một cú đá góc tốt</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value> mất một cú đá góc tuyệt vời</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value> mất một kick miễn phí gián tiếp</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value> mất một cú đá phạt và số truy cập bài viết</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value> có một hình phạt kick và nó bị chặn</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value> mất một cú đá phạt và bỏ lỡ</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value> mất một cú đá phạt và điểm số</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value> mất một kick nghèo góc</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value> mất một kick loạt đá luân lưu và số truy cập bài viết</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value> có một loạt đá luân lưu kick và nó bị chặn</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value> mất một kick loạt đá luân lưu và bỏ lỡ</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value> mất một kick loạt đá luân lưu và điểm số</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>Blue Cross</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>Màu xanh đỏ</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>Sọc màu xanh</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>BlueWhite</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>Lam đậm</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>Đỏ đậm</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>Đức màu sắc</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>Màu xanh lá cây màu đỏ</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>Lam nhạt</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Cam</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>Màu xanh lá cây màu da cam</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Đỏ</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>Màu đỏ đen</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>Màu xanh lá cây màu đỏ</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>Sọc đỏ</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>Blue trắng</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>Màu xanh lá cây màu trắng</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>Trắng đỏ</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>Màu vàng xanh</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>Màu xanh lá cây màu vàng</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Giới thiệu</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>Thêm cầu thủ mới</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>Lịch trình</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>Chọn đội bóng</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value> đá bóng vào mục tiêu của riêng</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>Chọn Jersey</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>Chọn giải đấu</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>Cầu thủ phút</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Thống kê</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>Cập nhật lúc kết thúc giai đoạn và kết thúc của trò chơi máy nghe nhạc phút</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>Chú giải</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Người dùng</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>thư điện tử</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>M?t kh?u</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Đặt lại mật khẩu</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Về</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Tỷ lệ App</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Fouls</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>Mua ứng dụng</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Trợ giúp</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>Mở khóa tất cả thống kê?</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>Giới thiệu trò chơi</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>Cố gắng ghi demo trò chơi?</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>Hãy thử nó</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>Không, cảm ơn</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Xếp hạng</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>Phản hồi của bạn là rất quan trọng với chúng tôi.  Vui lòng đánh giá ứng dụng này.</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>Phản hồi của bạn là rất quan trọng với chúng tôi.  Bạn có muốn đánh giá ứng dụng này không?</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>Mua hàng</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>Không phải bây giờ</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>Thêm cầu thủ vào băng ghế dự bị</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>Chuyên sâu</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>Tiến tới giai đoạn tiếp theo?</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>Đi Boxscore</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>Chuột để điều chỉnh đồng hồ</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>Chuột để điều chỉnh thời gian</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>Nhấn vào đây để bắt đầu hoặc ngừng thời gian trò chơi</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>Đồng hồ xuống</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>Đồng hồ</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Sửa</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>Chỉnh sửa trò chơi</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>Chỉnh sửa chơi bởi chơi</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>Quản lý trò chơi</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>Số liệu thống kê trò chơi</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Đầu trang</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>Nhà Boxscore</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>Không có không có kịch để hoàn tác</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>Mục tiêu hình phạt</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>Chơi bằng cách chơi</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Chia sẻ</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>Bắn chân trái</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>Chân phải bắn</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>Bắn mục tiêu</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>Bắn với chân trái</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>Bắn với chân phải</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value> được hoàn tác</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Trình đơn</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Mua hàng</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>Mua tất cả thống kê?</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>Số liệu thống kê đầy đủ gói bao gồm: cầu thủ phút, cộng với trừ,</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>Vượt qua, doanh thu, Offsides,</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>Cam kết hôi, nằm ngoài giới hạn, vượt qua, ném vào, đá phạt góc,</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>Giải quyết, thủ môn Kick, mục tiêu của riêng, hôi rút ra, trực tiếp cú đá phạt,</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>Kick miễn phí gián tiếp, đá phạt, thẻ vàng, thẻ đỏ, thả Kick,</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Dribble, Kick loạt đá luân lưu, thay thế</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Đang tải...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>Xoá cầu thủ khỏi danh sách</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value> từ danh sách cầu thủ</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value> từ danh sách</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>Đội chủ nhà và đội có thể không là như vậy. Trò chơi không được lưu.</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>Trò chơi bắt đầu</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-Bấm vào hình ảnh để mua phiên bản đầy đủ-</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>thể thao</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Phản hồi</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>điểm</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>thống kê</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>bóng đá</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>không có sự kiện</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>KICKOFF</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>MỘT NỬA THỜI GIAN</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>TOÀN THỜI GIAN</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>THÊM THỜI GIAN LÀM VIỆC NỬA GIỜ</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>EXTRA-TIME TOÀN THỜI GIAN</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>Giai đoạn cuối </value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>Nhất trực quan và hoàn thành bóng đá điểm ứng dụng trên thị trường.  Hơn 50 số liệu thống kê có sẵn.  Thử nó miễn phí ngay hôm nay!
+
+Theo dõi các: những số cầu thủ của đội trò chơi giải đấu người chơi bao gồm: phút chơi cộng-trừ mục tiêu Pases Offsides doanh thu thẻ đỏ và nhiều hơn nữa!
+
+Tùy chọn trò chơi bao gồm: đồng hồ hoặc đồng hồ xuống linh hoạt trên lĩnh vực thành không rõ các máy nghe nhạc tùy chọn chỉnh sửa/suy vi của chơi không giới hạn thay thế tùy biến thời gian và thời gian dài.
+
+
+Xem Play-By-Play hành động cho các trò chơi, chia sẻ số liệu thống kê trên Twitter, Facebook, Instagram, email, văn bản và nhiều hơn nữa!
+
+Dễ dàng để đặt lên và dễ sử dụng!  Bắt đầu theo dõi các trò chơi tiếp theo của bạn trong vòng vài phút!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>Thời gian đã không bắt đầu được nêu ra. Bạn có muốn tiếp tục không?</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>Chưa Bắt đầu</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>Xoá cầu thủ khỏi danh sách chơi</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>Thêm danh sách cầu thủ để chơi mới</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>Theo chúng tôi trên Twitter</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>Số liệu thống kê đầy đủ trọn gói bao gồm: cầu thủ phút, cộng với trừ, vượt qua, doanh thu, Offsides, cam kết hôi, Out of Bounds, Cross, ném trong, góc Kick, giải quyết, thủ môn Kick, mục tiêu của riêng, rút ra hôi, sút phạt trực tiếp, gián tiếp miễn phí đá, đá phạt, thẻ vàng, thẻ đỏ, thả Kick, Dribble, Kick loạt đá luân lưu, thay thế</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>Số liệu thống kê đầy đủ</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>Nhất trực quan và hoàn thành bóng đá điểm ứng dụng trên thị trường!
+
+Theo dõi các: đội trò chơi giải đấu người chơi phiên bản miễn phí bao gồm theo dõi của mũi chích ngừa và mục tiêu!
+
+Tùy chọn trò chơi bao gồm: đồng hồ hoặc đồng hồ xuống linh hoạt trên lĩnh vực thành không rõ các máy nghe nhạc tùy chọn chỉnh sửa/suy vi của chơi không giới hạn thay thế tùy biến thời gian và thời gian dài.
+
+
+Xem Play-By-Play hành động cho các trò chơi, chia sẻ số liệu thống kê trên Twitter, Facebook, Instagram, email, văn bản và nhiều hơn nữa!
+
+Dễ dàng để đặt lên và dễ sử dụng!  Bắt đầu theo dõi các trò chơi tiếp theo của bạn trong vòng vài phút!</value>
+  </data>
+</root>

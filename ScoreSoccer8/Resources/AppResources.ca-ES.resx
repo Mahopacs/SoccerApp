@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ca-ES</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>LA MEVA APLICACIÓ</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>afegir</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Element de menú</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>Afegir equip</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>Entrenador</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Telèfon de contacte</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Suprimeix</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>Visualitza els elements suprimits</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Data d'acabament</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Jocs</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>Estadístiques jocs</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Genera l'informe</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>Jersey</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>Lliga</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>Jugadors</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>Estats del jugador</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>Llista de joc</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Tipus d'informe</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Necessari</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>Llista de participants</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Nom curt</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>Informes d'estadístiques</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>Equip detalls</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>Nom de l'equip</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>Nom equip no introduït. L'equip no guardat.</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>Equips</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>Estadístiques d'equip</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>Afegir Lliga</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>Lliga detalls</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>Nom de la Lliga</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Lligues</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Nom del contacte</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>Nom de la Lliga no va entrar. Lliga no guardat.</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Activa</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>Afegir el jugador a la llista d'equip</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>Introduïu el número de jugadors Jersey</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>Inactiu</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>Jersey nombre ha de ser un nombre. Nombre de Jersey no guardat.</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>Jersey nombre no pot ser més de 3 caràcters.  Nombre de Jersey no guardat.</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>El seu número</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>Llistes de jugadors</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>STATUS</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>Afegir el joc</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Joc</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>Informació del joc</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Director</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>Equip fora</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Rellotge</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Avall</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>Data de joc</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>Detalls de joc</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>Temps de joc</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>Equip de casa</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>Lliga per defecte</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>Pròrroga</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>Durada de la pròrroga</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>Durada del període</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>Períodes</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Amunt</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>Equip fora no seleccionat. Joc no guardat.</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>Rellotge amunt o avall no posat. Joc no guardat.</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>Joc ja ha començat.  No es pot canviar el jocs detalls una vegada ha començat el joc. No estalviava els canvis.</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>L'equip local no seleccionat. Joc no guardat.</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>Durada del període no posat. Joc no guardat.</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>Períodes no posat. Joc no guardat.</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>No posar els jugadors per equip. Joc no guardat.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Afegeix</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>Afegir jugar</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>Afegir el jugador</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>Llista d'intèrpret</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>Nom d'intèrpret</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>Text de jugar</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>HALLAR</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>No es pot canviar la informació sobre un jugador eliminat. Jugador no guardat.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>Nom no introduït. Jugador no guardat.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>Jersey nombre no pot ser més de 3 caràcters. Jugador no guardat.</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Puntades</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Cognoms</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>IZQUIERDA</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>Jugador detalls</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Gruix</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>Ajudar a</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Bloquejat</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>Tir de cantonada</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>Creu</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>Tir lliure directe</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Regat</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>Retrocés de la gota</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>Falta de compromís</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>Falta dibuixat</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>Objectiu permès</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>Porter puntada</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>Tir lliure indirecte</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>Minuts jugats</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Desplaça</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>Fora dels límits</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>Gol en pròpia porta</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>Pass</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>Tir penal</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>Més o menys</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>Targeta vermella</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Desa</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>Tiroteig puntada</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>Foto</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>Tir a gol</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>Substitució</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>Fer front</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>Tir en</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>Facturació</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>Targeta groga</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>Excel·lent</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>Bé</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>Pobre</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>Detalls de tir</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>Mal pas</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>Càrrega</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>Retardant reinici de joc</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>Per objectiu</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>Joc brut</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>Objectiu</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>Encapçalat</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>Colpejar Post</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>Celebració</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>Mans il·legal</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>Front il·legal</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>Rebutgi il·legals en</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>Puntades de peu</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>Regat perdut</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>Srta.</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>No per objectiu</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>A fora</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>Empenyent</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>Segona targeta groga</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>Ensopegar</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>Conducta no esportiva</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>Conducta violenta</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>Selector d'estadístiques</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value> pren un glop i errades</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>Bloquejada per</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel·la</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Correcte</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>Tir no a gol</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Període</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>Reprodueix els detalls</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Jugador</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>Jugador en</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>Jugador fora</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>Categoria estadístiques</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>Descripció estadística</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Equip</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>Rellotge no introduït. Jugar no guardat.</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>No un tipus de joc compatible per a pbp Edita. Jugar no es poden editar.</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>Oponent</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>Altre equip porter</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>El nostre equip</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>Període/rellotge valor no pot ser un moment en el futur. Si us plau utilitzi el director de joc per seguir una obra en el futur. Jugar no guardat.</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>Jugador 1</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>Intèrpret 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>Intèrpret 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>Intèrpret de 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>Jugador 13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>Jugador 14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>Jugador 15</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>Intèrpret de 16</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>Jugador 17</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>Intèrpret de 18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>Jugador 19</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>Jugador 2</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>Jugador 20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>Jugador 21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>Jugador 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>Intèrpret de 23</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>Intèrpret de 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>Intèrpret de 25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>Jugador 26</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>Jugador 27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>Intèrpret de 28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>Jugador 29</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>Jugador 3</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>Jugador 30</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>Jugador 4</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>5 jugador</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>Jugador 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>Intèrpret de 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>Player 8</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>Player 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>absent</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>Suprimeix el joc</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>Suprimeix la Lliga</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>Suprimir jugar</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>Suprimir jugador</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>Suprimir equip</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inici</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Cap</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Reprodueix</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Desconegut</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Closed, pantalla desactivat</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>Longitud de l'OT no és vàlida. Joc no guardat.</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>Assistències</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Blocs</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>Angles</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>Racons excel·lent</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>Racons d'objectiu</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>Racons bona</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>Racons pobres</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>Creus</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>Creus excel·lent</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>Bona creus</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>Creua pobres</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>Tirs lliures directes</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>Tirs lliures directes d'objectiu</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>Tirs lliures directes no per objectiu</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>Gota puntades</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>Gota puntades excel·lent</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>Comença la caiguda de bona</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>Gota puntades pobres</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Faltes comeses Holding</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>Faltes comeses</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Faltes comeses de càrrega</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Faltes comeses Tackle il·legal</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>Faltes comeses puntades</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Faltes comeses empenyent</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Faltes comeses ensopegar</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>Faltes dibuixats</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>Objectiu puntades</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>Goals</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>Objectius que permesos</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>Indirecta tirs lliures</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>Passades</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>Passis excel·lent</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>Passa a bona</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>Passis pobres</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>Penals</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>Penals bloquejats</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>Puntades gol</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>Penals colpejar Post</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>Penals perdudes</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>Targetes vermelles</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>Joc brut targetes vermelles</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>Targetes vermelles Ilegal mans</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>Targetes vermelles segona targeta groga</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>Targetes vermelles conducta violenta</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Tiroteig puntades</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>Tiroteig puntades bloquejats</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>Tiroteig puntades objectiu</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Tiroteig puntades colpejar Post</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>Tiroteig puntades perdudes</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>Pesos</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>Pesos bloquejats</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>L'objectiu de tirs</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>Pesos colpejar Post</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>Pesos perdudes</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>Tirs a porta</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Aborda</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>Llançar Ins</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Pèrdues de pilota</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Pèrdues de pilota rebutgi il·legals en</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>Pèrdues de pilota perduda regat</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>Targetes grogues</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>Targetes grogues retardant reinici de joc</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>Targetes grogues Unsportsmanline conducta</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Data de naixement</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value> asssited els </value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value> per </value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value> comet una càrrega irregularitats</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value> comet una falta de celebració</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value> comet puntades irregularitats</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value> comet una falta tackle il·legal</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value> comet un empenyen irregularitats</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value> es compromet a ensopegar malament</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value> té un tir il·legals en</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value> és offisides</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value> puntades de peu la pilota fora dels límits</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>peu esquerre</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value> perdut el regat</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value> fa un bon pas</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value> fa un excel lent abonament</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value> fa una mala passada</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>peu dret</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value> pren un glop i colpeix el post</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value> pren un glop i això està bloquejat</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value> pren un glop i puntuacions</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>tutorial</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value> Rellotge ajustat al període</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value> Dibuixa una falta</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value> dribbles</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value> rep una targeta vermella per a joc brut</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value> rep una targeta vermella per a mans il·legal</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value> rep una targeta vermella per a la segona targeta groga</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value> rep una targeta vermella per la conducta violenta</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value> rep una targeta groga per retardar el reinici de joc</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value> rep una targeta groga per conducta no esportiva</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value> té una base tackle</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value> té un tir en</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value> fa una bona creu</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value> fa una bona puntada de gota</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value> fa un excel lent creu</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value> fa un excel lent retrocés de la gota</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value> fa una pobra creu</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value> fa un pobre retrocés de la gota</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value> posicions commutada amb </value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value> necessita una puntada cantonada i puntuacions</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value> pren un tir lliure directe</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value> pren un tir lliure directe i puntuacions</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value> pren un tir objectiu</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value> necessita una puntada bon racó</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value> necessita una puntada de peu excel lent racó</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value> pren un tir lliure indirecte</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value> pren un tir penal i colpeix el post</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value> pren una penalització puntada i està bloquejat</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value> pren un tir penal i enyora</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value> pren un tir penal i puntuacions</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value> necessita una puntada racó pobre</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value> necessita una puntada de tiroteig i colpeix el post</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value> pren una tanda puntada i està bloquejat</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value> necessita una puntada de tiroteig i perd</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value> necessita una puntada de tiroteig i puntuacions</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>Creu blava</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>Vermell blau</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>Ratlla blava</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>BlueWhite</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>Blau marí</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>Vermell fosc</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>Colors alemanys</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>Verd vermell</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>Blau clar</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Taronja</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>Taronja verd</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Vermell</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>Negre vermell</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>Verd vermell</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>Ratlles vermelles</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>Blanc blau</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>Verd blanc</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>Blanc roig</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>Color groc blau</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>Verd groc</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Demostració</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>Afegir nou jugador</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>Cronologia</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>Seleccionar equip</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value> puntades de peu la pilota en pròpia meta</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>Seleccioneu Jersey</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>Seleccioneu Lliga</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>Minuts jugadors</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Estadístiques</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>Jugador minuts actualitzat al final del període de i al final del joc</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>Llegenda</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>user</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>correu electrònic</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Reinicialització de la contrasenya</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Quant a</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Taxa d'App</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Faltes</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>App de compra</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>AYUDA</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>Obrir totes les estadístiques?</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>Joc de demostració</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>Intenta anotar el joc demostració?</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>Prova'l</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>No, gràcies</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>TAXA</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>El seu feedback és molt important per a nosaltres.  Si us plau aquest app.</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>El seu feedback és molt important per a nosaltres.  Li agradaria Valora aquest app?</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>Adquireix</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>Ara no</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>Afegir el jugador al Banc</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>ADVANCE</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>Avançar al següent període?</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>Fora Boxscore</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>Feu clic per ajustar el rellotge</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>Feu clic per ajustar el període</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>Feu clic per iniciar o aturar el temps de joc</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>Rellotge avall</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>Rellotge</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edita</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>Editar joc</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>Edita jugar per jugar</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>Director de joc</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>Estadístiques joc</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>header</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>Inici Boxscore</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>Hi ha cap juga per desfer</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>Gol</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>Jugar per jugar</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Comparteix</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>Brots peu esquerre</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>Brots de peu dret</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>Tir objectiu</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>Tir amb peu esquerre</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>Rodar amb el peu dret</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Desfés</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value> s'ha desfet</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>MENU</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Adquireix</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>Comprar totes les estadístiques?</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>Paquet d'estadístiques complet inclou: jugador minuts, Plus Minus,</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>Passar, facturació, Offsides,</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>Irregularitats comeses, efectuant, creuar, tirar, cantonada Kick,</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>Front, porter Kick, gol en pròpia porta, falta directa, dibuixat tir lliure,</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>Indirecta tir lliure, tir penal, targeta groga, targeta vermella, retrocés de la gota,</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Botar, tiroteig puntada, substitució</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Carregant...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>Suprimir intèrpret de llista</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value> de llista d'intèrpret</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value> de llista</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>Equip de casa i equip fora no pot ser el mateix. Joc no guardat.</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>Va començar a joc</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-Cliqueu la imatge per comprar la versió completa-</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>esports</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Comentaris</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>puntuació</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>Estadístiques</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>futbol</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>no hi ha esdeveniments</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>PUNTADA</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>MITJA PART</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>A TEMPS COMPLET</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>MIG TEMPS EXTRA-TEMPS</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>TEMPS EXTRA A TEMPS COMPLET</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>Període final </value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>Més intuïtiva i completa futbol anotant aplicació en el mercat.  Més de 50 estadístiques disponibles.  Provi'l gratis avui!
+
+Fer un seguiment de: equips jocs lligues jugadors jugador estadístiques inclouen: minuts jugats Plus-menys gols Pases Offsides Red Card pèrdues de pilota i molts més!
+
+Opcions de joc inclouen: rellotge cap amunt o rellotge avall Flexible en formacions camp Intèrpret desconegut opció edició/desfer de períodes juga il·limitat substitucions personalitzable i durada del període.
+
+
+Veure l'acció feta per al joc, compartir les estadístiques sobre Twitter, Facebook, Instagram, correu electrònic, text i molts més!
+
+Fàcil d'establir-se i fàcil d'utilitzar!  Començar a controlar el seu pròxim partit en qüestió de minuts!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>L'època encara no ha començat. Voleu continuar?</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>No s'ha iniciat</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>Suprimir intèrpret de jugador llista</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>Afegir nou jugador a jugador llista</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>Segueix-nos a Twitter</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>Paquet d'estadístiques complet inclou: jugador minuts, Plus Minus, Pass, facturació, Offsides, falta comès, fora de límits, creu, llançar a, cantonada Kick, front, porter Kick, gol en pròpia porta, Foul dibuixat, tir lliure directe, tir lliure indirecte, tir penal, targeta groga, Red Card, retrocés de la gota, regat, tiroteig Kick, substitució</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>Estadístiques de plens</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>Més intuïtiva i completa futbol anotant aplicació al mercat!
+
+Fer un seguiment de: equips lligues jugadors la versió lliure inclou el seguiment de plans i objectius!
+
+Opcions de joc inclouen: rellotge cap amunt o rellotge avall Flexible en formacions camp Intèrpret desconegut opció edició/desfer de períodes juga il·limitat substitucions personalitzable i durada del període.
+
+
+Veure l'acció feta per al joc, compartir les estadístiques sobre Twitter, Facebook, Instagram, correu electrònic, text i molts més!
+
+Fàcil d'establir-se i fàcil d'utilitzar!  Començar a controlar el seu pròxim partit en qüestió de minuts!</value>
+  </data>
+</root>

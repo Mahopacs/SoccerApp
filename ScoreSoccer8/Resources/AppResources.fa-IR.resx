@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>fa-IR</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>درخواست من</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>افزودن</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>‏‏مورد منو</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>اضافه کردن تیم</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>مربی</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>شماره تماس</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>نمایش موارد حذف شده</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>تاریخ پایان</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>بازی ها</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>آمار بازی</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>تهیه گزارش</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>جرسی</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>لیگ برتر فوتبال</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>بازیکنان</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>پخش آمار</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>لیست پخش</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>نوع گزارش</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>ضروری</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>فهرست</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>نام کوتاه</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>تاریخ شروع</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>گزارش آمار</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>اطلاعات بیشتر در تیم</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>نام تیم</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>نام تیم وارد نشده است. تیم ذخیره نشده است.</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>تیم</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>آمار تیم</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>اضافه کردن لیگ</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>جزئیات لیگ</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>نام لیگ</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>لیگ</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>نام تماس با ما</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>نام لیگ وارد نشده است. لیگ ذخیره نشده است.</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>بازیکن به تیم اضافه کنید</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>بازیکنان نیوجرسی شماره را وارد کنید</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>غیر فعال</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>نیوجرسی تعداد باید یک عدد باشد. نیوجرسی تعداد ذخیره نشده است.</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>نیوجرسی تعداد نمی تواند بیش از 3 کاراکتر باشد.  نیوجرسی تعداد ذخیره نشده است.</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>تعداد نیوجرسی</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>شرح وظایف</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>وضعیت</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>اضافه کردن بازی</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>بازی</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>اطلاعات بازی</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>مدیر</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>تیم های دور</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>ساعت دیواری</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>پایین</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>تاریخ بازی</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>جزئیات بازی</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>زمان بازی</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>تیم در خانه</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>خیر</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>لیگ پیش فرض</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>اضافه کاری</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>اضافه طول</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>طول دوره</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>دوره ها</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>بالا</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>دور تیم انتخاب نشده است. بازی ذخیره نشده است.</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>تنظیم ساعت بالا و پایین نشده. بازی ذخیره نشده است.</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>بازی در حال حاضر آغاز شده است.  جزئیات بازی هنگامی که بازی آغاز شده است قادر به تغییر نمی باشد. تغییرات ذخیره نشده است.</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>تیم در خانه انتخاب نشده است. بازی ذخیره نشده است.</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>طول دوره تنظیم نشده است. بازی ذخیره نشده است.</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>دوره تنظیم نشده است. بازی ذخیره نشده است.</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>بازیکن در هر تیم تعیین نشده است. بازی ذخیره نشده است.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>اضافه کردن</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>اضافه کردن بازی</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>اضافه کردن بازیکن</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>لیست پخش</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>نام بازیکن</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>متن بازی</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>می توانید تغییر دهید اطلاعات بر روی دستگاه پخش حذف شده است. بازیکن ذخیره نشده است.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>نام وارد نشده است. بازیکن ذخیره نشده است.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>بلندی</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>نیوجرسی تعداد نمی تواند بیش از 3 کاراکتر باشد. بازیکن ذخیره نشده است.</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>ضربات</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>چپ</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>پخش اطلاعات</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>راست</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>کمک</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>مسدود</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>ضربه کرنر</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>ضربدر</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>ضربه آزاد مستقیم</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>قطره قطره</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>افت و پا زدن</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>متعهد به لکه دار کردن</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>لکه دار کردن کشیده شده</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>هدف مجاز</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>ضربه دروازه بان</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>ضربه آزاد غیر مستقیم</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>دقیقه بازی</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>جابجایی</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>نکته ها</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>از مرزهای</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>گل به خودی</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>رمز عبور</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>ضربه پنالتی</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>جمع منها</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>کارت قرمز</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>ذخیره</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>ضربات لگد</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>عکس</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>عکاسی در هدف</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>جایگزینی</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>مقابله با</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>در پرتاب</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>گردش مالی</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>کارت زرد</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>عالی</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>خوب</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>ضعیف</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>اطلاعات بیشتر در عکاسی</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>رمز عبور بد</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>شارژ</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>تأخیر شروع مجدد بازی</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>برای هدف</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>ناپاک بازی</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>هدف</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>رهبری</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>آمار پست</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>برگزاری</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>دست غیر قانونی</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>مقابله با غیر قانونی</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>پرتاب غیر قانونی در</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>در</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>لگد زدن</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>قطره قطره از دست</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>دوشیزه</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>نه برای هدف</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>دارای رتبهٔ</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>هل دادن</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>کارت زرد دوم</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>دام</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>رفتار unsportsmanlike</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>رفتار خشونت آمیز</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>جمع آمار</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value> طول می کشد یک شات و نتواند</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>مسدود شده توسط</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>لغو</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>باشه</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>نه در هدف شات</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>دوره</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>جزئیات بازی</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>بازیکن</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>بازیکن در</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>پخش کردن</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>دسته بندی آمار</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>شرح آمار</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>تیم</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>ساعت وارد نشده. بازی ذخیره نشده است.</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>نه پشتیبانی بازی نوع برای ویرایش pbp. بازی را نمی توان ویرایش کرد.</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>حریف</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>دروازه بان تیم دیگر</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>تیم ما</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>دوره/ساعت ارزش نمی تواند زمانی در آینده. لطفاً مدیر بازی به مسیر بازی در آینده استفاده کنید. بازی ذخیره نشده است.</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>بازیکن 1</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>پلیر 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>پلیر 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>پلیر 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>13 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>14 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>15 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>16 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>17 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>18 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>19 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>بازیکن 2</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>پخش 20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>21 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>بازیکن 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>بازیکن 23</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>24 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>25 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>26 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>27 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>28 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>29 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>بازیکن 3</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>30 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>بازیکن شماره 4</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>5 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>پلیر 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>پلیر 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>8 بازیکن</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>پلیر 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>دور</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>حذف بازی</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>حذف لیگ</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>حذف بازی</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>حذف بازیکن</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>حذف تیم</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>صفحه اصلی</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>هیچکدام</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>پخش</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>ناشناخته</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Inprogress صفحه نمایش فعال نیست</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>OT طول نامعتبر. بازی ذخیره نشده است.</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>کمک</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>قطعه ها</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>گوشه_ها</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>گوشه بسیار عالی</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>گوشه هدف</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>گوشه های خوب</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>گوشه پور</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>شمشیر برای نابودی وسایل</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>صلیب عالی</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>شمشیر برای نابودی وسایل خوب</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>فقیر می گذرد</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>مستقیم ضربات آزاد</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>مستقیم ضربات آزاد برای هدف</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>مستقیم ضربات آزاد نه برای هدف</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>رها کردن ضربات</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>رها کردن ضربات بسیار عالی</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>خوب ضربات قطره</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>رها کردن ضربات پور</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Fouls متعهد برگزاری</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>Fouls متعهد</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Fouls متعهد شارژ</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Fouls مقابله با غیر قانونی متعهد</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>Fouls متعهد لگد زدن</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Fouls متعهد هل دادن</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Fouls متعهد به دام</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>Fouls کشیده</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>ضربات هدف</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>اهداف</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>گل به مجاز</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>ضربات آزاد غیر مستقیم</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>عبور می کند</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>پاس عالی</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>خوب می گذرد</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>فقیر می گذرد</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>ضربات پنالتی</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>ضربات پنالتی مسدود شده</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>هدف ضربات مجازات</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>ضربات پنالتی آمار پست</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>ضربات پنالتی از دست رفته</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>كارت قرمز</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>كارت قرمز از خباثت</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>كارت قرمز از دست Ilegal</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>کارت زرد دوم کارت قرمز</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>کارت قرمز رفتار خشونت آمیز</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>صرفه جویی</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>ضربات لگد</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>ضربات لگد مسدود شده</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>ضربات هدف ضربات</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>ضربات لگد آمار پست</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>ضربات ضربات از دست رفته</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>عکس</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>عکس های مسدود شده</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>عکس هدف</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>آمار عکس پست</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>عکس های از دست رفته</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>عکس بر روی هدف</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>فوم</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>پرتاب فهم</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>گردش</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>گردش پرتاب غیر قانونی در</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>گردش قطره قطره از دست داد</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>کارت زرد</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>کارت زرد تأخیر شروع مجدد بازی</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>رفتار Unsportsmanline کارت های زرد</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>تاریخ تولد</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value> asssited توسط </value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value> توسط </value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value> مرتکب شارژ ناپاک</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value> مرتکب ناپاک برگزاری</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value> مرتکب ناپاک لگد زدن</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value> مرتکب ناپاک مقابله با غیر قانونی</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value> مرتکب ناپاک هل دادن</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value> مرتکب دام ناپاک</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value> پرتاب غیر قانونی است</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value> offisides است</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value> ضربات توپ خارج از محدوده</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>پای چپ</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value> قطره قطره از دست داد</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value> رمز عبور خوب را می سازد</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value> پاس عالی را می سازد</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value> رمز عبور ضعیف را می سازد</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>پای راست</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value> طول می کشد و بازدید پست</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value> طول می کشد یک شات و آن مسدود شده است</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value> طول می کشد یک شات و نمرات</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>آموزش</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value> ساعت دوره تنظیم</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value> تساوی ناپاک</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value> dribbles</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value> می شود یک کارت قرمز برای خباثت</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value> کارت قرمز برای غیر قانونی دست می شود</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value> کارت قرمز برای دومین کارت زرد می شود</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value> می شود یک کارت قرمز برای رفتار خشونت آمیز</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value> می شود یک کارت زرد برای تاخیر انداختن شروع مجدد بازی</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value> یک کارت زرد برای unsportsmanlike انجام می شود</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value> مقابله با است</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value> پرتاب شده</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value> صلیب خوب را می سازد</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value> باعث افت خوب و پا زدن</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value> صلیب عالی را می سازد</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value> باعث افت بسیار عالی و پا زدن</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value> صلیب ضعیف می کند</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value> باعث افت ضعیف و پا زدن</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value> مواضع روشن با </value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value> ضربه کرنر و نمرات طول می کشد</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value> طول می کشد یک ضربه آزاد مستقیم</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value> ضربه آزاد مستقیم و نمرات طول می کشد</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value> پا زدن هدف می گیرد</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value> کرنر خوب طول می کشد</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value> طول می کشد بسیار عالی ضربه کرنر</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value> طول می کشد ضربه آزاد غیر مستقیم</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value> ضربه پنالتی را می گیرد و بازدید پست</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value> طول می کشد مجازات و پا زدن و مسدود شده است</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value> ضربه پنالتی را می گیرد و نتواند</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value> ضربه پنالتی و نمرات طول می کشد</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value> طول می کشد کرنر فقیر</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value> طول می کشد یک لگد ضربات و بازدید پست</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value> پا زدن ضربات طول می کشد و آن را مسدود</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value> طول می کشد یک لگد ضربات و نتواند</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value> طول می کشد یک لگد ضربات و نمرات</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>صلیب آبی رنگ</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>آبی قرمز</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>راه راه آبی</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>BlueWhite</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>آبی تیره</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>قرمز تیره</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>رنگ های آلمانی</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>سرخ سبز</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>آبی روشن</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>نارنجی</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>نارنجی سبز</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>قرمز</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>سیاه قرمز</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>سرخ سبز</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>قرمز راه راه</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>سفید آبی</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>سبز سفید</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>سفید قرمز</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>آبی زرد</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>سبز زرد</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>نسخه ی نمایشی</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>بازیکن جدید اضافه کنید</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>خط زمانی</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>انتخاب تیم</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value> ضربات توپ به هدف خود</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>انتخاب نیوجرسی</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>انتخاب لیگ</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>پخش دقیقه</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>آمار</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>دقیقه پخش به روز شده در پایان دوره و پایان بازی</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>افسانه</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>کاربر</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>ایمیل</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>تنظیم مجدد رمز عبور</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>درباره</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>برنامه نرخ</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Fouls</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>خرید نرم افزار</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>راهنمایی</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>همه آمار تالار گفتگو را باز کند؟</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>بازی نسخه ی نمایشی</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>نمره بازی نسخه ی نمایشی را امتحان کنید?</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>آن را امتحان کنید</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>نه متشکرم</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>رتبه</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>نظرات شما برای ما بسیار مهم است.  لطفا رای دادن به این برنامه.</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>نظرات شما برای ما بسیار مهم است.  امتیاز این برنامه کنید؟</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>خیر</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>خرید</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>الان نه</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>اضافه کردن بازیکن به نیمکت</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>پیشرفت</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>پیشبرد به دوره بعد?</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>دور Boxscore</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>برای تنظیم ساعت کلیک کنید</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>برای تنظیم دوره کلیک کنید</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>برای شروع یا توقف زمان بازی کلیک کنید</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>ساعت پایین</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>ساعت</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>ویرایش</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>ویرایش بازی</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>ویرایش بازی توسط بازی</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>بازی مدیریت</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>آمار بازی</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>هدر</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>خانه Boxscore</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>هیچ نقش برای باطل کردن وجود دارد</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>هدف مجازات</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>بازی با بازی</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>اشتراک</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>شاخه های پای چپ</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>شاخه های پای راست</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>هدف شات</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>با پای چپ ضربه</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>شات با پای راست</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>باطل نمودن</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value> لغو شد</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>منو</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>خرید</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>همه آمار تالار گفتگو خرید?</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>آمار کامل بسته شامل: دقیقه بازیکن، به علاوه منهای،</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>پاس گردش، Offsides</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>ناپاک، خارج از محدوده، صلیب، پرتاب در کرنر متعهد،</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>مقابله با ضربه دروازه بان خود هدف، ناپاک کشیده شده، مستقیم رایگان و پا زدن</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>ضربه آزاد غیر مستقیم ضربه پنالتی کارت زرد، کارت قرمز، افت و پا زدن،</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>خرده خرده پیش بردن، ضربات پا زدن، جایگزینی</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>در حال بارگذاری...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>حذف بازیکن از فهرست</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value> از لیست پخش</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value> از فهرستی از</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>خانه تیم و تیم دور نیست همین می تواند. بازی ذخیره نشده است.</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>بازی های شروع شده</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-با کلیک بر روی تصویر برای خرید نسخه کامل-</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>ورزشی</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>اظهار نظر</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>نمره</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>آمار</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>فوتبال</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>هیچ رویداد</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>کیکآف</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>نیمه وقت</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>تمام وقت</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>وقت اضافه نیمه وقت</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>وقت اضافه تمام وقت</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>پایان دوره </value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>بیشتر بصری ساده و کامل نمره فوتبال نرم افزار در بازار.  بیش از 50 آمار موجود است.  آن رایگان امروز امتحان کنید!
+
+پیگیری: شامل تیم های لیگ بازی بازیکنان آمار پخش: دقیقه بازی به علاوه و منهای اهداف Pases Offsides گردش کارت قرمز و بسیاری دیگر!
+
+گزینه های بازی عبارتند از: ساعت یا ساعت پایین انعطاف پذیر در زمینه تشکل های ناشناخته بازیکن گزینه ویرایش/ده دوره نقش نامحدود تعویض قابل تنظیم و طول دوره.
+
+
+مشاهده Play-By-Play اقدام برای بازی, آمار در چهچه فیس بوک نمایش مشخصات عمومی ایمیل متنی و بسیاری دیگر به اشتراک بگذارید!
+
+آسان به مجموعه بالا و آسان برای استفاده!  شروع به ردیابی بازی بعدی شما در عرض چند دقیقه!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>دوره هنوز آغاز کرده است. آیا مایلید ادامه دهید؟</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>عدم آغاز</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>حذف بازیکن از لیست پخش</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>افزودن لیست پخش برای پخش جدید</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>ما را در توییتر دنبال کنید</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>بسته کامل آمار شامل: دقیقه پخش پلاس منهای پاس، گردش، Offsides، ناپاک متعهد، از مرزهای، صلیب، پرتاب در کرنر مقابله، ضربه دروازه بان، هدف خود، ناپاک کشیده، ضربه آزاد مستقیم، ضربه آزاد غیر مستقیم، ضربه پنالتی، کارت زرد، کارت قرمز، افت و پا زدن، قطره قطره، ضربات لگد، جایگزینی</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>آمار کامل</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>بیشتر بصری ساده و کامل نمره فوتبال نرم افزار در بازار!
+
+پیگیری: تیم های لیگ بازیکن بازی های رایگان نسخه شامل ردیابی اهداف و عکس!
+
+گزینه های بازی عبارتند از: ساعت یا ساعت پایین انعطاف پذیر در زمینه تشکل های ناشناخته بازیکن گزینه ویرایش/ده دوره نقش نامحدود تعویض قابل تنظیم و طول دوره.
+
+
+مشاهده Play-By-Play اقدام برای بازی, آمار در چهچه فیس بوک نمایش مشخصات عمومی ایمیل متنی و بسیاری دیگر به اشتراک بگذارید!
+
+آسان به مجموعه بالا و آسان برای استفاده!  شروع به ردیابی بازی بعدی شما در عرض چند دقیقه!</value>
+  </data>
+</root>

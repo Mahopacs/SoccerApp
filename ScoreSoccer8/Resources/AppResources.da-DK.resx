@@ -1,0 +1,1573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>da-DK</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>MIT PROGRAM</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Tilføj</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Menupunkt</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>Tilføj gruppe</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>Coach</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>Contact Number</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Slet</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>Få vist slettede elementer</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Slutdato</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>Spil</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>Spil statistik</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Opret rapport</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>Jersey</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>League</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>spillere</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>Spillerstatistikker</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>Afspilningsliste</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>Rapporttypen</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Obligatorisk</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>Liste</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Kort navn</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Igangsæt dato</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>Statistik rapporter</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>Gruppedetaljer</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>Gruppenavn</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>Holdets navn er ikke angivet. Team, der er ikke gemt.</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>Teams</value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>Team statistik</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>Tilføj liga</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>Oplysninger om liga</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>League navn</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>Ligaer</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Kontaktnavn</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>League navn er ikke angivet. League blev ikke gemt.</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktive</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>Føje Player til holdliste</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>Angiv antallet af spillere Jersey</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>Inaktive</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>Jersey nummer skal være et tal. Antallet af Jersey er ikke gemt.</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>Jersey antallet kan ikke være mere end 3 tegn.  Antallet af Jersey er ikke gemt.</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>Jersey nummer</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>Holdopstillinger</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Vareopgørelse</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>Tilføj spil</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>Spil</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>Spil Info</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Chef</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>På lager-Team</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>Ur</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Ned</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>Spil dato</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>Spillet detaljer</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>Spilletid</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>Privat gruppe</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>Standard League</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>Overarbejde</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>Overarbejde længde</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>Periodelængde</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>perioder</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Op</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>På lager-team, der ikke er markeret. Spillet er ikke gemt.</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>Der angives ikke gå op eller ned. Spillet er ikke gemt.</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>Spillet er allerede startet.  Spillet detaljer kan ikke ændres, når spillet er startet. Ændringer blev ikke gemt.</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>Privat gruppe ikke er markeret. Spillet er ikke gemt.</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>Periodelængden er ikke angivet. Spillet er ikke gemt.</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>Perioder, der er ikke angivet. Spillet er ikke gemt.</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>Spillere pr. team er ikke angivet. Spillet er ikke gemt.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Tilføj</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>Tilføje Play</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>Tilføj Player</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>Player-afspilningsliste</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>Afspillernavn</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>Afspil tekst</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Søg</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>Kan ikke ændre oplysninger om en spiller, der er slettet. Afspilleren er ikke gemt.</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Fornavn</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>Fornavn, der er ikke angivet. Afspilleren er ikke gemt.</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Højde</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>Jersey antallet kan ikke være mere end 3 tegn. Afspilleren er ikke gemt.</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>Starter</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Efternavn</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Venstre</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>Oplysninger om afspilleren</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Højre</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Vægtning</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>Hjælpe</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Blokeret</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>Hjørne udsmidning</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>Kors</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>Direkte gratis udsmidning</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Dribble</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>Slip udsmidning</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>Sødeste bindende</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>Sødeste tegnede</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>Mål, der er tilladt</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>Goalie udsmidning</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>Indirekte gratis udsmidning</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>Minutter spillet</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>flytning</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Noter</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>Overskredet</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>Egne mål</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>overføre</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>Sanktion udsmidning</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>Plus Minus</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>Rødt kort</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Gem</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>Shootout udsmidning</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>Billede</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>På mål</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>Substitution</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>Tackle</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>Smid</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>Terminsoversigt</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>Gule kort</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>udmærket</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>God</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>Dårlig</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>Nedskudte detaljer</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>Forkert adgangskode</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>Oplader</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>At forskyde genstart spil</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>For mål</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>Foul Play</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>Målsætning</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>Hoveder</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>Tryk på Post</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>Holde</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>Ulovlig hænder</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>Ulovlig Tackle</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>Ulovlig smide i</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>ind</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>Konkurrencen</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>Tabt Dribble</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>Frk.</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>Ikke For mål</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>Ud</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>Skubbe</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>Anden gule kort</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>Underspænding</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>Unsportsmanlike adfærd</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>Voldelige adfærd</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>Valg af statistik</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value> tager en optagelse og Resultatløse søgninger</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>Blokeret af</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuller</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>Ikke på mål</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>Afspil detaljer</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Spiller</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>Player i</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>Afspilleren ud</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>Stat kategori</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>Stat beskrivelse</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Gruppe</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>Uret er ikke angivet. Spil er ikke gemt.</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>Ikke en understøttet play type pbp redigeres. Play kan ikke redigeres.</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>Modstander</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>Andre Team Goalie</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>Vores Team</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>Periode/ur værdien må ikke være et tidspunkt i fremtiden. Brug spil manager til at registrere en play i fremtiden. Spil er ikke gemt.</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>Spiller 1</value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>Player 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>Player 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>Player 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>Player 13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>Player 14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>Player 15</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>Player 16</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>Player 17</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>Player 18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>Player 19</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>Spiller 2</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>Player 20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>Player 21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>Player 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>Afspiller 23</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>Player 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>Player 25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>Player 26</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>Player 27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>Player 28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>Player 29</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>Spiller 3</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>30 afspilleren</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>Spiller 4</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>Afspiller 5</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>Player 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>Player 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>Player 8</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>Player 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>Ikke til stede</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>Slet spil</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>Slet liga</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>Slet spil</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>Slet Player</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>Slet Team</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Startside</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Ingen</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Afspil</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Ukendt</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Inprogress, skærmen er deaktiveret</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>Ugyldig Objekttype længde. Spillet er ikke gemt.</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>Hjælper</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>Blokke</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>Hjørner</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>Fremragende hjørner</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>Hjørner For mål</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>God hjørner</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>Dårlig hjørner</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>Krydser</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>Fremragende krydser</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>Krydser god</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>Krydser dårlig</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>Direkte gratis starter</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>Direkte gratis starter For mål</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>Direkte gratis starter ikke For mål</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>Slip starter</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>Slip starter fremragende</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>Slip sætter god</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>Slip starter dårlig</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>Fouls begået bedrift</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>Fouls, der er begået</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>Fouls bindende opladning</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>Fouls begået ulovlige Tackle</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>Fouls bindende konkurrencen</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>Fouls, der er begået, trykke på</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>Fouls bindende underspænding</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>Fouls, der trækkes</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>Mål starter</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>Mål</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>Mål, der er tilladt</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>Indirekte gratis starter</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>Gennemløb</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>Fremragende gennemløb</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>Går godt</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>Gennemløb dårlig</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>Sanktion starter</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>Sanktion starter blokeret</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>Sanktion starter mål</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>Sanktion starter ramt indlæg</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>Sanktion starter mistede</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>Rødt kort</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>Rødt kort sødeste spil</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>Rødt kort Ilegal hænder</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>Rødt kort anden gule kort</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>Rødt kort voldelige adfærd</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>Gemmer</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Shootout starter</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>Shootout starter blokeret</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>Shootout starter mål</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Shootout starter ramt indlæg</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>Shootout starter mistede</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>Optagelser</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>Billeder, der er blokeret</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>Billeder af mål</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>Billeder af besøg indlæg</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>Slag mistede</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>Optagelser på mål</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Tackles</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>Smid Ins</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Turnovers</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Turnovers ulovlig smide i</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>Turnovers tabt Dribble</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>Gule kort</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>Gule kort at forskyde genstart spil</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>Gule kort Unsportsmanline adfærd</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Fødselsdato</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value> asssited af </value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value> ved </value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value> bekræfter en opladning foul</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value> bekræfter en bedrift sødeste</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value> bekræfter en konkurrencen foul</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value> bekræfter en ulovlig tackle sødeste</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value> bekræfter en skubbe foul</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value> bekræfter en underspænding foul</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value> har en ugyldig smide i</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value> er offisides</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value> sætter kuglen overskredet</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>Venstre fod</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value> tabt til dribble</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value> gør en god pass</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value> gør en fremragende gennemløb</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value> gør en dårlig gennemløb</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>højre fod</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value> tager en optagelse, og besøg indlægget</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value> tager et billede, og det er blokeret</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value> tager en optagelse og resultater</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>tutorial</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value> Ur, der er justeret til perioden</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value> tegner en sødeste</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value> dribbles</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value> får et rødt kort til foul play</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value> får et rødt kort for ulovlig hænder</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value> får et rødt kort for anden gule kort</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value> får et rødt kort for voldelige adfærd</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value> henter et gult kort for at forskyde genstart spil</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value> henter et gult kort for unsportsmanlike adfærd</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value> har en tackle</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value> har en smide i</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value> Gør et godt kryds</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value> gør en god direkte udsmidning</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value> gør en fremragende tværgående</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value> gør en fremragende direkte udsmidning</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value> gør en dårlig tværs</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value> gør en dårlig direkte udsmidning</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value> Switched stillinger med </value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value> tager et hjørne udsmidning og resultater</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value> tager et direkte gratis udsmidning</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value> tager et direkte gratis udsmidning og resultater</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value> tager et mål udsmidning</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value> tager en god hjørne udsmidning</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value> tager en fremragende hjørne udsmidning</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value> tager en indirekte gratis udsmidning</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value> tager en sanktion udsmidning og rammer indlægget</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value> Smid tager en straf, og den er blokeret</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value> tager en sanktion udsmidning og går glip af</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value> tager en sanktion udsmidning og resultater</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value> tager en dårlig hjørne udsmidning</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value> tager en shootout udsmidning og rammer indlægget</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value> Smid tager en shootout, og den er blokeret</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value> tager en shootout udsmidning og går glip af</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value> tager en shootout udsmidning og resultater</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>Blå kryds</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>Blå rød</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>Blå stribe</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>BlueWhite</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>Mørkeblå</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>Rødbrun</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>Tyske farver</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>Rød, grøn</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>Lyseblå</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Orange</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>Orange grøn</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Rød</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>Rød-sort</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>Rød-grøn</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>Røde striber</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>Hvid blå</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>Grøn, hvid</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>Rød, hvid</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>Gul blå</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>Gulgrøn</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>Demoversion</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>Tilføj ny modstander</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>Tidslinje</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>Vælg Team</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value> sætter kuglen til egne mål</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>Vælg Jersey</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>Vælg liga</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>Player minutter</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Statistik</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>Player minutter opdateret i slutningen af perioden og slutningen af spillet</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>Legend</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>user</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>eMail</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Adg.kode</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Nulstil adgangskode</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>Sats App</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>Fouls</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>Køb App</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Hjælp</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>Låse alle statistikkerne?</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>Demo spil</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>Prøv vundne demo spillet?</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>Prøv det</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>Nej tak</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>sats</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>Din feedback er meget vigtig for os.  Angiv venligst denne app.</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>Din feedback er meget vigtig for os.  Vil du bedømme dette app?</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>Køb</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>Ikke nu</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>Føje Player til bænk</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>Fremfør</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>Gå videre til næste periode?</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>Boxscore på lager</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>Klik her for at justere uret</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>Klik her for at justere periode</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>Klik her for at starte eller stoppe spilletid</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>Gå ned</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>Gå</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Rediger</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>Rediger spil</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>Rediger afspilning af spil</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>Spil Manager</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>Spil statistik</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Hoved</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>Privat Boxscore</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>Der er ingen spiller til at fortryde</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>Straf mål</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>Spille med Play</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>Skud venstre fod</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>Skud højre fod</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>Nedskudte mål</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>Taget med venstre fod</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>Taget med højre fod</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Fortryd</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value> blev annulleret</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menuen</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Køb</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>Købe alle statistikkerne?</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>Fuld statistik pakke indeholder: Player minutter, Plus Minus,</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>Gennemløb, omsætning, Offsides,</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>Sødeste begået, uden for grænsen, kryds, smide i hjørne udsmidning</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>Tackle, Goalie udsmidning, egne mål, beskidt tegnede, direkte gratis udsmidning,</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>Indirekte gratis udsmidning, sanktion udsmidning, gule kort, rødt kort, direkte udsmidning</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Dribble, Shootout udsmidning erstatning</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Indlæser...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>Slet Player fra listen</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value> fra listen over player</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value> fra listen</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>Hjemme team og team på lager kan ikke være det samme. Spillet er ikke gemt.</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>Spillet startes</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-Klik på billedet for at købe den fulde Version-</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>sport</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>point</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>fodbold</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>ingen hændelser</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>KICKOFF</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>PÅ HALV TID</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>FULD TID</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>EKSTRA TID PÅ HALV TID</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>EKSTRA TID PÅ FULD TID</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>Afslutning af perioden </value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>Den mest intuitive og komplette fodbold vundne program på markedet.  Over 50 statistik, der er tilgængelige.  Prøv det gratis i dag!
+
+Holde styr på: team spil ligaer spillere spillerstatistikker omfatter: minutter spillet Plus minus mål Pases Offsides rødt kort Turnovers og mange flere!
+
+Spillets indstillinger omfatter: gå eller komme ned fleksible på feltet formationer ukendt Player indstilling redigering/tilbageførslen af spiller ubegrænset erstatninger, der kan tilpasses perioder og Periodelængde.
+
+
+Få vist ægte handling for spillet, dele af statistikkerne på Twitter, Facebook, Instagram, e-mail, tekst og mange flere!
+
+Nemt at indstille op og let at bruge!  Begynd at registrere dit næste spil i løbet af minutter!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>Perioden, der er ikke startet endnu. Vil du fortsætte?</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>Ikke startet</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>Slet Player afspiller listen</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>Tilføje nye Player til Player-afspilningsliste</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>Følg os på Twitter</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>Fuld statistik-pakken indeholder: Player minutter, Plus Minus, Pass, omsætning, Offsides, beskidt begået, ud over grænserne, kryds, smider i hjørne udsmidning, Tackle, Goalie udsmidning, egne mål, beskidt tegnet, direkte gratis udsmidning, indirekte gratis udsmidning, sanktion udsmidning, gule kort, rødt kort, direkte udsmidning, Dribble, Shootout udsmidning, erstatning</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>Fuld statistik</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>Den mest intuitive og komplette fodbold vundne program på markedet!
+
+Holde styr på: team spil ligaer spillere den gratis version indeholder sporing af billeder og mål!
+
+Spillets indstillinger omfatter: gå eller komme ned fleksible på feltet formationer ukendt Player indstilling redigering/tilbageførslen af spiller ubegrænset erstatninger, der kan tilpasses perioder og Periodelængde.
+
+
+Få vist ægte handling for spillet, dele af statistikkerne på Twitter, Facebook, Instagram, e-mail, tekst og mange flere!
+
+Nemt at indstille op og let at bruge!  Begynd at registrere dit næste spil i løbet af minutter!</value>
+  </data>
+</root>

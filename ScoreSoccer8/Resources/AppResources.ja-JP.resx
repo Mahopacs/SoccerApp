@@ -1,0 +1,1555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ja-JP</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>マイ アプリケーション</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>メニュー アイテム</value>
+  </data>
+  <data name="AddTeam" xml:space="preserve">
+    <value>チームを追加します。</value>
+  </data>
+  <data name="Coach" xml:space="preserve">
+    <value>コーチ</value>
+    <comment>field on team details screen</comment>
+  </data>
+  <data name="ContactNumber" xml:space="preserve">
+    <value>連絡先番号</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>削除</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="DisplayDeletedItems" xml:space="preserve">
+    <value>削除済みアイテムを表示します。</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="Games" xml:space="preserve">
+    <value>ゲーム</value>
+  </data>
+  <data name="GameStats" xml:space="preserve">
+    <value>ゲームの統計データ</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>レポートの生成</value>
+  </data>
+  <data name="Jersey" xml:space="preserve">
+    <value>ジャージー島</value>
+  </data>
+  <data name="League" xml:space="preserve">
+    <value>リーグ</value>
+  </data>
+  <data name="Players" xml:space="preserve">
+    <value>プレイヤー</value>
+  </data>
+  <data name="PlayerStats" xml:space="preserve">
+    <value>プレイヤーの統計</value>
+  </data>
+  <data name="PlayList" xml:space="preserve">
+    <value>再生リスト</value>
+  </data>
+  <data name="ReportType" xml:space="preserve">
+    <value>レポートの種類</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>必要な領域</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>参加者一覧</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>短い形式の名前</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="AddPlayerToTeamRoster" xml:space="preserve">
+    <value>チーム名簿にプレーヤーを追加します。</value>
+  </data>
+  <data name="EnterPlayersJerseyNumber" xml:space="preserve">
+    <value>プレイヤー Jersey の番号を入力してください。</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>アクティブでないです。</value>
+  </data>
+  <data name="JerseyMustBeANumber" xml:space="preserve">
+    <value>Jersey の番号は数値でなければなりません。Jersey 番号は保存されません。</value>
+  </data>
+  <data name="JerseyMustBeLessThan3Characters" xml:space="preserve">
+    <value>Jersey の数を 3 文字以上にすることはできません。Jersey 番号は保存されません。</value>
+  </data>
+  <data name="JerseyNumber" xml:space="preserve">
+    <value>Jersey の数</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="AddGame" xml:space="preserve">
+    <value>ゲームを追加します。</value>
+    <comment>icon</comment>
+  </data>
+  <data name="Game" xml:space="preserve">
+    <value>ゲーム</value>
+    <comment>used in prompt</comment>
+  </data>
+  <data name="GameInfo" xml:space="preserve">
+    <value>ゲーム情報</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>管理者</value>
+  </data>
+  <data name="AwayTeam" xml:space="preserve">
+    <value>退席中のチーム</value>
+  </data>
+  <data name="Clock" xml:space="preserve">
+    <value>時計</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>ダウン</value>
+  </data>
+  <data name="GameDate" xml:space="preserve">
+    <value>ゲームの日</value>
+  </data>
+  <data name="GameDetails" xml:space="preserve">
+    <value>ゲームの詳細</value>
+  </data>
+  <data name="GameTime" xml:space="preserve">
+    <value>ゲームの時間</value>
+  </data>
+  <data name="HomeTeam" xml:space="preserve">
+    <value>チームのホーム</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="NoLeague" xml:space="preserve">
+    <value>既定のリーグ</value>
+    <comment>league name option in leagues drop down on team details screen</comment>
+  </data>
+  <data name="OverTime" xml:space="preserve">
+    <value>超過作業時間</value>
+  </data>
+  <data name="OverTimeLength" xml:space="preserve">
+    <value>超過作業時間の長さ</value>
+  </data>
+  <data name="PeriodLength" xml:space="preserve">
+    <value>期間の長さ</value>
+  </data>
+  <data name="Periods" xml:space="preserve">
+    <value>ピリオド</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>上へ</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="AwayTeamNotSeleted" xml:space="preserve">
+    <value>退席中のチームが選択されていません。ゲームは保存されません。</value>
+  </data>
+  <data name="ClockUpDownNotSet" xml:space="preserve">
+    <value>時計の上下設定されていません。ゲームは保存されません。</value>
+  </data>
+  <data name="GameHasAlreadyStarted" xml:space="preserve">
+    <value>ゲームは既に始まっています。ゲームの詳細は、ゲームが起動したら、変更できません。変更は保存されません。</value>
+  </data>
+  <data name="HomeTeamNotSelected" xml:space="preserve">
+    <value>ホーム チームが選択されていません。ゲームは保存されません。</value>
+  </data>
+  <data name="PeriodLengthNotSet" xml:space="preserve">
+    <value>期間の長さを設定できません。ゲームは保存されません。</value>
+  </data>
+  <data name="PeriodNotSet" xml:space="preserve">
+    <value>期間が設定されていません。ゲームは保存されません。</value>
+  </data>
+  <data name="PlayersPerTeamNotSet" xml:space="preserve">
+    <value>各チームのプレイヤーが設定されていません。ゲームは保存されません。</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>追加</value>
+    <comment>button</comment>
+  </data>
+  <data name="AddPlay" xml:space="preserve">
+    <value>プレイを追加します。</value>
+  </data>
+  <data name="AddPlayer" xml:space="preserve">
+    <value>プレーヤーを追加します。</value>
+    <comment>icon</comment>
+  </data>
+  <data name="PlayerList" xml:space="preserve">
+    <value>プレーヤーのリスト</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>プレーヤー名</value>
+  </data>
+  <data name="PlayText" xml:space="preserve">
+    <value>テキストを再生します。</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>SEARCH</value>
+  </data>
+  <data name="CannotChangeDeletedPlayerInfo" xml:space="preserve">
+    <value>削除されたプレイヤーの情報を変更できません。プレーヤーは保存されません。</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="FirstNameNotEntered" xml:space="preserve">
+    <value>最初の名前が入力されていません。プレーヤーは保存されません。</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>高さ\r\n</value>
+  </data>
+  <data name="JerseyNumberInvalidPlayerNotSaved" xml:space="preserve">
+    <value>Jersey の数を 3 文字以上にすることはできません。プレーヤーは保存されません。</value>
+  </data>
+  <data name="Kicks" xml:space="preserve">
+    <value>スリル</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>左揃え</value>
+  </data>
+  <data name="PlayerDetails" xml:space="preserve">
+    <value>プレーヤーの詳細</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>右揃え</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>太さ​​</value>
+  </data>
+  <data name="Assist" xml:space="preserve">
+    <value>支援</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>ブロック</value>
+  </data>
+  <data name="CornerKick" xml:space="preserve">
+    <value>コーナー キック</value>
+    <comment></comment>
+  </data>
+  <data name="Cross" xml:space="preserve">
+    <value>交差</value>
+    <comment></comment>
+  </data>
+  <data name="DirectFreeKick" xml:space="preserve">
+    <value>直接フリー ・ キック</value>
+  </data>
+  <data name="Dribble" xml:space="preserve">
+    <value>Dribble</value>
+  </data>
+  <data name="DropKick" xml:space="preserve">
+    <value>ドロップ キック</value>
+  </data>
+  <data name="FoulCommitted" xml:space="preserve">
+    <value>おめでとう、コミット</value>
+    <comment></comment>
+  </data>
+  <data name="FoulDrawn" xml:space="preserve">
+    <value>おめでとう、描画</value>
+  </data>
+  <data name="GoalAllowed" xml:space="preserve">
+    <value>目標の許可</value>
+  </data>
+  <data name="GoalieKick" xml:space="preserve">
+    <value>ゴールキーパー用キック</value>
+    <comment></comment>
+  </data>
+  <data name="IndirectFreeKick" xml:space="preserve">
+    <value>間接フリー ・ キック</value>
+  </data>
+  <data name="MinutesPlayed" xml:space="preserve">
+    <value>分の再生</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>移動する</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>備考</value>
+  </data>
+  <data name="Offsides" xml:space="preserve">
+    <value>Offsides</value>
+    <comment></comment>
+  </data>
+  <data name="OutOfBounds" xml:space="preserve">
+    <value>範囲外</value>
+    <comment></comment>
+  </data>
+  <data name="OwnGoal" xml:space="preserve">
+    <value>自分の目標</value>
+    <comment></comment>
+  </data>
+  <data name="Pass" xml:space="preserve">
+    <value>パス</value>
+    <comment></comment>
+  </data>
+  <data name="PenaltyKick" xml:space="preserve">
+    <value>ペナルティ キック</value>
+  </data>
+  <data name="PlusMinus" xml:space="preserve">
+    <value>プラス マイナス</value>
+  </data>
+  <data name="RedCard" xml:space="preserve">
+    <value>赤いカード</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>上書き保存</value>
+  </data>
+  <data name="SecondsPlayed" xml:space="preserve">
+    <value>SecondsPlayed</value>
+  </data>
+  <data name="ShootoutKick" xml:space="preserve">
+    <value>Shootout キック</value>
+  </data>
+  <data name="Shot" xml:space="preserve">
+    <value>ショット</value>
+    <comment></comment>
+  </data>
+  <data name="ShotOnGoal" xml:space="preserve">
+    <value>目標を撮影</value>
+  </data>
+  <data name="Substitution" xml:space="preserve">
+    <value>代入</value>
+  </data>
+  <data name="Tackle" xml:space="preserve">
+    <value>釣り</value>
+    <comment></comment>
+  </data>
+  <data name="ThrowIn" xml:space="preserve">
+    <value>をスローします。</value>
+    <comment></comment>
+  </data>
+  <data name="Turnover" xml:space="preserve">
+    <value>売り上げ高</value>
+    <comment></comment>
+  </data>
+  <data name="YellowCard" xml:space="preserve">
+    <value>イエロー カード</value>
+  </data>
+  <data name="Excellent" xml:space="preserve">
+    <value>非常に良い</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>良</value>
+  </data>
+  <data name="Poor" xml:space="preserve">
+    <value>不適</value>
+  </data>
+  <data name="ShotDetails" xml:space="preserve">
+    <value>ショットの詳細</value>
+  </data>
+  <data name="BadPass" xml:space="preserve">
+    <value>不正なパス</value>
+  </data>
+  <data name="Charging" xml:space="preserve">
+    <value>充電中</value>
+  </data>
+  <data name="DelayingRestartOfPlay" xml:space="preserve">
+    <value>再生の再開を遅延します。</value>
+  </data>
+  <data name="ForGoal" xml:space="preserve">
+    <value>目標の</value>
+  </data>
+  <data name="FoulPlay" xml:space="preserve">
+    <value>ファール ・ プレイ</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="Headed" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="HitPost" xml:space="preserve">
+    <value>ポストをヒットします。</value>
+  </data>
+  <data name="Holding" xml:space="preserve">
+    <value>保持しています。</value>
+  </data>
+  <data name="IllegalHands" xml:space="preserve">
+    <value>不正な手</value>
+  </data>
+  <data name="IllegalTackle" xml:space="preserve">
+    <value>不正な釣り</value>
+  </data>
+  <data name="IllegalThrowIn" xml:space="preserve">
+    <value>不正なスロー</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>で</value>
+  </data>
+  <data name="Kicking" xml:space="preserve">
+    <value>サッカー</value>
+  </data>
+  <data name="LostDribble" xml:space="preserve">
+    <value>失われた Dribble</value>
+  </data>
+  <data name="Miss" xml:space="preserve">
+    <value>ミス</value>
+  </data>
+  <data name="NotForGoal" xml:space="preserve">
+    <value>目標のないです。</value>
+  </data>
+  <data name="Out" xml:space="preserve">
+    <value>アウト</value>
+  </data>
+  <data name="Pushing" xml:space="preserve">
+    <value>押す</value>
+  </data>
+  <data name="SecondYellowCard" xml:space="preserve">
+    <value>2 番目の黄色のカード</value>
+  </data>
+  <data name="UnsportsmanlikeConduct" xml:space="preserve">
+    <value>Unsportsmanlike の倫理</value>
+  </data>
+  <data name="ViolentConduct" xml:space="preserve">
+    <value>暴力行為</value>
+  </data>
+  <data name="StatsPicker" xml:space="preserve">
+    <value>統計 (stats) の選択</value>
+  </data>
+  <data name="TakesAShotAndMisses" xml:space="preserve">
+    <value>ショットはミス</value>
+  </data>
+  <data name="BlockedBy" xml:space="preserve">
+    <value>ブロック元</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+    <comment>button</comment>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>[Ok]</value>
+    <comment>button</comment>
+  </data>
+  <data name="ShotNotOnGoal" xml:space="preserve">
+    <value>目標ではなくショット</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>期間</value>
+  </data>
+  <data name="PlayDetails" xml:space="preserve">
+    <value>詳細を再生します。</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="PlayerIn" xml:space="preserve">
+    <value>プレーヤーで</value>
+  </data>
+  <data name="PlayerOut" xml:space="preserve">
+    <value>アウト プレーヤー</value>
+  </data>
+  <data name="StatCategory" xml:space="preserve">
+    <value>統計のカテゴリ</value>
+  </data>
+  <data name="StatDescription" xml:space="preserve">
+    <value>統計の説明</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>チーム</value>
+  </data>
+  <data name="ClockNotEntered" xml:space="preserve">
+    <value>クロックが入力されていません。再生は保存されません。</value>
+  </data>
+  <data name="NotASupportedPlayTypeForPBPEdit" xml:space="preserve">
+    <value>ない pbp の編集のための再生がサポートされている型。プレイは編集できません。</value>
+  </data>
+  <data name="OpponentTeam" xml:space="preserve">
+    <value>対戦相手</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="OtherTeamGoalie" xml:space="preserve">
+    <value>他のチームのゴールキーパー用</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>当社のチーム</value>
+    <comment>team name for demo game</comment>
+  </data>
+  <data name="PeriodClockValueInFuture" xml:space="preserve">
+    <value>期間とクロックの値、将来的にすることはできません。将来の再生を追跡するのにゲームのマネージャーを使用してください。再生は保存されません。</value>
+  </data>
+  <data name="Player1" xml:space="preserve">
+    <value>プレイヤー 1 </value>
+  </data>
+  <data name="Player10" xml:space="preserve">
+    <value>Player 10</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player11" xml:space="preserve">
+    <value>プレーヤー 11</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player12" xml:space="preserve">
+    <value>プレーヤー 12</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player13" xml:space="preserve">
+    <value>プレーヤーの 13</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player14" xml:space="preserve">
+    <value>プレーヤーの 14</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player15" xml:space="preserve">
+    <value>プレーヤーの 15</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player16" xml:space="preserve">
+    <value>プレーヤーの 16</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player17" xml:space="preserve">
+    <value>プレーヤーの 17</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player18" xml:space="preserve">
+    <value>プレーヤーの 18</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player19" xml:space="preserve">
+    <value>プレーヤーの 19</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player2" xml:space="preserve">
+    <value>プレイヤー 2 </value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player20" xml:space="preserve">
+    <value>プレーヤーの 20</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player21" xml:space="preserve">
+    <value>プレーヤーの 21</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player22" xml:space="preserve">
+    <value>プレーヤーの 22</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player23" xml:space="preserve">
+    <value>プレーヤーの 23</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player24" xml:space="preserve">
+    <value>プレーヤーの 24</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player25" xml:space="preserve">
+    <value>プレーヤーの 25</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player26" xml:space="preserve">
+    <value>プレーヤーの 26</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player27" xml:space="preserve">
+    <value>プレーヤーの 27</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player28" xml:space="preserve">
+    <value>プレーヤーの 28</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player29" xml:space="preserve">
+    <value>プレーヤーの 29</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player3" xml:space="preserve">
+    <value>プレイヤー 3 </value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player30" xml:space="preserve">
+    <value>プレーヤーの 30</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player4" xml:space="preserve">
+    <value>プレイヤー 4 </value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player5" xml:space="preserve">
+    <value>プレーヤーの 5</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player6" xml:space="preserve">
+    <value>プレイヤー 6</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player7" xml:space="preserve">
+    <value>プレーヤー 7</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player8" xml:space="preserve">
+    <value>Player 8</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Player9" xml:space="preserve">
+    <value>Player 9</value>
+    <comment>player name in the demo game</comment>
+  </data>
+  <data name="Away" xml:space="preserve">
+    <value>退席中</value>
+  </data>
+  <data name="DeleteGame" xml:space="preserve">
+    <value>ゲームを削除します。</value>
+    <comment>icon</comment>
+  </data>
+  <data name="DeleteLeague" xml:space="preserve">
+    <value>リーグを削除します。</value>
+  </data>
+  <data name="DeletePlay" xml:space="preserve">
+    <value>プレイを削除します。</value>
+  </data>
+  <data name="DeletePlayer" xml:space="preserve">
+    <value>プレイヤーを削除します。</value>
+  </data>
+  <data name="DeleteTeam" xml:space="preserve">
+    <value>チームを削除します。</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>なし​​</value>
+    <comment>player name option for assist in PBP screen</comment>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>再生</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>不明</value>
+    <comment>unknown player from game manager screen</comment>
+  </data>
+  <data name="GameStartedScreenDisabled" xml:space="preserve">
+    <value>Inprogress、画面が無効になっています。</value>
+  </data>
+  <data name="InvalidOTLength" xml:space="preserve">
+    <value>OT の長さが無効です。ゲームは保存されません。</value>
+  </data>
+  <data name="Assists" xml:space="preserve">
+    <value>支援</value>
+  </data>
+  <data name="Blocks" xml:space="preserve">
+    <value>ブロック</value>
+  </data>
+  <data name="Corners" xml:space="preserve">
+    <value>コーナー</value>
+  </data>
+  <data name="CornersExcellent" xml:space="preserve">
+    <value>優れたコーナー</value>
+  </data>
+  <data name="CornersForGoal" xml:space="preserve">
+    <value>目標のコーナー</value>
+  </data>
+  <data name="CornersGood" xml:space="preserve">
+    <value>角のな</value>
+  </data>
+  <data name="CornersPoor" xml:space="preserve">
+    <value>角が低下</value>
+  </data>
+  <data name="Crosses" xml:space="preserve">
+    <value>通過します。</value>
+  </data>
+  <data name="CrossesExcellent" xml:space="preserve">
+    <value>優れた交差</value>
+  </data>
+  <data name="CrossesGood" xml:space="preserve">
+    <value>通過するな</value>
+  </data>
+  <data name="CrossesPoor" xml:space="preserve">
+    <value>まったく役に立たなかったと交差します。</value>
+  </data>
+  <data name="DirectFreeKicks" xml:space="preserve">
+    <value>無料の直接のスリル</value>
+  </data>
+  <data name="DirectFreeKicksForGoal" xml:space="preserve">
+    <value>目標に直接フリーのスリル</value>
+  </data>
+  <data name="DirectFreeKicksNotForGoal" xml:space="preserve">
+    <value>目標のない直接のフリー スリル</value>
+  </data>
+  <data name="DropKicks" xml:space="preserve">
+    <value>ドロップのスリル</value>
+  </data>
+  <data name="DropKicksExcellent" xml:space="preserve">
+    <value>優れたドロップのスリル</value>
+  </data>
+  <data name="DropKicksGood" xml:space="preserve">
+    <value>ドロップの出番な</value>
+  </data>
+  <data name="DropKicksPoor" xml:space="preserve">
+    <value>ドロップが悪い</value>
+  </data>
+  <data name="FoulsComittedHolding" xml:space="preserve">
+    <value>ファウルが保持しているコミットされます。</value>
+  </data>
+  <data name="FoulsCommitted" xml:space="preserve">
+    <value>ファウルがコミット</value>
+    <comment></comment>
+  </data>
+  <data name="FoulsCommittedCharging" xml:space="preserve">
+    <value>充電中にコミット ファウル</value>
+  </data>
+  <data name="FoulsCommittedIllegalTackle" xml:space="preserve">
+    <value>コミットされた不正な釣りのファウル</value>
+  </data>
+  <data name="FoulsCommittedKicking" xml:space="preserve">
+    <value>ファウルのコミットけり</value>
+  </data>
+  <data name="FoulsCommittedPushing" xml:space="preserve">
+    <value>ファウルのコミットのプッシュ</value>
+  </data>
+  <data name="FoulsCommittedTripping" xml:space="preserve">
+    <value>トリップ コミット ファウル</value>
+  </data>
+  <data name="FoulsDrawn" xml:space="preserve">
+    <value>ファウルを描画</value>
+  </data>
+  <data name="GoalKicks" xml:space="preserve">
+    <value>目標のスリル</value>
+  </data>
+  <data name="Goals" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="GoalsAllowed" xml:space="preserve">
+    <value>許可の目標</value>
+  </data>
+  <data name="IndirectFreeKicks" xml:space="preserve">
+    <value>無料の間接のスリル</value>
+  </data>
+  <data name="MadeOwnGoal" xml:space="preserve">
+    <value>MadeOwnGoal</value>
+  </data>
+  <data name="Passes" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="PassesExcellent" xml:space="preserve">
+    <value>優れたパス</value>
+  </data>
+  <data name="PassesGood" xml:space="preserve">
+    <value>適切なパスします。</value>
+  </data>
+  <data name="PassesPoor" xml:space="preserve">
+    <value>パスが低下</value>
+  </data>
+  <data name="PenaltyKicks" xml:space="preserve">
+    <value>ペナルティのスリル</value>
+  </data>
+  <data name="PenaltyKicksBlocked" xml:space="preserve">
+    <value>ブロックされたペナルティ ・ スリル</value>
+  </data>
+  <data name="PenaltyKicksGoal" xml:space="preserve">
+    <value>ペナルティが開始の目標</value>
+  </data>
+  <data name="PenaltyKicksHitPost" xml:space="preserve">
+    <value>ペナルティ スリル ヒット投稿</value>
+  </data>
+  <data name="PenaltyKicksMissed" xml:space="preserve">
+    <value>失敗のペナルティのスリル</value>
+  </data>
+  <data name="RedCards" xml:space="preserve">
+    <value>赤のカード</value>
+  </data>
+  <data name="RedCardsFoulPlay" xml:space="preserve">
+    <value>赤のカード ・ ファール ・ プレイ</value>
+  </data>
+  <data name="RedCardsIllegalHands" xml:space="preserve">
+    <value>赤のカードの不正な手</value>
+  </data>
+  <data name="RedCardsSecondYellowCard" xml:space="preserve">
+    <value>赤のカードの 2 番目の黄色カード</value>
+  </data>
+  <data name="RedCardsViolentConduct" xml:space="preserve">
+    <value>赤いカードの暴力行為</value>
+  </data>
+  <data name="Saves" xml:space="preserve">
+    <value>保存します。</value>
+  </data>
+  <data name="ShootoutKicks" xml:space="preserve">
+    <value>Shootout スリル</value>
+  </data>
+  <data name="ShootoutKicksBlocked" xml:space="preserve">
+    <value>Shootout スリルがブロックされています。</value>
+  </data>
+  <data name="ShootoutKicksGoal" xml:space="preserve">
+    <value>Shootout スリルの目標</value>
+  </data>
+  <data name="ShootoutKicksHitPost" xml:space="preserve">
+    <value>Shootout スリル ヒット投稿</value>
+  </data>
+  <data name="ShootoutKicksMissed" xml:space="preserve">
+    <value>ミスト shootout スリル</value>
+  </data>
+  <data name="Shots" xml:space="preserve">
+    <value>ショット</value>
+  </data>
+  <data name="ShotsBlocked" xml:space="preserve">
+    <value>ブロック ショット</value>
+  </data>
+  <data name="ShotsGoal" xml:space="preserve">
+    <value>ショットの目標</value>
+  </data>
+  <data name="ShotsHitPost" xml:space="preserve">
+    <value>投稿にヒット ショット</value>
+  </data>
+  <data name="ShotsMissed" xml:space="preserve">
+    <value>失われたショット</value>
+  </data>
+  <data name="ShotsOnGoal" xml:space="preserve">
+    <value>目標を撮影</value>
+  </data>
+  <data name="Tackles" xml:space="preserve">
+    <value>Tackles</value>
+  </data>
+  <data name="ThrowIns" xml:space="preserve">
+    <value>アドインをスローします。</value>
+  </data>
+  <data name="Turnovers" xml:space="preserve">
+    <value>Turnovers</value>
+  </data>
+  <data name="TurnoversIllegalThrowIn" xml:space="preserve">
+    <value>Turnovers の不正なスローで</value>
+  </data>
+  <data name="TurnoversLostDribble" xml:space="preserve">
+    <value>Dribble の失われた turnovers</value>
+  </data>
+  <data name="YellowCards" xml:space="preserve">
+    <value>イエロー カード</value>
+  </data>
+  <data name="YellowCardsDelayingRestartOfPlay" xml:space="preserve">
+    <value>黄色のカードをプレイの再起動の遅延</value>
+  </data>
+  <data name="YellowsCardsUnsportsmanlikeConduct" xml:space="preserve">
+    <value>黄色のカードの Unsportsmanline の実施</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>[誕生日]</value>
+  </data>
+  <data name="AssistedBy" xml:space="preserve">
+    <value>によって asssited</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>によって</value>
+  </data>
+  <data name="CommittsAChargingFoul" xml:space="preserve">
+    <value>foul、充電をコミットします。</value>
+  </data>
+  <data name="CommittsAHoldingFoul" xml:space="preserve">
+    <value>ホールディング、ファウルをコミットします。</value>
+  </data>
+  <data name="CommittsAKickingFoul" xml:space="preserve">
+    <value>foul、サッカーをコミットします。</value>
+  </data>
+  <data name="CommittsAnIllegalTackleFoul" xml:space="preserve">
+    <value>不正な釣りのファウルでコミットします。</value>
+  </data>
+  <data name="CommittsAPushingFoul" xml:space="preserve">
+    <value>コミット、プッシュは、foul</value>
+  </data>
+  <data name="CommittsATrippingFoul" xml:space="preserve">
+    <value>foul、トリップをコミットします。</value>
+  </data>
+  <data name="HasAnIllegalThrowIn" xml:space="preserve">
+    <value>不正に投げるに</value>
+  </data>
+  <data name="IsOffsides" xml:space="preserve">
+    <value>offisides は</value>
+  </data>
+  <data name="KicksTheBallOutOfBounds" xml:space="preserve">
+    <value>範囲外のボールを起動します。</value>
+  </data>
+  <data name="LeftFoot" xml:space="preserve">
+    <value>左の足</value>
+  </data>
+  <data name="LostTheDribble" xml:space="preserve">
+    <value>dribble は、失われました。</value>
+  </data>
+  <data name="MakesAGoodPass" xml:space="preserve">
+    <value>適切なパスを使用します。</value>
+  </data>
+  <data name="MakesAnExcellentPass" xml:space="preserve">
+    <value>優れたパス</value>
+  </data>
+  <data name="MakesAPoorPass" xml:space="preserve">
+    <value>低下のパスでは</value>
+  </data>
+  <data name="RightFoot" xml:space="preserve">
+    <value>右の足</value>
+  </data>
+  <data name="TakesAShotAndHitsThePost" xml:space="preserve">
+    <value>ショットを取得し、投稿のヒット数</value>
+  </data>
+  <data name="TakesAShotAndItIsBlocked" xml:space="preserve">
+    <value>ショットとそれがブロックされているは</value>
+  </data>
+  <data name="TakesAShotAndScores" xml:space="preserve">
+    <value>ショットと得点</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>チュートリアル​​</value>
+  </data>
+  <data name="ClockAdjustedToPeriod" xml:space="preserve">
+    <value>時刻の期間を調整します。</value>
+  </data>
+  <data name="DrawsAFoul" xml:space="preserve">
+    <value>ファウルを描画します。</value>
+  </data>
+  <data name="Dribbles" xml:space="preserve">
+    <value>dribbles</value>
+  </data>
+  <data name="GetsARedCardForFoulPlay" xml:space="preserve">
+    <value>ファール ・ プレイの赤のカードを取得します。</value>
+  </data>
+  <data name="GetsARedCardForIllegalHands" xml:space="preserve">
+    <value>不正な実践の赤のカードを取得します。</value>
+  </data>
+  <data name="GetsARedCardForSecondYellowCard" xml:space="preserve">
+    <value>2 番目の黄色のカードを赤のカードを取得します。</value>
+  </data>
+  <data name="GetsARedCardForViolentConduct" xml:space="preserve">
+    <value>暴力行為の赤のカードを取得します。</value>
+  </data>
+  <data name="GetsAYellowCardForDelayingRestartOfPlay" xml:space="preserve">
+    <value>再生の開始を遅らせるための黄色のカードを取得します。</value>
+  </data>
+  <data name="GetsAYellowCardForUnsportsmanlikeConduct" xml:space="preserve">
+    <value>unsportsmanlike の行為の黄色のカードを取得します。</value>
+  </data>
+  <data name="HasATackle" xml:space="preserve">
+    <value>釣り</value>
+  </data>
+  <data name="HasAThrowIn" xml:space="preserve">
+    <value>スローが</value>
+  </data>
+  <data name="MakesAGoodCross" xml:space="preserve">
+    <value>良いクロス</value>
+  </data>
+  <data name="MakesAGoodDropKick" xml:space="preserve">
+    <value>適切なドロップ キック</value>
+  </data>
+  <data name="MakesAnExcellentCross" xml:space="preserve">
+    <value>優れたクロス</value>
+  </data>
+  <data name="MakesAnExcellentDropKick" xml:space="preserve">
+    <value>優れたドロップ キック</value>
+  </data>
+  <data name="MakesAPoorCross" xml:space="preserve">
+    <value>低下の間では</value>
+  </data>
+  <data name="MakesAPoorDropKick" xml:space="preserve">
+    <value>不十分なドロップ キック</value>
+  </data>
+  <data name="SwitchedPositionsWith" xml:space="preserve">
+    <value>スイッチの位置</value>
+  </data>
+  <data name="TakesACornerKickAndScores" xml:space="preserve">
+    <value>コーナー キックとスコア</value>
+  </data>
+  <data name="TakesADirectFreeKick" xml:space="preserve">
+    <value>直接フリー ・ キック</value>
+  </data>
+  <data name="TakesADirectFreeKickAndScores" xml:space="preserve">
+    <value>直接フリー ・ キックとスコア</value>
+  </data>
+  <data name="TakesAGoalKick" xml:space="preserve">
+    <value>目標のキック</value>
+  </data>
+  <data name="TakesAGoodCornerKick" xml:space="preserve">
+    <value>良いコーナー キック</value>
+  </data>
+  <data name="TakesAnExcellentCornerKick" xml:space="preserve">
+    <value>素晴らしいコーナー キック</value>
+  </data>
+  <data name="TakesAnIndirectFreeKick" xml:space="preserve">
+    <value>間接的なフリー ・ キック</value>
+  </data>
+  <data name="TakesAPenaltyKickAndHitsThePost" xml:space="preserve">
+    <value>ペナルティ キックを取得し、投稿のヒット数</value>
+  </data>
+  <data name="TakesAPenaltyKickAndItIsBlocked" xml:space="preserve">
+    <value>ペナルティ受け取りを開始して、ブロックされています。</value>
+  </data>
+  <data name="TakesAPenaltyKickAndMisses" xml:space="preserve">
+    <value>ペナルティ キックをミス</value>
+  </data>
+  <data name="TakesAPenaltyKickAndScores" xml:space="preserve">
+    <value>ペナルティ キックとスコア</value>
+  </data>
+  <data name="TakesAPoorCornerKick" xml:space="preserve">
+    <value>不十分なコーナー キック</value>
+  </data>
+  <data name="TakesAShootoutKickAndHitsThePost" xml:space="preserve">
+    <value>shootout スリルを取得し、投稿のヒット数</value>
+  </data>
+  <data name="TakesAShootoutKickAndItIsBlocked" xml:space="preserve">
+    <value>shootout 受け取りを開始して、ブロックされています。</value>
+  </data>
+  <data name="TakesAShootoutKickAndMisses" xml:space="preserve">
+    <value>shootout キックをミス</value>
+  </data>
+  <data name="TakesAShootoutKickAndScores" xml:space="preserve">
+    <value>shootout、キックとスコアを取得します。</value>
+  </data>
+  <data name="BlueCross" xml:space="preserve">
+    <value>青い十字</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueRed" xml:space="preserve">
+    <value>青赤</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueStripe" xml:space="preserve">
+    <value>青いストライプ</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="BlueWhite" xml:space="preserve">
+    <value>BlueWhite</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="DarkBlue" xml:space="preserve">
+    <value>濃い青</value>
+  </data>
+  <data name="DarkRed" xml:space="preserve">
+    <value>濃い赤</value>
+  </data>
+  <data name="GermanColors" xml:space="preserve">
+    <value>ドイツ語の色</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="GreenRed" xml:space="preserve">
+    <value>緑の赤</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="LightBlue" xml:space="preserve">
+    <value>薄い青</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>オレンジ</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="OrangeGreen" xml:space="preserve">
+    <value>オレンジ色の緑</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>赤</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedBlack" xml:space="preserve">
+    <value>赤黒</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedGreen" xml:space="preserve">
+    <value>赤、緑</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="RedStripes" xml:space="preserve">
+    <value>赤のストライプ</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteBlue" xml:space="preserve">
+    <value>白-青</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteGreen" xml:space="preserve">
+    <value>白の緑</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="WhiteRed" xml:space="preserve">
+    <value>白・赤</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowBlue" xml:space="preserve">
+    <value>黄色の青</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="YellowGreen" xml:space="preserve">
+    <value>黄緑</value>
+    <comment>Jersey Name</comment>
+  </data>
+  <data name="Demo" xml:space="preserve">
+    <value>デモンストレーション</value>
+  </data>
+  <data name="AddNewPlayer" xml:space="preserve">
+    <value>新しいプレイヤーを追加します。</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>タイムライン</value>
+  </data>
+  <data name="SelectTeam" xml:space="preserve">
+    <value>チームを選択します。</value>
+    <comment>team name option in teams drop down on game details screen</comment>
+  </data>
+  <data name="KicksBallIntoOwnGoal" xml:space="preserve">
+    <value>自分の目標にボールを開始します。</value>
+  </data>
+  <data name="SelectJersey" xml:space="preserve">
+    <value>Jersey を選択します。</value>
+  </data>
+  <data name="SelectLeague" xml:space="preserve">
+    <value>リーグを選択します。</value>
+  </data>
+  <data name="PlayerMinutes" xml:space="preserve">
+    <value>プレイヤー分</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>詳細情報</value>
+    <comment>screen title</comment>
+  </data>
+  <data name="StatsDisclaimer" xml:space="preserve">
+    <value>プレイヤー分が更新期間が終了し、ゲームの終了</value>
+  </data>
+  <data name="Legend" xml:space="preserve">
+    <value>凡例</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="eMail" xml:space="preserve">
+    <value>電子メール</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>書き込みパスワード</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>パスワードのリセット</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>バージョン情報</value>
+  </data>
+  <data name="RateApp" xml:space="preserve">
+    <value>レートのアプリケーション</value>
+  </data>
+  <data name="Fouls" xml:space="preserve">
+    <value>ファウル</value>
+  </data>
+  <data name="PurchaseApp" xml:space="preserve">
+    <value>アプリケーションの購入</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>HELP</value>
+  </data>
+  <data name="PurchaseAppPrompt" xml:space="preserve">
+    <value>すべての統計 (stats) のロックを解除しますか。</value>
+  </data>
+  <data name="DemoGame" xml:space="preserve">
+    <value>デモ ゲーム</value>
+  </data>
+  <data name="GoToDemoGamePrompt" xml:space="preserve">
+    <value>デモ ゲームのスコアを実行してください。</value>
+  </data>
+  <data name="DemoLeftButton" xml:space="preserve">
+    <value>試用</value>
+  </data>
+  <data name="DemoRightButton" xml:space="preserve">
+    <value>参加しません</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>料金</value>
+  </data>
+  <data name="RateAppPrompt" xml:space="preserve">
+    <value>お客様からのフィードバックは当社にとって非常に重要です。このアプリを評価してください。</value>
+    <comment></comment>
+  </data>
+  <data name="RateAppQuestion" xml:space="preserve">
+    <value>お客様からのフィードバックは当社にとって非常に重要です。このアプリを評価してもよろしいですか。</value>
+    <comment></comment>
+  </data>
+  <data name="RateLeftButton" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="RateRightButton" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="PurchaseAppLeftButton" xml:space="preserve">
+    <value>仕入</value>
+  </data>
+  <data name="PurchaseAppRightButton" xml:space="preserve">
+    <value>後で設定</value>
+  </data>
+  <data name="AddPlayerToBench" xml:space="preserve">
+    <value>ベンチにプレイヤーを追加します。</value>
+  </data>
+  <data name="Advance" xml:space="preserve">
+    <value>繰り上げ</value>
+  </data>
+  <data name="AdvanceToNextPeriod" xml:space="preserve">
+    <value>次の期間に移動しますか。</value>
+  </data>
+  <data name="AwayBoxscore" xml:space="preserve">
+    <value>退席中 Boxscore</value>
+  </data>
+  <data name="ClickToAdjustClock" xml:space="preserve">
+    <value>時計を調整する] をクリックします。</value>
+  </data>
+  <data name="ClickToAdjustPeriod" xml:space="preserve">
+    <value>期間を調整する] をクリックします。</value>
+  </data>
+  <data name="ClickToStartOrStopGameTime" xml:space="preserve">
+    <value>開始またはゲームの時間を停止する] をクリックします。</value>
+  </data>
+  <data name="ClockDown" xml:space="preserve">
+    <value>時計の停止</value>
+  </data>
+  <data name="ClockUp" xml:space="preserve">
+    <value>時計</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+    <comment>button</comment>
+  </data>
+  <data name="EditGame" xml:space="preserve">
+    <value>ゲームを編集します。</value>
+    <comment>icon</comment>
+  </data>
+  <data name="EditPlayByPlay" xml:space="preserve">
+    <value>編集プレイで再生</value>
+  </data>
+  <data name="GameManager" xml:space="preserve">
+    <value>ゲーム マネージャー</value>
+    <comment>button</comment>
+  </data>
+  <data name="GameStatistics" xml:space="preserve">
+    <value>ゲームの統計</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>header</value>
+  </data>
+  <data name="HomeBoxscore" xml:space="preserve">
+    <value>ホーム Boxscore</value>
+  </data>
+  <data name="NoPlaysToUndo" xml:space="preserve">
+    <value>元に戻すの再生されません。</value>
+  </data>
+  <data name="PenaltyGoal" xml:space="preserve">
+    <value>ペナルティ ゴール</value>
+  </data>
+  <data name="PlayByPlay" xml:space="preserve">
+    <value>プレイで再生します。</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>お気に入りを共有</value>
+  </data>
+  <data name="ShootsLeftFoot" xml:space="preserve">
+    <value>左の足のシュート</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShootsRightFoot" xml:space="preserve">
+    <value>右の足でシュートします。</value>
+    <comment>icon</comment>
+  </data>
+  <data name="ShotGoal" xml:space="preserve">
+    <value>目標を撮影</value>
+  </data>
+  <data name="ShotWithLeftFoot" xml:space="preserve">
+    <value>左の足で撮影します。</value>
+  </data>
+  <data name="ShotWithRightFoot" xml:space="preserve">
+    <value>右の足で撮影します。</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>変更された状態に戻す</value>
+  </data>
+  <data name="WasUndone" xml:space="preserve">
+    <value>取り消されました。</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>!w7cGu!チMenu ず!</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>仕入</value>
+  </data>
+  <data name="PurchaseAllStats" xml:space="preserve">
+    <value>すべての統計 (stats) を購入するか。</value>
+  </data>
+  <data name="PurchaseDescriptionLine1" xml:space="preserve">
+    <value>完全な統計パッケージが含まれています: プレーヤーの分、プラス マイナス、</value>
+  </data>
+  <data name="PurchaseDescriptionLine2" xml:space="preserve">
+    <value>渡すと、売り上げ高、Offsides、</value>
+  </data>
+  <data name="PurchaseDescriptionLine3" xml:space="preserve">
+    <value>ファウル、コミット、境界外、クロスで、コーナー キック、スロー</value>
+  </data>
+  <data name="PurchaseDescriptionLine4" xml:space="preserve">
+    <value>ゴールキーパー用キック、自分の目標、嫌な描画、直接無料キック、釣り、</value>
+  </data>
+  <data name="PurchaseDescriptionLine5" xml:space="preserve">
+    <value>間接フリー ・ キック、ペナルティ キック、黄色のカードを赤カード、ドロップ キック、</value>
+  </data>
+  <data name="PurchaseDescriptionLine6" xml:space="preserve">
+    <value>Dribble、Shootout キックを置換</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>読み込んでいます...</value>
+  </data>
+  <data name="DeletePlayerFromRoster" xml:space="preserve">
+    <value>プレーヤーの名簿からの削除します。</value>
+    <comment></comment>
+  </data>
+  <data name="FromPlayerList" xml:space="preserve">
+    <value>プレイヤー リストから</value>
+  </data>
+  <data name="FromRoster" xml:space="preserve">
+    <value>名簿から</value>
+  </data>
+  <data name="HomeAndAwayCanNotBeSameTeam" xml:space="preserve">
+    <value>ホーム ・ チームと離れていくことはできません同じです。ゲームは保存されません。</value>
+  </data>
+  <data name="GameStarted" xml:space="preserve">
+    <value>ゲームの開始</value>
+  </data>
+  <data name="ClickToBuy" xml:space="preserve">
+    <value>-イメージの完全なバージョンを購入する] をクリックします。</value>
+  </data>
+  <data name="_keyword5" xml:space="preserve">
+    <value>スポーツ</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>ご意見ご感想</value>
+  </data>
+  <data name="_keyword4" xml:space="preserve">
+    <value>スコア</value>
+  </data>
+  <data name="_keyword3" xml:space="preserve">
+    <value>UTrack</value>
+  </data>
+  <data name="_keyword2" xml:space="preserve">
+    <value>統計情報</value>
+  </data>
+  <data name="_keyword1" xml:space="preserve">
+    <value>サッカー</value>
+  </data>
+  <data name="NoEvents" xml:space="preserve">
+    <value>イベントはありません。</value>
+  </data>
+  <data name="Kickoff" xml:space="preserve">
+    <value>キックオフ</value>
+  </data>
+  <data name="HalfTime" xml:space="preserve">
+    <value>時間の半分</value>
+  </data>
+  <data name="FullTime" xml:space="preserve">
+    <value>フルタイム</value>
+  </data>
+  <data name="ExtraTimeHalfTime" xml:space="preserve">
+    <value>追加の時間の半分時間</value>
+  </data>
+  <data name="ExtraTimeFullTime" xml:space="preserve">
+    <value>エクストラ時間フルタイム</value>
+  </data>
+  <data name="EndPeriod" xml:space="preserve">
+    <value>終了期間</value>
+  </data>
+  <data name="StatsReports" xml:space="preserve">
+    <value>統計レポート</value>
+  </data>
+  <data name="TeamDetails" xml:space="preserve">
+    <value>チームの詳細</value>
+  </data>
+  <data name="TeamName" xml:space="preserve">
+    <value>チーム名</value>
+  </data>
+  <data name="TeamNotEnteredValidationMessage" xml:space="preserve">
+    <value>チーム名が入力されていません。チームは保存されません。</value>
+  </data>
+  <data name="Teams" xml:space="preserve">
+    <value>チーム </value>
+  </data>
+  <data name="TeamStats" xml:space="preserve">
+    <value>チームのスコア</value>
+  </data>
+  <data name="AddLeague" xml:space="preserve">
+    <value>リーグを追加します。</value>
+    <comment>icon</comment>
+  </data>
+  <data name="LeagueDetails" xml:space="preserve">
+    <value>リーグの詳細</value>
+  </data>
+  <data name="LeagueName" xml:space="preserve">
+    <value>リーグの名前</value>
+  </data>
+  <data name="Leagues" xml:space="preserve">
+    <value>リーグ</value>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="LeagueNotEnteredValidationMessage" xml:space="preserve">
+    <value>リーグの名前が入力されていません。リーグは保存されません。</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>未完了</value>
+  </data>
+  <data name="Rosters" xml:space="preserve">
+    <value>名簿</value>
+  </data>
+  <data name="Tripping" xml:space="preserve">
+    <value>トリップ</value>
+  </data>
+  <data name="_description" xml:space="preserve">
+    <value>最も直感的で完全なサッカーのスコア アプリケーション市場で。50 を超える統計が利用可能です。無料今すぐお試しください。追跡: チーム ゲーム リーグ プレーヤー プレーヤーの統計情報が含まれます分プラス-マイナスの目標 Pases Offsides 赤カードの Turnovers とさらに多くの再生!。ゲームのオプションがあります: クロックまたはクロック ダウン柔軟なフォーメーション不明なプレイヤーのフィールドのオプションは無制限の置換カスタマイズ可能な期間と期間の長さの編集/元に戻す。ゲームの Play-By-Play のアクションの表示、Twitter、Facebook、Instagram、電子メール、テキスト、およびより多くの統計を共有!簡単に設定して、使いやすいです。分以内の次のゲームの記録を開始!</value>
+  </data>
+  <data name="PeriodNotStarted" xml:space="preserve">
+    <value>期間がまだ開始されていません。続行してもよろしいですか。</value>
+  </data>
+  <data name="NotStarted" xml:space="preserve">
+    <value>未開始</value>
+  </data>
+  <data name="DeletePlayerFromPlayerList" xml:space="preserve">
+    <value>プレイヤー リストからプレイヤーを削除します。</value>
+  </data>
+  <data name="AddNewPlayerToPlayerList" xml:space="preserve">
+    <value>新しいプレイヤーにプレイヤーのリストを追加します。</value>
+  </data>
+  <data name="FollowUsOnTwitter" xml:space="preserve">
+    <value>Twitter でどうぞ</value>
+  </data>
+  <data name="_IAPDescription" xml:space="preserve">
+    <value>完全な統計パッケージが含まれています: プレーヤーの分、プラス マイナス、パス、売り上げ高、Offsides、嫌なコミット、外の境界、クロス、スローで、コーナー キック、釣り、ゴールキーパー用キック、独自の目標、嫌な描画、フリー キックを直接、間接フリー ・ キック、ペナルティ キック、黄色のカード、赤のカード、ドロップ キック、Dribble、Shootout キック、置換</value>
+  </data>
+  <data name="_iapHeader" xml:space="preserve">
+    <value>すべての統計 (stats)</value>
+  </data>
+  <data name="_FreeDescription" xml:space="preserve">
+    <value>最も直感的で完全なサッカーのスコア アプリケーション市場の!追跡: ゲーム リーグ プレーヤー、無料版のチームのショットと目標の追跡が含まれています。ゲームのオプションがあります: クロックまたはクロック ダウン柔軟なフォーメーション不明なプレイヤーのフィールドのオプションは無制限の置換カスタマイズ可能な期間と期間の長さの編集/元に戻す。ゲームの Play-By-Play のアクションの表示、Twitter、Facebook、Instagram、電子メール、テキスト、およびより多くの統計を共有!簡単に設定して、使いやすいです。分以内の次のゲームの記録を開始!</value>
+  </data>
+</root>

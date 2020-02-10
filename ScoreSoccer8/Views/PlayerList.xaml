@@ -1,0 +1,342 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="ScoreSoccer8.Views.PlayerList"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Landscape"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False"
+    Style="{StaticResource TransitionPageStyle}"
+    toolkit:TiltEffect.IsTiltEnabled="True"
+    >
+
+    <phone:PhoneApplicationPage.Resources>
+
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilyNormal}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMediumLarge}"/>
+            <Setter Property="Background" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="Foreground" Value="{StaticResource PhoneTextBoxForegroundBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PhoneTextBoxBrush}"/>
+            <Setter Property="SelectionBackground" Value="{StaticResource PhoneAccentBrush}"/>
+            <Setter Property="SelectionForeground" Value="{StaticResource PhoneTextBoxSelectionForegroundBrush}"/>
+            <Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid Background="Transparent">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="ReadOnly">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Collapsed</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Visibility" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Visible</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="ReadonlyBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxReadOnlyBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxEditBackgroundBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="MainBorder">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneTextBoxEditBorderBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="MainBorder" CornerRadius="10"  BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Margin="15,10,15,5"/>
+                            <Border x:Name="ReadonlyBorder" BorderBrush="{StaticResource PhoneDisabledBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="Transparent" Margin="{StaticResource PhoneTouchTargetOverhang}" Visibility="Collapsed"/>
+                            <Border BorderBrush="Transparent" BorderThickness="{TemplateBinding BorderThickness}" Background="Transparent" Margin="{StaticResource PhoneTouchTargetOverhang}">
+                                <ContentControl x:Name="ContentElement" BorderThickness="0" HorizontalContentAlignment="Stretch" Margin="{StaticResource PhoneTextBoxInnerMargin}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="Stretch"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <DataTemplate x:Name="PlayerListTemplate">
+
+            <Border 
+            Grid.Column="1" 
+            Grid.Row="4" 
+            BorderBrush="Gray" 
+            Margin="3,0,3,0" 
+            BorderThickness="0,0,0,1">
+
+                    <Grid>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition MinHeight="65" Height="5*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition MaxWidth="70" Width="20*"></ColumnDefinition>
+                            <ColumnDefinition Width="100*"></ColumnDefinition>
+                            <ColumnDefinition MaxWidth="70" Width="20*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                    
+                    <Button Grid.Column="0" 
+                            Padding="0"
+                            Margin="-12"
+                            BorderThickness="0"  
+                            Style="{StaticResource PhoneButtonBase}"
+                            Visibility="{Binding IsAddButtonVisible}"
+                            Command="{Binding GoToAddPlayerToRosterCommand}"
+                            >
+                        <Image 
+                            Margin="10" 
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Source="/Assets/plus.png" 
+                            Visibility="{Binding IsAddButtonVisible}"
+                            />
+                    </Button>
+
+                    <TextBlock 
+                        Grid.Column="1"
+                        Margin="0,0,0,0" 
+                        TextAlignment="Left"  
+                        VerticalAlignment="Center"
+                        TextWrapping="Wrap"
+                        Text="{Binding Player.FullName}"  />
+
+                    <Button Grid.Column="1" 
+                            Padding="0"
+                            Margin="-12"
+                            BorderThickness="0"
+                            Tag="{Binding Player.PlayerID}"
+                            Click="GoToPlayerDetail_Click"
+                            />
+
+                    
+                    <Button Grid.Column="2" 
+                            Padding="0"
+                            Margin="-12"
+                            BorderThickness="0"
+                            Style="{StaticResource PhoneButtonBase}"
+                            Command="{Binding GoToDeletePlayerCommand}"
+                            >
+                        <Image Margin="10" Source="/Assets/delete.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+                    </Button>
+
+                    </Grid>
+
+            </Border>
+
+
+        </DataTemplate>
+
+    </phone:PhoneApplicationPage.Resources>
+
+    <Grid x:Name="LayoutRoot" >
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="98*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition MinHeight="65" Height="65"/>
+            <RowDefinition MinHeight="73" Height="73"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition MinHeight="70" Height="70"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Fields/SoccerField9.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"></RowDefinition>
+                <RowDefinition Height="50*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="85*"></ColumnDefinition>
+                <ColumnDefinition Width="15*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White"  Background="Black" CornerRadius="70,0,0,0" Opacity=".35"/>
+            <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White" BorderThickness="3,0,0,3" CornerRadius="70,0,0,0" Background="Transparent" />
+
+            <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White" BorderThickness="3,3,3,3" CornerRadius="70,0,70,0" Background="Silver"/>
+
+            <Border Grid.Column="0" Grid.Row="1" Opacity=".3"  CornerRadius="70,0,60,0" Margin="3,0,15,3" Background="gray"/>
+            <Border Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White" BorderThickness="3,3,3,3" CornerRadius="70,0,70,0" />
+
+            <Border Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" CornerRadius="0,70,0,0" Background="Black" Opacity=".35"/>
+            <Border Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" BorderBrush="White" BorderThickness="0,3,3,3" CornerRadius="0,70,0,0"/>
+
+            <Grid HorizontalAlignment="Left" VerticalAlignment="Center"  Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" Margin="-10,5,0,0">
+                <Button  Padding="0" Style="{StaticResource PhoneButtonBase}" Command="{Binding HelpClickCommand}" Margin="-10" >
+                    <Image Margin="0" Grid.Column="0" Source="/Assets/question.png" HorizontalAlignment="Center" />
+                </Button>
+            </Grid>
+
+
+            <TextBlock 
+                Grid.RowSpan="2"
+                Grid.Row="0"
+                Grid.Column="0"
+                FontSize="35"             
+                Text="{Binding Path=LocalizedResources.PlayerList, Source={StaticResource LocalizedStrings}}"            
+                Style="{StaticResource PhoneTextTitle1Style}"
+                Margin="20,0,0,0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Foreground="Black"   />
+
+        </Grid>
+
+        <Border Grid.Column="1" Grid.Row="2" CornerRadius="0,0,0,0" Background="Black" Opacity=".4"/>
+        <Border Grid.Column="1" Grid.Row="2" BorderBrush="White" BorderThickness="3,0,3,0" CornerRadius="0,0,0,0"/>
+
+        <Grid Grid.Row="2" Grid.Column="1" Margin="0,0,0,5" >
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition MinWidth="150" Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <!--<TextBlock 
+                Grid.Column="0"
+                Text="{Binding Path=LocalizedResources.Search, Source={StaticResource LocalizedStrings}}"           
+                FontSize="25"
+                Margin="10,0,0,0"  
+                VerticalAlignment="Center"
+                HorizontalAlignment="Left"
+                Foreground="White"/>-->
+
+            <Image Grid.Column="0" Margin="15,10,0,10" Source="/Assets/search.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            
+            <TextBox 
+                Grid.Column="1"
+                x:Name="txtSearchBox"
+                KeyDown="txtSearchBox_KeyDown"   
+                Foreground="Gray">
+            </TextBox>
+
+        </Grid>
+        <Border Grid.Row="2" Grid.Column="1" BorderBrush="White" BorderThickness="0,0,0,2"/>
+        <Border Grid.Row="3" Grid.Column="1" Background="Black" Opacity=".5"/>
+        <Border Grid.Row="3" Grid.Column="1" BorderBrush="White" BorderThickness="3,0,3,0"/>
+
+        <Grid Grid.Row="3" Grid.Column="1">
+            <ListBox 
+            ItemsSource="{Binding PlayersList}" 
+            ItemTemplate="{StaticResource PlayerListTemplate}">
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate>
+                                    <ContentPresenter HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+            </ListBox>
+        </Grid>
+
+        <!--<Border Grid.Column="1" Grid.Row="5" CornerRadius="0,0,0,0" Background="Black" Opacity=".7"/>
+        <Border Grid.Column="1" Grid.Row="5" BorderBrush="White" BorderThickness="3,3,3,0" CornerRadius="0,0,0,0"/>-->
+
+        <!--Decided to not use DisplayDeleted for now...-->
+        <!--<CheckBox Grid.Row="5"
+                  Grid.Column="1"
+                  HorizontalAlignment="Center"
+                  VerticalAlignment="Center"
+                  Content="Display Deleted Players" 
+                  IsChecked="{Binding DisplayDeletedPlayers, Mode=TwoWay}"
+                  />-->
+
+        <Border Grid.Column="1" Grid.Row="4" CornerRadius="0,0,70,70" Background="Black" Opacity=".7"/>
+        <Border Grid.Column="1" Grid.Row="4" BorderBrush="White" BorderThickness="3,3,3,3" CornerRadius="0,0,70,70"/>
+
+        <Grid Grid.Row="4" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Grid.Column="0" HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                
+                <Button 
+                    MinWidth="300"
+                    Padding="5,0,5,0"
+                    HorizontalAlignment="Center"
+                    Content="{Binding Path=LocalizedResources.AddNewPlayer, Source={StaticResource LocalizedStrings}}"
+                    Click="AddPlayer_Click"
+                    Style="{StaticResource ButtonStyle2}"
+                    Margin="8"
+                    Foreground="White">
+                </Button>
+            </Grid>
+        </Grid>
+
+
+        <Grid x:Name="loadingGrid" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" Grid.RowSpan="6" />
+
+
+
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

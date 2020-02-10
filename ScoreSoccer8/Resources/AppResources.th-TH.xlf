@@ -1,0 +1,1956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="th-TH" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="UTrackSoccer" product-version="1.0.3" build-num="3">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+          </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">th-TH</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+          </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แอพลิเคชันของฉัน</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพิ่ม</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รายการในเมนู</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddTeam" translate="yes" xml:space="preserve">
+          <source>Add Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพิ่มกลุ่มคน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Coach" translate="yes" xml:space="preserve">
+          <source>Coach</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Coach</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">field on team details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/ContactNumber" translate="yes" xml:space="preserve">
+          <source>Contact Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">หมายเลขผู้ติดต่อ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Delete" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated" state-qualifier="tm-suggestion">ลบ</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">used in prompt</note>
+          </trans-unit>
+        <trans-unit id="Resx/DisplayDeletedItems" translate="yes" xml:space="preserve">
+          <source>Display Deleted Items</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แสดงรายการที่ถูกลบ</target>
+        </trans-unit>
+        <trans-unit id="Resx/EndDate" translate="yes" xml:space="preserve">
+          <source>End Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">วันสิ้นสุด</target>
+        </trans-unit>
+        <trans-unit id="Resx/Games" translate="yes" xml:space="preserve">
+          <source>Games</source>
+          <target state="translated" state-qualifier="tm-suggestion">เกม</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameStats" translate="yes" xml:space="preserve">
+          <source>Game Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สถิติของเกม</target>
+        </trans-unit>
+        <trans-unit id="Resx/GenerateReport" translate="yes" xml:space="preserve">
+          <source>Generate Report</source>
+          <target state="translated" state-qualifier="tm-suggestion">สร้างรายงาน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Jersey" translate="yes" xml:space="preserve">
+          <source>Jersey</source>
+          <target state="translated" state-qualifier="tm-suggestion">เจอร์ซี่</target>
+        </trans-unit>
+        <trans-unit id="Resx/League" translate="yes" xml:space="preserve">
+          <source>League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">League</target>
+        </trans-unit>
+        <trans-unit id="Resx/Players" translate="yes" xml:space="preserve">
+          <source>Players</source>
+          <target state="translated" state-qualifier="tm-suggestion">ผู้เล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerStats" translate="yes" xml:space="preserve">
+          <source>Player Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สถิติการเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayList" translate="yes" xml:space="preserve">
+          <source>Play List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รายการที่เล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/ReportType" translate="yes" xml:space="preserve">
+          <source>Report Type</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ชนิดของรายงาน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Required" translate="yes" xml:space="preserve">
+          <source>Required</source>
+          <target state="translated" state-qualifier="tm-suggestion">ต้องระบุ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Roster" translate="yes" xml:space="preserve">
+          <source>Roster</source>
+          <target state="translated" state-qualifier="tm-suggestion">บัญชีรายชื่อ</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShortName" translate="yes" xml:space="preserve">
+          <source>Short Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ชื่อย่อ</target>
+        </trans-unit>
+        <trans-unit id="Resx/StartDate" translate="yes" xml:space="preserve">
+          <source>Start Date</source>
+          <target state="translated" state-qualifier="tm-suggestion">วันที่เริ่ม</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsReports" translate="yes" xml:space="preserve">
+          <source>Stats Reports</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รายงานสถิติ</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamDetails" translate="yes" xml:space="preserve">
+          <source>Team Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รายละเอียดของทีม</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamName" translate="yes" xml:space="preserve">
+          <source>Team Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">ชื่อทีม</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamNotEnteredValidationMessage" translate="yes" xml:space="preserve">
+          <source>Team name not entered. Team not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่ได้ใส่ชื่อกลุ่มคน ทีมงานที่ไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Teams" translate="yes" xml:space="preserve">
+          <source>Teams</source>
+          <target state="translated" state-qualifier="tm-suggestion">กลุ่มคน</target>
+        </trans-unit>
+        <trans-unit id="Resx/TeamStats" translate="yes" xml:space="preserve">
+          <source>Team Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สถิติของทีม</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddLeague" translate="yes" xml:space="preserve">
+          <source>Add League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพิ่ม League</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/LeagueDetails" translate="yes" xml:space="preserve">
+          <source>League Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รายละเอียดของ league</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeagueName" translate="yes" xml:space="preserve">
+          <source>League Name</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ชื่อ league</target>
+        </trans-unit>
+        <trans-unit id="Resx/Leagues" translate="yes" xml:space="preserve">
+          <source>Leagues</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Leagues</target>
+        </trans-unit>
+        <trans-unit id="Resx/ContactName" translate="yes" xml:space="preserve">
+          <source>Contact Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">ชื่อผู้ติดต่อ</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeagueNotEnteredValidationMessage" translate="yes" xml:space="preserve">
+          <source>League name not entered. League not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่ได้ป้อนชื่อ league League ที่ไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Active" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <target state="translated" state-qualifier="tm-suggestion">ที่ใช้งาน</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayerToTeamRoster" translate="yes" xml:space="preserve">
+          <source>Add Player To Team Roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพิ่มโปรแกรมเล่นยกทีม</target>
+        </trans-unit>
+        <trans-unit id="Resx/EnterPlayersJerseyNumber" translate="yes" xml:space="preserve">
+          <source>Enter Players Jersey Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ป้อนหมายเลขเจอร์ซีย์เครื่องเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/InActive" translate="yes" xml:space="preserve">
+          <source>InActive</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่ได้ใช้งาน</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyMustBeANumber" translate="yes" xml:space="preserve">
+          <source>Jersey Number must be a number. Jersey Number not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">หมายเลขเจอร์ซีย์ต้องเป็นตัวเลข ไม่มีบันทึกหมายเลขเจอร์ซีย์</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyMustBeLessThan3Characters" translate="yes" xml:space="preserve">
+          <source>Jersey Number can not be more than 3 characters.  Jersey Number not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เจอร์ซีย์เลขต้องไม่มากกว่า 3 อักขระ  ไม่มีบันทึกหมายเลขเจอร์ซีย์</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyNumber" translate="yes" xml:space="preserve">
+          <source>Jersey Number</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">หมายเลขเจอร์ซีย์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Name" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">name</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rosters" translate="yes" xml:space="preserve">
+          <source>Rosters</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rosters</target>
+        </trans-unit>
+        <trans-unit id="Resx/Status" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated" state-qualifier="tm-suggestion">สถานะงาน</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddGame" translate="yes" xml:space="preserve">
+          <source>Add Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพิ่มเกม</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/Game" translate="yes" xml:space="preserve">
+          <source>Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เกม</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">used in prompt</note>
+          </trans-unit>
+        <trans-unit id="Resx/GameInfo" translate="yes" xml:space="preserve">
+          <source>Game Info</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ข้อมูลเกม</target>
+        </trans-unit>
+        <trans-unit id="Resx/Manager" translate="yes" xml:space="preserve">
+          <source>Manager</source>
+          <target state="translated" state-qualifier="tm-suggestion">ผู้จัดการ </target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayTeam" translate="yes" xml:space="preserve">
+          <source>Away Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ทีมที่เก็บ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Clock" translate="yes" xml:space="preserve">
+          <source>Clock</source>
+          <target state="translated" state-qualifier="tm-suggestion">นาฬิกา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Down" translate="yes" xml:space="preserve">
+          <source>Down</source>
+          <target state="translated" state-qualifier="tm-suggestion">ลง</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameDate" translate="yes" xml:space="preserve">
+          <source>Game Date</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">วันของเกม</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameDetails" translate="yes" xml:space="preserve">
+          <source>Game Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รายละเอียดของเกม</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameTime" translate="yes" xml:space="preserve">
+          <source>Game Time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เวลาของเกม</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeTeam" translate="yes" xml:space="preserve">
+          <source>Home Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ทีมที่บ้าน</target>
+        </trans-unit>
+        <trans-unit id="Resx/No" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated" state-qualifier="tm-suggestion">ไม่ใช่</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoLeague" translate="yes" xml:space="preserve">
+          <source>Default League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">League เริ่มต้น</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">league name option in leagues drop down on team details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/OverTime" translate="yes" xml:space="preserve">
+          <source>OverTime</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">งานล่วงเวลา</target>
+        </trans-unit>
+        <trans-unit id="Resx/OverTimeLength" translate="yes" xml:space="preserve">
+          <source>OverTime Length</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ความยาวของงานล่วงเวลา</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodLength" translate="yes" xml:space="preserve">
+          <source>Period Length</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ความยาวของรอบระยะเวลา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Periods" translate="yes" xml:space="preserve">
+          <source>Periods</source>
+          <target state="translated" state-qualifier="tm-suggestion">คาบ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Up" translate="yes" xml:space="preserve">
+          <source>Up</source>
+          <target state="translated" state-qualifier="tm-suggestion">ขึ้น</target>
+        </trans-unit>
+        <trans-unit id="Resx/Yes" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated" state-qualifier="tm-suggestion">ใช่</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayTeamNotSeleted" translate="yes" xml:space="preserve">
+          <source>Away team not selected. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่ได้เลือกทีมที่เก็บ เกมที่ไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockUpDownNotSet" translate="yes" xml:space="preserve">
+          <source>Clock Up or Down not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">นาฬิกาขึ้นหรือลงไม่ได้ตั้งค่า เกมที่ไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameHasAlreadyStarted" translate="yes" xml:space="preserve">
+          <source>Game has already started.  Cannot change game details once the game has started. Changes not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เกมได้เริ่มขึ้นแล้ว  ไม่สามารถเปลี่ยนรายละเอียดเกมเมื่อเกมได้เริ่ม ไม่บันทึกการเปลี่ยนแปลง</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeTeamNotSelected" translate="yes" xml:space="preserve">
+          <source>Home team not selected. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่ได้เลือกทีมที่บ้าน เกมที่ไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodLengthNotSet" translate="yes" xml:space="preserve">
+          <source>Period length not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ความยาวของรอบระยะเวลาไม่ได้ตั้งค่า เกมที่ไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodNotSet" translate="yes" xml:space="preserve">
+          <source>Periods not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รอบระยะเวลาที่ไม่ได้ตั้งค่า เกมที่ไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayersPerTeamNotSet" translate="yes" xml:space="preserve">
+          <source>Players per team not set. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เครื่องเล่นต่อทีมไม่ได้ตั้งค่า เกมที่ไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Add" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="translated" state-qualifier="tm-suggestion">เพิ่ม</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/AddPlay" translate="yes" xml:space="preserve">
+          <source>Add Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพิ่มการเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayer" translate="yes" xml:space="preserve">
+          <source>Add Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพิ่มโปรแกรมเล่น</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/PlayerList" translate="yes" xml:space="preserve">
+          <source>Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รายการของโปรแกรมเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerName" translate="yes" xml:space="preserve">
+          <source>Player Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">ชื่อโปรแกรมเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayText" translate="yes" xml:space="preserve">
+          <source>Play Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เล่นข้อความ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Search" translate="yes" xml:space="preserve">
+          <source>Search</source>
+          <target state="translated" state-qualifier="tm-suggestion">ค้นหา</target>
+        </trans-unit>
+        <trans-unit id="Resx/CannotChangeDeletedPlayerInfo" translate="yes" xml:space="preserve">
+          <source>Can not change information on a deleted player. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่สามารถเปลี่ยนแปลงข้อมูลบนเครื่องเล่นถูกลบไปแล้ว Player ไม่ถูกบันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/FirstName" translate="yes" xml:space="preserve">
+          <source>First Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">ชื่อจริง</target>
+        </trans-unit>
+        <trans-unit id="Resx/FirstNameNotEntered" translate="yes" xml:space="preserve">
+          <source>First name not entered. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่ได้ป้อนชื่อแรก Player ไม่ถูกบันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Height" translate="yes" xml:space="preserve">
+          <source>Height</source>
+          <target state="translated" state-qualifier="tm-suggestion">height</target>
+        </trans-unit>
+        <trans-unit id="Resx/JerseyNumberInvalidPlayerNotSaved" translate="yes" xml:space="preserve">
+          <source>Jersey Number can not be more than 3 characters. Player not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เจอร์ซีย์เลขต้องไม่มากกว่า 3 อักขระ Player ไม่ถูกบันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kicks" translate="yes" xml:space="preserve">
+          <source>Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks</target>
+        </trans-unit>
+        <trans-unit id="Resx/LastName" translate="yes" xml:space="preserve">
+          <source>Last Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">นามสกุล</target>
+        </trans-unit>
+        <trans-unit id="Resx/Left" translate="yes" xml:space="preserve">
+          <source>Left</source>
+          <target state="translated" state-qualifier="tm-suggestion">left</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerDetails" translate="yes" xml:space="preserve">
+          <source>Player Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รายละเอียดของโปรแกรมเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/Right" translate="yes" xml:space="preserve">
+          <source>Right</source>
+          <target state="translated" state-qualifier="tm-suggestion">right</target>
+        </trans-unit>
+        <trans-unit id="Resx/Weight" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">น้ำหนัก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Assist" translate="yes" xml:space="preserve">
+          <source>Assist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ช่วยเหลือ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Blocked" translate="yes" xml:space="preserve">
+          <source>Blocked</source>
+          <target state="translated" state-qualifier="tm-suggestion">ถูกบล็อก</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornerKick" translate="yes" xml:space="preserve">
+          <source>3P Field Goal Made</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มุม Kick</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Cross" translate="yes" xml:space="preserve">
+          <source>Block</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ตัดแกน</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKick" translate="yes" xml:space="preserve">
+          <source>Direct Free Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kick อิสระโดยตรง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dribble" translate="yes" xml:space="preserve">
+          <source>Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dribble</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKick" translate="yes" xml:space="preserve">
+          <source>Drop Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปล่อย Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulCommitted" translate="yes" xml:space="preserve">
+          <source>BBTurnover</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ผูกมัดมัวหรือสด</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/FoulDrawn" translate="yes" xml:space="preserve">
+          <source>Foul Drawn</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">วาดมัวหรือสด</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalAllowed" translate="yes" xml:space="preserve">
+          <source>Goal Allowed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เป้าหมายที่ได้รับอนุญาต</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalieKick" translate="yes" xml:space="preserve">
+          <source>FT Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Goalie Kick</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/IndirectFreeKick" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kick ว่างทางอ้อม</target>
+        </trans-unit>
+        <trans-unit id="Resx/MinutesPlayed" translate="yes" xml:space="preserve">
+          <source>Minutes Played</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">นาทีที่เล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/Move" translate="yes" xml:space="preserve">
+          <source>Move</source>
+          <target state="translated" state-qualifier="tm-suggestion">การย้าย</target>
+        </trans-unit>
+        <trans-unit id="Resx/Notes" translate="yes" xml:space="preserve">
+          <source>Notes</source>
+          <target state="translated" state-qualifier="tm-suggestion">บันทึกย่อ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Offsides" translate="yes" xml:space="preserve">
+          <source>Steal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Offsides</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/OutOfBounds" translate="yes" xml:space="preserve">
+          <source>Assist</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">อยู่นอกขอบเขต</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/OwnGoal" translate="yes" xml:space="preserve">
+          <source>3P Field Goal Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เป็นเจ้าของเป้าหมาย</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Pass" translate="yes" xml:space="preserve">
+          <source>Free Throw Made</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ผ่าน</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKick" translate="yes" xml:space="preserve">
+          <source>Penalty Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kick การลงโทษ</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlusMinus" translate="yes" xml:space="preserve">
+          <source>Plus Minus</source>
+          <target state="translated" state-qualifier="tm-suggestion">บวกลบ</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCard" translate="yes" xml:space="preserve">
+          <source>Red Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไพ่สีแดง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Save" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="translated" state-qualifier="tm-suggestion">บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/SecondsPlayed" translate="yes" xml:space="preserve">
+          <source>SecondsPlayed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">SecondsPlayed</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKick" translate="yes" xml:space="preserve">
+          <source>Shootout Kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shootout Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shot" translate="yes" xml:space="preserve">
+          <source>2P Field Goal Made</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">ภาพ</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ShotOnGoal" translate="yes" xml:space="preserve">
+          <source>Shot On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาพจากเป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/Substitution" translate="yes" xml:space="preserve">
+          <source>Substitution</source>
+          <target state="translated" state-qualifier="tm-suggestion">การแทน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tackle" translate="yes" xml:space="preserve">
+          <source>2P Field Goal Attempt</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tackle</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ThrowIn" translate="yes" xml:space="preserve">
+          <source>Foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">อยู่นอกกระบวนใน</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/Turnover" translate="yes" xml:space="preserve">
+          <source>Rebound</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">การหมุนเวียน</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCard" translate="yes" xml:space="preserve">
+          <source>Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">บัตรสีเหลือง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Excellent" translate="yes" xml:space="preserve">
+          <source>Excellent</source>
+          <target state="translated" state-qualifier="tm-suggestion">ดีเยี่ยม</target>
+        </trans-unit>
+        <trans-unit id="Resx/Good" translate="yes" xml:space="preserve">
+          <source>Good</source>
+          <target state="translated" state-qualifier="tm-suggestion">ดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/Poor" translate="yes" xml:space="preserve">
+          <source>Poor</source>
+          <target state="translated" state-qualifier="tm-suggestion">แย่</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotDetails" translate="yes" xml:space="preserve">
+          <source>Shot Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รายละเอียดภาพจาก</target>
+        </trans-unit>
+        <trans-unit id="Resx/BadPass" translate="yes" xml:space="preserve">
+          <source>Bad Pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รหัสผ่านไม่ถูกต้อง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Charging" translate="yes" xml:space="preserve">
+          <source>Charging</source>
+          <target state="translated" state-qualifier="tm-suggestion">กำลังชาร์จ</target>
+        </trans-unit>
+        <trans-unit id="Resx/DelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source>Delaying Restart of Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">หน่วงเวลาการเริ่มการทำงานของการเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/ForGoal" translate="yes" xml:space="preserve">
+          <source>For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สำหรับเป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulPlay" translate="yes" xml:space="preserve">
+          <source>Foul Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เล่น Foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goal" translate="yes" xml:space="preserve">
+          <source>Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/Headed" translate="yes" xml:space="preserve">
+          <source>Headed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สองหัว</target>
+        </trans-unit>
+        <trans-unit id="Resx/HitPost" translate="yes" xml:space="preserve">
+          <source>Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คลิกลงรายการบัญชี</target>
+        </trans-unit>
+        <trans-unit id="Resx/Holding" translate="yes" xml:space="preserve">
+          <source>Holding</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">กดค้างไว้</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalHands" translate="yes" xml:space="preserve">
+          <source>Illegal Hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เข็มนาฬิกาที่ไม่ถูกต้อง</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalTackle" translate="yes" xml:space="preserve">
+          <source>Illegal Tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tackle ที่ไม่ถูกต้อง</target>
+        </trans-unit>
+        <trans-unit id="Resx/IllegalThrowIn" translate="yes" xml:space="preserve">
+          <source>Illegal Throw In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">อยู่นอกกระบวนไม่ถูกต้องใน</target>
+        </trans-unit>
+        <trans-unit id="Resx/In" translate="yes" xml:space="preserve">
+          <source>In</source>
+          <target state="translated" state-qualifier="tm-suggestion">ใน </target>
+        </trans-unit>
+        <trans-unit id="Resx/Kicking" translate="yes" xml:space="preserve">
+          <source>Kicking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพลิด</target>
+        </trans-unit>
+        <trans-unit id="Resx/LostDribble" translate="yes" xml:space="preserve">
+          <source>Lost Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dribble หายไป</target>
+        </trans-unit>
+        <trans-unit id="Resx/Miss" translate="yes" xml:space="preserve">
+          <source>Miss</source>
+          <target state="translated" state-qualifier="tm-suggestion">นางสาว</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotForGoal" translate="yes" xml:space="preserve">
+          <source>Not For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่ใช่สำหรับเป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/Out" translate="yes" xml:space="preserve">
+          <source>Out</source>
+          <target state="translated" state-qualifier="tm-suggestion">ออก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pushing" translate="yes" xml:space="preserve">
+          <source>Pushing</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">กด</target>
+        </trans-unit>
+        <trans-unit id="Resx/SecondYellowCard" translate="yes" xml:space="preserve">
+          <source>Second Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">บัตรสีเหลืองที่สอง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tripping" translate="yes" xml:space="preserve">
+          <source>Tripping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tripping</target>
+        </trans-unit>
+        <trans-unit id="Resx/UnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source>Unsportsmanlike Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คอม unsportsmanlike</target>
+        </trans-unit>
+        <trans-unit id="Resx/ViolentConduct" translate="yes" xml:space="preserve">
+          <source>Violent Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คอมรุนแรง</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatsPicker" translate="yes" xml:space="preserve">
+          <source>Stats Picker</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตัวใช้เลือกสถิติ</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a shot and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้เป็นภาพและสามารถเข้าถึง</target>
+        </trans-unit>
+        <trans-unit id="Resx/BlockedBy" translate="yes" xml:space="preserve">
+          <source>Blocked By</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ถูกบล็อคโดย</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated" state-qualifier="tm-suggestion">ยกเลิก</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/Ok" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตกลง</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShotNotOnGoal" translate="yes" xml:space="preserve">
+          <source>Shot Not On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาพจากไม่ได้อยู่ในเป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/Period" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รอบระยะเวลา</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayDetails" translate="yes" xml:space="preserve">
+          <source>Play Details</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รายละเอียดเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player" translate="yes" xml:space="preserve">
+          <source>Player</source>
+          <target state="translated" state-qualifier="tm-suggestion">ผู้เล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerIn" translate="yes" xml:space="preserve">
+          <source>Player In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่นใน</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerOut" translate="yes" xml:space="preserve">
+          <source>Player Out</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่นออก</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatCategory" translate="yes" xml:space="preserve">
+          <source>Stat Category</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ประเภท stat</target>
+        </trans-unit>
+        <trans-unit id="Resx/StatDescription" translate="yes" xml:space="preserve">
+          <source>Stat Description</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คำอธิบาย stat</target>
+        </trans-unit>
+        <trans-unit id="Resx/Team" translate="yes" xml:space="preserve">
+          <source>Team</source>
+          <target state="translated" state-qualifier="tm-suggestion">ทีม</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockNotEntered" translate="yes" xml:space="preserve">
+          <source>Clock not entered. Play not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่ได้ใส่นาฬิกา เล่นไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotASupportedPlayTypeForPBPEdit" translate="yes" xml:space="preserve">
+          <source>Not a supported play type for pbp edit. Play can not be edited.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่เล่นสนับสนุนชนิดสำหรับการแก้ไข pbp เล่นไม่สามารถแก้ไข</target>
+        </trans-unit>
+        <trans-unit id="Resx/OpponentTeam" translate="yes" xml:space="preserve">
+          <source>Opponent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ฝ่ายตรงข้าม</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name for demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/OtherTeamGoalie" translate="yes" xml:space="preserve">
+          <source>Other Team Goalie</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Goalie กลุ่มคนอื่น ๆ</target>
+        </trans-unit>
+        <trans-unit id="Resx/OurTeam" translate="yes" xml:space="preserve">
+          <source>Our Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ทีมของเรา</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name for demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/PeriodClockValueInFuture" translate="yes" xml:space="preserve">
+          <source>Period/Clock value can not be a time in the future. Please use game manager to track a play in the future. Play not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รอบระยะเวลา/นาฬิกาค่าไม่สามารถเป็นเวลาในอนาคตได้ โปรดใช้ตัวจัดการเกมเพื่อติดตามการเล่นในอนาคต เล่นไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player1" translate="yes" xml:space="preserve">
+          <source>Player 1</source>
+          <target state="translated" state-qualifier="tm-suggestion">ผู้เล่น 1</target>
+        </trans-unit>
+        <trans-unit id="Resx/Player10" translate="yes" xml:space="preserve">
+          <source>Player 10</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 10</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player11" translate="yes" xml:space="preserve">
+          <source>Player 11</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 11</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player12" translate="yes" xml:space="preserve">
+          <source>Player 12</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 12</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player13" translate="yes" xml:space="preserve">
+          <source>Player 13</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 13</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player14" translate="yes" xml:space="preserve">
+          <source>Player 14</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 14</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player15" translate="yes" xml:space="preserve">
+          <source>Player 15</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 15</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player16" translate="yes" xml:space="preserve">
+          <source>Player 16</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 16</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player17" translate="yes" xml:space="preserve">
+          <source>Player 17</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 17</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player18" translate="yes" xml:space="preserve">
+          <source>Player 18</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 18</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player19" translate="yes" xml:space="preserve">
+          <source>Player 19</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 19</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player2" translate="yes" xml:space="preserve">
+          <source>Player 2</source>
+          <target state="translated" state-qualifier="tm-suggestion">ผู้เล่น 2</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player20" translate="yes" xml:space="preserve">
+          <source>Player 20</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 20</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player21" translate="yes" xml:space="preserve">
+          <source>Player 21</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 21</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player22" translate="yes" xml:space="preserve">
+          <source>Player 22</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 22</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player23" translate="yes" xml:space="preserve">
+          <source>Player 23</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 23</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player24" translate="yes" xml:space="preserve">
+          <source>Player 24</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 24</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player25" translate="yes" xml:space="preserve">
+          <source>Player 25</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 25</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player26" translate="yes" xml:space="preserve">
+          <source>Player 26</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 26</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player27" translate="yes" xml:space="preserve">
+          <source>Player 27</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 27</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player28" translate="yes" xml:space="preserve">
+          <source>Player 28</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 28</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player29" translate="yes" xml:space="preserve">
+          <source>Player 29</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 29</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player3" translate="yes" xml:space="preserve">
+          <source>Player 3</source>
+          <target state="translated" state-qualifier="tm-suggestion">ผู้เล่น 3</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player30" translate="yes" xml:space="preserve">
+          <source>Player 30</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 30</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player4" translate="yes" xml:space="preserve">
+          <source>Player 4</source>
+          <target state="translated" state-qualifier="tm-suggestion">ผู้เล่น 4</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player5" translate="yes" xml:space="preserve">
+          <source>Player 5</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">5 โปรแกรมเล่น</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player6" translate="yes" xml:space="preserve">
+          <source>Player 6</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 6</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player7" translate="yes" xml:space="preserve">
+          <source>Player 7</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 7</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player8" translate="yes" xml:space="preserve">
+          <source>Player 8</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมเล่น 8</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Player9" translate="yes" xml:space="preserve">
+          <source>Player 9</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Player 9</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name in the demo game</note>
+          </trans-unit>
+        <trans-unit id="Resx/Away" translate="yes" xml:space="preserve">
+          <source>Away</source>
+          <target state="translated" state-qualifier="tm-suggestion">ไม่อยู่</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteGame" translate="yes" xml:space="preserve">
+          <source>Delete Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลบเกม</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/DeleteLeague" translate="yes" xml:space="preserve">
+          <source>Delete League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลบ League</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlay" translate="yes" xml:space="preserve">
+          <source>Delete Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลบการเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayer" translate="yes" xml:space="preserve">
+          <source>Delete Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลบโปรแกรมเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeleteTeam" translate="yes" xml:space="preserve">
+          <source>Delete Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลบกลุ่มคน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Home" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <target state="translated" state-qualifier="tm-suggestion">ที่บ้าน</target>
+        </trans-unit>
+        <trans-unit id="Resx/None" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated" state-qualifier="tm-suggestion">none</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">player name option for assist in PBP screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/Play" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="translated" state-qualifier="tm-suggestion">เล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/Unknown" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="translated" state-qualifier="tm-suggestion">ไม่รู้จัก</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">unknown player from game manager screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/GameStartedScreenDisabled" translate="yes" xml:space="preserve">
+          <source>Inprogress, screen disabled</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Inprogress ปิดใช้งานหน้าจอ</target>
+        </trans-unit>
+        <trans-unit id="Resx/InvalidOTLength" translate="yes" xml:space="preserve">
+          <source>Invalid OT Length. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ความยาวอยู่ไม่ถูกต้อง เกมที่ไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Assists" translate="yes" xml:space="preserve">
+          <source>Assists</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ช่วยเหลือ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Blocks" translate="yes" xml:space="preserve">
+          <source>Blocks</source>
+          <target state="translated" state-qualifier="tm-suggestion">บล็อก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Corners" translate="yes" xml:space="preserve">
+          <source>Corners</source>
+          <target state="translated" state-qualifier="tm-suggestion">มุม</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersExcellent" translate="yes" xml:space="preserve">
+          <source>Corners Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มุมที่ดีเยี่ยม</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersForGoal" translate="yes" xml:space="preserve">
+          <source>Corners For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มุมสำหรับเป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersGood" translate="yes" xml:space="preserve">
+          <source>Corners Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มุมดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/CornersPoor" translate="yes" xml:space="preserve">
+          <source>Corners Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มุมแย่</target>
+        </trans-unit>
+        <trans-unit id="Resx/Crosses" translate="yes" xml:space="preserve">
+          <source>Crosses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตัด</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesExcellent" translate="yes" xml:space="preserve">
+          <source>Crosses Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตัดดีมาก</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesGood" translate="yes" xml:space="preserve">
+          <source>Crosses Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตัดดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/CrossesPoor" translate="yes" xml:space="preserve">
+          <source>Crosses Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตัดแย่</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicks" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks อิสระโดยตรง</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicksForGoal" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks ว่างโดยตรงสำหรับเป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/DirectFreeKicksNotForGoal" translate="yes" xml:space="preserve">
+          <source>Direct Free Kicks Not For Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks ว่างโดยตรงไม่ใช่สำหรับเป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicks" translate="yes" xml:space="preserve">
+          <source>Drop Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปล่อย Kicks</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksExcellent" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks หล่นดีเยี่ยม</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksGood" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปล่อย Kicks ที่ดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/DropKicksPoor" translate="yes" xml:space="preserve">
+          <source>Drop Kicks Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks หล่นแย่</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsComittedHolding" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Holding</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls มุ่งมั่นพัก</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommitted" translate="yes" xml:space="preserve">
+          <source>Turnovers</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls ยอมรับ</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedCharging" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Charging</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls ผูกมัดกำลังชาร์จ</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedIllegalTackle" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Illegal Tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls ยอมรับ Tackle ไม่ถูกต้อง</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedKicking" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Kicking</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls เพลิดผูกมัด</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedPushing" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Pushing</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls ผูกมัดกด</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsCommittedTripping" translate="yes" xml:space="preserve">
+          <source>Fouls Committed Tripping</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls Tripping ผูกมัด</target>
+        </trans-unit>
+        <trans-unit id="Resx/FoulsDrawn" translate="yes" xml:space="preserve">
+          <source>Fouls Drawn</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls ออก</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalKicks" translate="yes" xml:space="preserve">
+          <source>Goal Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks เป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goals" translate="yes" xml:space="preserve">
+          <source>Goals</source>
+          <target state="translated" state-qualifier="tm-suggestion">เป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoalsAllowed" translate="yes" xml:space="preserve">
+          <source>Goals Allowed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เป้าหมายที่ได้รับอนุญาต</target>
+        </trans-unit>
+        <trans-unit id="Resx/IndirectFreeKicks" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks ว่างทางอ้อม</target>
+        </trans-unit>
+        <trans-unit id="Resx/MadeOwnGoal" translate="yes" xml:space="preserve">
+          <source>MadeOwnGoal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">MadeOwnGoal</target>
+        </trans-unit>
+        <trans-unit id="Resx/Passes" translate="yes" xml:space="preserve">
+          <source>Passes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ส่งผ่าน</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesExcellent" translate="yes" xml:space="preserve">
+          <source>Passes Excellent</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ส่งผ่านดีเยี่ยม</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesGood" translate="yes" xml:space="preserve">
+          <source>Passes Good</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ส่งผ่านดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/PassesPoor" translate="yes" xml:space="preserve">
+          <source>Passes Poor</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ส่งผ่านแย่</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicks" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks การลงโทษ</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksBlocked" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks การลงโทษที่ถูกบล็อค</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksGoal" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เป้าหมาย Kicks การลงโทษ</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksHitPost" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลงรายการบัญชีในการเข้าชม Kicks การลงโทษ</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyKicksMissed" translate="yes" xml:space="preserve">
+          <source>Penalty Kicks Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks การลงโทษที่ไม่มี</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCards" translate="yes" xml:space="preserve">
+          <source>Red Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไพ่สีแดง</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsFoulPlay" translate="yes" xml:space="preserve">
+          <source>Red Cards Foul Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไพ่สีแดงมัวหรือสดเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsIllegalHands" translate="yes" xml:space="preserve">
+          <source>Red Cards Ilegal Hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แฮนด์ Ilegal ไพ่สีแดง</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsSecondYellowCard" translate="yes" xml:space="preserve">
+          <source>Red Cards Second Yellow Card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">บัตรสีเหลืองสองไพ่สีแดง</target>
+        </trans-unit>
+        <trans-unit id="Resx/RedCardsViolentConduct" translate="yes" xml:space="preserve">
+          <source>Red Cards Violent Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีแดงการ์ดคอมรุนแรง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Saves" translate="yes" xml:space="preserve">
+          <source>Saves</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">จะบันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicks" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shootout Kicks</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksBlocked" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks shootout ที่ถูกบล็อค</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksGoal" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เป้าหมาย Kicks shootout</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksHitPost" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลงรายการบัญชีในการเข้าชม shootout Kicks</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootoutKicksMissed" translate="yes" xml:space="preserve">
+          <source>Shootout Kicks Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kicks shootout ที่ไม่มี</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shots" translate="yes" xml:space="preserve">
+          <source>Shots</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาพ</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsBlocked" translate="yes" xml:space="preserve">
+          <source>Shots Blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาพที่ถูกบล็อค</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsGoal" translate="yes" xml:space="preserve">
+          <source>Shots Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาพเป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsHitPost" translate="yes" xml:space="preserve">
+          <source>Shots Hit Post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลงรายการบัญชีในการเข้าชมภาพ</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsMissed" translate="yes" xml:space="preserve">
+          <source>Shots Missed</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาพที่ไม่มี</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotsOnGoal" translate="yes" xml:space="preserve">
+          <source>Shots On Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาพเป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tackles" translate="yes" xml:space="preserve">
+          <source>Tackles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tackles</target>
+        </trans-unit>
+        <trans-unit id="Resx/ThrowIns" translate="yes" xml:space="preserve">
+          <source>Throw Ins</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">อยู่นอกกระบวนการเติม</target>
+        </trans-unit>
+        <trans-unit id="Resx/Turnovers" translate="yes" xml:space="preserve">
+          <source>Turnovers</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Turnovers</target>
+        </trans-unit>
+        <trans-unit id="Resx/TurnoversIllegalThrowIn" translate="yes" xml:space="preserve">
+          <source>Turnovers Illegal Throw In</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Turnovers ไม่ถูกต้องอยู่นอกกระบวนใน</target>
+        </trans-unit>
+        <trans-unit id="Resx/TurnoversLostDribble" translate="yes" xml:space="preserve">
+          <source>Turnovers Lost Dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Turnovers Dribble สูญหาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCards" translate="yes" xml:space="preserve">
+          <source>Yellow Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">บัตรสีเหลือง</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowCardsDelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source>Yellow Cards Delaying Restart Of Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">หน่วงเวลาการเริ่มการทำงานของการเล่นไพ่ที่สีเหลือง</target>
+        </trans-unit>
+        <trans-unit id="Resx/YellowsCardsUnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source>Yellow Cards Unsportsmanline Conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คอม Unsportsmanline ไพ่สีเหลือง</target>
+        </trans-unit>
+        <trans-unit id="Resx/BirthDate" translate="yes" xml:space="preserve">
+          <source>BirthDate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">BirthDate</target>
+        </trans-unit>
+        <trans-unit id="Resx/AssistedBy" translate="yes" xml:space="preserve">
+          <source> asssited by </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> asssited ด้วย </target>
+        </trans-unit>
+        <trans-unit id="Resx/By" translate="yes" xml:space="preserve">
+          <source> by </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> โดย </target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAChargingFoul" translate="yes" xml:space="preserve">
+          <source> commits a charging foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ยอมรับการชาร์จ foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAHoldingFoul" translate="yes" xml:space="preserve">
+          <source> commits a holding foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ยอมรับมัวหรือสดพัก</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAKickingFoul" translate="yes" xml:space="preserve">
+          <source> commits a kicking foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ยอมรับการเพลิด foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAnIllegalTackleFoul" translate="yes" xml:space="preserve">
+          <source> commits an illegal tackle foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ยอมรับมัวหรือสดมี tackle ที่ไม่ถูกต้อง</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsAPushingFoul" translate="yes" xml:space="preserve">
+          <source> commits a pushing foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ยอมรับการกด foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/CommittsATrippingFoul" translate="yes" xml:space="preserve">
+          <source> commits a tripping foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ยอมรับการ tripping foul</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasAnIllegalThrowIn" translate="yes" xml:space="preserve">
+          <source> has an illegal throw in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> มีอยู่นอกกระบวนการไม่ถูกต้องใน</target>
+        </trans-unit>
+        <trans-unit id="Resx/IsOffsides" translate="yes" xml:space="preserve">
+          <source> is offisides</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> คือ offisides</target>
+        </trans-unit>
+        <trans-unit id="Resx/KicksTheBallOutOfBounds" translate="yes" xml:space="preserve">
+          <source> kicks the ball out of bounds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> kicks ลูกบอลอยู่นอกขอบเขต</target>
+        </trans-unit>
+        <trans-unit id="Resx/LeftFoot" translate="yes" xml:space="preserve">
+          <source>left foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ส่วนท้ายด้านซ้าย</target>
+        </trans-unit>
+        <trans-unit id="Resx/LostTheDribble" translate="yes" xml:space="preserve">
+          <source> lost the dribble</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> dribble สูญหาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodPass" translate="yes" xml:space="preserve">
+          <source> makes a good pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ทำให้รหัสผ่านดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentPass" translate="yes" xml:space="preserve">
+          <source> makes an excellent pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ทำให้รหัสผ่านดีเยี่ยม</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorPass" translate="yes" xml:space="preserve">
+          <source> makes a poor pass</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ทำให้รหัสผ่านไม่ดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/RightFoot" translate="yes" xml:space="preserve">
+          <source>right foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ส่วนท้ายที่ด้านขวา</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a shot and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ภาพใช้ และจำนวนครั้งลงรายการบัญชี</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a shot and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> จะเป็นภาพและถูกบล็อค</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShotAndScores" translate="yes" xml:space="preserve">
+          <source> takes a shot and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้เป็นภาพและคะแนน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tutorial" translate="yes" xml:space="preserve">
+          <source>Tutorial</source>
+          <target state="translated" state-qualifier="tm-suggestion">ผู้ศึกษาด้วยตนเอง</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockAdjustedToPeriod" translate="yes" xml:space="preserve">
+          <source> Clock adjusted to period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> นาฬิการอบระยะเวลาการปรับปรุง</target>
+        </trans-unit>
+        <trans-unit id="Resx/DrawsAFoul" translate="yes" xml:space="preserve">
+          <source> draws a foul</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> วาดแบบมัวหรือสด</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dribbles" translate="yes" xml:space="preserve">
+          <source> dribbles</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> dribbles</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForFoulPlay" translate="yes" xml:space="preserve">
+          <source> gets a red card for foul play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> เรียกดูบัตรสำหรับเล่น foul สีแดง</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForIllegalHands" translate="yes" xml:space="preserve">
+          <source> gets a red card for illegal hands</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ได้รับไพ่สีแดงสำหรับมือไม่ถูกต้อง</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForSecondYellowCard" translate="yes" xml:space="preserve">
+          <source> gets a red card for second yellow card</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> เรียกดูบัตรสำหรับบัตรสีเหลืองสองสีแดง</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsARedCardForViolentConduct" translate="yes" xml:space="preserve">
+          <source> gets a red card for violent conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> เรียกดูบัตรสำหรับคอมรุนแรงสีแดง</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsAYellowCardForDelayingRestartOfPlay" translate="yes" xml:space="preserve">
+          <source> gets a yellow card for delaying restart of play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> เรียกดูบัตรสำหรับการหน่วงเวลาการเริ่มการทำงานของการเล่นสีเหลือง</target>
+        </trans-unit>
+        <trans-unit id="Resx/GetsAYellowCardForUnsportsmanlikeConduct" translate="yes" xml:space="preserve">
+          <source> gets a yellow card for unsportsmanlike conduct</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> เรียกดูบัตรสำหรับคอม unsportsmanlike สีเหลือง</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasATackle" translate="yes" xml:space="preserve">
+          <source> has a tackle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> มีการ tackle</target>
+        </trans-unit>
+        <trans-unit id="Resx/HasAThrowIn" translate="yes" xml:space="preserve">
+          <source> has a throw in</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> มีอยู่นอกกระบวนการใน</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodCross" translate="yes" xml:space="preserve">
+          <source> makes a good cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ทำเครื่องหมายกากบาทดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAGoodDropKick" translate="yes" xml:space="preserve">
+          <source> makes a good drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ทำให้ kick หล่นดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentCross" translate="yes" xml:space="preserve">
+          <source> makes an excellent cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ทำให้การข้ามดีเยี่ยม</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAnExcellentDropKick" translate="yes" xml:space="preserve">
+          <source> makes an excellent drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ทำให้ kick หล่นดีเยี่ยม</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorCross" translate="yes" xml:space="preserve">
+          <source> makes a poor cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ทำเครื่องหมายกากบาทไม่ดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/MakesAPoorDropKick" translate="yes" xml:space="preserve">
+          <source> makes a poor drop kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ทำให้เป็น kick หล่นไม่ดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/SwitchedPositionsWith" translate="yes" xml:space="preserve">
+          <source> switched positions with </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> สลับตำแหน่งด้วย </target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesACornerKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a corner kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick มุมและคะแนน</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesADirectFreeKick" translate="yes" xml:space="preserve">
+          <source> takes a direct free kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick เป็นอิสระโดยตรง</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesADirectFreeKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a direct free kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick ว่างโดยตรงและผลคะแนน</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAGoalKick" translate="yes" xml:space="preserve">
+          <source> takes a goal kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick เป็นเป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAGoodCornerKick" translate="yes" xml:space="preserve">
+          <source> takes a good corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick มุมดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAnExcellentCornerKick" translate="yes" xml:space="preserve">
+          <source> takes an excellent corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick มุมที่ดีเยี่ยม</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAnIndirectFreeKick" translate="yes" xml:space="preserve">
+          <source> takes an indirect free kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick ว่างทางอ้อม</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick การลงโทษ และลงรายการบัญชีจำนวนการเยี่ยมชม</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> kick พิจารณาการลงโทษ และจะถูกบล็อค</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick การลงโทษ และขาดหายไป</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPenaltyKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a penalty kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick หักคะแนนและคะแนน</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAPoorCornerKick" translate="yes" xml:space="preserve">
+          <source> takes a poor corner kick</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick มุมไม่ดี</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndHitsThePost" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and hits the post</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> kick shootout ใช้ และจำนวนครั้งลงรายการบัญชี</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndItIsBlocked" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and it is blocked</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> จะเป็น shootout kick และจะถูกบล็อค</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndMisses" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and misses</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick เป็น shootout และขาดหายไป</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakesAShootoutKickAndScores" translate="yes" xml:space="preserve">
+          <source> takes a shootout kick and scores</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ใช้ kick เป็น shootout และคะแนน</target>
+        </trans-unit>
+        <trans-unit id="Resx/BlueCross" translate="yes" xml:space="preserve">
+          <source>Blue Cross</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">กากบาทสีน้ำเงิน</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueRed" translate="yes" xml:space="preserve">
+          <source>Blue Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีแดงสีน้ำเงิน</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueStripe" translate="yes" xml:space="preserve">
+          <source>Blue Stripe</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ริ้วสีน้ำเงิน</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/BlueWhite" translate="yes" xml:space="preserve">
+          <source>BlueWhite</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">BlueWhite</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/DarkBlue" translate="yes" xml:space="preserve">
+          <source>Dark Blue</source>
+          <target state="translated" state-qualifier="tm-suggestion">น้ำเงินเข้ม</target>
+        </trans-unit>
+        <trans-unit id="Resx/DarkRed" translate="yes" xml:space="preserve">
+          <source>Dark Red</source>
+          <target state="translated" state-qualifier="tm-suggestion">แดงเข้ม</target>
+        </trans-unit>
+        <trans-unit id="Resx/GermanColors" translate="yes" xml:space="preserve">
+          <source>German Colors</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีภาษาเยอรมัน</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/GreenRed" translate="yes" xml:space="preserve">
+          <source>Green Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีแดงสีเขียว</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/LightBlue" translate="yes" xml:space="preserve">
+          <source>Light Blue</source>
+          <target state="translated" state-qualifier="tm-suggestion">น้ำเงินอ่อน</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Orange" translate="yes" xml:space="preserve">
+          <source>Orange</source>
+          <target state="translated" state-qualifier="tm-suggestion">ส้ม</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/OrangeGreen" translate="yes" xml:space="preserve">
+          <source>Orange Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีเขียวสีส้ม</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Red" translate="yes" xml:space="preserve">
+          <source>Red</source>
+          <target state="translated" state-qualifier="tm-suggestion">แดง</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedBlack" translate="yes" xml:space="preserve">
+          <source>Red Black</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีดำสีแดง</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedGreen" translate="yes" xml:space="preserve">
+          <source>Red Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีเขียวสีแดง</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/RedStripes" translate="yes" xml:space="preserve">
+          <source>Red Stripes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ริ้วสีแดง</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteBlue" translate="yes" xml:space="preserve">
+          <source>White Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีฟ้าเป็นสีขาว</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteGreen" translate="yes" xml:space="preserve">
+          <source>White Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีเขียวสีขาว</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/WhiteRed" translate="yes" xml:space="preserve">
+          <source>White Red</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีแดงสีขาว</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/YellowBlue" translate="yes" xml:space="preserve">
+          <source>Yellow Blue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีน้ำเงินสีเหลือง</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/YellowGreen" translate="yes" xml:space="preserve">
+          <source>Yellow Green</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สีเขียวสีเหลือง</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Jersey Name</note>
+          </trans-unit>
+        <trans-unit id="Resx/Demo" translate="yes" xml:space="preserve">
+          <source>Demo</source>
+          <target state="translated" state-qualifier="tm-suggestion">สาธิต</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddNewPlayer" translate="yes" xml:space="preserve">
+          <source>Add New Player</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพิ่มโปรแกรมเล่นใหม่</target>
+        </trans-unit>
+        <trans-unit id="Resx/Timeline" translate="yes" xml:space="preserve">
+          <source>Timeline</source>
+          <target state="translated" state-qualifier="tm-suggestion">Timeline</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectTeam" translate="yes" xml:space="preserve">
+          <source>Select Team</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เลือกกลุ่มคน</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">team name option in teams drop down on game details screen</note>
+          </trans-unit>
+        <trans-unit id="Resx/KicksBallIntoOwnGoal" translate="yes" xml:space="preserve">
+          <source> kicks the ball into own goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> kicks ลูกบอลลงในเป้าหมายของตนเอง</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectJersey" translate="yes" xml:space="preserve">
+          <source>Select Jersey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เลือกเจอร์ซีย์</target>
+        </trans-unit>
+        <trans-unit id="Resx/SelectLeague" translate="yes" xml:space="preserve">
+          <source>Select League</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เลือก League</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayerMinutes" translate="yes" xml:space="preserve">
+          <source>Player Minutes</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">นาทีของโปรแกรมเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/Statistics" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <target state="translated" state-qualifier="tm-suggestion">สถิติ</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">screen title</note>
+          </trans-unit>
+        <trans-unit id="Resx/StatsDisclaimer" translate="yes" xml:space="preserve">
+          <source>Player Minutes updated at end of period and end of game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปรับปรุงเวลาสิ้นสุดของรอบระยะเวลาและสิ้นสุดของเกมนาทีของโปรแกรมเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/Legend" translate="yes" xml:space="preserve">
+          <source>Legend</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คำอธิบายแผนภูมิ</target>
+        </trans-unit>
+        <trans-unit id="Resx/User" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <target state="translated" state-qualifier="tm-suggestion">User</target>
+        </trans-unit>
+        <trans-unit id="Resx/eMail" translate="yes" xml:space="preserve">
+          <source>eMail</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">อีเมล</target>
+        </trans-unit>
+        <trans-unit id="Resx/Password" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รหัสผ่าน</target>
+        </trans-unit>
+        <trans-unit id="Resx/ResetPassword" translate="yes" xml:space="preserve">
+          <source>Reset Password</source>
+          <target state="translated" state-qualifier="tm-suggestion">ตั้งค่ารหัสผ่านใหม่</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="translated" state-qualifier="tm-suggestion">เกี่ยวกับ</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateApp" translate="yes" xml:space="preserve">
+          <source>Rate App</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมประยุกต์อัตรา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Fouls" translate="yes" xml:space="preserve">
+          <source>Fouls</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fouls</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseApp" translate="yes" xml:space="preserve">
+          <source>Purchase App</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โปรแกรมประยุกต์การซื้อ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="translated" state-qualifier="tm-suggestion">วิธีใช้</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppPrompt" translate="yes" xml:space="preserve">
+          <source>Unlock all stats?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปลดล็อกสถิติทั้งหมดหรือไม่</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoGame" translate="yes" xml:space="preserve">
+          <source>Demo Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">การสาธิตเกม</target>
+        </trans-unit>
+        <trans-unit id="Resx/GoToDemoGamePrompt" translate="yes" xml:space="preserve">
+          <source>Try scoring the demo game?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลองให้คะแนนเกมสาธิตได้อย่างไร</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoLeftButton" translate="yes" xml:space="preserve">
+          <source>Try It</source>
+          <target state="translated" state-qualifier="tm-suggestion">ลองใช้</target>
+        </trans-unit>
+        <trans-unit id="Resx/DemoRightButton" translate="yes" xml:space="preserve">
+          <source>No Thanks</source>
+          <target state="translated" state-qualifier="tm-suggestion">ไม่เข้าร่วม</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rate" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="translated" state-qualifier="tm-suggestion">rate</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppPrompt" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us.  Please rate this app. Rating the app will enable full stats functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คำติชมของคุณมีความสำคัญกับเรามาก  กรุณาจัดอันดับโปรแกรมประยุกต์นี้</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppQuestion" translate="yes" xml:space="preserve">
+          <source>Your feedback is very important to us.  Would you like to rate this app?  Rating the app will enable full stats functionality.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คำติชมของคุณมีความสำคัญกับเรามาก  คุณต้องการจัดอันดับนี้แอพลิเคชันหรือไม่</target><note from="MultilingualUpdate" priority="2" annotates="source">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Resx/RateLeftButton" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated" state-qualifier="tm-suggestion">ใช่</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateRightButton" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated" state-qualifier="tm-suggestion">ไม่ใช่</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppLeftButton" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="translated" state-qualifier="tm-suggestion">ซื้อ</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAppRightButton" translate="yes" xml:space="preserve">
+          <source>Not Now</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่ใช่เดี๋ยวนี้</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddPlayerToBench" translate="yes" xml:space="preserve">
+          <source>Add Player To Bench</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพิ่มโปรแกรมเล่น Bench</target>
+        </trans-unit>
+        <trans-unit id="Resx/Advance" translate="yes" xml:space="preserve">
+          <source>Advance</source>
+          <target state="translated" state-qualifier="tm-suggestion">ล่วงหน้า</target>
+        </trans-unit>
+        <trans-unit id="Resx/AdvanceToNextPeriod" translate="yes" xml:space="preserve">
+          <source>Advance to next period?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ล่วงหน้ากับรอบระยะเวลาถัดไปหรือไม่</target>
+        </trans-unit>
+        <trans-unit id="Resx/AwayBoxscore" translate="yes" xml:space="preserve">
+          <source>Away Boxscore</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Boxscore เก็บ</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToAdjustClock" translate="yes" xml:space="preserve">
+          <source>Click to adjust clock</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คลิกเพื่อปรับนาฬิกา</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToAdjustPeriod" translate="yes" xml:space="preserve">
+          <source>Click to adjust period</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คลิกเพื่อปรับปรุงรอบระยะเวลา</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToStartOrStopGameTime" translate="yes" xml:space="preserve">
+          <source>Click to Start or Stop game time</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คลิกเพื่อเริ่มต้น หรือหยุดเวลาเกม</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockDown" translate="yes" xml:space="preserve">
+          <source>Clock Down</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตอกบัตรเข้าที่ลง</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClockUp" translate="yes" xml:space="preserve">
+          <source>Clock Up</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตอกบัตรเข้าค่า</target>
+        </trans-unit>
+        <trans-unit id="Resx/Edit" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="translated" state-qualifier="tm-suggestion">แกไข</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/EditGame" translate="yes" xml:space="preserve">
+          <source>Edit Game</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แก้ไขเกม</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/EditPlayByPlay" translate="yes" xml:space="preserve">
+          <source>Edit Play By Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แก้ไขการเล่นโดยการเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameManager" translate="yes" xml:space="preserve">
+          <source>Game Manager</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ผู้จัดการเกม</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">button</note>
+          </trans-unit>
+        <trans-unit id="Resx/GameStatistics" translate="yes" xml:space="preserve">
+          <source>Game Statistics</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สถิติของเกม</target>
+        </trans-unit>
+        <trans-unit id="Resx/Header" translate="yes" xml:space="preserve">
+          <source>Header</source>
+          <target state="translated" state-qualifier="tm-suggestion">หัวกระดาษ</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeBoxscore" translate="yes" xml:space="preserve">
+          <source>Home Boxscore</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Boxscore ภายในบ้าน</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoPlaysToUndo" translate="yes" xml:space="preserve">
+          <source>There are no plays to undo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มีการเล่นที่ไม่มีการเลิกทำ</target>
+        </trans-unit>
+        <trans-unit id="Resx/PenaltyGoal" translate="yes" xml:space="preserve">
+          <source>Penalty Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เป้าหมายการลงโทษ</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayByPlay" translate="yes" xml:space="preserve">
+          <source>Play By Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เล่น โดยผู้เล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/Share" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="translated" state-qualifier="tm-suggestion">การใช้ร่วมกัน</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShootsLeftFoot" translate="yes" xml:space="preserve">
+          <source>Shoots Left Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shoots ส่วนท้ายด้านซ้าย</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShootsRightFoot" translate="yes" xml:space="preserve">
+          <source>Shoots Right Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Shoots ฟุตด้านขวา</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">icon</note>
+          </trans-unit>
+        <trans-unit id="Resx/ShotGoal" translate="yes" xml:space="preserve">
+          <source>Shot Goal</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาพจากเป้าหมาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotWithLeftFoot" translate="yes" xml:space="preserve">
+          <source>Shot With Left Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาพจากกับส่วนท้ายด้านซ้าย</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShotWithRightFoot" translate="yes" xml:space="preserve">
+          <source>Shot With Right Foot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาพจากกับฟุตด้านขวา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Undo" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="translated" state-qualifier="tm-suggestion">เลิกทํา</target>
+        </trans-unit>
+        <trans-unit id="Resx/WasUndone" translate="yes" xml:space="preserve">
+          <source> was undone</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> ถูกยกเลิก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Menu" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เมนู</target>
+        </trans-unit>
+        <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="translated" state-qualifier="tm-suggestion">ซื้อ</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseAllStats" translate="yes" xml:space="preserve">
+          <source>Purchase All Stats?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ซื้อสถิติทั้งหมดหรือไม่</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine1" translate="yes" xml:space="preserve">
+          <source>Full stats package includes: Player Minutes, Plus Minus,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มีแพคเกจสถิติแบบเต็ม: นาที Player บวกลบ</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine2" translate="yes" xml:space="preserve">
+          <source>Pass, Turnover, Offsides,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รหัสผ่าน ยอดขาย Offsides</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine3" translate="yes" xml:space="preserve">
+          <source>Foul Committed, Out of Bounds, Cross, Throw In, Corner Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มัวหรือสดมุ่งมั่น เกินขอบเขต ข้าม อยู่นอกกระบวนใน มุม Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine4" translate="yes" xml:space="preserve">
+          <source>Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tackle, Goalie Kick เป้าหมายเอง Foul โดยตรง วาดอิสระ Kick</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine5" translate="yes" xml:space="preserve">
+          <source>Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kick ว่างทางอ้อม Kick การลงโทษ บัตรสีเหลือง ไพ่สีแดง Kick หล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseDescriptionLine6" translate="yes" xml:space="preserve">
+          <source>Dribble, Shootout Kick, Substitution</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dribble, Shootout Kick ทดแทน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Loading" translate="yes" xml:space="preserve">
+          <source>Loading ...</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">กำลังโหลด...</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayerFromRoster" translate="yes" xml:space="preserve">
+          <source>Delete Player From Team Roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลบโปรแกรมเล่นจากยก</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+          </trans-unit>
+        <trans-unit id="Resx/FromPlayerList" translate="yes" xml:space="preserve">
+          <source> from player list</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> จากรายการของโปรแกรมเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/FromRoster" translate="yes" xml:space="preserve">
+          <source> from roster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion"> จากยก</target>
+        </trans-unit>
+        <trans-unit id="Resx/HomeAndAwayCanNotBeSameTeam" translate="yes" xml:space="preserve">
+          <source>Home team and away team can not be the same. Game not saved.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ทีมที่บ้านและเก็บทีมไม่สามารถเหมือนกัน เกมที่ไม่ได้บันทึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/GameStarted" translate="yes" xml:space="preserve">
+          <source>Game Started</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เกมที่มีการเริ่มต้นใช้งาน</target>
+        </trans-unit>
+        <trans-unit id="Resx/ClickToBuy" translate="yes" xml:space="preserve">
+          <source>- Click Image To Buy Full Version -</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">-คลิกที่รูปภาพเพื่อซื้อรุ่นเต็ม-</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword5" translate="yes" xml:space="preserve">
+          <source>sports</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">กีฬา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Feedback" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="translated" state-qualifier="tm-suggestion">คำติชม</target>
+        </trans-unit>
+        <trans-unit id="Resx/_description" translate="yes" xml:space="preserve">
+          <source>The most intuitive and complete Soccer Scoring application on the market.  Over 50 stats available.  Try it free today!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+Player Stats include:
+
+Minutes played 
+Plus-minus 
+Goals
+Pases
+Offsides
+Red Card
+Turnovers
+and many more!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มากที่สุดเสร็จสมบูรณ์ และสไตล์ให้คะแนนฟุตบอลแอพลิเคชันในท้องตลาด  มากกว่า 50 สถิติพร้อมใช้งาน  ทดลองฟรีวันนี้
+
+ติดตาม: ทีมเกม Leagues เครื่องเล่น Player สถิติรวม: นาทีเล่น Turnovers บัตรสีแดงการ Offsides Pases ของเป้าหมายบวกลบและมาก
+
+ตัวเลือกของเกมรวม: ตอกบัตรค่า หรือตัวเลือกนาฬิกาลงยืดหยุ่นในฟิลด์ formations Player ไม่รู้จักแก้ไข/ยกเลิกการรอบระยะเวลาที่เล่นได้ไม่จำกัดสินค้าทดแทนสามารถกำหนดเองได้และความยาวของรอบระยะเวลา
+
+
+ดูการดำเนินการ Play-By-Play สำหรับเกม ใช้ร่วมกันสถิติเกี่ยวกับ Twitter, Facebook, Instagram อีเมล ข้อความ และมาก
+
+ง่ายต่อการตั้งค่า และง่ายต่อการใช้  เริ่มต้นการค้นหาเกมถัดไปของคุณภายในนาที</target>
+        </trans-unit>
+        <trans-unit id="Resx/DeletePlayerFromPlayerList" translate="yes" xml:space="preserve">
+          <source>Delete Player From Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลบโปรแกรมเล่นจากรายการของโปรแกรมเล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/AddNewPlayerToPlayerList" translate="yes" xml:space="preserve">
+          <source>Add New Player To Player List</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพิ่มรายการโปรแกรมเล่นจะเล่นใหม่</target>
+        </trans-unit>
+        <trans-unit id="Resx/FollowUsOnTwitter" translate="yes" xml:space="preserve">
+          <source>Follow us on Twitter</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ติดตามเรา Twitter</target>
+        </trans-unit>
+        <trans-unit id="Resx/_IAPDescription" translate="yes" xml:space="preserve">
+          <source>Full Stats package includes: Player Minutes, Plus Minus,
+Pass, Turnover, Offsides, Foul Committed, Out of Bounds, Cross, Throw In,
+Corner Kick, Tackle, Goalie Kick, Own Goal, Foul Drawn, Direct Free Kick,
+Indirect Free Kick, Penalty Kick, Yellow Card, Red Card, Drop Kick,
+Dribble, Shootout Kick, Substitution</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มีแพคเกจสถิติแบบเต็ม: นาที Player บวกลบ ผ่าน หมุนเวียน Offsides, Foul แซ ออกของขอบ เขต ข้าม อยู่นอกกระบวนใน มุม Kick, Tackle, Goalie Kick เป้าหมายเอง วาด Foul, Kick อิสระโดยตรง Kick ว่างทางอ้อม Kick การลงโทษ บัตรสีเหลือง บัตรสีแดง หล่น Kick, Dribble, Shootout Kick ทดแทน</target>
+        </trans-unit>
+        <trans-unit id="Resx/_iapHeader" translate="yes" xml:space="preserve">
+          <source>Full Stats</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สถิติแบบเต็ม</target>
+        </trans-unit>
+        <trans-unit id="Resx/_FreeDescription" translate="yes" xml:space="preserve">
+          <source>The most intuitive and complete Soccer Scoring application on the market!
+
+Keep track of:
+Teams
+Games
+Leagues
+Players
+
+The free version includes tracking of Shots and Goals!
+
+Game Options include:
+
+Clock Up or Clock Down
+Flexible on field formations
+Unknown Player option
+Editing/Undoing of Plays
+Unlimited Substitutions
+Customizable periods and period length.
+
+
+View Play-By-Play action for the game, share the stats on Twitter, Facebook, Instagram, email, text and many more!
+
+Easy to set up, and easy to use!  Start tracking your next game within minutes!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มากที่สุดเสร็จสมบูรณ์ และสไตล์ให้คะแนนฟุตบอลแอพลิเคชันในท้องตลาด
+
+ติดตาม: ทีมเกม Leagues เครื่องเล่นรุ่นฟรีมีการติดตามของภาพและเป้าหมาย
+
+ตัวเลือกของเกมรวม: ตอกบัตรค่า หรือตัวเลือกนาฬิกาลงยืดหยุ่นในฟิลด์ formations Player ไม่รู้จักแก้ไข/ยกเลิกการรอบระยะเวลาที่เล่นได้ไม่จำกัดสินค้าทดแทนสามารถกำหนดเองได้และความยาวของรอบระยะเวลา
+
+
+ดูการดำเนินการ Play-By-Play สำหรับเกม ใช้ร่วมกันสถิติเกี่ยวกับ Twitter, Facebook, Instagram อีเมล ข้อความ และมาก
+
+ง่ายต่อการตั้งค่า และง่ายต่อการใช้  เริ่มต้นการค้นหาเกมถัดไปของคุณภายในนาที</target>
+        </trans-unit>
+        <trans-unit id="Resx/PeriodNotStarted" translate="yes" xml:space="preserve">
+          <source>The period has not started yet. Do you wish to continue?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รอบระยะเวลายังไม่เริ่มต้นได้ คุณต้องการทำต่อไปหรือไม่</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotStarted" translate="yes" xml:space="preserve">
+          <source>Not Started</source>
+          <target state="translated" state-qualifier="tm-suggestion">ยังไม่เริ่มต้น</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword4" translate="yes" xml:space="preserve">
+          <source>score</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คะแนน</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword3" translate="yes" xml:space="preserve">
+          <source>UTrack</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">UTrack</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword2" translate="yes" xml:space="preserve">
+          <source>statistics</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สถิติ</target>
+        </trans-unit>
+        <trans-unit id="Resx/_keyword1" translate="yes" xml:space="preserve">
+          <source>soccer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">นักฟุตบอล</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoEvents" translate="yes" xml:space="preserve">
+          <source>no events</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ไม่มีเหตุการณ์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kickoff" translate="yes" xml:space="preserve">
+          <source>KICKOFF</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">KICKOFF</target>
+        </trans-unit>
+        <trans-unit id="Resx/HalfTime" translate="yes" xml:space="preserve">
+          <source>HALF-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เวลาครึ่ง</target>
+        </trans-unit>
+        <trans-unit id="Resx/FullTime" translate="yes" xml:space="preserve">
+          <source>FULL-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เต็มเวลา</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtraTimeHalfTime" translate="yes" xml:space="preserve">
+          <source>EXTRA-TIME HALF-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เวลาครึ่งหนึ่งของเวลา EXTRA-</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtraTimeFullTime" translate="yes" xml:space="preserve">
+          <source>EXTRA-TIME FULL-TIME</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">EXTRA-เวลาเต็มเวลา</target>
+        </trans-unit>
+        <trans-unit id="Resx/EndPeriod" translate="yes" xml:space="preserve">
+          <source>End Period </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สิ้นสุดรอบระยะเวลา </target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
